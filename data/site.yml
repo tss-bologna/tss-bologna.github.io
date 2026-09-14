@@ -1,0 +1,101 @@
+# Website configuration
+# Edit by hand using spaces, not tabs.
+# Duplicate keys are rejected during validation.
+
+# Full name used in the header and document titles.
+# Home: this name alone. Other pages: "Page title | Website name".
+name: "Theory of Software Systems @ Bologna"
+
+# Canonical HTTPS origin, without a trailing slash.
+url: "https://tss-bologna.github.io"
+
+# Empty for an organisation site or custom domain.
+# For a project site, use "/repository-name", without a trailing slash.
+base_path: ""
+
+# IANA timezone for talk times and date-dependent content.
+timezone: "Europe/Rome"
+
+# HTML language identifier.
+language: "en"
+
+# Default search-engine and social-sharing description.
+description: >-
+  An informal research community in Bologna working on programming
+  languages, semantics, concurrency, and logic.
+
+# Display an example-content notice.
+# Set false after replacing and reviewing illustrative data.
+demo: true
+
+# Maximum number of active news items displayed on Home.
+# Future-dated news stays unpublished until its date.
+# An expires date is inclusive: the item remains active through that day.
+# With no active news, hide the news section and its archive link.
+# The archive remains available at /news/, outside the main navigation.
+home_news_limit: 3
+
+# Number of publications visible before "Show more".
+# Remaining publications are included in the HTML, initially collapsed.
+publications_visible: 20
+
+# Current-person categories, in display order.
+# Former people appear in one final, compact section.
+# Each entry uses the same three fields documented below.
+statuses:
+  # Stable identifier referenced by people.yaml.
+  - id: permanent
+    # Section heading on the People page.
+    label: "Permanent researchers"
+    # Include publications from affiliation periods with this status.
+    publications: true
+
+  - id: postdoc
+    label: "Postdoctoral researchers"
+    publications: true
+
+  - id: phd
+    label: "PhD students"
+    publications: true
+
+  - id: visitor
+    label: "Visitors"
+    publications: false
+
+  - id: external
+    label: "External collaborators"
+    publications: false
+
+# Seminar settings and defaults.
+# Individual talks may override duration.
+seminar:
+  # Seminar display name.
+  name: "Bologna seminar on Theory of software systems"
+
+  # Default talk duration in minutes.
+  duration_minutes: 60
+
+# Logo configuration.
+# Each logo uses src, alt, and url as documented below.
+logos:
+  # Logo displayed beside the website name.
+  header:
+    # Image path relative to static/, e.g. "images/group-logo.svg".
+    # null displays a rectangular placeholder.
+    src: null
+
+    # Accessible alternative text for the image.
+    alt: "Group logo"
+
+    # Optional link destination; null means no link.
+    url: null
+
+  # Footer logos, in display order.
+  footer:
+    - src: null
+      alt: "University of Bologna logo"
+      url: "https://www.unibo.it/"
+
+    - src: null
+      alt: "Partner logo"
+      url: null

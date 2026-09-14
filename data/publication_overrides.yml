@@ -1,0 +1,33 @@
+# Publication overrides
+# =====================
+# Automatic selection includes publications associated with at least one
+# eligible period in people.yaml (permanent, postdoc, or PhD).
+#
+# DBLP usually provides a publication year, not an exact publication date.
+# Selection therefore uses inclusive calendar years: arrival year through
+# departure year, or the current year for an ongoing period.
+# Use these overrides to correct boundary-year cases and other exceptions.
+#
+# Records are deduplicated by DBLP publication key.
+# An exclusion takes precedence over an inclusion.
+# Unknown or unresolvable keys must be reported, not silently ignored.
+
+# Publications to add regardless of affiliation periods or author status.
+# Each entry contains:
+#   key: DBLP record key, the portion after /rec/ and before .html or .xml.
+#   reason: optional plain-text explanation for maintainers.
+#
+# Example syntax (replace the placeholder before uncommenting):
+# include:
+#   - key: "journals/example/Example26"
+#     reason: "Work completed during the author's stay in Bologna."
+include: []
+
+# Publications to remove from the final list.
+# Entries use the same key and optional reason fields as above.
+#
+# Example syntax (replace the placeholder before uncommenting):
+# exclude:
+#   - key: "conf/example/Example25"
+#     reason: "Published before the author's arrival."
+exclude: []

@@ -1,0 +1,35 @@
+{#
+  One publication inside an ordered list.
+
+  The build script supplies:
+  - key: DBLP record key;
+  - title: plain-text publication title;
+  - authors: list of author names;
+  - venue: formatted bibliographic details, excluding the year;
+  - year: publication year;
+  - electronic_url: optional publication URL supplied by DBLP.
+
+  Publications are deduplicated and sorted before rendering.
+#}
+
+<li class="publication">
+  <div class="publication-title">
+    <a href="https://dblp.org/rec/{{ publication.key }}.html">
+      {{ publication.title }}
+    </a>
+  </div>
+
+  {% if publication.authors %}
+  <div class="publication-authors">
+    {{ publication.authors | join(', ') }}
+  </div>
+  {% endif %}
+
+  <div class="publication-venue">
+    {% if publication.venue %}{{ publication.venue }} · {% endif %}
+    {{ publication.year }}
+    {% if publication.electronic_url %}
+    · <a href="{{ publication.electronic_url }}">Publication</a>
+    {% endif %}
+  </div>
+</li>

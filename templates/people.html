@@ -1,0 +1,91 @@
+{% extends "base.html" %}
+
+{% block content %}
+<h1>People</h1>
+
+{% for group in people_groups %}
+{% if group.people %}
+<section aria-labelledby="status-{{ group.id }}">
+  <h2 id="status-{{ group.id }}">{{ group.label }}</h2>
+
+  <ul class="people-list">
+    {% for person in group.people %}
+    <li>
+      <article class="person" id="{{ person.id }}">
+        {% if person.photo %}
+        <img class="portrait"
+             src="{{ local_url('/' ~ person.photo) }}"
+             alt="Portrait of {{ person.first_name }} {{ person.last_name }}"
+             loading="lazy">
+        {% endif %}
+
+        <div class="person-information">
+          <h3>{{ person.first_name }} {{ person.last_name }}</h3>
+
+          {% if person.affiliations_html %}
+          <div class="person-affiliations">
+            {{ person.affiliations_html }}
+          </div>
+          {% endif %}
+
+          {% if person.email or person.webpage or person.dblp %}
+          <ul class="person-links" aria-label="Contact and research links">
+            {% if person.email %}
+            <li>
+              <a href="mailto:{{ person.email }}">{{ person.email }}</a>
+            </li>
+            {% endif %}
+
+            {% if person.webpage %}
+            <li><a href="{{ person.webpage }}">Webpage</a></li>
+            {% endif %}
+
+            {% if person.dblp %}
+            <li>
+              <a href="https://dblp.org/pid/{{ person.dblp }}.html">DBLP</a>
+            </li>
+            {% endif %}
+          </ul>
+          {% endif %}
+
+          {% if person.visit_dates %}
+          <p class="meta">{{ person.visit_dates }}</p>
+          {% endif %}
+
+          {% if person.interests %}
+          <ul class="tags" aria-label="Research interests">
+            {% for interest in person.interests %}
+            <li>{{ interest }}</li>
+            {% endfor %}
+          </ul>
+          {% endif %}
+        </div>
+      </article>
+    </li>
+    {% endfor %}
+  </ul>
+</section>
+{% endif %}
+{% endfor %}
+
+{% if former_people %}
+<section aria-labelledby="former-heading">
+  <h2 id="former-heading">Former people</h2>
+
+  <ul class="former-people">
+    {% for person in former_people %}
+    <li id="{{ person.id }}">
+      {% if person.webpage %}
+      <a href="{{ person.webpage }}">
+        {{ person.first_name }} {{ person.last_name }}
+      </a>
+      {% else %}
+      {{ person.first_name }} {{ person.last_name }}
+      {% endif %}
+      — {{ person.period_summary }}
+    </li>
+    {% endfor %}
+  </ul>
+</section>
+{% endif %}
+{% endblock %}

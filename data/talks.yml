@@ -1,0 +1,145 @@
+# Seminar talks
+# =============
+# Each record describes one talk. File order does not matter.
+# Fields are documented alongside the first record.
+#
+# Display follows the original PHP page:
+# - Upcoming talks are ordered earliest first.
+# - Past talks are ordered latest first.
+# - A talk becomes past at its starting time.
+# - Warnings appear only for upcoming talks.
+# - Missing speaker: the entire speaker/title line becomes "TBA".
+# - Missing title with a known speaker: the title becomes "TBA".
+# - Abstracts are optional and collapsed by default.
+# - Slides and additional links appear beside the title.
+#
+# Date-dependent behaviour is evaluated at build time.
+# Date-times use the timezone configured in site.yaml (Europe/Rome).
+# Quote all date and date-time values.
+#
+# Ordinary text fields are plain text. Abstracts support Markdown and
+# mathematics: $...$ inline, $$...$$ on separate lines for display math.
+
+# Stable HTML anchor. This talk will be linked as /seminar/#2526-leblanc1.
+- id: "2526-leblanc1"
+
+  # Stable iCalendar UID. Preserve existing UIDs when migrating talks.
+  # Never change a UID when rescheduling or correcting an existing talk.
+  uid: "2526-leblanc1@seminar.cs.unibo.it"
+
+  # Last substantive modification, in local time: "YYYY-MM-DD HH:MM".
+  # Required. Update when changing the event, not on every website build.
+  last_modified: "2026-08-01 00:00"
+
+  # iCalendar revision number. Default: 0.
+  # Increment when changing an already published calendar event.
+  sequence: 0
+
+  # Required starting date and time, in local time.
+  datetime: "2026-07-01 14:30"
+
+  # Duration in minutes. Defaults to seminar.duration_minutes in site.yaml.
+  duration_minutes: 30
+
+  # Plain-text location. Defaults to seminar.location in site.yaml.
+  # Use "" to suppress the location. Do not use HTML entities.
+  location: "aula Seminari 2"
+
+  # Optional warning, shown in red beside the location for upcoming talks.
+  # Examples: "Unusual time", "Room changed". Default: null.
+  warning: null
+
+  # Speaker's name. Default: null, displayed as "TBA".
+  speaker: "Travis Leblanc"
+
+  # Optional speaker webpage. Default: null.
+  speaker_url: null
+
+  # Speaker affiliation, displayed in parentheses when nonempty.
+  # Default: "".
+  affiliation: "ENS Paris-Saclay"
+
+  # Talk title, as plain text. Default: null, displayed as "TBA".
+  title: "Interaction is invariant after all"
+
+  # Optional Markdown abstract. Default: null; no disclosure is shown.
+  # YAML's >- joins wrapped lines into paragraphs.
+  # Use |- when preserving line breaks matters, e.g. for display math.
+  abstract: >-
+    The (lambda) Interaction Abstract Machine (IAM) is an abstract machine
+    for the untyped lambda calculus inspired by Girard's Geometry of
+    Interaction. It was thought by the literature to be time inefficient
+    but space efficient. We show, at the contrary, that the lambda IAM is
+    an invariant cost model for time, and argue for its space inefficiency.
+
+  # Optional slides URL. Default: null.
+  slides: null
+
+  # Optional additional URL, labelled "url", as in the PHP page.
+  # Default: null.
+  url: null
+
+  # Optional video URL, labelled "video". Default: null.
+  video: null
+
+  # Optional public remote-attendance URL. Default: null.
+  # Leave absent when the link is distributed only by email.
+  online_url: null
+
+  # Cancellation flag. Default: false.
+  # Cancelled events remain listed and exported with calendar status
+  # CANCELLED, but are excluded from Home's "Next seminar".
+  # Update last_modified and increment sequence when cancelling.
+  cancelled: false
+
+# Illustrative future talk demonstrating defaults and mathematics.
+# Omitted optional fields take the defaults documented above.
+- id: "2627-example-types"
+  uid: "2627-example-types@seminar.cs.unibo.it"
+  last_modified: "2026-09-14 12:00"
+  datetime: "2026-10-14 14:00"
+  location: "aula Seminari 2"
+  speaker: "Alex Example"
+  affiliation: "Example University"
+  title: "Types, programs, and proofs"
+  abstract: |-
+    This is an illustrative abstract for testing the website.
+
+    We discuss judgements such as $\Gamma \vdash t : A$ and the
+    relationship between programs and proofs.
+
+    $$
+    \frac{\Gamma, x:A \vdash t:B}
+         {\Gamma \vdash \lambda x.t : A \to B}
+    $$
+
+    The talk assumes familiarity with the lambda calculus.
+
+# Illustrative slot with no confirmed speaker or title: displays "TBA".
+- id: "2627-example-tba"
+  uid: "2627-example-tba@seminar.cs.unibo.it"
+  last_modified: "2026-09-14 12:00"
+  datetime: "2026-10-28 14:00"
+  location: "aula Seminari 2"
+
+# Illustrative talk with a known speaker, missing title, and unusual time.
+- id: "2627-example-unusual-time"
+  uid: "2627-example-unusual-time@seminar.cs.unibo.it"
+  last_modified: "2026-09-14 12:00"
+  datetime: "2026-11-11 15:00"
+  location: "aula Seminari 2"
+  warning: "Unusual time"
+  speaker: "Robin Example"
+  affiliation: "Example Research Institute"
+
+# Illustrative cancellation retained for calendar subscribers.
+- id: "2627-example-cancelled"
+  uid: "2627-example-cancelled@seminar.cs.unibo.it"
+  last_modified: "2026-09-14 12:00"
+  sequence: 1
+  datetime: "2026-11-25 14:00"
+  location: "aula Seminari 2"
+  speaker: "Taylor Example"
+  affiliation: "Example University"
+  title: "Reasoning about communicating processes"
+  cancelled: true

@@ -1,0 +1,12 @@
+{
+  "name": "tss-bologna-website",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Build-time mathematical rendering for the Bologna research website.",
+  "engines": {
+    "node": ">=22"
+  },
+  "dependencies": {
+    "katex": "^0.16.22"
+  }
+}

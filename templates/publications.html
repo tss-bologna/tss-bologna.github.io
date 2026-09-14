@@ -1,0 +1,46 @@
+{% extends "base.html" %}
+
+{% block content %}
+<h1>Publications</h1>
+
+<div class="prose">
+  <p>
+    Publications associated with researchers’ periods in Bologna,
+    compiled from <a href="https://dblp.org/">DBLP</a>
+    with manual additions and exclusions.
+  </p>
+
+  {% if publications_updated %}
+  <p class="meta">
+    Bibliographic snapshot dated:
+    <time datetime="{{ publications_updated }}">
+      {{ publications_updated_display }}
+    </time>.
+  </p>
+  {% endif %}
+</div>
+
+{% if publications %}
+<ol class="publication-list">
+  {% for publication in publications[:site.publications_visible] %}
+    {% include "partials/publication.html" %}
+  {% endfor %}
+</ol>
+
+{% if publications | length > site.publications_visible %}
+<details class="more-publications">
+  <summary>Show more publications</summary>
+
+  <ol class="publication-list"
+      start="{{ site.publications_visible + 1 }}">
+    {% for publication in publications[site.publications_visible:] %}
+      {% include "partials/publication.html" %}
+    {% endfor %}
+  </ol>
+</details>
+{% endif %}
+
+{% else %}
+<p>No publications are currently listed.</p>
+{% endif %}
+{% endblock %}

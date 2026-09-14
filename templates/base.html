@@ -1,0 +1,111 @@
+<!doctype html>
+<html lang="{{ site.language }}">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>{% if page.title %}{{ page.title }} | {% endif %}{{ site.name }}</title>
+  <meta name="description" content="{{ page.description }}">
+  <meta name="robots" content="{{ page.robots }}">
+  <link rel="canonical" href="{{ absolute_url(page.path) }}">
+
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="{{ site.name }}">
+  <meta property="og:title"
+        content="{{ page.title if page.title else site.name }}">
+  <meta property="og:description" content="{{ page.description }}">
+  <meta property="og:url" content="{{ absolute_url(page.path) }}">
+
+  <link rel="stylesheet" href="{{ local_url('/css/style.css') }}">
+
+  {% if page.has_math %}
+  <link rel="stylesheet"
+        href="{{ local_url('/vendor/katex/katex.min.css') }}">
+  {% endif %}
+</head>
+
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  {% if site.demo %}
+  <div class="demo-notice">
+    Example content — this website is under preparation.
+  </div>
+  {% endif %}
+
+  <header class="site-header">
+    <div class="container brand">
+      {% set logo = site.logos.header %}
+      {% if logo.url %}
+      <a class="logo-link" href="{{ logo.url }}">
+      {% endif %}
+
+      {% if logo.src %}
+      <img class="header-logo"
+           src="{{ local_url('/' ~ logo.src) }}"
+           alt="{{ logo.alt }}">
+      {% else %}
+      <span class="logo-placeholder header-logo"
+            role="img" aria-label="{{ logo.alt }}">Logo</span>
+      {% endif %}
+
+      {% if logo.url %}
+      </a>
+      {% endif %}
+
+      <a class="site-title" href="{{ local_url('/') }}">
+        {{ site.name }}
+      </a>
+    </div>
+
+    <nav class="site-nav" aria-label="Main navigation">
+      <ul class="container">
+        {% for path, label in [
+          ('/', 'Home'),
+          ('/people/', 'People'),
+          ('/seminar/', 'Seminar'),
+          ('/publications/', 'Publications')
+        ] %}
+        <li>
+          <a href="{{ local_url(path) }}"
+             {% if page.path == path %}aria-current="page"{% endif %}>
+            {{ label }}
+          </a>
+        </li>
+        {% endfor %}
+      </ul>
+    </nav>
+  </header>
+
+  <main class="container" id="main">
+    {% block content %}{% endblock %}
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <div class="footer-logos">
+        {% for logo in site.logos.footer %}
+          {% if logo.url %}
+          <a class="logo-link" href="{{ logo.url }}">
+          {% endif %}
+
+          {% if logo.src %}
+          <img class="footer-logo"
+               src="{{ local_url('/' ~ logo.src) }}"
+               alt="{{ logo.alt }}" loading="lazy">
+          {% else %}
+          <span class="logo-placeholder footer-logo"
+                role="img" aria-label="{{ logo.alt }}">Logo</span>
+          {% endif %}
+
+          {% if logo.url %}
+          </a>
+          {% endif %}
+        {% endfor %}
+      </div>
+
+      <a href="{{ local_url('/legal/') }}">Licensing &amp; privacy</a>
+    </div>
+  </footer>
+</body>
+</html>

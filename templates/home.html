@@ -1,0 +1,55 @@
+{% extends "base.html" %}
+
+{% block content %}
+<h1>{{ site.name }}</h1>
+
+<div class="prose introduction">
+  {{ content_html }}
+</div>
+
+<div class="home-columns">
+  <section class="home-seminar" aria-labelledby="next-seminar-heading">
+    <h2 id="next-seminar-heading">Next seminar</h2>
+
+    {% if next_talk %}
+    <div class="talk-highlight">
+      {% with talk=next_talk, summary_view=true %}
+        {% include "partials/talk.html" %}
+      {% endwith %}
+    </div>
+    {% else %}
+    <p>No upcoming talk has been announced.</p>
+    {% endif %}
+
+    <p>
+      <a href="{{ local_url('/seminar/') }}">Seminar information and talks</a>
+    </p>
+  </section>
+
+  {% if home_news %}
+  <section class="home-news" aria-labelledby="news-heading">
+    <h2 id="news-heading">News</h2>
+
+    <ul class="news-list">
+      {% for item in home_news %}
+      <li>
+        <article>
+          <time class="meta" datetime="{{ item.date }}">
+            {{ item.display_date }}
+          </time>
+          <h3>
+            <a href="{{ local_url('/news/#' ~ item.id) }}">
+              {{ item.title }}
+            </a>
+          </h3>
+          <div class="news-text">{{ item.text_html }}</div>
+        </article>
+      </li>
+      {% endfor %}
+    </ul>
+
+    <p><a href="{{ local_url('/news/') }}">News archive</a></p>
+  </section>
+  {% endif %}
+</div>
+{% endblock %}

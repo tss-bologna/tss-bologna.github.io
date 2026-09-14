@@ -1,0 +1,77 @@
+{#
+  Shared seminar entry.
+
+  The build script supplies:
+  - start_iso and display_datetime, formatted in the site's timezone;
+  - is_upcoming, determined from the starting time;
+  - abstract_html, Markdown and mathematics rendered at build time;
+  - defaults for all optional fields.
+
+  summary_view is true on Home. Links then point to the seminar page,
+  and the entry has no duplicate HTML id.
+#}
+
+<article class="talk{% if talk.cancelled %} talk-cancelled{% endif %}"
+         {% if not summary_view %}id="{{ talk.id }}"{% endif %}>
+
+  <div class="talk-meta">
+    <time datetime="{{ talk.start_iso }}">{{ talk.display_datetime }}</time>{% if talk.location %},
+    <span class="talk-location">{{ talk.location }}</span>{% endif %}
+
+    {% if talk.cancelled %}
+    <strong class="warning">(Cancelled)</strong>
+    {% endif %}
+
+    {% if talk.is_upcoming and talk.warning %}
+    <strong class="warning">({{ talk.warning }})</strong>
+    {% endif %}
+  </div>
+
+  <div class="talk-titleline">
+    {% if talk.speaker %}
+      <strong>
+        {% if talk.speaker_url %}
+        <a href="{{ talk.speaker_url }}">{{ talk.speaker }}</a>
+        {% else %}
+        {{ talk.speaker }}
+        {% endif %}
+      </strong>{% if talk.affiliation %} ({{ talk.affiliation }}){% endif %},
+      <strong>
+        {% if talk.title %}
+        “<em>{{ talk.title }}</em>”
+        {% else %}
+        TBA
+        {% endif %}
+      </strong>
+
+      {% if talk.slides %}
+      (<a href="{{ talk.slides }}">slides</a>)
+      {% endif %}
+      {% if talk.url %}
+      (<a href="{{ talk.url }}">url</a>)
+      {% endif %}
+      {% if talk.video %}
+      (<a href="{{ talk.video }}">video</a>)
+      {% endif %}
+    {% else %}
+      TBA
+    {% endif %}
+
+    <a class="permalink"
+       href="{{ local_url('/seminar/#' ~ talk.id) }}"
+       aria-label="Permalink to seminar on {{ talk.display_datetime }}">#</a>
+  </div>
+
+  {% if talk.online_url and talk.is_upcoming and not talk.cancelled %}
+  <p class="talk-online">
+    <a href="{{ talk.online_url }}">Attend online</a>
+  </p>
+  {% endif %}
+
+  {% if talk.abstract_html and not summary_view %}
+  <details class="abstract">
+    <summary>Abstract.</summary>
+    <div class="prose abstract-body">{{ talk.abstract_html }}</div>
+  </details>
+  {% endif %}
+</article>

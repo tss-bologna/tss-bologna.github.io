@@ -1,0 +1,161 @@
+name: Build website
+
+on:
+  push:
+    branches: [main]
+
+  # Run manually from the repository's Actions tab.
+  workflow_dispatch:
+
+  # Daily refresh, at 05:23 UTC.
+  schedule:
+    - cron: "23 5 * * *"
+
+# Serialize runs so cache updates and deployments do not overlap.
+concurrency:
+  group: website-${{ github.ref }}
+  cancel-in-progress: false
+
+permissions:
+  contents: read
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+
+    # Required to commit updated DBLP data and the initial Node lockfile.
+    permissions:
+      contents: write
+
+    outputs:
+      publish: ${{ steps.policy.outputs.publish }}
+
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v6
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+
+      - name: Install Python dependencies
+        run: python -m pip install -r requirements.txt
+
+      - name: Install KaTeX
+        shell: bash
+        run: |
+          if [ -f package-lock.json ]; then
+            npm ci
+          else
+            npm install
+          fi
+
+      - name: Run behavioural tests
+        run: python -m unittest discover -s tests -v
+
+      - name: Refresh DBLP cache
+        id: dblp
+        continue-on-error: true
+        run: python scripts/fetch_dblp.py
+
+      - name: Report DBLP fallback
+        if: steps.dblp.outcome == 'failure'
+        run: |
+          echo "::warning::DBLP refresh failed. Building from the previous cache."
+          echo "The build will fail if required author data or override records are missing."
+
+      - name: Build static pages
+        run: python scripts/build.py
+
+      - name: Check generated website
+        run: python scripts/check_site.py
+
+      - name: Upload HTML preview
+        uses: actions/upload-artifact@v4
+        with:
+          name: website-preview
+          path: _site/
+          include-hidden-files: true
+          retention-days: 14
+          if-no-files-found: error
+
+      - name: Upload generated source data
+        uses: actions/upload-artifact@v4
+        with:
+          name: generated-source-data
+          path: |
+            cache/dblp.json
+            package-lock.json
+          retention-days: 14
+          if-no-files-found: error
+
+      # Commit only after tests, build, and output checks have succeeded.
+      # Never force-push: a concurrent human edit must not be overwritten.
+      - name: Commit refreshed cache and lockfile
+        shell: bash
+        run: |
+          git add -- cache/dblp.json package-lock.json
+          if git diff --cached --quiet; then
+            echo "No generated source changes."
+          else
+            git config user.name "github-actions[bot]"
+            git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+            git commit -m "Update DBLP cache and build lockfile"
+            git push
+          fi
+
+      - name: Determine whether publication is enabled
+        id: policy
+        env:
+          PUBLISH_SITE: ${{ vars.PUBLISH_SITE }}
+        run: |
+          python - <<'PY'
+          import os
+          import sys
+
+          sys.path.insert(0, "scripts")
+          from common import DATA, load_yaml
+
+          site = load_yaml(DATA / "site.yaml")
+          publish = (
+              os.environ.get("PUBLISH_SITE") == "true"
+              and site["demo"] is False
+          )
+
+          with open(os.environ["GITHUB_OUTPUT"], "a", encoding="utf-8") as output:
+              output.write(f"publish={'true' if publish else 'false'}\n")
+
+          print("Production deployment enabled." if publish else "Preview only.")
+          PY
+
+      - name: Upload Pages artifact
+        if: steps.policy.outputs.publish == 'true'
+        uses: actions/upload-pages-artifact@v4
+        with:
+          path: _site/
+
+  deploy:
+    needs: build
+    if: needs.build.outputs.publish == 'true'
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+
+    permissions:
+      pages: write
+      id-token: write
+
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+
+    steps:
+      - name: Deploy checked website
+        id: deployment
+        uses: actions/deploy-pages@v4

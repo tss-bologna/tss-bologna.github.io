@@ -1,0 +1,10 @@
+{% extends "base.html" %}
+
+{% block content %}
+<h1>Page not found</h1>
+
+<div class="prose">
+  <p>The requested page could not be found.</p>
+  <p><a href="{{ local_url('/') }}">Return to Home</a></p>
+</div>
+{% endblock %}

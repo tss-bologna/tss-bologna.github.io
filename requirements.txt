@@ -1,0 +1,21 @@
+# Python 3.11 or later.
+# Install with: python -m pip install -r requirements.txt
+
+# HTML templates.
+Jinja2>=3.1.6,<4
+
+# Hand-maintained YAML data.
+PyYAML>=6.0.2,<7
+
+# Markdown parsing, with a plugin for mathematical expressions.
+markdown-it-py>=3.0.0,<4
+mdit-py-plugins>=0.4.2,<0.5
+
+# Standards-aware calendar serialization.
+icalendar>=6.1.0,<7
+
+# XML parsing for DBLP, without external entity expansion.
+defusedxml>=0.7.1,<0.8
+
+# IANA timezone data, including on systems without a timezone database.
+tzdata>=2025.1

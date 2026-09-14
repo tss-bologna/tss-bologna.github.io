@@ -1,0 +1,33 @@
+{% extends "base.html" %}
+
+{% block content %}
+<h1>{{ site.seminar.name }}</h1>
+
+<div class="prose seminar-information">
+  {{ content_html }}
+</div>
+
+<section aria-labelledby="upcoming-heading">
+  <h2 id="upcoming-heading">Upcoming talks</h2>
+
+  {% for talk in upcoming_talks %}
+    {% with summary_view=false %}
+      {% include "partials/talk.html" %}
+    {% endwith %}
+  {% else %}
+  <p>No upcoming talks have been announced.</p>
+  {% endfor %}
+</section>
+
+<section aria-labelledby="past-heading">
+  <h2 id="past-heading">Past talks</h2>
+
+  {% for talk in past_talks %}
+    {% with summary_view=false %}
+      {% include "partials/talk.html" %}
+    {% endwith %}
+  {% else %}
+  <p>No past talks are listed yet.</p>
+  {% endfor %}
+</section>
+{% endblock %}

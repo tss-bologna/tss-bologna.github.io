@@ -1,0 +1,148 @@
+# People
+# ======
+# Each record describes one person.
+# Fields are documented alongside the first record; later records reuse them.
+# Optional fields may be omitted.
+#
+# Current people are grouped by the status of their active period, then
+# sorted by last name and first name.
+# Former people have past periods but no active period.
+# People with only future periods are not displayed yet.
+
+# Stable identifier, also used as the person's HTML anchor.
+# Use lowercase letters, digits, and hyphens. Do not change after publishing.
+- id: davide-sangiorgi
+
+  # Given name and surname, stored separately for sorting.
+  first_name: "Davide"
+  last_name: "Sangiorgi"
+
+  # Display affiliations as Markdown, allowing links and arbitrary wording.
+  # This text does not control publication selection.
+  affiliations: >-
+    Professor @ [Unibo](https://www.unibo.it/)
+
+  # Optional email address. null means no email link.
+  email: null
+
+  # Optional personal webpage URL.
+  webpage: "https://www.cs.unibo.it/~sangio/"
+
+  # DBLP person identifier: the portion between /pid/ and .html.
+  # null means no automatic publication fetching for this person.
+  # Verified via the bibliography link on the personal webpage above.
+  dblp: "s/DavideSangiorgi"
+
+  # Optional portrait path relative to static/.
+  # Example: "images/people/davide-sangiorgi.jpg".
+  # null means no portrait; no empty portrait space is reserved.
+  photo: null
+
+  # Optional list of plain-text research tags. Default: [].
+  # Tags are displayed without filtering controls.
+  interests:
+    - concurrency
+    - semantics
+    - verification
+
+  # Periods of participation, including returns and changes of status.
+  # Periods must not overlap for a given person.
+  # Split a continuous stay into adjacent periods when status changes.
+  periods:
+    # Status identifier defined in site.yaml.
+    - status: permanent
+
+      # First included day, as a quoted ISO date.
+      # EXAMPLE ONLY: replace with the actual arrival date.
+      arrival: "2020-01-01"
+
+      # Last included day, or null for an ongoing period.
+      # A following adjacent period starts on the next calendar day.
+      departure: null
+
+# Fictional postdoctoral researcher.
+- id: sam-example
+  first_name: "Sam"
+  last_name: "Example"
+  affiliations: "[University of Bologna](https://www.unibo.it/)"
+  email: "sam@example.org"
+  webpage: null
+  dblp: null
+  photo: null
+  interests:
+    - type theory
+    - proof assistants
+  periods:
+    - status: postdoc
+      arrival: "2025-10-01"
+      departure: null
+
+# Fictional PhD student.
+- id: charlie-example
+  first_name: "Charlie"
+  last_name: "Example"
+  affiliations: "[University of Bologna](https://www.unibo.it/)"
+  email: null
+  webpage: null
+  dblp: null
+  photo: null
+  interests:
+    - probabilistic programming
+  periods:
+    - status: phd
+      arrival: "2024-11-01"
+      departure: null
+
+# Fictional visitor with two separate stays.
+# Visitor periods do not contribute to automatic publication selection.
+- id: taylor-example
+  first_name: "Taylor"
+  last_name: "Example"
+  affiliations: "Example University"
+  email: null
+  webpage: null
+  dblp: null
+  photo: null
+  interests:
+    - programming languages
+  periods:
+    - status: visitor
+      arrival: "2024-03-01"
+      departure: "2024-05-31"
+    - status: visitor
+      arrival: "2026-09-01"
+      departure: "2026-12-31"
+
+# Fictional external collaborator.
+# Dates describe participation in this community, not employment in Bologna.
+# External periods do not contribute to automatic publication selection.
+- id: morgan-example
+  first_name: "Morgan"
+  last_name: "Example"
+  affiliations: "Example Research Institute"
+  email: null
+  webpage: null
+  dblp: null
+  photo: null
+  interests:
+    - logic
+  periods:
+    - status: external
+      arrival: "2023-01-01"
+      departure: null
+
+# Fictional former researcher, displayed in the compact former-people section.
+# Past eligible periods still contribute to publication selection.
+- id: jamie-example
+  first_name: "Jamie"
+  last_name: "Example"
+  affiliations: ""
+  email: null
+  webpage: null
+  dblp: null
+  photo: null
+  interests: []
+  periods:
+    - status: postdoc
+      arrival: "2023-01-01"
+      departure: "2025-12-31"

@@ -1,0 +1,30 @@
+{% extends "base.html" %}
+
+{% block content %}
+<h1>News archive</h1>
+
+{% if archived_news %}
+<ul class="news-list news-archive">
+  {% for item in archived_news %}
+  <li>
+    <article id="{{ item.id }}">
+      <time class="meta" datetime="{{ item.date }}">
+        {{ item.display_date }}
+      </time>
+
+      <h2>
+        {{ item.title }}
+        <a class="permalink"
+           href="{{ local_url('/news/#' ~ item.id) }}"
+           aria-label="Permalink to {{ item.title }}">#</a>
+      </h2>
+
+      <div class="prose news-text">{{ item.text_html }}</div>
+    </article>
+  </li>
+  {% endfor %}
+</ul>
+{% else %}
+<p>No news has been published yet.</p>
+{% endif %}
+{% endblock %}
