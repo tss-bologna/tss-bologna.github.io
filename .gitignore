@@ -1,0 +1,27 @@
+# Generated website
+_site/
+
+# Python environment and caches
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Node dependencies
+node_modules/
+
+# Temporary files
+*.tmp
+*.log
+*~
+.DS_Store
+Thumbs.db
+
+# Local environment settings
+.env
+.env.*
+!.env.example
+
+# Keep cache/dblp.json and package-lock.json under version control.
