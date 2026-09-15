@@ -34,7 +34,7 @@ import tempfile
 import time
 from datetime import datetime, timezone
 from urllib.error import HTTPError, URLError
-from urllib.parse import quote, urlsplit
+from urllib.parse import quote, urlsplit, urlencode
 from urllib.request import Request, urlopen
 
 from defusedxml import ElementTree
@@ -151,219 +151,279 @@ def read_overrides() -> dict[str, list[dict]]:
 
 
 class Client:
-    """Small sequential HTTP client with bounded retries and response size."""
+    """Query DBLP's public SPARQL service, sequentially."""
+
+    ENDPOINT = "https://sparql.dblp.org/sparql"
 
     def __init__(self):
         self.last_request = 0.0
 
-    def xml(self, path: str):
-        url = DBLP_ORIGIN + path
-        last_error = None
+    def query(self, query: str) -> list[dict]:
+        delay = MIN_REQUEST_INTERVAL - (
+            time.monotonic() - self.last_request
+        )
+        if delay > 0:
+            time.sleep(delay)
 
-        for attempt in range(MAX_ATTEMPTS):
-            delay = MIN_REQUEST_INTERVAL - (
-                time.monotonic() - self.last_request
-            )
-            if delay > 0:
-                time.sleep(delay)
+        self.last_request = time.monotonic()
 
-            self.last_request = time.monotonic()
-            request = Request(
-                url,
-                headers={
-                    "User-Agent": USER_AGENT,
-                    "Accept": "application/xml, text/xml",
-                },
-            )
-
-            try:
-                with urlopen(request, timeout=REQUEST_TIMEOUT) as response:
-                    final_url = urlsplit(response.geturl())
-                    if final_url.scheme != "https":
-                        raise SiteError(f"Non-HTTPS redirect received for {url}.")
-
-                    content_type = response.headers.get("Content-Type", "")
-                    content_encoding = response.headers.get("Content-Encoding", "")
-                    response_url = response.geturl()
-                    payload = response.read(MAX_RESPONSE_BYTES + 1)
-
-                if len(payload) > MAX_RESPONSE_BYTES:
-                    raise SiteError(f"Response exceeds size limit: {url}.")
-
-            except HTTPError as exc:
-                last_error = exc
-
-                # Retry transient failures only. An invalid key must fail.
-                if exc.code not in {429, 500, 502, 503, 504}:
-                    raise SiteError(
-                        f"DBLP returned HTTP {exc.code} for {url}."
-                    ) from exc
-
-                retry_after = exc.headers.get("Retry-After", "")
-                if retry_after:
-                    try:
-                        requested_delay = float(retry_after)
-                    except ValueError:
-                        requested_delay = None
-
-                    # Do not retry sooner than a long server-requested delay.
-                    # Let a later workflow run try again instead.
-                    if requested_delay is None or requested_delay > 10:
-                        raise SiteError(
-                            f"DBLP requested a later retry for {url}; "
-                            "try again later."
-                        ) from exc
-                    if requested_delay > 0:
-                        time.sleep(requested_delay)
-
-            except (URLError, TimeoutError, OSError) as exc:
-                last_error = exc
-
-            else:
-                try:
-                    # External entities and entity expansion remain disabled.
-                    return ElementTree.fromstring(payload)
-                except Exception as exc:
-                    preview = repr(payload[:300])
-                    raise SiteError(
-                        f"Could not parse DBLP XML: {exc}\n"
-                        f"URL: {response_url}\n"
-                        f"Content-Type: {content_type!r}\n"
-                        f"Content-Encoding: {content_encoding!r}\n"
-                        f"First response bytes: {preview}"
-                    ) from exc
-
-            if attempt + 1 < MAX_ATTEMPTS:
-                time.sleep(2 ** attempt)
-
-        raise SiteError(
-            f"DBLP request failed after {MAX_ATTEMPTS} attempts: "
-            f"{url}: {last_error}"
+        request = Request(
+            self.ENDPOINT,
+            data=urlencode({"query": query}).encode("utf-8"),
+            headers={
+                "User-Agent": USER_AGENT,
+                "Content-Type": "application/x-www-form-urlencoded",
+                "Accept": "application/sparql-results+json",
+            },
         )
 
-
-def element_text(element) -> str:
-    """Preserve text nested inside title markup such as <i> or <sub>."""
-    if element is None:
-        return ""
-    return " ".join("".join(element.itertext()).split())
-
-
-def child_text(element, name: str) -> str:
-    return element_text(element.find(name))
-
-
-def parse_publication(element) -> dict:
-    key = dblp_identifier(element.get("key"), "DBLP publication key")
-    title = child_text(element, "title")
-    if not title:
-        raise SiteError(f"DBLP record {key!r} has no title.")
-
-    year_text = child_text(element, "year")
-    if not re.fullmatch(r"\d{4}", year_text):
-        raise SiteError(f"DBLP record {key!r} has an invalid year.")
-
-    authors = [
-        element_text(author)
-        for author in element.findall("author")
-        if element_text(author)
-    ]
-
-    # Edited collections may identify editors rather than authors.
-    if not authors:
-        authors = [
-            f"{element_text(editor)} (ed.)"
-            for editor in element.findall("editor")
-            if element_text(editor)
-        ]
-
-    journal = child_text(element, "journal")
-    booktitle = child_text(element, "booktitle")
-    school = child_text(element, "school")
-    publisher = child_text(element, "publisher")
-    venue = journal or booktitle or school or publisher
-
-    volume = child_text(element, "volume")
-    number = child_text(element, "number")
-    pages = child_text(element, "pages")
-
-    if journal and volume:
-        venue += f" {volume}"
-        if number:
-            venue += f"({number})"
-    elif journal and number:
-        venue += f", no. {number}"
-
-    if pages:
-        venue += f", pp. {pages}" if venue else f"pp. {pages}"
-
-    electronic_url = None
-    for electronic in element.findall("ee"):
-        candidate = element_text(electronic)
-        if not candidate:
-            continue
         try:
-            electronic_url = http_url(candidate, f"DBLP record {key}.ee")
-        except SiteError:
-            # Some historical records may contain non-HTTP identifiers.
-            continue
-        break
+            with urlopen(request, timeout=REQUEST_TIMEOUT) as response:
+                content_type = response.headers.get("Content-Type", "")
+                payload = response.read(MAX_RESPONSE_BYTES + 1)
+        except (URLError, TimeoutError, OSError) as exc:
+            raise SiteError(f"DBLP SPARQL request failed: {exc}") from exc
 
-    return {
-        "key": key,
-        "title": title,
-        "authors": authors,
-        "venue": venue,
-        "year": int(year_text),
-        "electronic_url": electronic_url,
-        "type": element.tag,
-    }
+        if len(payload) > MAX_RESPONSE_BYTES:
+            raise SiteError("DBLP SPARQL response exceeds the size limit.")
+
+        if "json" not in content_type.lower():
+            raise SiteError(
+                f"DBLP SPARQL returned {content_type!r}, not JSON. "
+                f"Response starts with {payload[:200]!r}"
+            )
+
+        try:
+            document = json.loads(payload)
+            rows = document["results"]["bindings"]
+            if not isinstance(rows, list):
+                raise ValueError("bindings is not a list")
+        except (ValueError, KeyError, TypeError) as exc:
+            raise SiteError("Invalid DBLP SPARQL response.") from exc
+
+        return rows
 
 
-def publication_elements(root):
-    """Handle both author-profile XML and individual-record XML."""
-    if root.tag in PUBLICATION_TYPES:
-        yield root
-        return
+PREFIXES = """
+PREFIX dblp: <https://dblp.org/rdf/schema#>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+"""
 
-    for element in root.iter():
-        if element.tag in PUBLICATION_TYPES and element.get("key"):
-            yield element
+RECORD_PREFIX = "https://dblp.org/rec/"
+SCHEMA_PREFIX = "https://dblp.org/rdf/schema#"
+
+
+def binding(row: dict, name: str) -> str:
+    try:
+        value = row[name]["value"]
+    except (KeyError, TypeError) as exc:
+        raise SiteError(f"Missing SPARQL binding: {name}.") from exc
+    return require_text(value, f"SPARQL binding {name}")
+
+
+def record_key(iri: str) -> str:
+    if not iri.startswith(RECORD_PREFIX):
+        raise SiteError(f"Unexpected publication identifier: {iri!r}.")
+    return dblp_identifier(iri[len(RECORD_PREFIX):], "publication key")
+
+
+def paginated(client: Client, query: str, order: str) -> list[dict]:
+    """Explicit pagination avoids relying on a server's default row limit."""
+    size = 1000
+    result = []
+
+    for page in range(1000):
+        rows = client.query(
+            PREFIXES
+            + query
+            + f"\nORDER BY {order}\nLIMIT {size}\nOFFSET {page * size}"
+        )
+        result.extend(rows)
+        if len(rows) < size:
+            return result
+
+    raise SiteError("SPARQL pagination limit reached; cache not updated.")
+
+
+def fetch_records(client: Client, keys: list[str]) -> dict[str, dict]:
+    """Fetch metadata and ordered authorship signatures in small batches."""
+    records = {}
+
+    for offset in range(0, len(keys), 25):
+        batch = keys[offset:offset + 25]
+        values = " ".join(
+            f"<{RECORD_PREFIX}{dblp_identifier(key, 'record key')}>"
+            for key in batch
+        )
+
+        metadata = paginated(
+            client,
+            """
+            SELECT DISTINCT ?publ ?pred ?value WHERE {
+              VALUES ?publ { %s }
+              VALUES ?pred {
+                dblp:title
+                dblp:yearOfPublication
+                dblp:bibtexType
+                dblp:publishedIn
+                dblp:publishedInJournal
+                dblp:publishedInBook
+                dblp:publishedBy
+                dblp:pagination
+                dblp:documentPage
+                dblp:doi
+              }
+              ?publ ?pred ?value .
+            }
+            """ % values,
+            "?publ ?pred ?value",
+        )
+
+        signatures = paginated(
+            client,
+            """
+            SELECT DISTINCT ?publ ?sig ?kind ?ordinal ?name WHERE {
+              VALUES ?publ { %s }
+              ?publ dblp:hasSignature ?sig .
+              ?sig rdf:type ?kind ;
+                   dblp:signatureOrdinal ?ordinal ;
+                   dblp:signatureDblpName ?name .
+              VALUES ?kind { dblp:AuthorSignature dblp:EditorSignature }
+            }
+            """ % values,
+            "?publ ?kind ?ordinal ?sig ?name",
+        )
+
+        fields = {key: {} for key in batch}
+        names = {key: {"authors": {}, "editors": {}} for key in batch}
+
+        for row in metadata:
+            key = record_key(binding(row, "publ"))
+            predicate = binding(row, "pred").removeprefix(SCHEMA_PREFIX)
+            fields[key].setdefault(predicate, []).append(binding(row, "value"))
+
+        for row in signatures:
+            key = record_key(binding(row, "publ"))
+            role = (
+                "authors"
+                if binding(row, "kind") == SCHEMA_PREFIX + "AuthorSignature"
+                else "editors"
+            )
+            try:
+                ordinal = int(binding(row, "ordinal"))
+            except ValueError as exc:
+                raise SiteError(f"Invalid author order for {key}.") from exc
+
+            signature = binding(row, "sig")
+            names[key][role][(ordinal, signature)] = binding(row, "name")
+
+        for key in batch:
+            data = fields[key]
+
+            def first(predicate: str) -> str:
+                values = data.get(predicate, [])
+                return sorted(set(values))[0] if values else ""
+
+            title = first("title")
+            year_text = first("yearOfPublication")
+            if not title or not re.fullmatch(r"\d{4}", year_text):
+                raise SiteError(
+                    f"DBLP record {key!r} is missing a title or valid year."
+                )
+
+            authors = [
+                name for _, name in sorted(names[key]["authors"].items())
+            ]
+            if not authors:
+                authors = [
+                    f"{name} (ed.)"
+                    for _, name in sorted(names[key]["editors"].items())
+                ]
+
+            if not authors:
+                raise SiteError(
+                    f"DBLP record {key!r} has no ordered creator metadata."
+                )
+
+            venue = (
+                first("publishedIn")
+                or first("publishedInJournal")
+                or first("publishedInBook")
+                or first("publishedBy")
+            )
+            pages = first("pagination")
+            if pages:
+                venue += f", pp. {pages}" if venue else f"pp. {pages}"
+
+            electronic_url = None
+            for candidate in (
+                sorted(set(data.get("doi", [])))
+                + sorted(set(data.get("documentPage", [])))
+            ):
+                try:
+                    electronic_url = http_url(candidate, f"{key}.url")
+                except SiteError:
+                    continue
+                break
+
+            publication_type = first("bibtexType")
+            if publication_type:
+                publication_type = (
+                    publication_type.rsplit("#", 1)[-1]
+                    .rsplit("/", 1)[-1]
+                    .lower()
+                )
+            else:
+                publication_type = "publication"
+
+            records[key] = {
+                "key": key,
+                "title": title,
+                "authors": authors,
+                "venue": venue,
+                "year": int(year_text),
+                "electronic_url": electronic_url,
+                "type": publication_type,
+            }
+
+    return records
 
 
 def fetch_author(client: Client, pid: str) -> tuple[str, dict[str, dict]]:
-    path = "/pid/" + quote(pid, safe="/") + ".xml"
-    root = client.xml(path)
+    pid = dblp_identifier(pid, "author ID")
+    person = f"<https://dblp.org/pid/{pid}>"
 
-    if root.tag != "dblpperson":
-        raise SiteError(f"Unexpected DBLP response for author {pid!r}.")
+    rows = client.query(
+        PREFIXES
+        + f"""
+        SELECT ?name WHERE {{
+          {person} rdfs:label ?name .
+        }}
+        ORDER BY ?name
+        LIMIT 1
+        """
+    )
+    if not rows:
+        raise SiteError(f"DBLP SPARQL did not recognise author {pid!r}.")
 
-    name = root.get("name", "").strip()
-    if not name:
-        raise SiteError(f"DBLP author {pid!r} has no display name.")
+    name = binding(rows[0], "name")
 
-    records = {}
-    for element in publication_elements(root):
-        record = parse_publication(element)
-        records[record["key"]] = record
-
-    # Empty bibliographies are accepted: the returned profile is still valid.
-    return name, records
+    rows = paginated(
+        client,
+        f"""
+        SELECT DISTINCT ?publ WHERE {{
+          ?publ dblp:createdBy {person} .
+        }}
+        """,
+        "?publ",
+    )
+    keys = sorted({record_key(binding(row, "publ")) for row in rows})
+    return name, fetch_records(client, keys)
 
 
 def fetch_record(client: Client, key: str) -> dict:
-    path = "/rec/" + quote(key, safe="/") + ".xml"
-    root = client.xml(path)
-
-    for element in publication_elements(root):
-        record = parse_publication(element)
-        if record["key"] == key:
-            return record
-
-    raise SiteError(
-        f"DBLP did not return the requested record {key!r}. "
-        "Check the publication override."
-    )
+    return fetch_records(client, [key])[key]
 
 
 def write_cache(cache: dict) -> None:
