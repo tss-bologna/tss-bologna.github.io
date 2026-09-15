@@ -316,6 +316,7 @@ address {
   aspect-ratio: 3 / 4;
   object-fit: cover;
   object-position: center;
+  filter: grayscale(100%);
 }
 
 .person-information {
