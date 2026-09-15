@@ -9,13 +9,13 @@
 #   # Stable calendar UID; preserve it when rescheduling or editing a talk.
 #   uid: "2627-example@seminar.cs.unibo.it"
 #   # Last modification timestamp, as a quoted YYYY-MM-DD HH:MM.
-#   lastmod: "2026-MM-DD HH:MM"
+#   last_modified: "2026-MM-DD HH:MM"
 #   # Calendar revision number; increase when changing an existing event.
 #   sequence: 0
 #   # Start timestamp, as a quoted YYYY-MM-DD HH:MM; replace the placeholders.
 #   datetime: "2026-MM-DD 14:00"
 #   # Duration in minutes; 60 is the usual duration.
-#   duration: 60
+#   duration_minutes: 60
 #   # Explicit location for this talk; there is no shared default room.
 #   location: "ROOM TO FILL"
 #   # Optional warning; displayed only while the talk is upcoming.
@@ -39,10 +39,10 @@
 
 - id: "2526-leblanc1"
   uid: "2526-leblanc1@seminar.cs.unibo.it"
-  lastmod: "2026-08-01 00:00"
+  last_modified: "2026-08-01 00:00"
   sequence: 0
   datetime: "2026-07-01 14:30"
-  duration: 30
+  duration_minutes: 30
   location: "aula Seminari 2"
   warning: null
   speaker: "Travis Leblanc"
@@ -59,10 +59,10 @@
 
 - id: "2526-capelli"
   uid: "2526-capelli@seminar.cs.unibo.it"
-  lastmod: "2026-08-01 00:00"
+  last_modified: "2026-08-01 00:00"
   sequence: 0
   datetime: "2026-07-01 14:00"
-  duration: 30
+  duration_minutes: 30
   location: "aula Seminari 2"
   warning: null
   speaker: "Marius Capelli"
@@ -78,10 +78,10 @@
 
 - id: "2526-lanese"
   uid: "2526-lanese@seminar.cs.unibo.it"
-  lastmod: "2026-08-01 00:00"
+  last_modified: "2026-08-01 00:00"
   sequence: 0
   datetime: "2026-06-24 14:00"
-  duration: 60
+  duration_minutes: 60
   location: "aula Seminari 2"
   warning: null
   speaker: "Ivan Lanese"
@@ -107,10 +107,10 @@
 
 - id: "2526-patrignani"
   uid: "2526-patrignani@seminar.cs.unibo.it"
-  lastmod: "2026-08-01 00:00"
+  last_modified: "2026-08-01 00:00"
   sequence: 0
   datetime: "2026-06-16 11:00"
-  duration: 60
+  duration_minutes: 60
   location: "aula Seminari 2"
   warning: "unusual day and time!"
   speaker: "Marco Patrignani"
@@ -143,10 +143,10 @@
 
 - id: "2526-peyrot"
   uid: "2526-peyrot@seminar.cs.unibo.it"
-  lastmod: "2026-08-01 00:00"
+  last_modified: "2026-08-01 00:00"
   sequence: 0
   datetime: "2026-06-10 11:00"
-  duration: 60
+  duration_minutes: 60
   location: "aula Busi"
   warning: "unusual time and room!"
   speaker: "Loïc Peyrot"
@@ -179,10 +179,10 @@
 
 - id: "2526-pizzo"
   uid: "2526-pizzo@seminar.cs.unibo.it"
-  lastmod: "2026-08-01 00:00"
+  last_modified: "2026-08-01 00:00"
   sequence: 0
   datetime: "2026-06-03 11:00"
-  duration: 60
+  duration_minutes: 60
   location: "aula Seminari 2"
   warning: "unusual time!"
   speaker: "Nicolò Pizzo"
@@ -205,10 +205,10 @@
 
 - id: "2526-trogni"
   uid: "2526-trogni@seminar.cs.unibo.it"
-  lastmod: "2026-08-01 00:00"
+  last_modified: "2026-08-01 00:00"
   sequence: 0
   datetime: "2026-05-27 14:45"
-  duration: 45
+  duration_minutes: 45
   location: "aula Busi"
   warning: null
   speaker: "Lea Trogni"
@@ -230,10 +230,10 @@
 
 - id: "2526-cecilia"
   uid: "2526-cecilia@seminar.cs.unibo.it"
-  lastmod: "2026-08-01 00:00"
+  last_modified: "2026-08-01 00:00"
   sequence: 0
   datetime: "2026-05-27 14:00"
-  duration: 45
+  duration_minutes: 45
   location: "aula Busi"
   warning: null
   speaker: "Gabriele Cecilia"
@@ -258,10 +258,10 @@
 
 - id: "2526-vergnani"
   uid: "2526-vergnani@seminar.cs.unibo.it"
-  lastmod: "2026-08-01 00:00"
+  last_modified: "2026-08-01 00:00"
   sequence: 0
   datetime: "2026-05-06 14:00"
-  duration: 60
+  duration_minutes: 60
   location: "aula Busi"
   warning: null
   speaker: "Mauro Vergnani"
@@ -288,10 +288,10 @@
 
 - id: "2526-leblanc"
   uid: "2526-leblanc@seminar.cs.unibo.it"
-  lastmod: "2026-08-01 00:00"
+  last_modified: "2026-08-01 00:00"
   sequence: 0
   datetime: "2026-04-29 14:00"
-  duration: 60
+  duration_minutes: 60
   location: "aula Busi"
   warning: null
   speaker: "Travis Leblanc"
@@ -308,10 +308,10 @@
 
 - id: "2526-dallago"
   uid: "2526-dallago@seminar.cs.unibo.it"
-  lastmod: "2026-08-01 00:00"
+  last_modified: "2026-08-01 00:00"
   sequence: 0
   datetime: "2026-03-18 14:00"
-  duration: 60
+  duration_minutes: 60
   location: "aula Busi"
   warning: null
   speaker: "Ugo Dal Lago"
@@ -332,10 +332,10 @@
 
 - id: "2526-quemerais"
   uid: "2526-quemerais@seminar.cs.unibo.it"
-  lastmod: "2026-08-01 00:00"
+  last_modified: "2026-08-01 00:00"
   sequence: 0
   datetime: "2026-03-04 17:00"
-  duration: 60
+  duration_minutes: 60
   location: "aula Seminari 2"
   warning: null
   speaker: "Iwan Quémerais"
@@ -355,10 +355,10 @@
 
 - id: "2526-gavazzo"
   uid: "2526-gavazzo@seminar.cs.unibo.it"
-  lastmod: "2026-08-01 00:00"
+  last_modified: "2026-08-01 00:00"
   sequence: 0
   datetime: "2026-02-18 11:00"
-  duration: 60
+  duration_minutes: 60
   location: "aula Busi"
   warning: null
   speaker: "Francesco Gavazzo"
@@ -387,10 +387,10 @@
 
 - id: "2526-cerda"
   uid: "2526-cerda@seminar.cs.unibo.it"
-  lastmod: "2026-08-01 00:00"
+  last_modified: "2026-08-01 00:00"
   sequence: 0
   datetime: "2026-02-04 11:00"
-  duration: 60
+  duration_minutes: 60
   location: "aula Busi"
   warning: null
   speaker: "Rémy Cerda"
@@ -410,10 +410,10 @@
 
 - id: "2526-lancelot"
   uid: "2526-lancelot@seminar.cs.unibo.it"
-  lastmod: "2026-08-01 00:00"
+  last_modified: "2026-08-01 00:00"
   sequence: 0
   datetime: "2026-01-21 11:00"
-  duration: 60
+  duration_minutes: 60
   location: "aula Busi"
   warning: null
   speaker: "Adrienne Lancelot"
@@ -442,10 +442,10 @@
 
 - id: "2526-issa"
   uid: "2526-issa@seminar.cs.unibo.it"
-  lastmod: "2026-08-01 00:00"
+  last_modified: "2026-08-01 00:00"
   sequence: 0
   datetime: "2025-11-19 14:00"
-  duration: 60
+  duration_minutes: 60
   location: "aula Busi"
   warning: null
   speaker: "Jad Issa"

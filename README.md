@@ -10,7 +10,6 @@ feed. It requires no browser-side JavaScript.
 
 | File | Purpose |
 |---|---|
-| `data/talks.yaml` | Seminar events |
 | `data/news.yaml` | News and expiry dates |
 | `data/publication_overrides.yaml` | DBLP inclusions and exclusions |
 | `content/home.md` | Home introduction |
