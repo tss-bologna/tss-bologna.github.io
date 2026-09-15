@@ -154,7 +154,7 @@ def check(root: Path | None = None) -> list[str]:
 
         expected_navigation = [
             local_url(path)
-            for path in ("/", "/people/", "/seminar/", "/publications/")
+            for path in ("/", "/seminar/", "/people/", "/publications/")
         ]
         if parser.nav_links != expected_navigation:
             errors.append(f"{label}: unexpected main navigation.")

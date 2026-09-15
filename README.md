@@ -6,64 +6,6 @@ Markdown. KaTeX renders mathematics during the build.
 The published website contains HTML, CSS, fonts, images, and a calendar
 feed. It requires no browser-side JavaScript.
 
-## First build: no local dependencies required
-
-Save the supplied files in their documented repository paths.
-
-The repository's default branch should be `main`. If it has another name,
-change the `push.branches` entry in `.github/workflows/site.yml`.
-
-Keep `demo: true` in `data/site.yaml`. Do not create the `PUBLISH_SITE`
-repository variable yet.
-
-Commit and push the files. In GitHub:
-
-1. Open the repository's **Actions** tab.
-2. Select **Build website**.
-3. Open the run triggered by your push.
-4. If a run was not triggered, select **Run workflow** on `main`.
-5. Inspect any failed step before continuing.
-6. After a successful build, download **website-preview** from the run's
-   artifacts.
-
-GitHub installs the dependencies, runs tests, fetches DBLP, builds the pages,
-and checks the output. Nothing is deployed at this stage.
-
-The workflow also commits the generated `package-lock.json` and updated
-`cache/dblp.json` when their contents change. Pull these changes before your
-next local editing session.
-
-An artifact named **generated-source-data** contains those two files as
-well, in case you need to recover them after a failed Git push.
-
-If Actions is disabled or organisation policy prevents the workflow from
-writing repository contents, adjust the repository/organisation Actions
-settings. This workflow needs permission to push its cache and lockfile
-updates. It does not force-push or bypass branch protection.
-
-## Reviewing the preview
-
-Extract the `website-preview` archive.
-
-The files constitute a complete static website. Navigation uses site-root
-URLs, so opening individual HTML files through `file://` is not a full
-navigation preview.
-
-To browse the extracted site with correct navigation, use any local static
-HTTP server. If Python is already installed, run this from the extracted
-directory:
-
-```bash
-python3 -m http.server 8000
-```
-
-Then open http://localhost:8000/.
-
-This needs no project dependencies and does not run the build. It only serves
-the HTML/CSS that GitHub has already generated and checked.
-
-Stop the server with Ctrl+C.
-
 ## Files to edit
 
 | File | Purpose |
