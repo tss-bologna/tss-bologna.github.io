@@ -41,7 +41,7 @@
   email: "Remy.Cerda@math.cnrs.fr"
   webpage: "https://www.i2m.univ-amu.fr/perso/remy.cerda/"
   dblp: "333/1354"
-  photo: null
+  photo: "https://www.unibo.it/uniboweb/utils/UserImage.aspx?IdAnagrafica=2250477&IdFoto=ead82c59"
   interests: ["lambda calculus", "proof theory", "infinitary rewriting", "coinduction", "quantitative semantics"]
   periods:
     - status: "postdoc"
@@ -55,7 +55,7 @@
   email: "ugo.dallago@unibo.it"
   webpage: "https://udallago.github.io/"
   dblp: "44/3105"
-  photo: null
+  photo: "https://www.unibo.it/uniboweb/utils/UserImage.aspx?IdAnagrafica=436368&IdFoto=9dcb7a4d"
   interests: ["programming languages", "quantitative semantics", "implicit computational complexity", "probabilistic programming"]
   periods:
     - status: "permanent"

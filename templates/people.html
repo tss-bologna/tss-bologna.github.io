@@ -13,13 +13,16 @@
     <li>
       <article class="person" id="{{ person.id }}">
         {% if site.show_photos %}
+        {% set placeholder = local_url('/images/person-placeholder.svg') %}
+        {% set photo = person.photo %}
         <div class="portrait-slot">
           <img class="portrait"
-              src="{{ local_url('/' ~ (
-                person.photo or 'images/person-placeholder.svg'
-              )) }}"
-              alt=""
-              loading="lazy">
+               src="{{ photo if photo and photo.startswith('https://') else local_url('/' ~ photo) if photo else placeholder }}"
+               data-fallback="{{ placeholder }}"
+               onerror="this.onerror = null; this.src = this.dataset.fallback;"
+               alt=""
+               loading="lazy"
+               referrerpolicy="no-referrer">
         </div>
         {% endif %}
 

@@ -54,6 +54,7 @@ from common import (
     unique_ids,
 )
 from fetch_dblp import dblp_identifier, read_overrides
+from remote_photos import photo_source
 
 
 def load_site() -> dict:
@@ -163,7 +164,11 @@ def load_people(site: dict, today, markdown: MarkdownRenderer):
         person["webpage"] = optional_url(
             person.get("webpage"), f"{where}.webpage"
         )
-        person["photo"] = static_path(person.get("photo"), f"{where}.photo")
+        person["photo"] = photo_source(
+            person.get("photo"),
+            f"{where}.photo",
+            check_remote=site["show_photos"],
+        )
         person["dblp"] = (
             dblp_identifier(person["dblp"], f"{where}.dblp")
             if person.get("dblp") is not None else None
