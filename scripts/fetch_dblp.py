@@ -182,6 +182,9 @@ class Client:
                     if final_url.scheme != "https":
                         raise SiteError(f"Non-HTTPS redirect received for {url}.")
 
+                    content_type = response.headers.get("Content-Type", "")
+                    content_encoding = response.headers.get("Content-Encoding", "")
+                    response_url = response.geturl()
                     payload = response.read(MAX_RESPONSE_BYTES + 1)
 
                 if len(payload) > MAX_RESPONSE_BYTES:
@@ -221,8 +224,13 @@ class Client:
                     # External entities and entity expansion remain disabled.
                     return ElementTree.fromstring(payload)
                 except Exception as exc:
+                    preview = repr(payload[:300])
                     raise SiteError(
-                        f"Could not parse DBLP XML from {url}: {exc}"
+                        f"Could not parse DBLP XML: {exc}\n"
+                        f"URL: {response_url}\n"
+                        f"Content-Type: {content_type!r}\n"
+                        f"Content-Encoding: {content_encoding!r}\n"
+                        f"First response bytes: {preview}"
                     ) from exc
 
             if attempt + 1 < MAX_ATTEMPTS:
