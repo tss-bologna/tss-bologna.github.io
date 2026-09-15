@@ -21,8 +21,8 @@ language: "en"
 
 # Default search-engine and social-sharing description.
 description: >-
-  An informal research community in Bologna working on programming
-  languages, semantics, concurrency, and logic.
+  A seminar gathering the research community working on programming
+  languages, semantics, concurrency, and logic in Bologna.
 
 # Display an example-content notice.
 # Set false after replacing and reviewing illustrative data.
@@ -86,20 +86,20 @@ logos:
   header:
     # Image path relative to static/, e.g. "images/group-logo.svg".
     # null displays a rectangular placeholder.
-    src: null
+    src: "images/unibo_notext.png"
 
     # Accessible alternative text for the image.
-    alt: "Group logo"
+    alt: "University of Bologna logo"
 
     # Optional link destination; null means no link.
-    url: null
+    url: "null"
 
   # Footer logos, in display order.
   footer:
-    - src: null
+    - src: "images/unibo_text.png"
       alt: "University of Bologna logo"
-      url: "https://www.unibo.it/"
+      url: "https://www.disi.unibo.it/"
 
-    - src: null
-      alt: "Partner logo"
-      url: null
+    - src: "images/inria.png"
+      alt: "Inria logo"
+      url: "https://www.inria.fr/fr/olas"
