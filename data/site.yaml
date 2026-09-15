@@ -92,7 +92,7 @@ logos:
     alt: "University of Bologna logo"
 
     # Optional link destination; null means no link.
-    url: "null"
+    url: null
 
   # Footer logos, in display order.
   footer:
