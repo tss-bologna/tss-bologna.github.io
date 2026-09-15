@@ -1,4 +1,4 @@
-- Usual date and time: every two weeks, on Wednesday at 14:00. All talk times are shown in Bologna local time (Europe/Rome).
+- Usual date and time: every two weeks, on Wednesday at 14:00 (Bologna local time).
 - Usual location:
   [mura Anteo Zamboni 7](https://www.openstreetmap.org/way/149787788),
   basement, aula Seminari 2. Check each announcement for its actual location.
