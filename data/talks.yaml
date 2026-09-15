@@ -1,145 +1,457 @@
-# Seminar talks
-# =============
-# Each record describes one talk. File order does not matter.
-# Fields are documented alongside the first record.
+# Talk template: copy the block below, remove its outer "# " prefix, and fill it in.
+# Times are local to Europe/Rome, including daylight-saving time.
+# Keep records in reverse chronological order, including time within each day.
+# Migration: omitted PHP durations have been filled with 60 minutes, following
+# the source template. Explicit 30- and 45-minute durations are preserved.
 #
-# Display follows the original PHP page:
-# - Upcoming talks are ordered earliest first.
-# - Past talks are ordered latest first.
-# - A talk becomes past at its starting time.
-# - Warnings appear only for upcoming talks.
-# - Missing speaker: the entire speaker/title line becomes "TBA".
-# - Missing title with a known speaker: the title becomes "TBA".
-# - Abstracts are optional and collapsed by default.
-# - Slides and additional links appear beside the title.
-#
-# Date-dependent behaviour is evaluated at build time.
-# Date-times use the timezone configured in site.yaml (Europe/Rome).
-# Quote all date and date-time values.
-#
-# Ordinary text fields are plain text. Abstracts support Markdown and
-# mathematics: $...$ inline, $$...$$ on separate lines for display math.
+# # Stable page anchor, used for links such as /seminar/#2627-example.
+# - id: "2627-example"
+#   # Stable calendar UID; preserve it when rescheduling or editing a talk.
+#   uid: "2627-example@seminar.cs.unibo.it"
+#   # Last modification timestamp, as a quoted YYYY-MM-DD HH:MM.
+#   lastmod: "2026-MM-DD HH:MM"
+#   # Calendar revision number; increase when changing an existing event.
+#   sequence: 0
+#   # Start timestamp, as a quoted YYYY-MM-DD HH:MM; replace the placeholders.
+#   datetime: "2026-MM-DD 14:00"
+#   # Duration in minutes; 60 is the usual duration.
+#   duration: 60
+#   # Explicit location for this talk; there is no shared default room.
+#   location: "ROOM TO FILL"
+#   # Optional warning; displayed only while the talk is upcoming.
+#   warning: null
+#   # Speaker name; null displays TBA instead of the speaker/title line.
+#   speaker: null
+#   # Optional HTTP(S) link on the speaker's name.
+#   speaker_url: null
+#   # Speaker affiliation as it was at the time of the talk; empty if unknown.
+#   affiliation: ""
+#   # Talk title; null displays TBA when a speaker is known.
+#   title: null
+#   # Abstract in Markdown, shown in a collapsed Abstract section; null hides it.
+#   # For several paragraphs, use a literal block: abstract: |- followed by
+#   # text indented four spaces, with blank lines between paragraphs.
+#   abstract: null
+#   # Optional HTTP(S) link to slides.
+#   slides: null
+#   # Optional additional HTTP(S) link, such as a paper or project page.
+#   url: null
 
-# Stable HTML anchor. This talk will be linked as /seminar/#2526-leblanc1.
 - id: "2526-leblanc1"
-
-  # Stable iCalendar UID. Preserve existing UIDs when migrating talks.
-  # Never change a UID when rescheduling or correcting an existing talk.
   uid: "2526-leblanc1@seminar.cs.unibo.it"
-
-  # Last substantive modification, in local time: "YYYY-MM-DD HH:MM".
-  # Required. Update when changing the event, not on every website build.
-  last_modified: "2026-08-01 00:00"
-
-  # iCalendar revision number. Default: 0.
-  # Increment when changing an already published calendar event.
+  lastmod: "2026-08-01 00:00"
   sequence: 0
-
-  # Required starting date and time, in local time.
   datetime: "2026-07-01 14:30"
-
-  # Duration in minutes. Defaults to seminar.duration_minutes in site.yaml.
-  duration_minutes: 30
-
-  # Plain-text location. Defaults to seminar.location in site.yaml.
-  # Use "" to suppress the location. Do not use HTML entities.
-  location: "aula Seminari 2"
-
-  # Optional warning, shown in red beside the location for upcoming talks.
-  # Examples: "Unusual time", "Room changed". Default: null.
+  duration: 30
+  location: "aula Seminari 2"
   warning: null
-
-  # Speaker's name. Default: null, displayed as "TBA".
   speaker: "Travis Leblanc"
-
-  # Optional speaker webpage. Default: null.
   speaker_url: null
-
-  # Speaker affiliation, displayed in parentheses when nonempty.
-  # Default: "".
   affiliation: "ENS Paris-Saclay"
-
-  # Talk title, as plain text. Default: null, displayed as "TBA".
   title: "Interaction is invariant after all"
-
-  # Optional Markdown abstract. Default: null; no disclosure is shown.
-  # YAML's >- joins wrapped lines into paragraphs.
-  # Use |- when preserving line breaks matters, e.g. for display math.
-  abstract: >-
-    The (lambda) Interaction Abstract Machine (IAM) is an abstract machine
-    for the untyped lambda calculus inspired by Girard's Geometry of
-    Interaction. It was thought by the literature to be time inefficient
-    but space efficient. We show, at the contrary, that the lambda IAM is
-    an invariant cost model for time, and argue for its space inefficiency.
-
-  # Optional slides URL. Default: null.
+  abstract: |-
+    The (lambda) Interaction Abstract Machine (IAM) is an abstract machine for the untyped lambda
+    calculus inspired by Girard's Geometry of Interaction. It was thought by the literature to be
+    time inefficient but space efficient. We show, at the contrary, that the lambda IAM is an
+    invariant cost model for time, and argue for its space inefficiency.
   slides: null
-
-  # Optional additional URL, labelled "url", as in the PHP page.
-  # Default: null.
   url: null
 
-  # Optional video URL, labelled "video". Default: null.
-  video: null
-
-  # Optional public remote-attendance URL. Default: null.
-  # Leave absent when the link is distributed only by email.
-  online_url: null
-
-  # Cancellation flag. Default: false.
-  # Cancelled events remain listed and exported with calendar status
-  # CANCELLED, but are excluded from Home's "Next seminar".
-  # Update last_modified and increment sequence when cancelling.
-  cancelled: false
-
-# Illustrative future talk demonstrating defaults and mathematics.
-# Omitted optional fields take the defaults documented above.
-- id: "2627-example-types"
-  uid: "2627-example-types@seminar.cs.unibo.it"
-  last_modified: "2026-09-14 12:00"
-  datetime: "2026-10-14 14:00"
-  location: "aula Seminari 2"
-  speaker: "Alex Example"
-  affiliation: "Example University"
-  title: "Types, programs, and proofs"
+- id: "2526-capelli"
+  uid: "2526-capelli@seminar.cs.unibo.it"
+  lastmod: "2026-08-01 00:00"
+  sequence: 0
+  datetime: "2026-07-01 14:00"
+  duration: 30
+  location: "aula Seminari 2"
+  warning: null
+  speaker: "Marius Capelli"
+  speaker_url: null
+  affiliation: "ENS PSL"
+  title: "Model checking of higher order effectful programs"
   abstract: |-
-    This is an illustrative abstract for testing the website.
+    In the setting of monomorphic effects handlers the reachabily property is known to be
+    undecidable. We propose a type system to restrict it to a decidable set of programs, and compare
+    it to other existing solutions.
+  slides: null
+  url: null
 
-    We discuss judgements such as $\Gamma \vdash t : A$ and the
-    relationship between programs and proofs.
+- id: "2526-lanese"
+  uid: "2526-lanese@seminar.cs.unibo.it"
+  lastmod: "2026-08-01 00:00"
+  sequence: 0
+  datetime: "2026-06-24 14:00"
+  duration: 60
+  location: "aula Seminari 2"
+  warning: null
+  speaker: "Ivan Lanese"
+  speaker_url: "https://www.cs.unibo.it/~lanese/"
+  affiliation: "Unibo"
+  title: "On the Encodability of Reversible Process Calculi"
+  abstract: |-
+    Reversibility, allowing one to execute a program not only forwards as usual, but also backwards,
+    has emerged as a main concept in computing, with applications ranging from debugging and fault
+    tolerance to biological and quantum systems. CCSK, a reversible extension of CCS, is a
+    paradigmatic model of reversible concurrent computation. In this paper, we investigate the
+    encodability of CCSK into classical forward-only concurrent models. We establish a separation
+    theorem showing that there is no basic, success-sensitive encoding of CCSK into CCS or the
+    π-calculus, highlighting the strong impact of reversibility on the expressive power. We then
+    present an encoding of CCSK processes with only top-level parallel composition into the internal
+    π-calculus, correct up to strong bisimilarity. We also identify a fundamental limitation: no
+    parallel-preserving encoding of CCSK (with arbitrary parallel composition) into the π-calculus
+    can be correct up to strong bisimilarity. Finally, we provide a parallel-preserving encoding
+    correct under a weaker behavioural correspondence: weak mutual simulation. Our findings extend
+    the literature of encodability results to reversible process calculi.
+  slides: null
+  url: null
 
-    $$
-    \frac{\Gamma, x:A \vdash t:B}
-         {\Gamma \vdash \lambda x.t : A \to B}
-    $$
+- id: "2526-patrignani"
+  uid: "2526-patrignani@seminar.cs.unibo.it"
+  lastmod: "2026-08-01 00:00"
+  sequence: 0
+  datetime: "2026-06-16 11:00"
+  duration: 60
+  location: "aula Seminari 2"
+  warning: "unusual day and time!"
+  speaker: "Marco Patrignani"
+  speaker_url: "https://squera.github.io/"
+  affiliation: "Università di Trento"
+  title: "Universal Composability is Robust Compilation"
+  abstract: |-
+    This talk discusses the relationship between two frameworks: universal composability (UC) and
+    robust compilation (RC).
 
-    The talk assumes familiarity with the lambda calculus.
+    In cryptography, UC is a framework for the specification and analysis of cryptographic protocols
+    with a strong compositionality guarantee: UC protocols remain secure even when composed with
+    other protocols.
 
-# Illustrative slot with no confirmed speaker or title: displays "TBA".
-- id: "2627-example-tba"
-  uid: "2627-example-tba@seminar.cs.unibo.it"
-  last_modified: "2026-09-14 12:00"
-  datetime: "2026-10-28 14:00"
+    In programming language security, RC is a novel framework for determining secure compilation by
+    proving whether compiled programs are as secure as their source-level counterparts no matter
+    what target-level code they interact with.
+
+    Presently, these disciplines are studied in isolation, though we argue that there is a deep
+    connection between them and exploring this connection will benefit both research fields.
+
+    This talk formally explores the benefits of this connection (focussing on perfect, rather than
+    computational UC).
+
+    This connection lays the groundwork towards a better and deeper understanding of both UC and RC,
+    and the benefits we showcase from this connection provide evidence of scalable mechanised proofs
+    for UC.
+  slides: null
+  url: null
+
+- id: "2526-peyrot"
+  uid: "2526-peyrot@seminar.cs.unibo.it"
+  lastmod: "2026-08-01 00:00"
+  sequence: 0
+  datetime: "2026-06-10 11:00"
+  duration: 60
+  location: "aula Busi"
+  warning: "unusual time and room!"
+  speaker: "Loïc Peyrot"
+  speaker_url: "https://software.imdea.org/people/loic.peyrot/"
+  affiliation: "IMDEA Software Institute, Madrid"
+  title: "Foundations for Liquid Haskell Through a Translation to Rocq"
+  abstract: |-
+    Liquid Haskell (LH) is a plugin for the Haskell compiler that enables augmenting the
+    specifications of types with refinement: logical predicates (written in Haskell) restricting the
+    domain of the types. Specifications are automatically checked by an SMT solver, thus offering
+    lightweight specification directly within an industrial-strength language.
+
+    But several unsoundness bugs are unveiled every year, thus raising the question of trust in the
+    verification and the necessity for formalized semantics of LH. Giving foundations is complicated
+    by the interaction between two semantic levels in the language: the computational one and the
+    logical one (of predicates). While the first one is better understood, no formal accounts of the
+    logical component has been proposed for a refinement type system, due to its complexity and
+    reliance on the external SMT solver.
+
+    Our approach is to give a semantics in terms of a translation to a depently-typed system, namely
+    Rocq. This way, both the computational and logical parts are translated in the same language,
+    with a well-understood semantics. We will see in particular how the dual semantics of LH objects
+    must be reflected in the translation.
+
+    The translation is implemented in Haskell and comes with a Rocq library including powerful proof
+    automation replacing the SMT solver. Thus, on the practical level, this tool serves as a
+    certificate checker for the supported subset of LH.
+  slides: null
+  url: null
+
+- id: "2526-pizzo"
+  uid: "2526-pizzo@seminar.cs.unibo.it"
+  lastmod: "2026-08-01 00:00"
+  sequence: 0
+  datetime: "2026-06-03 11:00"
+  duration: 60
+  location: "aula Seminari 2"
+  warning: "unusual time!"
+  speaker: "Nicolò Pizzo"
+  speaker_url: "https://www.unibo.it/sitoweb/nicolo.pizzo2"
+  affiliation: "Unibo"
+  title: "A reversible Crumbling Abstract Machine for Plotkin's Call-by-Value"
+  abstract: |-
+    Landauer's embeddings enable the reversibility of each computational step for non-reversible
+    programming languages, augmenting each intermediate state with enough data to reconstruct the
+    previous state.
+
+    An interesting research question is therefore to try to reduce the required space overhead: in
+    this talk I will present a compact Landauer’s embedding for Plotkin’s call-by-value calculus
+    (CbV), implemented via an Abstract Crumbling Machine, a reduction machine for λ-calculus where
+    the sequence of explicit substitutions in the environment encode both the evaluation order and
+    the reduction context. Therefore, crumbling machines are both extremely parsimonious in data
+    structures, and do not need to be modified to work on different reduction orders.
+  slides: null
+  url: null
+
+- id: "2526-trogni"
+  uid: "2526-trogni@seminar.cs.unibo.it"
+  lastmod: "2026-08-01 00:00"
+  sequence: 0
+  datetime: "2026-05-27 14:45"
+  duration: 45
+  location: "aula Busi"
+  warning: null
+  speaker: "Lea Trogni"
+  speaker_url: null
+  affiliation: "Università di Milano"
+  title: "Barbed Similarity for the π-Calculus in Beluga: A Case Study in Coinductive Reasoning"
+  abstract: |-
+    The Concurrent Calculi Formalization Benchmark is a set of benchmark problems designed to
+    evaluate the formalization of models of concurrent systems. In particular, its third challenge
+    investigates the mechanization of coinductive reasoning, taking the context lemma for barbed
+    congruence in the π-calculus as a case study. We provide a solution to this challenge in Beluga,
+    a proof assistant that features higher-order abstract syntax (HOAS), copattern-based
+    coinduction, and built-in simultaneous substitutions. To capture infinite behaviour, we consider
+    a fragment of the π-calculus with replication. Our development demonstrates the effectiveness of
+    HOAS even in the presence of contexts that are not α-convertible, and includes formal proofs of
+    some compatibility properties.
+  slides: null
+  url: null
+
+- id: "2526-cecilia"
+  uid: "2526-cecilia@seminar.cs.unibo.it"
+  lastmod: "2026-08-01 00:00"
+  sequence: 0
+  datetime: "2026-05-27 14:00"
+  duration: 45
+  location: "aula Busi"
+  warning: null
+  speaker: "Gabriele Cecilia"
+  speaker_url: "https://gabrielececilia.github.io/"
+  affiliation: "Augusta University"
+  title: "Formalizing reversible concurrent calculi in Beluga"
+  abstract: |-
+    Reversible concurrent calculi are abstract models of concurrent systems in which any action can
+    potentially be undone. Over the last few decades, different formalisms have been developed and
+    their mathematical properties have been explored; however, until recently, none had been
+    machine-checked in a proof assistant. This talk presents an overview of the first formalization
+    in the proof assistant Beluga of two reversible extensions of the Calculus of Communicating
+    Systems (CCS), namely CCS with Keys (CCSK) and CCS with Keys and Proof labels (CCSKP). The
+    formalized results include the existence of a bijection between the transition systems of the
+    two calculi, the proof that they satisfy the core axioms and properties of the axiomatic
+    approach to reversibility, and several properties of the relations of dependence, independence
+    and connectivity of proof labels. As is often the case with formalizations, the encoding
+    introduces adjustments to the informal proofs and makes explicit details which were previously
+    only sketched, some of which reveal to be less straightforward than initially assumed.
+  slides: null
+  url: null
+
+- id: "2526-vergnani"
+  uid: "2526-vergnani@seminar.cs.unibo.it"
+  lastmod: "2026-08-01 00:00"
+  sequence: 0
+  datetime: "2026-05-06 14:00"
+  duration: 60
+  location: "aula Busi"
+  warning: null
+  speaker: "Mauro Vergnani"
+  speaker_url: null
+  affiliation: "Unibo"
+  title: "FaaSChalCore, a Formal Choreographic Language for Function as a Service"
+  abstract: |-
+    Modern computing relies more than ever on two aspects: concurrency, the performance of multiple
+    tasks at the same time; and distribution, the usage of components located on different
+    communicating devices. This is due to the rising importance of the World Wide Web, the Internet
+    of Things, and telecommunications, and due to the rising popularity of edge computing and cloud
+    computing, all of which lead to larger computer networks. Cloud computing in particular is one
+    of the main environments where distributed systems run, since it allows for greater scalability
+    and easier management of resources. One of the main design approaches used with cloud computing
+    is serverless computing with Function as a Service, which consists of defining functions with
+    specific triggers, letting the cloud provider handle their instantiation when they are
+    triggered. For these reasons we have defined FaaSChalCore, a formal choreographic language
+    tailored for Function as a Service, which allows the programmer to define the behaviour of the
+    entire system in a single program. In this seminar we will go over the defining elements of the
+    language, the design decisions behind them, and the formal properties that FaaSChalCore
+    possesses, with a focus on how the language handles serverless functions.
+  slides: null
+  url: null
+
+- id: "2526-leblanc"
+  uid: "2526-leblanc@seminar.cs.unibo.it"
+  lastmod: "2026-08-01 00:00"
+  sequence: 0
+  datetime: "2026-04-29 14:00"
+  duration: 60
+  location: "aula Busi"
+  warning: null
+  speaker: "Travis Leblanc"
+  speaker_url: null
+  affiliation: "ENS Paris-Saclay"
+  title: "A small extension to SIMREC"
+  abstract: |-
+    SIMREC is a language proven to be sound and complete for PTIME by Dal Lago and Avanzini. The
+    main features are algebraic data types and mutually recursive functions. We will see how it
+    works and present a small extension to the language as well as some non-trivial examples written
+    in the language.
+  slides: null
+  url: "https://github.com/TravisLEBLANC1/FaustML"
+
+- id: "2526-dallago"
+  uid: "2526-dallago@seminar.cs.unibo.it"
+  lastmod: "2026-08-01 00:00"
+  sequence: 0
+  datetime: "2026-03-18 14:00"
+  duration: 60
+  location: "aula Busi"
+  warning: null
+  speaker: "Ugo Dal Lago"
+  speaker_url: "https://udallago.github.io"
+  affiliation: "Unibo"
+  title: "(Implicitly) Characterizing Probabilistic Polynomial Time as Used in Cryptography"
+  abstract: |-
+    We show that a recently introduced lambda-calculus for randomized computation, called lambdaBLL,
+    can accurately capture the notions of first- and second-order polytime computations used in
+    cryptographic definitions and proofs. These results, spelled out in the style of so-called
+    implicit computational complexity, imply that lambdaBLL is sufficiently powerful to express
+    experiments and adversaries as used in cryptography, and that reductions, when formulated within
+    the calculus, are guaranteed to be complexity-preserving. Remarkably, while polynomial-time
+    soundness holds for the full calculus, polynomial-time completeness already follows in presence
+    of a minimal and finite set of basic functions.
+  slides: null
+  url: null
+
+- id: "2526-quemerais"
+  uid: "2526-quemerais@seminar.cs.unibo.it"
+  lastmod: "2026-08-01 00:00"
+  sequence: 0
+  datetime: "2026-03-04 17:00"
+  duration: 60
   location: "aula Seminari 2"
+  warning: null
+  speaker: "Iwan Quémerais"
+  speaker_url: null
+  affiliation: "ENS de Lyon"
+  title: "First-order store and visibility in the π-calculus"
+  abstract: |-
+    The π-calculus is the paradigmatical name-passing calculus. While being purely name-passing, it
+    allows the representation of higher-order functions and store. In this talk I will explain how
+    π-calculus processes can be controlled so that computations can only involve storage of
+    first-order values. The discipline is enforced by a type system that is based on the notion of
+    visibility, coming from game semantics. I will discuss the impact of visibility on the
+    behavioural theory and present a characterisations of barbed equivalence, based on a variant of
+    labelled bisimilarity, in the case where computation is sequential.
+  slides: null
+  url: null
 
-# Illustrative talk with a known speaker, missing title, and unusual time.
-- id: "2627-example-unusual-time"
-  uid: "2627-example-unusual-time@seminar.cs.unibo.it"
-  last_modified: "2026-09-14 12:00"
-  datetime: "2026-11-11 15:00"
-  location: "aula Seminari 2"
-  warning: "Unusual time"
-  speaker: "Robin Example"
-  affiliation: "Example Research Institute"
+- id: "2526-gavazzo"
+  uid: "2526-gavazzo@seminar.cs.unibo.it"
+  lastmod: "2026-08-01 00:00"
+  sequence: 0
+  datetime: "2026-02-18 11:00"
+  duration: 60
+  location: "aula Busi"
+  warning: null
+  speaker: "Francesco Gavazzo"
+  speaker_url: "https://sites.google.com/view/francescogavazzo/home"
+  affiliation: "Università di Padova"
+  title: "Topics in Intensional Rewriting"
+  abstract: |-
+    Classic rewriting theory studies the computational content of syntactic objects as generated by
+    transformational rules, generically referred to as reductions. Many such objects---such as
+    programs, types, and proofs---however, exhibit operational behaviours that significantly go
+    beyond pure computation. Examples of such behaviours include interaction with the environment,
+    resource consumption, and, more generally, computational effects and coeffects.
 
-# Illustrative cancellation retained for calendar subscribers.
-- id: "2627-example-cancelled"
-  uid: "2627-example-cancelled@seminar.cs.unibo.it"
-  last_modified: "2026-09-14 12:00"
-  sequence: 1
-  datetime: "2026-11-25 14:00"
-  location: "aula Seminari 2"
-  speaker: "Taylor Example"
-  affiliation: "Example University"
-  title: "Reasoning about communicating processes"
-  cancelled: true
+    Accounting for these intensional behaviours requires enriching the classic notion of reduction
+    in nontrivial ways, yielding to intensional notions of reduction, such as  monadic and
+    quantitative reductions, along with the corresponding theories of rewriting.
+
+    In this talk, after introducing the aforementioned notions of intensional rewriting, I will give
+    an overview of various open problems and research directions in these areas, hinting at
+    potential solutions and developments where possible. While the literature on rewriting tends to
+    privilege syntactic approaches (and, more rarely, geometrical ones), I will argue that an
+    algebraic approach to reduction naturally emerges as a unifying pattern behind different forms
+    of rewriting.
+  slides: null
+  url: null
+
+- id: "2526-cerda"
+  uid: "2526-cerda@seminar.cs.unibo.it"
+  lastmod: "2026-08-01 00:00"
+  sequence: 0
+  datetime: "2026-02-04 11:00"
+  duration: 60
+  location: "aula Busi"
+  warning: null
+  speaker: "Rémy Cerda"
+  speaker_url: "https://www.i2m.univ-amu.fr/perso/remy.cerda/"
+  affiliation: "Unibo"
+  title: "Infinitary rewriting for the linear approximation of functional programs"
+  abstract: |-
+    A standard technique in λ-calculus is *continuous* program approximation, where the semantics of
+    a program is described as a limit of finite approximants. It can be refined into a *linear*
+    approximation where an operation of Taylor expansion takes a program to a power series of finite
+    approximants. In this talk, I rebuild this longstanding line of work using what can arguably be
+    presented as the “missing ingredient”, infinitary rewriting. Depending on the time remaining and
+    the wishes of the audience, I will show a few other interesting results or questions around the
+    lines of an infinitary Curry-Howard correspondence.
+  slides: "https://www.i2m.univ-amu.fr/perso/remy.cerda/fichiers/exposes/taylor-bologna.pdf"
+  url: null
+
+- id: "2526-lancelot"
+  uid: "2526-lancelot@seminar.cs.unibo.it"
+  lastmod: "2026-08-01 00:00"
+  sequence: 0
+  datetime: "2026-01-21 11:00"
+  duration: 60
+  location: "aula Busi"
+  warning: null
+  speaker: "Adrienne Lancelot"
+  speaker_url: "https://www.irif.fr/users/lancelot/index"
+  affiliation: "Unibo"
+  title: "Interaction Equivalence"
+  abstract: |-
+    Contextual equivalence is the de facto standard notion of program equivalence. A key theorem is
+    that contextual equivalence is an equational theory. Making contextual equivalence more
+    intensional, for example taking into account the time cost of the computation, seems a natural
+    refinement. Such a change, however, does not induce an equational theory, for an apparently
+    essential reason: cost is not invariant under reduction.
+
+    In the paradigmatic case of the untyped λ-calculus, we introduce interaction equivalence.
+    Inspired by game semantics, we observe the number of interaction steps between terms and
+    contexts but — crucially — ignore their own internal steps. We prove that interaction
+    equivalence is an equational theory and we characterize it as B, the well-known theory induced
+    by Böhm tree equality. Ours is the first observational characterization of B obtained without
+    enriching the discriminating power of contexts with extra features such as non-determinism. To
+    prove our results, we develop interaction-based refinements of the Böhm-out technique and of
+    intersection types.
+
+    See [the paper](https://dl.acm.org/doi/10.1145/3704891).
+  slides: "https://www.irif.fr/_media/users/lancelot/bologna_seminar_jan2025.pdf"
+  url: null
+
+- id: "2526-issa"
+  uid: "2526-issa@seminar.cs.unibo.it"
+  lastmod: "2026-08-01 00:00"
+  sequence: 0
+  datetime: "2025-11-19 14:00"
+  duration: 60
+  location: "aula Busi"
+  warning: null
+  speaker: "Jad Issa"
+  speaker_url: "https://jad-issa.com/pages/jad-issa.html"
+  affiliation: "CEA Paris-Saclay, Université de Lorraine"
+  title: "Static analysis of quantum/classical programs using hybrid path-sums"
+  abstract: null
+  slides: null
+  url: null
