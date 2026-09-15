@@ -21,7 +21,7 @@
 
   {% if publication.authors %}
   <div class="publication-authors">
-    {{ publication.authors | join(', ') }}
+    {{ publication.authors_display | join(', ') }}
   </div>
   {% endif %}
 

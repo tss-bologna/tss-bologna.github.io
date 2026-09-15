@@ -18,6 +18,7 @@ from __future__ import annotations
 import argparse
 import json
 import os
+import re
 import shutil
 import sys
 import tempfile
@@ -662,6 +663,10 @@ def build(now_override: str | None = None) -> None:
             publication["title"],
             f"publication {publication['key']}.title",
         )
+        publication["authors_display"] = [
+            re.sub(r" \d{4}(?= \(ed\.\)$|$)", "", name)
+            for name in publication["authors"]
+        ]
 
     content = {}
     for name in ("home", "seminar", "internal", "legal"):
