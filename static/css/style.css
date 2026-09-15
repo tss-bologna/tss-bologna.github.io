@@ -499,9 +499,9 @@ details[open] > summary {
 }
 
 .footer-logo {
-  width: 5rem;
-  height: 3rem;
+  height: 2rem;
   object-fit: contain;
+  padding-right: 1rem;
 }
 
 /* Smaller screens */

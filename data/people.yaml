@@ -1,149 +1,245 @@
 # People
 # ======
-# Each record describes one person.
-# Fields are documented alongside the first record; later records reuse them.
-# Optional fields may be omitted.
+# Each record describes one person. They are sorted by last name.
+
+# Person template: copy this block, remove its outer "# " prefix, and fill it in.
+# Use unquoted null for absent optional values. Dates must be quoted YYYY-MM-DD.
 #
-# Current people are grouped by the status of their active period, then
-# sorted by last name and first name.
-# Former people have past periods but no active period.
-# People with only future periods are not displayed yet.
+# # Unique, stable identifier; preserve it once used in links or other data.
+# - id: "first-last"
+#   # Given name, preserving accents.
+#   first_name: "First"
+#   # Family name, including particles; entries are sorted by this field.
+#   last_name: "Last"
+#   # Display text with Markdown links; separate affiliations with semicolons.
+#   affiliations: "[Unibo](https://www.unibo.it/)"
+#   # Public professional contact address; null hides the email link.
+#   email: null
+#   # Personal or institutional HTTP(S) profile URL; null hides the link.
+#   webpage: null
+#   # DBLP PID without URL prefix or .html; null disables lookup.
+#   dblp: null
+#   # Portrait path relative to static/; null uses the default SVG.
+#   # The global show_photos option controls whether photos appear.
+#   photo: null
+#   # List of research tags, e.g. ["lambda calculus", "type theory"].
+#   interests: []
+#   # Participation periods here; add entries for returns or status changes.
+#   # Include earlier eligible periods for correct publication selection.
+#   periods:
+#     # Status key: permanent, postdoc, phd, visitor, or external.
+#     - status: "phd"
+#       # First day of this participation period; replace TODO before building.
+#       arrival: "TODO"
+#       # Last day of the period; null denotes an ongoing period.
+#       departure: null
 
-# Stable identifier, also used as the person's HTML anchor.
-# Use lowercase letters, digits, and hyphens. Do not change after publishing.
-- id: davide-sangiorgi
-
-  # Given name and surname, stored separately for sorting.
-  first_name: "Davide"
-  last_name: "Sangiorgi"
-
-  # Display affiliations as Markdown, allowing links and arbitrary wording.
-  # This text does not control publication selection.
-  affiliations: >-
-    Professor @ [Unibo](https://www.unibo.it/)
-
-  # Optional email address. null means no email link.
-  email: null
-
-  # Optional personal webpage URL.
-  webpage: "https://www.cs.unibo.it/~sangio/"
-
-  # DBLP person identifier: the portion between /pid/ and .html.
-  # null means no automatic publication fetching for this person.
-  # Verified via the bibliography link on the personal webpage above.
-  dblp: "s/DavideSangiorgi"
-
-  # Optional portrait path relative to static/.
-  # Example: "images/people/davide-sangiorgi.jpg".
-  # Omitted or null uses the default SVG placeholder.
-  # All portraits are hidden when site.show_photos is false.
+- id: "cerda"
+  first_name: "Rémy"
+  last_name: "Cerda"
+  affiliations: "[Unibo](https://www.unibo.it/)"
+  email: "Remy.Cerda@math.cnrs.fr"
+  webpage: "https://www.i2m.univ-amu.fr/perso/remy.cerda/"
+  dblp: "333/1354"
   photo: null
-
-  # Optional list of plain-text research tags. Default: [].
-  # Tags are displayed without filtering controls.
-  interests:
-    - concurrency
-    - semantics
-    - verification
-
-  # Periods of participation, including returns and changes of status.
-  # Periods must not overlap for a given person.
-  # Split a continuous stay into adjacent periods when status changes.
+  interests: ["lambda calculus", "proof theory", "infinitary rewriting", "coinduction", "quantitative semantics"]
   periods:
-    # Status identifier defined in site.yaml.
-    - status: permanent
-
-      # First included day, as a quoted ISO date.
-      # EXAMPLE ONLY: replace with the actual arrival date.
-      arrival: "2020-01-01"
-
-      # Last included day, or null for an ongoing period.
-      # A following adjacent period starts on the next calendar day.
+    - status: "postdoc"
+      arrival: "2025-11-01"
       departure: null
 
-# Fictional postdoctoral researcher.
-- id: sam-example
-  first_name: "Sam"
-  last_name: "Example"
-  affiliations: "[University of Bologna](https://www.unibo.it/)"
-  email: "sam@example.org"
-  webpage: null
-  dblp: null
+- id: "dallago"
+  first_name: "Ugo"
+  last_name: "Dal Lago"
+  affiliations: "Prof. [Unibo](https://www.unibo.it/); [Inria OLAS](https://www.inria.fr/en/olas)"
+  email: "ugo.dallago@unibo.it"
+  webpage: "https://udallago.github.io/"
+  dblp: "44/3105"
   photo: null
-  interests:
-    - type theory
-    - proof assistants
+  interests: ["programming languages", "quantitative semantics", "implicit computational complexity", "probabilistic programming"]
   periods:
-    - status: postdoc
-      arrival: "2025-10-01"
+    - status: "permanent"
+      arrival: "2015-01-01"
       departure: null
 
-# Fictional PhD student.
-- id: charlie-example
-  first_name: "Charlie"
-  last_name: "Example"
-  affiliations: "[University of Bologna](https://www.unibo.it/)"
-  email: null
-  webpage: null
-  dblp: null
+- id: "gavazzo"
+  first_name: "Francesco"
+  last_name: "Gavazzo"
+  affiliations: "Asst. Prof. [University of Padua](https://www.unipd.it/en/)"
+  email: "francesco.gavazzo@unipd.it"
+  webpage: "https://sites.google.com/view/francescogavazzo/"
+  dblp: "199/1997"
   photo: null
-  interests:
-    - probabilistic programming
+  interests: ["program semantics", "computational effects", "relational reasoning", "coinduction"]
   periods:
-    - status: phd
-      arrival: "2024-11-01"
+    - status: "external"
+      arrival: "2015-11-01"
       departure: null
 
-# Fictional visitor with two separate stays.
-# Visitor periods do not contribute to automatic publication selection.
-- id: taylor-example
-  first_name: "Taylor"
-  last_name: "Example"
-  affiliations: "Example University"
-  email: null
-  webpage: null
-  dblp: null
+- id: "giallorenzo"
+  first_name: "Saverio"
+  last_name: "Giallorenzo"
+  affiliations: "Asst. Prof. [Unibo](https://www.unibo.it/); [Inria OLAS](https://www.inria.fr/en/olas)"
+  email: "saverio.giallorenzo@unibo.it"
+  webpage: "https://www.saveriogiallorenzo.com/"
+  dblp: "146/2078"
   photo: null
-  interests:
-    - programming languages
+  interests: ["programming languages", "process calculi", "choreographic programming", "microservices", "session types"]
   periods:
-    - status: visitor
-      arrival: "2024-03-01"
-      departure: "2024-05-31"
-    - status: visitor
-      arrival: "2026-09-01"
-      departure: "2026-12-31"
-
-# Fictional external collaborator.
-# Dates describe participation in this community, not employment in Bologna.
-# External periods do not contribute to automatic publication selection.
-- id: morgan-example
-  first_name: "Morgan"
-  last_name: "Example"
-  affiliations: "Example Research Institute"
-  email: null
-  webpage: null
-  dblp: null
-  photo: null
-  interests:
-    - logic
-  periods:
-    - status: external
-      arrival: "2023-01-01"
+    - status: "permanent"
+      arrival: "2020-07-01"
       departure: null
 
-# Fictional former researcher, displayed in the compact former-people section.
-# Past eligible periods still contribute to publication selection.
-- id: jamie-example
-  first_name: "Jamie"
-  last_name: "Example"
-  affiliations: ""
+- id: "golpayegani"
+  first_name: "Mehdi"
+  last_name: "Golpayegani"
+  affiliations: "[Inria OLAS](https://www.inria.fr/en/olas)"
   email: null
   webpage: null
   dblp: null
   photo: null
   interests: []
   periods:
-    - status: postdoc
-      arrival: "2023-01-01"
-      departure: "2025-12-31"
+    - status: "phd"
+      arrival: "2025-11-01"
+      departure: null
+
+- id: "lancelot"
+  first_name: "Adrienne"
+  last_name: "Lancelot"
+  affiliations: "[Unibo](https://www.unibo.it/)"
+  email: "adrienne.lancelot@unibo.it"
+  webpage: "https://adrilancelot.github.io/"
+  dblp: "342/7235"
+  photo: null
+  interests: ["lambda calculus", "operational semantics", "denotational semantics", "game semantics"]
+  periods:
+    - status: "postdoc"
+      arrival: "2025-12-01"
+      departure: null
+
+- id: "lanese"
+  first_name: "Ivan"
+  last_name: "Lanese"
+  affiliations: "Ass. Prof. [Unibo](https://www.unibo.it/); [Inria OLAS](https://www.inria.fr/en/olas)"
+  email: "ivan.lanese@unibo.it"
+  webpage: "https://www.cs.unibo.it/~lanese/"
+  dblp: "56/3713"
+  photo: null
+  interests: ["formal methods", "reversible computing", "distributed systems", "choreographies"]
+  periods:
+    - status: "permanent"
+      arrival: "2006-01-11"
+      departure: null
+
+- id: "laneve"
+  first_name: "Cosimo"
+  last_name: "Laneve"
+  affiliations: "Prof. [Unibo](https://www.unibo.it/)"
+  email: "cosimo.laneve@unibo.it"
+  webpage: "https://www.cs.unibo.it/~laneve/"
+  dblp: "l/CosimoLaneve"
+  photo: null
+  interests: ["programming languages", "static analysis", "concurrency", "program semantics"]
+  periods:
+    - status: "permanent"
+      arrival: "2002-01-01"
+      departure: null
+
+- id: "martini"
+  first_name: "Simone"
+  last_name: "Martini"
+  affiliations: "Prof. [Unibo](https://www.unibo.it/)"
+  email: "simone.martini@unibo.it"
+  webpage: "https://www.cs.unibo.it/~martini/"
+  dblp: "m/SMartini"
+  photo: null
+  interests: ["programming languages", "type theory", "history of computing", "philosophy of computing", "computer science education"]
+  periods:
+    - status: "permanent"
+      arrival: "2002-01-01"
+      departure: null
+
+- id: "pizzo"
+  first_name: "Nicolò"
+  last_name: "Pizzo"
+  affiliations: "[Unibo](https://www.unibo.it/)"
+  email: "nicolo.pizzo2@unibo.it"
+  webpage: "https://www.unibo.it/sitoweb/nicolo.pizzo2/en"
+  dblp: "437/3327"
+  photo: null
+  interests: ["reversible computing", "lambda calculus", "abstract machines"]
+  periods:
+    - status: "phd"
+      arrival: "2025-11-01"
+      departure: null
+
+- id: "quemerais"
+  first_name: "Iwan"
+  last_name: "Quémerais"
+  affiliations: "[ENS de Lyon](https://www.ens-lyon.fr/); [Unibo](https://www.unibo.it/)"
+  email: "iwan.quemerais@ens-lyon.fr"
+  webpage: "https://www.unibo.it/sitoweb/iwan.quemerais/en"
+  dblp: "405/6547"
+  photo: null
+  interests: ["process calculi", "behavioural equivalence", "type systems", "separation logic"]
+  periods:
+    - status: "phd"
+      arrival: "2025-09-01"
+      departure: null
+
+- id: "sacerdoti-coen"
+  first_name: "Claudio"
+  last_name: "Sacerdoti Coen"
+  affiliations: "Ass. Prof. [Unibo](https://www.unibo.it/)"
+  email: "claudio.sacerdoticoen@unibo.it"
+  webpage: "https://www.cs.unibo.it/~claudio.sacerdoti3/"
+  dblp: "40/646"
+  photo: null
+  interests: ["interactive theorem proving", "logical frameworks", "proof assistants", "lambda calculus"]
+  periods:
+    - status: "permanent"
+      arrival: "2005-06-06"
+      departure: null
+
+- id: "sangiorgi"
+  first_name: "Davide"
+  last_name: "Sangiorgi"
+  affiliations: "Prof. [Unibo](https://www.unibo.it/); [Inria OLAS](https://www.inria.fr/en/olas)"
+  email: "davide.sangiorgi@unibo.it"
+  webpage: "https://www.cs.unibo.it/~sangio/"
+  dblp: "s/DavideSangiorgi"
+  photo: null
+  interests: ["concurrency", "process calculi", "bisimulation", "coinduction", "program semantics"]
+  periods:
+    - status: "permanent"
+      arrival: "2002-01-01"
+      departure: null
+
+- id: "vanoni"
+  first_name: "Gabriele"
+  last_name: "Vanoni"
+  affiliations: "Asst. Prof. [Università dell’Insubria](https://www.uninsubria.it/)"
+  email: "vanonigabriele@gmail.com"
+  webpage: "https://vanoni.me/"
+  dblp: "220/3433"
+  photo: null
+  interests: ["lambda calculus", "abstract machines", "geometry of interaction", "type systems", "complexity analysis"]
+  periods:
+    - status: "external"
+      arrival: "2026-09-01"
+      departure: null
+
+- id: "zavattaro"
+  first_name: "Gianluigi"
+  last_name: "Zavattaro"
+  affiliations: "Prof. [Unibo](https://www.unibo.it/); [Inria OLAS](https://www.inria.fr/en/olas)"
+  email: "gianluigi.zavattaro@unibo.it"
+  webpage: "https://www.unibo.it/sitoweb/gianluigi.zavattaro/en"
+  dblp: "32/1979"
+  photo: null
+  interests: []
+  periods:
+    - status: "permanent"
+      arrival: "1997-01-01"
+      departure: null

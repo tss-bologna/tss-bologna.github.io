@@ -10,8 +10,6 @@ feed. It requires no browser-side JavaScript.
 
 | File | Purpose |
 |---|---|
-| `data/site.yaml` | Website settings, statuses, logo paths |
-| `data/people.yaml` | People and participation periods |
 | `data/talks.yaml` | Seminar events |
 | `data/news.yaml` | News and expiry dates |
 | `data/publication_overrides.yaml` | DBLP inclusions and exclusions |
