@@ -98,7 +98,7 @@ logos:
   footer:
     - src: "images/unibo_text.png"
       alt: "University of Bologna logo"
-      url: "https://www.disi.unibo.it/"
+      url: "https://disi.unibo.it/"
 
     - src: "images/inria.png"
       alt: "Inria logo"
