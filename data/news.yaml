@@ -14,50 +14,22 @@
 # These announcements are illustrative. Replace them before publication.
 
 # Stable identifier, used as an anchor in /news/#website-preview.
-- id: "website-preview"
+# - id: ""
 
-  # Publication date, as a quoted ISO date. Required.
-  date: "2026-09-14"
+#   # Publication date, as a quoted ISO date. Required.
+#   date: ""
 
-  # Last day the announcement may appear on Home, inclusive.
-  # Optional; omitted or null means no expiry.
-  # Expiry never removes an announcement from the archive.
-  expires: "2026-12-31"
+#   # Last day the announcement may appear on Home, inclusive.
+#   # Optional; omitted or null means no expiry.
+#   # Expiry never removes an announcement from the archive.
+#   expires: ""
 
-  # Required plain-text title.
-  title: "Welcome to our website"
+#   # Required plain-text title.
+#   title: ""
 
-  # Required Markdown text.
-  # Links use [label](URL). Mathematics uses $...$ or $$...$$.
-  # >- joins wrapped lines; blank lines separate paragraphs.
-  text: >-
-    This example website brings together our research activities,
-    people, publications, and seminar announcements.
+#   # Required Markdown text.
+#   # Links use [label](URL). Mathematics uses $...$ or $$...$$.
+#   # >- joins wrapped lines; blank lines separate paragraphs.
+#   text: >-
+#     ...
 
-# Illustrative announcement.
-- id: "autumn-seminars"
-  date: "2026-09-10"
-  expires: "2026-11-30"
-  title: "Autumn seminar programme"
-  text: >-
-    The autumn programme is taking shape. Visit the
-    [seminar page](/seminar/) for upcoming talks and information
-    about attending.
-
-# Illustrative announcement.
-- id: "autumn-visitor"
-  date: "2026-09-01"
-  expires: "2026-10-31"
-  title: "An autumn visitor"
-  text: >-
-    We welcome Taylor Example for an illustrative research visit
-    during the autumn term.
-
-# Illustrative expired announcement: retained only in the archive.
-- id: "spring-discussion"
-  date: "2026-05-01"
-  expires: "2026-05-12"
-  title: "Spring discussion afternoon"
-  text: >-
-    An example afternoon of informal discussions about semantics,
-    concurrency, and programming languages.
