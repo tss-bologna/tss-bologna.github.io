@@ -26,7 +26,7 @@ description: >-
 
 # Display an example-content notice.
 # Set false after replacing and reviewing illustrative data.
-demo: true
+demo: false
 
 # Maximum number of active news items displayed on Home.
 # Future-dated news stays unpublished until its date.
@@ -74,7 +74,7 @@ show_photos: true
 # Individual talks may override duration.
 seminar:
   # Seminar display name.
-  name: "Bologna seminar on Theory of software systems"
+  name: "Seminar on Theory of software systems"
 
   # Default talk duration in minutes.
   duration_minutes: 60

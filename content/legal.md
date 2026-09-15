@@ -1,13 +1,3 @@
-<!--
-Before publication:
-- Confirm permission to license original contributions.
-- Replace the privacy placeholders with the actual arrangements.
-- Check any credits or licence notices required by supplied assets.
-- Remove the visible draft notice below.
--->
-
-This page is a draft pending completion before publication.
-
 ## Licensing
 
 Original website text is licensed under the
@@ -37,11 +27,6 @@ processing of visitor data, see the
 [GitHub Privacy Statement](https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement).
 
 The website publishes professional information about researchers,
-students, visitors, and seminar speakers.
-
-**To complete before publication:** identify the responsible person or
-entity and contact address, and describe the purposes, legal basis,
-retention arrangements, and applicable rights for personal information
-published on the site.
+students, visitors, and seminar speakers. For any enquiry, please contact the organisers of [the seminar](/seminar/).
 
 External links lead to websites with their own privacy practices.

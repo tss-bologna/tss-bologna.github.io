@@ -6,42 +6,6 @@ Markdown. KaTeX renders mathematics during the build.
 The published website contains HTML, CSS, fonts, images, and a calendar
 feed. It requires no browser-side JavaScript.
 
-## Files to edit
-
-| File | Purpose |
-|---|---|
-| `data/publication_overrides.yaml` | DBLP inclusions and exclusions |
-| `content/home.md` | Home introduction |
-| `content/seminar.md` | General seminar information and organisers |
-| `content/internal.md` | Non-sensitive internal information |
-| `content/legal.md` | Licensing and privacy notice |
-| `static/css/style.css` | Appearance |
-| `templates/` | HTML structure |
-
-YAML fields are documented immediately before their first use.
-
-Use spaces rather than tabs, quote dates and date-times, and preserve stable
-IDs. Duplicate keys and unknown schema fields fail validation.
-
-Optional fields can be omitted where their documentation provides a default.
-
-## Before publication
-
-- Replace illustrative people, news, and talks.
-- Correct the illustrative arrival date in the Sangiorgi record.
-- Add any remaining actual people and their DBLP identifiers.
-- Replace the example organiser email address.
-- Review publication selection, particularly arrival/departure years.
-- Complete the licensing and privacy page.
-- Supply logos and any portraits, with appropriate permission.
-- Confirm the intended colour in `static/css/style.css`.
-- Set `demo: false` in `data/site.yaml`.
-- Review a successful build before enabling deployment.
-
-The supplied Leblanc event is migrated from the provided PHP record.
-The remaining sample talks are illustrative. The complete historical seminar
-archive has not been migrated.
-
 ## Enable GitHub Pages
 
 Only do this after reviewing the preview.

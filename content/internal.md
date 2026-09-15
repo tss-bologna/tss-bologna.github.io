@@ -1,8 +1,9 @@
-Practical information for people taking part in the group's activities.
+Practical information for local people.
 
-## Coffee machine
+## Ranzani office
 
-The link to the coffee machine manual will go here.
+- The [manual](https://www.delonghi.com/it-it/s/ECAM21.110.B-second) of the coffee machine.
+- The IP address of the printer is: `130.136.2.35`.
 
 ## Updating the website
 

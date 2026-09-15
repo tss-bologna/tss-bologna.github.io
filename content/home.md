@@ -1,13 +1,6 @@
-We are an informal research community in Bologna, interested in the
-mathematical foundations of software and computation.
+The **Seminar on Theory of Software Systems** is based at [University of Bologna](https://www.unibo.it/), in the
+[Department of Computer Science and Engineering (DISI)](https://disi.unibo.it/). Its topics include programming languages, semantics, concurrency,
+verification, and logic.
 
-Our interests include programming languages, semantics, concurrency,
-verification, and logic. Researchers, students, and visitors come together
-around common research interests and a regular [seminar](/seminar/).
-
-We are based at the [University of Bologna](https://www.unibo.it/), in the
-Department of Computer Science and Engineering (DISI). The community is
-not an administrative unit of the University.
-
-Explore our [people](/people/), [publications](/publications/), and
-[upcoming talks](/seminar/).
+The seminar gathers the local research group interested in the foundations of software and computation. It includes the [French-Italian Inria project-team OLAS](https://www.inria.fr/en/olas), and acts as its team seminar.
+Explore our [people](/people/) and their [recent publications](/publications/).
