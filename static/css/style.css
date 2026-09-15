@@ -341,22 +341,27 @@ address {
   font-size: 0.9rem;
 }
 
-.person-links a {
+.person-links a,
+.email-button {
+  font: inherit;
+  color: var(--red);
+  text-decoration: underline;
+  text-underline-offset: 0.18em;
   overflow-wrap: anywhere;
+}
+.person-links a:hover,
+.email-button:hover {
+  color: var(--red-dark);
 }
 
 .email-button {
   appearance: none;
   border: 0;
+  margin: 0;
   padding: 0;
   background: none;
-  font: inherit;
-  color: var(--red);
-  text-decoration: underline;
+  vertical-align: baseline;
   cursor: pointer;
-}
-.email-button:hover {
-  color: var(--red-dark);
 }
 
 .tags {
