@@ -501,7 +501,15 @@ def refresh() -> None:
             fetched_records[key] = fetch_record(client, key)
 
     now = datetime.now(timezone.utc).isoformat(timespec="seconds")
-
+    
+    # Preserve discovery dates across refreshes and metadata changes.
+    # Existing records without a date have unknown discovery history.
+    for key, record in fetched_records.items():
+        previous = old_cache["records"].get(key)
+        record["first_seen"] = (
+            previous.get("first_seen") if previous is not None else now
+        )
+    
     for pid, snapshot in snapshots.items():
         old_author = old_cache["authors"].get(pid)
         unchanged = (

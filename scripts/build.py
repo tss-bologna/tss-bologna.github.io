@@ -67,7 +67,7 @@ def load_site() -> dict:
         {
             "name", "url", "base_path", "timezone", "language",
             "description", "demo", "show_photos", "home_news_limit",
-            "publications_visible", "statuses", "seminar", "logos",
+            "statuses", "seminar", "logos",
         },
         "site",
     )
@@ -81,8 +81,7 @@ def load_site() -> dict:
     site.setdefault("show_photos", True)
     require_bool(site["show_photos"], "site.show_photos")
 
-    for field in ("home_news_limit", "publications_visible"):
-        require_int(site.get(field), f"site.{field}", minimum=1)
+    require_int(site.get("home_news_limit"), "site.home_news_limit", minimum=1)
 
     statuses = require_list(site.get("statuses"), "site.statuses")
     unique_ids(statuses, "site.statuses")
@@ -394,6 +393,16 @@ def select_publications(site: dict, people: list, today):
         require_int(record.get("year"), f"{where}.year", minimum=1)
         require_text(record.get("venue"), f"{where}.venue", allow_empty=True)
         require_text(record.get("type"), f"{where}.type")
+        record["first_seen_order"] = 0.0
+        if record.get("first_seen") is not None:
+            value = require_text(record["first_seen"], f"{where}.first_seen")
+            try:
+                discovered = datetime.fromisoformat(value)
+            except ValueError as exc:
+                raise SiteError(f"{where}: invalid first_seen timestamp.") from exc
+            if discovered.tzinfo is None or discovered.utcoffset() is None:
+                raise SiteError(f"{where}: first_seen needs a timezone.")
+            record["first_seen_order"] = discovered.timestamp()
         require_bool(record.get("informal", False), f"{where}.informal")
         for author in require_list(record.get("authors"), f"{where}.authors"):
             require_text(author, f"{where}.authors")
@@ -477,6 +486,7 @@ def select_publications(site: dict, people: list, today):
         (records[key] for key in selected),
         key=lambda record: (
             -record["year"],
+            -record["first_seen_order"],
             record["title"].casefold(),
             record["key"],
         ),

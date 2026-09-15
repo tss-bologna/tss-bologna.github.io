@@ -470,8 +470,14 @@ details[open] > summary {
   color: var(--muted);
 }
 
-.more-publications {
+.publication-year {
   margin-top: 1.5rem;
+}
+
+.publication-year > summary {
+  cursor: pointer;
+  font-size: 1.25rem;
+  font-weight: bold;
 }
 
 /* Markdown and build-time mathematics */

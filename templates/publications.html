@@ -18,25 +18,16 @@
 </div>
 
 {% if publications %}
-<ol class="publication-list">
-  {% for publication in publications[:site.publications_visible] %}
-    {% include "partials/publication.html" %}
-  {% endfor %}
-</ol>
-
-{% if publications | length > site.publications_visible %}
-<details class="more-publications">
-  <summary>Show more publications</summary>
-
-  <ol class="publication-list"
-      start="{{ site.publications_visible + 1 }}">
-    {% for publication in publications[site.publications_visible:] %}
+{% for year, papers in publications | groupby('year') | reverse %}
+<details class="publication-year" id="year-{{ year }}"{% if loop.index <= 2 %} open{% endif %}>
+  <summary>{{ year }}</summary>
+  <ol class="publication-list">
+    {% for publication in papers %}
       {% include "partials/publication.html" %}
     {% endfor %}
   </ol>
 </details>
-{% endif %}
-
+{% endfor %}
 {% else %}
 <p>No publications are currently listed.</p>
 {% endif %}

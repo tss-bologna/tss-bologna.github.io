@@ -35,10 +35,6 @@ demo: false
 # The archive remains available at /news/, outside the main navigation.
 home_news_limit: 3
 
-# Number of publications visible before "Show more".
-# Remaining publications are included in the HTML, initially collapsed.
-publications_visible: 20
-
 # Current-person categories, in display order.
 # Former people appear in one final, compact section.
 # Each entry uses the same three fields documented below.
