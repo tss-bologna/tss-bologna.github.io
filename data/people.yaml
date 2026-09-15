@@ -83,7 +83,7 @@
   email: "saverio.giallorenzo@unibo.it"
   webpage: "https://www.saveriogiallorenzo.com/"
   dblp: "146/2078"
-  photo: null
+  photo: "https://www.unibo.it/uniboweb/utils/UserImage.aspx?IdAnagrafica=500096&IdFoto=c6940a14"
   interests: ["programming languages", "process calculi", "choreographic programming", "microservices", "session types"]
   periods:
     - status: "permanent"
@@ -125,7 +125,7 @@
   email: "ivan.lanese@unibo.it"
   webpage: "https://www.cs.unibo.it/~lanese/"
   dblp: "56/3713"
-  photo: null
+  photo: "https://www.unibo.it/uniboweb/utils/UserImage.aspx?IdAnagrafica=436867&IdFoto=40106810"
   interests: ["formal methods", "reversible computing", "distributed systems", "choreographies"]
   periods:
     - status: "permanent"
@@ -139,7 +139,7 @@
   email: "cosimo.laneve@unibo.it"
   webpage: "https://www.cs.unibo.it/~laneve/"
   dblp: "l/CosimoLaneve"
-  photo: null
+  photo: "https://www.unibo.it/uniboweb/utils/UserImage.aspx?IdAnagrafica=566081&IdFoto=90a64bc7"
   interests: ["programming languages", "static analysis", "concurrency", "program semantics"]
   periods:
     - status: "permanent"
@@ -153,7 +153,7 @@
   email: "simone.martini@unibo.it"
   webpage: "https://www.cs.unibo.it/~martini/"
   dblp: "m/SMartini"
-  photo: null
+  photo: "https://www.unibo.it/uniboweb/utils/UserImage.aspx?IdAnagrafica=566895&IdFoto=ded10dce"
   interests: ["programming languages", "type theory", "history of computing", "philosophy of computing", "computer science education"]
   periods:
     - status: "permanent"
@@ -167,7 +167,7 @@
   email: "nicolo.pizzo2@unibo.it"
   webpage: "https://www.unibo.it/sitoweb/nicolo.pizzo2/en"
   dblp: "437/3327"
-  photo: null
+  photo: "https://www.unibo.it/uniboweb/utils/UserImage.aspx?IdAnagrafica=1583251&IdFoto=37dde480"
   interests: ["reversible computing", "lambda calculus", "abstract machines"]
   periods:
     - status: "phd"
@@ -195,7 +195,7 @@
   email: "claudio.sacerdoticoen@unibo.it"
   webpage: "https://www.cs.unibo.it/~claudio.sacerdoti3/"
   dblp: "40/646"
-  photo: null
+  photo: "https://www.unibo.it/uniboweb/utils/UserImage.aspx?IdAnagrafica=184701&IdFoto=aa5979d8"
   interests: ["interactive theorem proving", "logical frameworks", "proof assistants", "lambda calculus"]
   periods:
     - status: "permanent"
@@ -209,7 +209,7 @@
   email: "davide.sangiorgi@unibo.it"
   webpage: "https://www.cs.unibo.it/~sangio/"
   dblp: "s/DavideSangiorgi"
-  photo: null
+  photo: "https://www.unibo.it/uniboweb/utils/UserImage.aspx?IdAnagrafica=572329&IdFoto=ffb10938"
   interests: ["concurrency", "process calculi", "bisimulation", "coinduction", "program semantics"]
   periods:
     - status: "permanent"
@@ -237,7 +237,7 @@
   email: "gianluigi.zavattaro@unibo.it"
   webpage: "https://www.unibo.it/sitoweb/gianluigi.zavattaro/en"
   dblp: "32/1979"
-  photo: null
+  photo: "https://www.unibo.it/uniboweb/utils/UserImage.aspx?IdAnagrafica=236943&IdFoto=e41678dc"
   interests: []
   periods:
     - status: "permanent"
