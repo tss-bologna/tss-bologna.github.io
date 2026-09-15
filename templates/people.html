@@ -39,7 +39,13 @@
           <ul class="person-links" aria-label="Contact and research links">
             {% if person.email %}
             <li>
-              <a href="mailto:{{ person.email }}">{{ person.email }}</a>
+              <button type="button"
+                      class="email-button"
+                      data-mailto="{{ person.email_encoded }}"
+                      aria-label="Email {{ person.first_name }} {{ person.last_name }}"
+                      onclick="window.location.href = atob(this.dataset.mailto);">
+                Email
+              </button>
             </li>
             {% endif %}
 

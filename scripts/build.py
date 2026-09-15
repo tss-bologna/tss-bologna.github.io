@@ -24,6 +24,8 @@ import tempfile
 from datetime import datetime, timedelta, timezone
 from pathlib import Path
 from xml.etree import ElementTree as ET
+from base64 import b64encode
+from urllib.parse import quote
 
 from icalendar import Calendar, Event
 from jinja2 import Environment, FileSystemLoader, StrictUndefined, select_autoescape
@@ -160,6 +162,12 @@ def load_people(site: dict, today, markdown: MarkdownRenderer):
             or any(c in person["email"] for c in "?#")
         ):
             raise SiteError(f"{where}.email: invalid email address.")
+        person["email_encoded"] = (
+            b64encode(
+                ("mailto:" + quote(person["email"], safe="@")).encode("ascii")
+            ).decode("ascii")
+            if person["email"] else None
+        )
 
         person["webpage"] = optional_url(
             person.get("webpage"), f"{where}.webpage"

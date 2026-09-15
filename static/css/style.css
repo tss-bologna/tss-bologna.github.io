@@ -345,6 +345,20 @@ address {
   overflow-wrap: anywhere;
 }
 
+.email-button {
+  appearance: none;
+  border: 0;
+  padding: 0;
+  background: none;
+  font: inherit;
+  color: var(--red);
+  text-decoration: underline;
+  cursor: pointer;
+}
+.email-button:hover {
+  color: var(--red-dark);
+}
+
 .tags {
   display: flex;
   flex-wrap: wrap;
