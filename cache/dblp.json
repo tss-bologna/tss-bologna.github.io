@@ -1,5 +1,2493 @@
 {
-  "schema_version": 1,
-  "authors": {},
-  "records": {}
+  "authors": {
+    "s/DavideSangiorgi": {
+      "fetched_at": "2026-09-15T11:01:52+00:00",
+      "keys": [
+        "books/cu/12/PousS12",
+        "books/cu/12/SR2012",
+        "books/cu/12/Sangiorgi12",
+        "books/daglib/0004377",
+        "books/sp/sensoria2011/BartolettiCLMSVZ11",
+        "conf/birthday/CrubilleLSV15",
+        "conf/birthday/DemangeonHS09",
+        "conf/birthday/DurierHS25",
+        "conf/birthday/GiallorenzoLMSZ20",
+        "conf/birthday/HirschkoffMS14",
+        "conf/birthday/LaneseSZ19",
+        "conf/birthday/Sangiorgi00",
+        "conf/birthday/Sangiorgi19",
+        "conf/birthday/Sangiorgi26",
+        "conf/cav/KobayashiS08",
+        "conf/cav/PistoreS96",
+        "conf/cmcs/Sangiorgi14",
+        "conf/concur/1998",
+        "conf/concur/AmadioCS96",
+        "conf/concur/CastellaniGKRS22",
+        "conf/concur/DemangeonHS10",
+        "conf/concur/DurierHS17",
+        "conf/concur/HirschkoffMS12",
+        "conf/concur/HirschkoffPS20",
+        "conf/concur/HirschkoffQS25",
+        "conf/concur/MadiotPS14",
+        "conf/concur/QuemeraisJSS26",
+        "conf/concur/Sangiorgi02",
+        "conf/concur/SangiorgiM92",
+        "conf/concur/SangiorgiW01",
+        "conf/concur/SangiorgiX14",
+        "conf/concur/Sangiori93",
+        "conf/coordination/HirschkoffPS05",
+        "conf/csl/BernardoSV14",
+        "conf/csl/JaberS22",
+        "conf/csl/Sangiorgi23",
+        "conf/fmco/HahnleHJLSSW11",
+        "conf/fmco/LienhardtLBSZWSP10",
+        "conf/fmco/Sangiorgi05",
+        "conf/fmoods/Sangiorgi06",
+        "conf/forte/PatrignaniCS11",
+        "conf/fossacs/RocklS99",
+        "conf/fossacs/Sangiorgi99",
+        "conf/fsen/DemangeonHS09",
+        "conf/fsen/DemangeonHS11",
+        "conf/fsen/SangiorgiKS07",
+        "conf/fsttcs/HirschkoffLS03",
+        "conf/icalp/2016",
+        "conf/icalp/DengS04",
+        "conf/icalp/LanesePSS10",
+        "conf/icalp/MerroS98",
+        "conf/icalp/MilnerS92",
+        "conf/icalp/Sangiorgi95",
+        "conf/icalp/Sangiorgi97",
+        "conf/icalp/SangiorgiV01",
+        "conf/ictac/Sangiorgi15",
+        "conf/ictcs/HirschkoffPS19",
+        "conf/ictcs/LanesePSS09",
+        "conf/ictcs/Sangiorgi18",
+        "conf/ifipTCS/2014",
+        "conf/ifipTCS/DemangeonHS08",
+        "conf/ifipTCS/DengS04",
+        "conf/isola/LienhardtBS12",
+        "conf/isola/Sangiorgi24",
+        "conf/lics/BorealeS98",
+        "conf/lics/DurierHS18",
+        "conf/lics/FioreMS96",
+        "conf/lics/HirschkoffLS02",
+        "conf/lics/HirschkoffMS13",
+        "conf/lics/HirschkoffPS21",
+        "conf/lics/LanesePSS08",
+        "conf/lics/PierceS93",
+        "conf/lics/SakayoriS23",
+        "conf/lics/SakayoriSCC26",
+        "conf/lics/Sangiorgi04",
+        "conf/lics/Sangiorgi92",
+        "conf/lics/SangiorgiKS07",
+        "conf/mfcs/FachiniMS90",
+        "conf/mfcs/Sangiorgi95",
+        "conf/mfps/Sangiorgi93",
+        "conf/popl/LagoSA14",
+        "conf/popl/LeviS00",
+        "conf/popl/PierceS97",
+        "conf/popl/Sangiorgi01",
+        "conf/popl/Sangiorgi15",
+        "conf/popl/SangiorgiV16",
+        "conf/ppdp/DardhaGS12",
+        "conf/ppdp/DardhaGS22",
+        "conf/procomet/KleistS98",
+        "conf/procomet/Sangiorgi94",
+        "conf/qest/BernardoSV14",
+        "conf/rex/ParrowS93",
+        "conf/sefm/Sangiorgi03",
+        "conf/stacs/BorealeS95",
+        "conf/tacs/Sangiorgi94",
+        "conf/tapsoft/Sangiorgi93",
+        "conf/tapsoft/Sangiorgi95",
+        "conf/tgc/2005",
+        "conf/tgc/CiminiCS10",
+        "conf/tgc/DemangeonHKS07",
+        "conf/tgc/ElsborgHS08",
+        "conf/tgc/MontesiS10",
+        "conf/wsfm/BorealeBCNLLMMRSVZ06",
+        "journals/acta/BorealeS98",
+        "journals/acta/FachiniMS92",
+        "journals/acta/NicolaS05",
+        "journals/acta/Sangiorgi96",
+        "journals/corr/LagoSA13",
+        "journals/corr/abs-0806-3849",
+        "journals/corr/abs-1011-6431",
+        "journals/corr/abs-1804-05797",
+        "journals/corr/abs-1806-11354",
+        "journals/corr/abs-1808-08652",
+        "journals/corr/abs-2001-07063",
+        "journals/corr/abs-2104-10942",
+        "journals/corr/abs-2112-02863",
+        "journals/corr/abs-2202-03187",
+        "journals/corr/abs-2309-07303",
+        "journals/corr/abs-2405-03536",
+        "journals/corr/abs-2412-07351",
+        "journals/corr/abs-2504-17350",
+        "journals/corr/abs-2504-18227",
+        "journals/corr/abs-2605-18496",
+        "journals/corr/abs-cs-0510010",
+        "journals/dc/Sangiorgi12",
+        "journals/eatcs/AcetoKRS22",
+        "journals/entcs/CarayolHS04",
+        "journals/entcs/MezzettiS06",
+        "journals/entcs/Sangiorgi06",
+        "journals/fac/PousS19",
+        "journals/iandc/DardhaGS17",
+        "journals/iandc/DengS06",
+        "journals/iandc/FioreMS02",
+        "journals/iandc/HirschkoffMS16",
+        "journals/iandc/LanesePSS11",
+        "journals/iandc/ParrowS95",
+        "journals/iandc/PistoreS01",
+        "journals/iandc/Sangiorgi94",
+        "journals/iandc/Sangiorgi96",
+        "journals/iandc/Sangiorgi98",
+        "journals/iandc/TianS20",
+        "journals/ijfcs/FachiniGMS90",
+        "journals/jacm/PierceS00",
+        "journals/jlp/DemangeonHS10",
+        "journals/jlp/HirschkoffPS07",
+        "journals/lmcs/DurierHS19",
+        "journals/lmcs/HirschkoffLS06",
+        "journals/lmcs/LozesHS08",
+        "journals/lmcs/MadiotPS21",
+        "journals/lmcs/SakayoriS25",
+        "journals/lmcs/SangiorgiX18",
+        "journals/mscs/LagoMS16",
+        "journals/mscs/LaneseS15",
+        "journals/mscs/MerroS04",
+        "journals/mscs/PierceS96",
+        "journals/mscs/Sangiorgi06",
+        "journals/mscs/Sangiorgi98",
+        "journals/mscs/Sangiorgi99",
+        "journals/pacmpl/Sangiorgi22",
+        "journals/scp/GianniniSV06",
+        "journals/scp/KleistS02",
+        "journals/scp/Sangiorgi00",
+        "journals/tapos/Sangiorgi99",
+        "journals/tcs/AmadioCS98",
+        "journals/tcs/BorealeS98",
+        "journals/tcs/CarayolHS05",
+        "journals/tcs/DengS06",
+        "journals/tcs/DurierHS20",
+        "journals/tcs/DurierHS22",
+        "journals/tcs/FachiniMRS91",
+        "journals/tcs/LaneseS10",
+        "journals/tcs/Sangiorgi01",
+        "journals/tcs/Sangiorgi96",
+        "journals/tcs/Sangiorgi96a",
+        "journals/tcs/Sangiorgi99",
+        "journals/tcs/SangiorgiS02",
+        "journals/tocl/Sangiorgi17",
+        "journals/toplas/KobayashiS10",
+        "journals/toplas/LeviS03",
+        "journals/toplas/Sangiorgi09",
+        "journals/toplas/SangiorgiKS11",
+        "journals/toplas/SangiorgiV19",
+        "phd/ethos/Sangiorgi93",
+        "reference/parallel/SangiorgiS11",
+        "series/hhl/BaetenS14"
+      ],
+      "name": "Davide Sangiorgi"
+    }
+  },
+  "records": {
+    "books/cu/12/PousS12": {
+      "authors": [
+        "Damien Pous",
+        "Davide Sangiorgi"
+      ],
+      "electronic_url": null,
+      "key": "books/cu/12/PousS12",
+      "title": "Enhancements of the bisimulation proof method.",
+      "type": "incollection",
+      "venue": "Advanced Topics in Bisimulation and Coinduction, pp. 233-289",
+      "year": 2012
+    },
+    "books/cu/12/SR2012": {
+      "authors": [
+        "Davide Sangiorgi (ed.)",
+        "Jan J. M. M. Rutten (ed.)"
+      ],
+      "electronic_url": "http://www.cambridge.org/gb/knowledge/isbn/item6542021",
+      "key": "books/cu/12/SR2012",
+      "title": "Advanced Topics in Bisimulation and Coinduction.",
+      "type": "book",
+      "venue": "Cambridge tracts in theoretical computer science",
+      "year": 2012
+    },
+    "books/cu/12/Sangiorgi12": {
+      "authors": [
+        "Davide Sangiorgi"
+      ],
+      "electronic_url": null,
+      "key": "books/cu/12/Sangiorgi12",
+      "title": "Origins of bisimulation and coinduction.",
+      "type": "incollection",
+      "venue": "Advanced Topics in Bisimulation and Coinduction, pp. 1-37",
+      "year": 2012
+    },
+    "books/daglib/0004377": {
+      "authors": [
+        "Davide Sangiorgi",
+        "David Walker 0008"
+      ],
+      "electronic_url": null,
+      "key": "books/daglib/0004377",
+      "title": "The Pi-Calculus - a theory of mobile processes.",
+      "type": "book",
+      "venue": "Cambridge University Press, pp. I-XII, 1-580",
+      "year": 2001
+    },
+    "books/sp/sensoria2011/BartolettiCLMSVZ11": {
+      "authors": [
+        "Massimo Bartoletti",
+        "Luís Caires",
+        "Ivan Lanese",
+        "Franco Mazzanti",
+        "Davide Sangiorgi",
+        "Hugo Torres Vieira",
+        "Roberto Zunino"
+      ],
+      "electronic_url": "https://doi.org/10.1007/978-3-642-20401-2_19",
+      "key": "books/sp/sensoria2011/BartolettiCLMSVZ11",
+      "title": "Tools and Verification.",
+      "type": "incollection",
+      "venue": "Results of the SENSORIA Project, pp. 408-427",
+      "year": 2011
+    },
+    "conf/birthday/CrubilleLSV15": {
+      "authors": [
+        "Raphaëlle Crubillé",
+        "Ugo Dal Lago",
+        "Davide Sangiorgi",
+        "Valeria Vignudelli"
+      ],
+      "electronic_url": "https://doi.org/10.1007/978-3-319-23506-6_7",
+      "key": "conf/birthday/CrubilleLSV15",
+      "title": "On Applicative Similarity, Sequentiality, and Full Abstraction.",
+      "type": "inproceedings",
+      "venue": "Correct System Design, pp. 65-82",
+      "year": 2015
+    },
+    "conf/birthday/DemangeonHS09": {
+      "authors": [
+        "Romain Demangeon",
+        "Daniel Hirschkoff",
+        "Davide Sangiorgi"
+      ],
+      "electronic_url": "https://doi.org/10.1007/978-3-642-04164-8_13",
+      "key": "conf/birthday/DemangeonHS09",
+      "title": "Mobile Processes and Termination.",
+      "type": "inproceedings",
+      "venue": "Semantics and Algebraic Specification, pp. 250-273",
+      "year": 2009
+    },
+    "conf/birthday/DurierHS25": {
+      "authors": [
+        "Adrien Durier",
+        "Daniel Hirschkoff",
+        "Davide Sangiorgi"
+      ],
+      "electronic_url": "https://doi.org/10.1007/978-3-031-85134-6_19",
+      "key": "conf/birthday/DurierHS25",
+      "title": "Proof Techniques for Behavioural Relations Based on Unique-Solutions of Equations and Inequations.",
+      "type": "inproceedings",
+      "venue": "Rebeca for Actor Analysis in Action, pp. 425-439",
+      "year": 2025
+    },
+    "conf/birthday/GiallorenzoLMSZ20": {
+      "authors": [
+        "Saverio Giallorenzo",
+        "Ivan Lanese",
+        "Fabrizio Montesi",
+        "Davide Sangiorgi",
+        "Stefano Pio Zingaro"
+      ],
+      "electronic_url": "https://doi.org/10.4230/OASICS.GABBRIELLI.5",
+      "key": "conf/birthday/GiallorenzoLMSZ20",
+      "title": "The Servers of Serverless Computing: A Formal Revisitation of Functions as a Service.",
+      "type": "inproceedings",
+      "venue": "Gabbrielli's Festschrift, pp. 5:1-5:21",
+      "year": 2020
+    },
+    "conf/birthday/HirschkoffMS14": {
+      "authors": [
+        "Daniel Hirschkoff",
+        "Jean-Marie Madiot",
+        "Davide Sangiorgi"
+      ],
+      "electronic_url": "https://doi.org/10.1007/978-3-319-13350-8_23",
+      "key": "conf/birthday/HirschkoffMS14",
+      "title": "Symmetries and Dualities in Name-Passing Process Calculi.",
+      "type": "inproceedings",
+      "venue": "Computing with New Resources, pp. 307-322",
+      "year": 2014
+    },
+    "conf/birthday/LaneseSZ19": {
+      "authors": [
+        "Ivan Lanese",
+        "Davide Sangiorgi",
+        "Gianluigi Zavattaro"
+      ],
+      "electronic_url": "https://doi.org/10.1007/978-3-030-21485-2_6",
+      "key": "conf/birthday/LaneseSZ19",
+      "title": "Playing with Bisimulation in Erlang.",
+      "type": "inproceedings",
+      "venue": "Models, Languages, and Tools for Concurrent and Distributed Programming, pp. 71-91",
+      "year": 2019
+    },
+    "conf/birthday/Sangiorgi00": {
+      "authors": [
+        "Davide Sangiorgi"
+      ],
+      "electronic_url": null,
+      "key": "conf/birthday/Sangiorgi00",
+      "title": "Lazy functions and mobile processes.",
+      "type": "inproceedings",
+      "venue": "Proof, Language, and Interaction, pp. 691-720",
+      "year": 2000
+    },
+    "conf/birthday/Sangiorgi19": {
+      "authors": [
+        "Davide Sangiorgi"
+      ],
+      "electronic_url": "https://doi.org/10.1007/978-3-030-31175-9_3",
+      "key": "conf/birthday/Sangiorgi19",
+      "title": "Asynchronous \\pi -calculus at Work: The Call-by-Need Strategy.",
+      "type": "inproceedings",
+      "venue": "The Art of Modelling Computational Systems, pp. 33-49",
+      "year": 2019
+    },
+    "conf/birthday/Sangiorgi26": {
+      "authors": [
+        "Davide Sangiorgi"
+      ],
+      "electronic_url": "https://doi.org/10.1007/978-3-031-99717-4_4",
+      "key": "conf/birthday/Sangiorgi26",
+      "title": "Unique-Solution of Equations in Higher-Order Process Calculi with Passivation.",
+      "type": "inproceedings",
+      "venue": "Components Operationally: Reversibility and System Engineering: Essays Dedicated to Jean-Bernard Stefani on the Occasion of His 65th Birthday, pp. 68-85",
+      "year": 2026
+    },
+    "conf/cav/KobayashiS08": {
+      "authors": [
+        "Naoki Kobayashi 0001",
+        "Davide Sangiorgi"
+      ],
+      "electronic_url": "https://doi.org/10.1007/978-3-540-70545-1_10",
+      "key": "conf/cav/KobayashiS08",
+      "title": "A Hybrid Type System for Lock-Freedom of Mobile Processes.",
+      "type": "inproceedings",
+      "venue": "CAV, pp. 80-93",
+      "year": 2008
+    },
+    "conf/cav/PistoreS96": {
+      "authors": [
+        "Marco Pistore",
+        "Davide Sangiorgi"
+      ],
+      "electronic_url": "https://doi.org/10.1007/3-540-61474-5_56",
+      "key": "conf/cav/PistoreS96",
+      "title": "A Partition Refinement Algorithm for the pi-Calculus (Extended Abstract).",
+      "type": "inproceedings",
+      "venue": "CAV, pp. 38-49",
+      "year": 1996
+    },
+    "conf/cmcs/Sangiorgi14": {
+      "authors": [
+        "Davide Sangiorgi"
+      ],
+      "electronic_url": "https://doi.org/10.1007/978-3-662-44124-4_1",
+      "key": "conf/cmcs/Sangiorgi14",
+      "title": "Higher-Order Languages: Bisimulation and Coinductive Equivalences (Extended Abstract).",
+      "type": "inproceedings",
+      "venue": "CMCS, pp. 3-9",
+      "year": 2014
+    },
+    "conf/concur/1998": {
+      "authors": [
+        "Davide Sangiorgi (ed.)",
+        "Robert de Simone (ed.)"
+      ],
+      "electronic_url": "https://doi.org/10.1007/BFB0055611",
+      "key": "conf/concur/1998",
+      "title": "CONCUR '98: Concurrency Theory, 9th International Conference, Nice, France, September 8-11, 1998, Proceedings",
+      "type": "proceedings",
+      "venue": "Lecture Notes in Computer Science",
+      "year": 1998
+    },
+    "conf/concur/AmadioCS96": {
+      "authors": [
+        "Roberto M. Amadio",
+        "Ilaria Castellani",
+        "Davide Sangiorgi"
+      ],
+      "electronic_url": "https://doi.org/10.1007/3-540-61604-7_53",
+      "key": "conf/concur/AmadioCS96",
+      "title": "On Bisimulations for the Asynchronous pi-Calculus.",
+      "type": "inproceedings",
+      "venue": "CONCUR, pp. 147-162",
+      "year": 1996
+    },
+    "conf/concur/CastellaniGKRS22": {
+      "authors": [
+        "Ilaria Castellani",
+        "Paul Gastin",
+        "Orna Kupferman",
+        "Mickael Randour",
+        "Davide Sangiorgi"
+      ],
+      "electronic_url": "https://doi.org/10.4230/LIPICS.CONCUR.2022.1",
+      "key": "conf/concur/CastellaniGKRS22",
+      "title": "CONCUR Test-Of-Time Award 2022 (Invited Paper).",
+      "type": "inproceedings",
+      "venue": "CONCUR, pp. 1:1-1:3",
+      "year": 2022
+    },
+    "conf/concur/DemangeonHS10": {
+      "authors": [
+        "Romain Demangeon",
+        "Daniel Hirschkoff",
+        "Davide Sangiorgi"
+      ],
+      "electronic_url": "https://doi.org/10.1007/978-3-642-15375-4_23",
+      "key": "conf/concur/DemangeonHS10",
+      "title": "Termination in Impure Concurrent Languages.",
+      "type": "inproceedings",
+      "venue": "CONCUR, pp. 328-342",
+      "year": 2010
+    },
+    "conf/concur/DurierHS17": {
+      "authors": [
+        "Adrien Durier",
+        "Daniel Hirschkoff",
+        "Davide Sangiorgi"
+      ],
+      "electronic_url": "https://doi.org/10.4230/LIPICS.CONCUR.2017.11",
+      "key": "conf/concur/DurierHS17",
+      "title": "Divergence and Unique Solution of Equations.",
+      "type": "inproceedings",
+      "venue": "CONCUR, pp. 11:1-11:16",
+      "year": 2017
+    },
+    "conf/concur/HirschkoffMS12": {
+      "authors": [
+        "Daniel Hirschkoff",
+        "Jean-Marie Madiot",
+        "Davide Sangiorgi"
+      ],
+      "electronic_url": "https://doi.org/10.1007/978-3-642-32940-1_22",
+      "key": "conf/concur/HirschkoffMS12",
+      "title": "Duality and i/o-Types in the π-Calculus.",
+      "type": "inproceedings",
+      "venue": "CONCUR, pp. 302-316",
+      "year": 2012
+    },
+    "conf/concur/HirschkoffPS20": {
+      "authors": [
+        "Daniel Hirschkoff",
+        "Enguerrand Prebet",
+        "Davide Sangiorgi"
+      ],
+      "electronic_url": "https://doi.org/10.4230/LIPICS.CONCUR.2020.34",
+      "key": "conf/concur/HirschkoffPS20",
+      "title": "On the Representation of References in the Pi-Calculus.",
+      "type": "inproceedings",
+      "venue": "CONCUR, pp. 34:1-34:20",
+      "year": 2020
+    },
+    "conf/concur/HirschkoffQS25": {
+      "authors": [
+        "Daniel Hirschkoff",
+        "Iwan Quémerais",
+        "Davide Sangiorgi"
+      ],
+      "electronic_url": "https://doi.org/10.4230/LIPICS.CONCUR.2025.23",
+      "key": "conf/concur/HirschkoffQS25",
+      "title": "First-Order Store and Visibility in Name-Passing Calculi.",
+      "type": "inproceedings",
+      "venue": "CONCUR, pp. 23:1-23:21",
+      "year": 2025
+    },
+    "conf/concur/MadiotPS14": {
+      "authors": [
+        "Jean-Marie Madiot",
+        "Damien Pous",
+        "Davide Sangiorgi"
+      ],
+      "electronic_url": "https://doi.org/10.1007/978-3-662-44584-6_8",
+      "key": "conf/concur/MadiotPS14",
+      "title": "Bisimulations Up-to: Beyond First-Order Transition Systems.",
+      "type": "inproceedings",
+      "venue": "CONCUR, pp. 93-108",
+      "year": 2014
+    },
+    "conf/concur/QuemeraisJSS26": {
+      "authors": [
+        "Iwan Quémerais",
+        "Guilhem Jaber",
+        "Ken Sakayori",
+        "Davide Sangiorgi"
+      ],
+      "electronic_url": "https://doi.org/10.4230/LIPICS.CONCUR.2026.45",
+      "key": "conf/concur/QuemeraisJSS26",
+      "title": "Concurrent Visibility: Higher-Order Concurrency with First-Order Store.",
+      "type": "inproceedings",
+      "venue": "CONCUR, pp. 45:1-45:20",
+      "year": 2026
+    },
+    "conf/concur/Sangiorgi02": {
+      "authors": [
+        "Davide Sangiorgi"
+      ],
+      "electronic_url": "https://doi.org/10.1007/3-540-45694-5_5",
+      "key": "conf/concur/Sangiorgi02",
+      "title": "Types, or: Where's the Difference Between CCS and pi?",
+      "type": "inproceedings",
+      "venue": "CONCUR, pp. 76-97",
+      "year": 2002
+    },
+    "conf/concur/SangiorgiM92": {
+      "authors": [
+        "Davide Sangiorgi",
+        "Robin Milner"
+      ],
+      "electronic_url": "https://doi.org/10.1007/BFB0084781",
+      "key": "conf/concur/SangiorgiM92",
+      "title": "The Problem of \"Weak Bisimulation up to\".",
+      "type": "inproceedings",
+      "venue": "CONCUR, pp. 32-46",
+      "year": 1992
+    },
+    "conf/concur/SangiorgiW01": {
+      "authors": [
+        "Davide Sangiorgi",
+        "David Walker 0008"
+      ],
+      "electronic_url": "https://doi.org/10.1007/3-540-44685-0_20",
+      "key": "conf/concur/SangiorgiW01",
+      "title": "On Barbed Equivalences in pi-Calculus.",
+      "type": "inproceedings",
+      "venue": "CONCUR, pp. 292-304",
+      "year": 2001
+    },
+    "conf/concur/SangiorgiX14": {
+      "authors": [
+        "Davide Sangiorgi",
+        "Xian Xu 0001"
+      ],
+      "electronic_url": "https://doi.org/10.1007/978-3-662-44584-6_7",
+      "key": "conf/concur/SangiorgiX14",
+      "title": "Trees from Functions as Processes.",
+      "type": "inproceedings",
+      "venue": "CONCUR, pp. 78-92",
+      "year": 2014
+    },
+    "conf/concur/Sangiori93": {
+      "authors": [
+        "Davide Sangiorgi"
+      ],
+      "electronic_url": "https://doi.org/10.1007/3-540-57208-2_10",
+      "key": "conf/concur/Sangiori93",
+      "title": "A Theory of Bisimulation for the pi-Calculus.",
+      "type": "inproceedings",
+      "venue": "CONCUR, pp. 127-142",
+      "year": 1993
+    },
+    "conf/coordination/HirschkoffPS05": {
+      "authors": [
+        "Daniel Hirschkoff",
+        "Damien Pous",
+        "Davide Sangiorgi"
+      ],
+      "electronic_url": "https://doi.org/10.1007/11417019_2",
+      "key": "conf/coordination/HirschkoffPS05",
+      "title": "A Correct Abstract Machine for Safe Ambients.",
+      "type": "inproceedings",
+      "venue": "COORDINATION, pp. 17-32",
+      "year": 2005
+    },
+    "conf/csl/BernardoSV14": {
+      "authors": [
+        "Marco Bernardo 0001",
+        "Davide Sangiorgi",
+        "Valeria Vignudelli"
+      ],
+      "electronic_url": "https://doi.org/10.1145/2603088.2603113",
+      "key": "conf/csl/BernardoSV14",
+      "title": "On the discriminating power of passivation and higher-order interaction.",
+      "type": "inproceedings",
+      "venue": "CSL-LICS, pp. 14:1-14:10",
+      "year": 2014
+    },
+    "conf/csl/JaberS22": {
+      "authors": [
+        "Guilhem Jaber",
+        "Davide Sangiorgi"
+      ],
+      "electronic_url": "https://doi.org/10.4230/LIPICS.CSL.2022.25",
+      "key": "conf/csl/JaberS22",
+      "title": "Games, Mobile Processes, and Functions.",
+      "type": "inproceedings",
+      "venue": "CSL, pp. 25:1-25:18",
+      "year": 2022
+    },
+    "conf/csl/Sangiorgi23": {
+      "authors": [
+        "Davide Sangiorgi"
+      ],
+      "electronic_url": "https://doi.org/10.4230/LIPICS.CSL.2023.4",
+      "key": "conf/csl/Sangiorgi23",
+      "title": "Enhanced Induction in Behavioural Relations (Invited Talk).",
+      "type": "inproceedings",
+      "venue": "CSL, pp. 4:1-4:6",
+      "year": 2023
+    },
+    "conf/fmco/HahnleHJLSSW11": {
+      "authors": [
+        "Reiner Hähnle",
+        "Michiel Helvensteijn",
+        "Einar Broch Johnsen",
+        "Michael Lienhardt",
+        "Davide Sangiorgi",
+        "Ina Schaefer",
+        "Peter Y. H. Wong"
+      ],
+      "electronic_url": "https://doi.org/10.1007/978-3-642-35887-6_6",
+      "key": "conf/fmco/HahnleHJLSSW11",
+      "title": "HATS Abstract Behavioral Specification: The Architectural View.",
+      "type": "inproceedings",
+      "venue": "FMCO, pp. 109-132",
+      "year": 2013
+    },
+    "conf/fmco/LienhardtLBSZWSP10": {
+      "authors": [
+        "Michael Lienhardt",
+        "Ivan Lanese",
+        "Mario Bravetti",
+        "Davide Sangiorgi",
+        "Gianluigi Zavattaro",
+        "Yannick Welsch",
+        "Jan Schäfer 0002",
+        "Arnd Poetzsch-Heffter"
+      ],
+      "electronic_url": "https://doi.org/10.1007/978-3-642-25271-6_9",
+      "key": "conf/fmco/LienhardtLBSZWSP10",
+      "title": "A Component Model for the ABS Language.",
+      "type": "inproceedings",
+      "venue": "FMCO, pp. 165-183",
+      "year": 2012
+    },
+    "conf/fmco/Sangiorgi05": {
+      "authors": [
+        "Davide Sangiorgi"
+      ],
+      "electronic_url": "https://doi.org/10.1007/11804192_8",
+      "key": "conf/fmco/Sangiorgi05",
+      "title": "Beyond Bisimulation: The \"up-to\" Techniques.",
+      "type": "inproceedings",
+      "venue": "FMCO, pp. 161-171",
+      "year": 2006
+    },
+    "conf/fmoods/Sangiorgi06": {
+      "authors": [
+        "Davide Sangiorgi"
+      ],
+      "electronic_url": "https://doi.org/10.1007/11768869_3",
+      "key": "conf/fmoods/Sangiorgi06",
+      "title": "The Bisimulation Proof Method: Enhancements and Open Problems.",
+      "type": "inproceedings",
+      "venue": "FMOODS, pp. 18-19",
+      "year": 2006
+    },
+    "conf/forte/PatrignaniCS11": {
+      "authors": [
+        "Marco Patrignani",
+        "Dave Clarke 0001",
+        "Davide Sangiorgi"
+      ],
+      "electronic_url": "https://doi.org/10.1007/978-3-642-21461-5_19",
+      "key": "conf/forte/PatrignaniCS11",
+      "title": "Ownership Types for the Join Calculus.",
+      "type": "inproceedings",
+      "venue": "FMOODS/FORTE, pp. 289-303",
+      "year": 2011
+    },
+    "conf/fossacs/RocklS99": {
+      "authors": [
+        "Christine Röckl",
+        "Davide Sangiorgi"
+      ],
+      "electronic_url": "https://doi.org/10.1007/3-540-49019-1_21",
+      "key": "conf/fossacs/RocklS99",
+      "title": "A pi-calculus Process Semantics of Concurrent Idealised ALGOL.",
+      "type": "inproceedings",
+      "venue": "FoSSaCS, pp. 306-321",
+      "year": 1999
+    },
+    "conf/fossacs/Sangiorgi99": {
+      "authors": [
+        "Davide Sangiorgi"
+      ],
+      "electronic_url": "https://doi.org/10.1007/3-540-49019-1_3",
+      "key": "conf/fossacs/Sangiorgi99",
+      "title": "Reasoning About Concurrent Systems Using Types.",
+      "type": "inproceedings",
+      "venue": "FoSSaCS, pp. 31-40",
+      "year": 1999
+    },
+    "conf/fsen/DemangeonHS09": {
+      "authors": [
+        "Romain Demangeon",
+        "Daniel Hirschkoff",
+        "Davide Sangiorgi"
+      ],
+      "electronic_url": "https://doi.org/10.1007/978-3-642-11623-0_4",
+      "key": "conf/fsen/DemangeonHS09",
+      "title": "Termination in Higher-Order Concurrent Calculi.",
+      "type": "inproceedings",
+      "venue": "FSEN, pp. 81-96",
+      "year": 2010
+    },
+    "conf/fsen/DemangeonHS11": {
+      "authors": [
+        "Romain Demangeon",
+        "Daniel Hirschkoff",
+        "Davide Sangiorgi"
+      ],
+      "electronic_url": "https://doi.org/10.1007/978-3-642-29320-7_9",
+      "key": "conf/fsen/DemangeonHS11",
+      "title": "Strong Normalisation in λ-Calculi with References.",
+      "type": "inproceedings",
+      "venue": "FSEN, pp. 128-142",
+      "year": 2012
+    },
+    "conf/fsen/SangiorgiKS07": {
+      "authors": [
+        "Davide Sangiorgi",
+        "Naoki Kobayashi 0001",
+        "Eijiro Sumii"
+      ],
+      "electronic_url": "https://doi.org/10.1007/978-3-540-75698-9_24",
+      "key": "conf/fsen/SangiorgiKS07",
+      "title": "Logical Bisimulations and Functional Languages.",
+      "type": "inproceedings",
+      "venue": "FSEN, pp. 364-379",
+      "year": 2007
+    },
+    "conf/fsttcs/HirschkoffLS03": {
+      "authors": [
+        "Daniel Hirschkoff",
+        "Étienne Lozes",
+        "Davide Sangiorgi"
+      ],
+      "electronic_url": "https://doi.org/10.1007/978-3-540-24597-1_22",
+      "key": "conf/fsttcs/HirschkoffLS03",
+      "title": "Minimality Results for the Spatial Logics.",
+      "type": "inproceedings",
+      "venue": "FSTTCS, pp. 252-264",
+      "year": 2003
+    },
+    "conf/icalp/2016": {
+      "authors": [
+        "Ioannis Chatzigiannakis (ed.)",
+        "Michael Mitzenmacher (ed.)",
+        "Yuval Rabani (ed.)",
+        "Davide Sangiorgi (ed.)"
+      ],
+      "electronic_url": "http://www.dagstuhl.de/dagpub/978-3-95977-013-2",
+      "key": "conf/icalp/2016",
+      "title": "43rd International Colloquium on Automata, Languages, and Programming, ICALP 2016, Rome, Italy, July 11-15, 2016",
+      "type": "proceedings",
+      "venue": "LIPIcs",
+      "year": 2016
+    },
+    "conf/icalp/DengS04": {
+      "authors": [
+        "Yuxin Deng 0001",
+        "Davide Sangiorgi"
+      ],
+      "electronic_url": "https://doi.org/10.1007/978-3-540-27836-8_39",
+      "key": "conf/icalp/DengS04",
+      "title": "Towards an Algebraic Theory of Typed Mobile Processes.",
+      "type": "inproceedings",
+      "venue": "ICALP, pp. 445-456",
+      "year": 2004
+    },
+    "conf/icalp/LanesePSS10": {
+      "authors": [
+        "Ivan Lanese",
+        "Jorge A. Pérez 0001",
+        "Davide Sangiorgi",
+        "Alan Schmitt"
+      ],
+      "electronic_url": "https://doi.org/10.1007/978-3-642-14162-1_37",
+      "key": "conf/icalp/LanesePSS10",
+      "title": "On the Expressiveness of Polyadic and Synchronous Communication in Higher-Order Process Calculi.",
+      "type": "inproceedings",
+      "venue": "ICALP (2), pp. 442-453",
+      "year": 2010
+    },
+    "conf/icalp/MerroS98": {
+      "authors": [
+        "Massimo Merro",
+        "Davide Sangiorgi"
+      ],
+      "electronic_url": "https://doi.org/10.1007/BFB0055108",
+      "key": "conf/icalp/MerroS98",
+      "title": "On Asynchrony in Name-Passing Calculi.",
+      "type": "inproceedings",
+      "venue": "ICALP, pp. 856-867",
+      "year": 1998
+    },
+    "conf/icalp/MilnerS92": {
+      "authors": [
+        "Robin Milner",
+        "Davide Sangiorgi"
+      ],
+      "electronic_url": "https://doi.org/10.1007/3-540-55719-9_114",
+      "key": "conf/icalp/MilnerS92",
+      "title": "Barbed Bisimulation.",
+      "type": "inproceedings",
+      "venue": "ICALP, pp. 685-695",
+      "year": 1992
+    },
+    "conf/icalp/Sangiorgi95": {
+      "authors": [
+        "Davide Sangiorgi"
+      ],
+      "electronic_url": "https://doi.org/10.1007/3-540-60084-1_114",
+      "key": "conf/icalp/Sangiorgi95",
+      "title": "Internal Mobility and Agent-Passing Calculi.",
+      "type": "inproceedings",
+      "venue": "ICALP, pp. 672-683",
+      "year": 1995
+    },
+    "conf/icalp/Sangiorgi97": {
+      "authors": [
+        "Davide Sangiorgi"
+      ],
+      "electronic_url": "https://doi.org/10.1007/3-540-63165-8_187",
+      "key": "conf/icalp/Sangiorgi97",
+      "title": "The Name Discipline of Uniform Receptiveness (Extended Abstract).",
+      "type": "inproceedings",
+      "venue": "ICALP, pp. 303-313",
+      "year": 1997
+    },
+    "conf/icalp/SangiorgiV01": {
+      "authors": [
+        "Davide Sangiorgi",
+        "Andrea Valente"
+      ],
+      "electronic_url": "https://doi.org/10.1007/3-540-48224-5_34",
+      "key": "conf/icalp/SangiorgiV01",
+      "title": "A Distributed Abstract Machine for Safe Ambients.",
+      "type": "inproceedings",
+      "venue": "ICALP, pp. 408-420",
+      "year": 2001
+    },
+    "conf/ictac/Sangiorgi15": {
+      "authors": [
+        "Davide Sangiorgi"
+      ],
+      "electronic_url": "https://doi.org/10.1007/978-3-319-25150-9_5",
+      "key": "conf/ictac/Sangiorgi15",
+      "title": "The Proof Technique of Unique Solutions of Contractions.",
+      "type": "inproceedings",
+      "venue": "ICTAC, pp. 63-68",
+      "year": 2015
+    },
+    "conf/ictcs/HirschkoffPS19": {
+      "authors": [
+        "Daniel Hirschkoff",
+        "Enguerrand Prebet",
+        "Davide Sangiorgi"
+      ],
+      "electronic_url": "https://ceur-ws.org/Vol-2504/paper16.pdf",
+      "key": "conf/ictcs/HirschkoffPS19",
+      "title": "Modeling Imperative Constructs in the Pi-Calculus.",
+      "type": "inproceedings",
+      "venue": "ICTCS, pp. 136-138",
+      "year": 2019
+    },
+    "conf/ictcs/LanesePSS09": {
+      "authors": [
+        "Ivan Lanese",
+        "Jorge A. Pérez 0001",
+        "Davide Sangiorgi",
+        "Alan Schmitt"
+      ],
+      "electronic_url": null,
+      "key": "conf/ictcs/LanesePSS09",
+      "title": "On the Expressiveness of Polyadicity in Higher-Order Process Calculi.",
+      "type": "inproceedings",
+      "venue": "ICTCS, pp. 143-149",
+      "year": 2009
+    },
+    "conf/ictcs/Sangiorgi18": {
+      "authors": [
+        "Davide Sangiorgi"
+      ],
+      "electronic_url": "https://ceur-ws.org/Vol-2243/invited2.pdf",
+      "key": "conf/ictcs/Sangiorgi18",
+      "title": "Bisimilarity Via Unique-Solution Techniques.",
+      "type": "inproceedings",
+      "venue": "ICTCS, pp. 7-11",
+      "year": 2018
+    },
+    "conf/ifipTCS/2014": {
+      "authors": [
+        "Josep Díaz (ed.)",
+        "Ivan Lanese (ed.)",
+        "Davide Sangiorgi (ed.)"
+      ],
+      "electronic_url": "https://doi.org/10.1007/978-3-662-44602-7",
+      "key": "conf/ifipTCS/2014",
+      "title": "Theoretical Computer Science - 8th IFIP TC 1/WG 2.2 International Conference, TCS 2014, Rome, Italy, September 1-3, 2014. Proceedings",
+      "type": "proceedings",
+      "venue": "Lecture Notes in Computer Science",
+      "year": 2014
+    },
+    "conf/ifipTCS/DemangeonHS08": {
+      "authors": [
+        "Romain Demangeon",
+        "Daniel Hirschkoff",
+        "Davide Sangiorgi"
+      ],
+      "electronic_url": "https://doi.org/10.1007/978-0-387-09680-3_28",
+      "key": "conf/ifipTCS/DemangeonHS08",
+      "title": "Static and dynamic typing for the termination of mobile processes.",
+      "type": "inproceedings",
+      "venue": "IFIP TCS, pp. 413-427",
+      "year": 2008
+    },
+    "conf/ifipTCS/DengS04": {
+      "authors": [
+        "Yuxin Deng 0001",
+        "Davide Sangiorgi"
+      ],
+      "electronic_url": "https://doi.org/10.1007/1-4020-8141-3_47",
+      "key": "conf/ifipTCS/DengS04",
+      "title": "Ensuring Termination by Typability.",
+      "type": "inproceedings",
+      "venue": "IFIP TCS, pp. 619-632",
+      "year": 2004
+    },
+    "conf/isola/LienhardtBS12": {
+      "authors": [
+        "Michael Lienhardt",
+        "Mario Bravetti",
+        "Davide Sangiorgi"
+      ],
+      "electronic_url": "https://doi.org/10.1007/978-3-642-34026-0_6",
+      "key": "conf/isola/LienhardtBS12",
+      "title": "An Object Group-Based Component Model.",
+      "type": "inproceedings",
+      "venue": "ISoLA (1), pp. 64-78",
+      "year": 2012
+    },
+    "conf/isola/Sangiorgi24": {
+      "authors": [
+        "Davide Sangiorgi"
+      ],
+      "electronic_url": "https://doi.org/10.1007/978-3-031-73709-1_5",
+      "key": "conf/isola/Sangiorgi24",
+      "title": "An Abstract Account of Up-to Techniques for Inductive Behavioural Relations.",
+      "type": "inproceedings",
+      "venue": "ISoLA (1), pp. 62-74",
+      "year": 2025
+    },
+    "conf/lics/BorealeS98": {
+      "authors": [
+        "Michele Boreale",
+        "Davide Sangiorgi"
+      ],
+      "electronic_url": "https://doi.org/10.1109/LICS.1998.705653",
+      "key": "conf/lics/BorealeS98",
+      "title": "Bisimulation in Name-Passing Calculi without Matching.",
+      "type": "inproceedings",
+      "venue": "LICS, pp. 165-175",
+      "year": 1998
+    },
+    "conf/lics/DurierHS18": {
+      "authors": [
+        "Adrien Durier",
+        "Daniel Hirschkoff",
+        "Davide Sangiorgi"
+      ],
+      "electronic_url": "https://doi.org/10.1145/3209108.3209152",
+      "key": "conf/lics/DurierHS18",
+      "title": "Eager Functions as Processes.",
+      "type": "inproceedings",
+      "venue": "LICS, pp. 364-373",
+      "year": 2018
+    },
+    "conf/lics/FioreMS96": {
+      "authors": [
+        "Marcelo P. Fiore",
+        "Eugenio Moggi",
+        "Davide Sangiorgi"
+      ],
+      "electronic_url": "https://doi.org/10.1109/LICS.1996.561302",
+      "key": "conf/lics/FioreMS96",
+      "title": "A Fully-Abstract Model for the pi-Calculus (Extended Abstract).",
+      "type": "inproceedings",
+      "venue": "LICS, pp. 43-54",
+      "year": 1996
+    },
+    "conf/lics/HirschkoffLS02": {
+      "authors": [
+        "Daniel Hirschkoff",
+        "Étienne Lozes",
+        "Davide Sangiorgi"
+      ],
+      "electronic_url": "https://doi.org/10.1109/LICS.2002.1029850",
+      "key": "conf/lics/HirschkoffLS02",
+      "title": "Separability, Expressiveness, and Decidability in the Ambient Logic.",
+      "type": "inproceedings",
+      "venue": "LICS, pp. 423-432",
+      "year": 2002
+    },
+    "conf/lics/HirschkoffMS13": {
+      "authors": [
+        "Daniel Hirschkoff",
+        "Jean-Marie Madiot",
+        "Davide Sangiorgi"
+      ],
+      "electronic_url": "https://doi.org/10.1109/LICS.2013.44",
+      "key": "conf/lics/HirschkoffMS13",
+      "title": "Name-Passing Calculi: From Fusions to Preorders and Types.",
+      "type": "inproceedings",
+      "venue": "LICS, pp. 378-387",
+      "year": 2013
+    },
+    "conf/lics/HirschkoffPS21": {
+      "authors": [
+        "Daniel Hirschkoff",
+        "Enguerrand Prebet",
+        "Davide Sangiorgi"
+      ],
+      "electronic_url": "https://doi.org/10.1109/LICS52264.2021.9470559",
+      "key": "conf/lics/HirschkoffPS21",
+      "title": "On sequentiality and well-bracketing in the π-calculus.",
+      "type": "inproceedings",
+      "venue": "LICS, pp. 1-13",
+      "year": 2021
+    },
+    "conf/lics/LanesePSS08": {
+      "authors": [
+        "Ivan Lanese",
+        "Jorge A. Pérez 0001",
+        "Davide Sangiorgi",
+        "Alan Schmitt"
+      ],
+      "electronic_url": "https://doi.org/10.1109/LICS.2008.8",
+      "key": "conf/lics/LanesePSS08",
+      "title": "On the Expressiveness and Decidability of Higher-Order Process Calculi.",
+      "type": "inproceedings",
+      "venue": "LICS, pp. 145-155",
+      "year": 2008
+    },
+    "conf/lics/PierceS93": {
+      "authors": [
+        "Benjamin C. Pierce",
+        "Davide Sangiorgi"
+      ],
+      "electronic_url": "https://doi.org/10.1109/LICS.1993.287570",
+      "key": "conf/lics/PierceS93",
+      "title": "Typing and Subtyping for Mobile Processes",
+      "type": "inproceedings",
+      "venue": "LICS, pp. 376-385",
+      "year": 1993
+    },
+    "conf/lics/SakayoriS23": {
+      "authors": [
+        "Ken Sakayori",
+        "Davide Sangiorgi"
+      ],
+      "electronic_url": "https://doi.org/10.1109/LICS56636.2023.10175686",
+      "key": "conf/lics/SakayoriS23",
+      "title": "Extensional and Non-extensional Functions as Processes.",
+      "type": "inproceedings",
+      "venue": "LICS, pp. 1-13",
+      "year": 2023
+    },
+    "conf/lics/SakayoriSCC26": {
+      "authors": [
+        "Ken Sakayori",
+        "Davide Sangiorgi",
+        "Simon Castellan",
+        "Pierre Clairambault"
+      ],
+      "electronic_url": "https://doi.org/10.4230/LIPICS.LICS.2026.79",
+      "key": "conf/lics/SakayoriSCC26",
+      "title": "Wiring the π-Calculus to Denotational Semantics.",
+      "type": "inproceedings",
+      "venue": "LICS, pp. 79:1-79:28",
+      "year": 2026
+    },
+    "conf/lics/Sangiorgi04": {
+      "authors": [
+        "Davide Sangiorgi"
+      ],
+      "electronic_url": "https://doi.org/10.1109/LICS.2004.1319624",
+      "key": "conf/lics/Sangiorgi04",
+      "title": "Bisimulation: From The Origins to Today.",
+      "type": "inproceedings",
+      "venue": "LICS, pp. 298-302",
+      "year": 2004
+    },
+    "conf/lics/Sangiorgi92": {
+      "authors": [
+        "Davide Sangiorgi"
+      ],
+      "electronic_url": "https://doi.org/10.1109/LICS.1992.185524",
+      "key": "conf/lics/Sangiorgi92",
+      "title": "The Lazy Lambda Calculus in a Concurrency Scenario (Extended Abstract)",
+      "type": "inproceedings",
+      "venue": "LICS, pp. 102-109",
+      "year": 1992
+    },
+    "conf/lics/SangiorgiKS07": {
+      "authors": [
+        "Davide Sangiorgi",
+        "Naoki Kobayashi 0001",
+        "Eijiro Sumii"
+      ],
+      "electronic_url": "https://doi.org/10.1109/LICS.2007.17",
+      "key": "conf/lics/SangiorgiKS07",
+      "title": "Environmental Bisimulations for Higher-Order Languages.",
+      "type": "inproceedings",
+      "venue": "LICS, pp. 293-302",
+      "year": 2007
+    },
+    "conf/mfcs/FachiniMS90": {
+      "authors": [
+        "Emanuela Fachini",
+        "Andrea Maggiolo-Schettini",
+        "Davide Sangiorgi"
+      ],
+      "electronic_url": "https://doi.org/10.1007/BFB0029616",
+      "key": "conf/mfcs/FachiniMS90",
+      "title": "Comparisons Among Classes of Y-Tree Systolic Automata.",
+      "type": "inproceedings",
+      "venue": "MFCS, pp. 254-260",
+      "year": 1990
+    },
+    "conf/mfcs/Sangiorgi95": {
+      "authors": [
+        "Davide Sangiorgi"
+      ],
+      "electronic_url": "https://doi.org/10.1007/3-540-60246-1_153",
+      "key": "conf/mfcs/Sangiorgi95",
+      "title": "On the Proof Method for Bisimulation (Extended Abstract).",
+      "type": "inproceedings",
+      "venue": "MFCS, pp. 479-488",
+      "year": 1995
+    },
+    "conf/mfps/Sangiorgi93": {
+      "authors": [
+        "Davide Sangiorgi"
+      ],
+      "electronic_url": "https://doi.org/10.1007/3-540-58027-1_7",
+      "key": "conf/mfps/Sangiorgi93",
+      "title": "An Investigation into Functions as Processes.",
+      "type": "inproceedings",
+      "venue": "MFPS, pp. 143-159",
+      "year": 1994
+    },
+    "conf/popl/LagoSA14": {
+      "authors": [
+        "Ugo Dal Lago",
+        "Davide Sangiorgi",
+        "Michele Alberti"
+      ],
+      "electronic_url": "https://doi.org/10.1145/2535838.2535872",
+      "key": "conf/popl/LagoSA14",
+      "title": "On coinductive equivalences for higher-order probabilistic functional programs.",
+      "type": "inproceedings",
+      "venue": "POPL, pp. 297-308",
+      "year": 2014
+    },
+    "conf/popl/LeviS00": {
+      "authors": [
+        "Francesca Levi",
+        "Davide Sangiorgi"
+      ],
+      "electronic_url": "https://doi.org/10.1145/325694.325741",
+      "key": "conf/popl/LeviS00",
+      "title": "Controlling Interference in Ambients.",
+      "type": "inproceedings",
+      "venue": "POPL, pp. 352-364",
+      "year": 2000
+    },
+    "conf/popl/PierceS97": {
+      "authors": [
+        "Benjamin C. Pierce",
+        "Davide Sangiorgi"
+      ],
+      "electronic_url": "https://doi.org/10.1145/263699.263729",
+      "key": "conf/popl/PierceS97",
+      "title": "Behavioral Equivalence in the Polymorphic Pi-calculus.",
+      "type": "inproceedings",
+      "venue": "POPL, pp. 242-255",
+      "year": 1997
+    },
+    "conf/popl/Sangiorgi01": {
+      "authors": [
+        "Davide Sangiorgi"
+      ],
+      "electronic_url": "https://doi.org/10.1145/360204.375707",
+      "key": "conf/popl/Sangiorgi01",
+      "title": "Extensionality and Intensionality of the Ambient Logics.",
+      "type": "inproceedings",
+      "venue": "POPL, pp. 4-13",
+      "year": 2001
+    },
+    "conf/popl/Sangiorgi15": {
+      "authors": [
+        "Davide Sangiorgi"
+      ],
+      "electronic_url": "https://doi.org/10.1145/2676726.2676965",
+      "key": "conf/popl/Sangiorgi15",
+      "title": "Equations, Contractions, and Unique Solutions.",
+      "type": "inproceedings",
+      "venue": "POPL, pp. 421-432",
+      "year": 2015
+    },
+    "conf/popl/SangiorgiV16": {
+      "authors": [
+        "Davide Sangiorgi",
+        "Valeria Vignudelli"
+      ],
+      "electronic_url": "https://doi.org/10.1145/2837614.2837651",
+      "key": "conf/popl/SangiorgiV16",
+      "title": "Environmental bisimulations for probabilistic higher-order languages.",
+      "type": "inproceedings",
+      "venue": "POPL, pp. 595-607",
+      "year": 2016
+    },
+    "conf/ppdp/DardhaGS12": {
+      "authors": [
+        "Ornela Dardha",
+        "Elena Giachino",
+        "Davide Sangiorgi"
+      ],
+      "electronic_url": "https://doi.org/10.1145/2370776.2370794",
+      "key": "conf/ppdp/DardhaGS12",
+      "title": "Session types revisited.",
+      "type": "inproceedings",
+      "venue": "PPDP, pp. 139-150",
+      "year": 2012
+    },
+    "conf/ppdp/DardhaGS22": {
+      "authors": [
+        "Ornela Dardha",
+        "Elena Giachino",
+        "Davide Sangiorgi"
+      ],
+      "electronic_url": "https://doi.org/10.1145/3551357.3556676",
+      "key": "conf/ppdp/DardhaGS22",
+      "title": "Session Types Revisited: A Decade Later.",
+      "type": "inproceedings",
+      "venue": "PPDP, pp. 12:1-12:4",
+      "year": 2022
+    },
+    "conf/procomet/KleistS98": {
+      "authors": [
+        "Josva Kleist",
+        "Davide Sangiorgi"
+      ],
+      "electronic_url": null,
+      "key": "conf/procomet/KleistS98",
+      "title": "Imperative objects and mobile processes.",
+      "type": "inproceedings",
+      "venue": "PROCOMET, pp. 285-303",
+      "year": 1998
+    },
+    "conf/procomet/Sangiorgi94": {
+      "authors": [
+        "Davide Sangiorgi"
+      ],
+      "electronic_url": null,
+      "key": "conf/procomet/Sangiorgi94",
+      "title": "Bisimulation in Higher-Order Process Calculi.",
+      "type": "inproceedings",
+      "venue": "PROCOMET, pp. 207-224",
+      "year": 1994
+    },
+    "conf/qest/BernardoSV14": {
+      "authors": [
+        "Marco Bernardo 0001",
+        "Davide Sangiorgi",
+        "Valeria Vignudelli"
+      ],
+      "electronic_url": "https://doi.org/10.1007/978-3-319-10696-0_23",
+      "key": "conf/qest/BernardoSV14",
+      "title": "On the Discriminating Power of Testing Equivalences for Reactive Probabilistic Systems: Results and Open Problems.",
+      "type": "inproceedings",
+      "venue": "QEST, pp. 281-296",
+      "year": 2014
+    },
+    "conf/rex/ParrowS93": {
+      "authors": [
+        "Joachim Parrow",
+        "Davide Sangiorgi"
+      ],
+      "electronic_url": "https://doi.org/10.1007/3-540-58043-3_27",
+      "key": "conf/rex/ParrowS93",
+      "title": "Algebraic Theories for Name-Passing Calculi.",
+      "type": "inproceedings",
+      "venue": "REX School/Symposium, pp. 509-529",
+      "year": 1994
+    },
+    "conf/sefm/Sangiorgi03": {
+      "authors": [
+        "Davide Sangiorgi"
+      ],
+      "electronic_url": "https://doi.org/10.1109/SEFM.2003.1236208",
+      "key": "conf/sefm/Sangiorgi03",
+      "title": "Taming Mobile Processes Using Types.",
+      "type": "inproceedings",
+      "venue": "SEFM, pp. 64-",
+      "year": 2003
+    },
+    "conf/stacs/BorealeS95": {
+      "authors": [
+        "Michele Boreale",
+        "Davide Sangiorgi"
+      ],
+      "electronic_url": "https://doi.org/10.1007/3-540-59042-0_77",
+      "key": "conf/stacs/BorealeS95",
+      "title": "A Fully Abstract Semantics for Causality in the Pi-Calculus.",
+      "type": "inproceedings",
+      "venue": "STACS, pp. 243-254",
+      "year": 1995
+    },
+    "conf/tacs/Sangiorgi94": {
+      "authors": [
+        "Davide Sangiorgi"
+      ],
+      "electronic_url": "https://doi.org/10.1007/3-540-57887-0_107",
+      "key": "conf/tacs/Sangiorgi94",
+      "title": "Locality and True-concurrency in Calculi for Mobile Processes.",
+      "type": "inproceedings",
+      "venue": "TACS, pp. 405-424",
+      "year": 1994
+    },
+    "conf/tapsoft/Sangiorgi93": {
+      "authors": [
+        "Davide Sangiorgi"
+      ],
+      "electronic_url": "https://doi.org/10.1007/3-540-56610-4_62",
+      "key": "conf/tapsoft/Sangiorgi93",
+      "title": "From pi-Calculus to Higher-Order pi-Calculus - and Back.",
+      "type": "inproceedings",
+      "venue": "TAPSOFT, pp. 151-166",
+      "year": 1993
+    },
+    "conf/tapsoft/Sangiorgi95": {
+      "authors": [
+        "Davide Sangiorgi"
+      ],
+      "electronic_url": "https://doi.org/10.1007/3-540-59293-8_194",
+      "key": "conf/tapsoft/Sangiorgi95",
+      "title": "Pi-I: A Symmetric Calculus Based on Internal Mobility.",
+      "type": "inproceedings",
+      "venue": "TAPSOFT, pp. 172-186",
+      "year": 1995
+    },
+    "conf/tgc/2005": {
+      "authors": [
+        "Rocco De Nicola (ed.)",
+        "Davide Sangiorgi (ed.)"
+      ],
+      "electronic_url": "https://doi.org/10.1007/11580850",
+      "key": "conf/tgc/2005",
+      "title": "Trustworthy Global Computing, International Symposium, TGC 2005, Edinburgh, UK, April 7-9, 2005, Revised Selected Papers",
+      "type": "proceedings",
+      "venue": "Lecture Notes in Computer Science",
+      "year": 2005
+    },
+    "conf/tgc/CiminiCS10": {
+      "authors": [
+        "Matteo Cimini",
+        "Claudio Sacerdoti Coen",
+        "Davide Sangiorgi"
+      ],
+      "electronic_url": "https://doi.org/10.1007/978-3-642-15640-3_5",
+      "key": "conf/tgc/CiminiCS10",
+      "title": "Functions as Processes: Termination and the lm[(m)\\tilde]\\lambda\\mu\\widetilde{\\mu}-Calculus.",
+      "type": "inproceedings",
+      "venue": "TGC, pp. 73-86",
+      "year": 2010
+    },
+    "conf/tgc/DemangeonHKS07": {
+      "authors": [
+        "Romain Demangeon",
+        "Daniel Hirschkoff",
+        "Naoki Kobayashi 0001",
+        "Davide Sangiorgi"
+      ],
+      "electronic_url": "https://doi.org/10.1007/978-3-540-78663-4_11",
+      "key": "conf/tgc/DemangeonHKS07",
+      "title": "On the Complexity of Termination Inference for Processes.",
+      "type": "inproceedings",
+      "venue": "TGC, pp. 140-155",
+      "year": 2008
+    },
+    "conf/tgc/ElsborgHS08": {
+      "authors": [
+        "Ebbe Elsborg",
+        "Thomas T. Hildebrandt",
+        "Davide Sangiorgi"
+      ],
+      "electronic_url": "https://doi.org/10.1007/978-3-642-00945-7_8",
+      "key": "conf/tgc/ElsborgHS08",
+      "title": "Type Systems for Bigraphs.",
+      "type": "inproceedings",
+      "venue": "TGC, pp. 126-140",
+      "year": 2009
+    },
+    "conf/tgc/MontesiS10": {
+      "authors": [
+        "Fabrizio Montesi",
+        "Davide Sangiorgi"
+      ],
+      "electronic_url": "https://doi.org/10.1007/978-3-642-15640-3_11",
+      "key": "conf/tgc/MontesiS10",
+      "title": "A Model of Evolvable Components.",
+      "type": "inproceedings",
+      "venue": "TGC, pp. 153-171",
+      "year": 2010
+    },
+    "conf/wsfm/BorealeBCNLLMMRSVZ06": {
+      "authors": [
+        "Michele Boreale",
+        "Roberto Bruni 0001",
+        "Luís Caires",
+        "Rocco De Nicola",
+        "Ivan Lanese",
+        "Michele Loreti",
+        "Francisco Martins",
+        "Ugo Montanari",
+        "António Ravara",
+        "Davide Sangiorgi",
+        "Vasco Thudichum Vasconcelos",
+        "Gianluigi Zavattaro"
+      ],
+      "electronic_url": "https://doi.org/10.1007/11841197_3",
+      "key": "conf/wsfm/BorealeBCNLLMMRSVZ06",
+      "title": "SCC: A Service Centered Calculus.",
+      "type": "inproceedings",
+      "venue": "WS-FM, pp. 38-57",
+      "year": 2006
+    },
+    "journals/acta/BorealeS98": {
+      "authors": [
+        "Michele Boreale",
+        "Davide Sangiorgi"
+      ],
+      "electronic_url": "https://doi.org/10.1007/S002360050124",
+      "key": "journals/acta/BorealeS98",
+      "title": "A Fully Abstract Semantics for Causality in the \\pi-Calculus.",
+      "type": "article",
+      "venue": "Acta Informatica, pp. 353-400",
+      "year": 1998
+    },
+    "journals/acta/FachiniMS92": {
+      "authors": [
+        "Emanuela Fachini",
+        "Andrea Maggiolo-Schettini",
+        "Davide Sangiorgi"
+      ],
+      "electronic_url": "https://doi.org/10.1007/BF01185564",
+      "key": "journals/acta/FachiniMS92",
+      "title": "Classes of Systolic Y-Tree Automata and a Comparison with Systolic Trellis Automata.",
+      "type": "article",
+      "venue": "Acta Informatica, pp. 623-643",
+      "year": 1992
+    },
+    "journals/acta/NicolaS05": {
+      "authors": [
+        "Rocco De Nicola",
+        "Davide Sangiorgi"
+      ],
+      "electronic_url": "https://doi.org/10.1007/S00236-005-0174-2",
+      "key": "journals/acta/NicolaS05",
+      "title": "Types in concurrency.",
+      "type": "article",
+      "venue": "Acta Informatica, pp. 79-81",
+      "year": 2005
+    },
+    "journals/acta/Sangiorgi96": {
+      "authors": [
+        "Davide Sangiorgi"
+      ],
+      "electronic_url": "https://doi.org/10.1007/S002360050036",
+      "key": "journals/acta/Sangiorgi96",
+      "title": "A Theory of Bisimulation for the pi-Calculus.",
+      "type": "article",
+      "venue": "Acta Informatica, pp. 69-97",
+      "year": 1996
+    },
+    "journals/corr/LagoSA13": {
+      "authors": [
+        "Ugo Dal Lago",
+        "Davide Sangiorgi",
+        "Michele Alberti"
+      ],
+      "electronic_url": "http://arxiv.org/abs/1311.1722",
+      "key": "journals/corr/LagoSA13",
+      "title": "On Coinductive Equivalences for Higher-Order Probabilistic Functional Programs (Long Version).",
+      "type": "article",
+      "venue": "CoRR",
+      "year": 2013
+    },
+    "journals/corr/abs-0806-3849": {
+      "authors": [
+        "Daniel Hirschkoff",
+        "Étienne Lozes",
+        "Davide Sangiorgi"
+      ],
+      "electronic_url": "http://arxiv.org/abs/0806.3849",
+      "key": "journals/corr/abs-0806-3849",
+      "title": "Separability in the Ambient Logic",
+      "type": "article",
+      "venue": "CoRR",
+      "year": 2008
+    },
+    "journals/corr/abs-1011-6431": {
+      "authors": [
+        "Ugo Dal Lago",
+        "Simone Martini 0001",
+        "Davide Sangiorgi"
+      ],
+      "electronic_url": "https://doi.org/10.4204/EPTCS.41.4",
+      "key": "journals/corr/abs-1011-6431",
+      "title": "Light Logics and Higher-Order Processes",
+      "type": "inproceedings",
+      "venue": "EXPRESS, pp. 46-60",
+      "year": 2010
+    },
+    "journals/corr/abs-1804-05797": {
+      "authors": [
+        "Davide Sangiorgi",
+        "Xian Xu 0001"
+      ],
+      "electronic_url": "http://arxiv.org/abs/1804.05797",
+      "key": "journals/corr/abs-1804-05797",
+      "title": "Trees from Functions as Processes.",
+      "type": "article",
+      "venue": "CoRR",
+      "year": 2018
+    },
+    "journals/corr/abs-1806-11354": {
+      "authors": [
+        "Adrien Durier",
+        "Daniel Hirschkoff",
+        "Davide Sangiorgi"
+      ],
+      "electronic_url": "http://arxiv.org/abs/1806.11354",
+      "key": "journals/corr/abs-1806-11354",
+      "title": "Divergence and unique solution of equations.",
+      "type": "article",
+      "venue": "CoRR",
+      "year": 2018
+    },
+    "journals/corr/abs-1808-08652": {
+      "authors": [
+        "Chun Tian 0001",
+        "Davide Sangiorgi"
+      ],
+      "electronic_url": "https://doi.org/10.4204/EPTCS.276.10",
+      "key": "journals/corr/abs-1808-08652",
+      "title": "Unique Solutions of Contractions, CCS, and their HOL Formalisation.",
+      "type": "inproceedings",
+      "venue": "EXPRESS/SOS, pp. 122-139",
+      "year": 2018
+    },
+    "journals/corr/abs-2001-07063": {
+      "authors": [
+        "Jean-Marie Madiot",
+        "Damien Pous",
+        "Davide Sangiorgi"
+      ],
+      "electronic_url": "https://arxiv.org/abs/2001.07063",
+      "key": "journals/corr/abs-2001-07063",
+      "title": "Modular coinduction up-to for higher-order languages via first-order transition systems.",
+      "type": "article",
+      "venue": "CoRR",
+      "year": 2020
+    },
+    "journals/corr/abs-2104-10942": {
+      "authors": [
+        "Daniel Hirschkoff",
+        "Enguerrand Prebet",
+        "Davide Sangiorgi"
+      ],
+      "electronic_url": "https://arxiv.org/abs/2104.10942",
+      "key": "journals/corr/abs-2104-10942",
+      "title": "On sequentiality and well-bracketing in the π-calculus.",
+      "type": "article",
+      "venue": "CoRR",
+      "year": 2021
+    },
+    "journals/corr/abs-2112-02863": {
+      "authors": [
+        "Adrien Durier",
+        "Daniel Hirschkoff",
+        "Davide Sangiorgi"
+      ],
+      "electronic_url": "https://arxiv.org/abs/2112.02863",
+      "key": "journals/corr/abs-2112-02863",
+      "title": "Eager Functions as Processes.",
+      "type": "article",
+      "venue": "CoRR",
+      "year": 2021
+    },
+    "journals/corr/abs-2202-03187": {
+      "authors": [
+        "Adrien Durier",
+        "Daniel Hirschkoff",
+        "Davide Sangiorgi"
+      ],
+      "electronic_url": "https://arxiv.org/abs/2202.03187",
+      "key": "journals/corr/abs-2202-03187",
+      "title": "Eager Functions as Processes (long version).",
+      "type": "article",
+      "venue": "CoRR",
+      "year": 2022
+    },
+    "journals/corr/abs-2309-07303": {
+      "authors": [
+        "Ilaria Castellani",
+        "Ornela Dardha",
+        "Luca Padovani",
+        "Davide Sangiorgi"
+      ],
+      "electronic_url": "https://doi.org/10.4204/EPTCS.387.2",
+      "key": "journals/corr/abs-2309-07303",
+      "title": "EXPRESSing Session Types.",
+      "type": "inproceedings",
+      "venue": "EXPRESS/SOS, pp. 8-25",
+      "year": 2023
+    },
+    "journals/corr/abs-2405-03536": {
+      "authors": [
+        "Ken Sakayori",
+        "Davide Sangiorgi"
+      ],
+      "electronic_url": "https://doi.org/10.48550/ARXIV.2405.03536",
+      "key": "journals/corr/abs-2405-03536",
+      "title": "Extensional and Non-extensional Functions as Processes.",
+      "type": "article",
+      "venue": "CoRR",
+      "year": 2024
+    },
+    "journals/corr/abs-2412-07351": {
+      "authors": [
+        "Davide Sangiorgi"
+      ],
+      "electronic_url": "https://doi.org/10.48550/ARXIV.2412.07351",
+      "key": "journals/corr/abs-2412-07351",
+      "title": "An Abstract Account of Up-to Techniques for Inductive Behavioural Relations.",
+      "type": "article",
+      "venue": "CoRR",
+      "year": 2024
+    },
+    "journals/corr/abs-2504-17350": {
+      "authors": [
+        "Daniel Hirschkoff",
+        "Iwan Quémerais",
+        "Davide Sangiorgi"
+      ],
+      "electronic_url": "https://doi.org/10.48550/ARXIV.2504.17350",
+      "key": "journals/corr/abs-2504-17350",
+      "title": "First-order store and visibility in name-passing calculi.",
+      "type": "article",
+      "venue": "CoRR",
+      "year": 2025
+    },
+    "journals/corr/abs-2504-18227": {
+      "authors": [
+        "Guilhem Jaber",
+        "Davide Sangiorgi"
+      ],
+      "electronic_url": "https://doi.org/10.48550/ARXIV.2504.18227",
+      "key": "journals/corr/abs-2504-18227",
+      "title": "Games, mobile processes, and functions.",
+      "type": "article",
+      "venue": "CoRR",
+      "year": 2025
+    },
+    "journals/corr/abs-2605-18496": {
+      "authors": [
+        "Ken Sakayori",
+        "Davide Sangiorgi",
+        "Simon Castellan",
+        "Pierre Clairambault"
+      ],
+      "electronic_url": "https://doi.org/10.48550/ARXIV.2605.18496",
+      "key": "journals/corr/abs-2605-18496",
+      "title": "Wiring the Pi-calculus to Denotational Semantics.",
+      "type": "article",
+      "venue": "CoRR",
+      "year": 2026
+    },
+    "journals/corr/abs-cs-0510010": {
+      "authors": [
+        "Daniel Hirschkoff",
+        "Étienne Lozes",
+        "Davide Sangiorgi"
+      ],
+      "electronic_url": "http://arxiv.org/abs/cs/0510010",
+      "key": "journals/corr/abs-cs-0510010",
+      "title": "On the Expressiveness of the Ambient Logic",
+      "type": "article",
+      "venue": "CoRR",
+      "year": 2005
+    },
+    "journals/dc/Sangiorgi12": {
+      "authors": [
+        "Davide Sangiorgi"
+      ],
+      "electronic_url": "https://doi.org/10.1007/S00446-011-0156-2",
+      "key": "journals/dc/Sangiorgi12",
+      "title": "Concurrency theory: timed automata, testing, program synthesis.",
+      "type": "article",
+      "venue": "Distributed Comput., pp. 3-4",
+      "year": 2012
+    },
+    "journals/eatcs/AcetoKRS22": {
+      "authors": [
+        "Luca Aceto",
+        "Orna Kupferman",
+        "Mickael Randour",
+        "Davide Sangiorgi"
+      ],
+      "electronic_url": "http://eatcs.org/beatcs/index.php/beatcs/article/view/735",
+      "key": "journals/eatcs/AcetoKRS22",
+      "title": "Interviews with the 2022 CONCUR Test-of-Time Award Recipients.",
+      "type": "article",
+      "venue": "Bull. EATCS",
+      "year": 2022
+    },
+    "journals/entcs/CarayolHS04": {
+      "authors": [
+        "Arnaud Carayol",
+        "Daniel Hirschkoff",
+        "Davide Sangiorgi"
+      ],
+      "electronic_url": "https://doi.org/10.1016/J.ENTCS.2004.04.022",
+      "key": "journals/entcs/CarayolHS04",
+      "title": "On the Representation of McCarthy's amb in the π-calculus.",
+      "type": "inproceedings",
+      "venue": "EXPRESS, pp. 73-89",
+      "year": 2004
+    },
+    "journals/entcs/MezzettiS06": {
+      "authors": [
+        "Nicola Mezzetti",
+        "Davide Sangiorgi"
+      ],
+      "electronic_url": "https://doi.org/10.1016/J.ENTCS.2006.04.017",
+      "key": "journals/entcs/MezzettiS06",
+      "title": "Towards a Calculus For Wireless Systems.",
+      "type": "inproceedings",
+      "venue": "MFPS, pp. 331-353",
+      "year": 2006
+    },
+    "journals/entcs/Sangiorgi06": {
+      "authors": [
+        "Davide Sangiorgi"
+      ],
+      "electronic_url": "https://doi.org/10.1016/J.ENTCS.2005.12.099",
+      "key": "journals/entcs/Sangiorgi06",
+      "title": "Bisimulation and Co-induction: Some Problems.",
+      "type": "inproceedings",
+      "venue": "APC 25, pp. 311-315",
+      "year": 2006
+    },
+    "journals/fac/PousS19": {
+      "authors": [
+        "Damien Pous",
+        "Davide Sangiorgi"
+      ],
+      "electronic_url": "https://doi.org/10.1007/S00165-019-00497-W",
+      "key": "journals/fac/PousS19",
+      "title": "Bisimulation and Coinduction Enhancements: A Historical Perspective.",
+      "type": "article",
+      "venue": "Formal Aspects Comput., pp. 733-749",
+      "year": 2019
+    },
+    "journals/iandc/DardhaGS17": {
+      "authors": [
+        "Ornela Dardha",
+        "Elena Giachino",
+        "Davide Sangiorgi"
+      ],
+      "electronic_url": "https://doi.org/10.1016/J.IC.2017.06.002",
+      "key": "journals/iandc/DardhaGS17",
+      "title": "Session types revisited.",
+      "type": "article",
+      "venue": "Inf. Comput., pp. 253-286",
+      "year": 2017
+    },
+    "journals/iandc/DengS06": {
+      "authors": [
+        "Yuxin Deng 0001",
+        "Davide Sangiorgi"
+      ],
+      "electronic_url": "https://doi.org/10.1016/J.IC.2006.03.002",
+      "key": "journals/iandc/DengS06",
+      "title": "Ensuring termination by typability.",
+      "type": "article",
+      "venue": "Inf. Comput., pp. 1045-1082",
+      "year": 2006
+    },
+    "journals/iandc/FioreMS02": {
+      "authors": [
+        "Marcelo P. Fiore",
+        "Eugenio Moggi",
+        "Davide Sangiorgi"
+      ],
+      "electronic_url": "https://doi.org/10.1006/INCO.2002.2968",
+      "key": "journals/iandc/FioreMS02",
+      "title": "A Fully Abstract Model for the [pi]-calculus.",
+      "type": "article",
+      "venue": "Inf. Comput., pp. 76-117",
+      "year": 2002
+    },
+    "journals/iandc/HirschkoffMS16": {
+      "authors": [
+        "Daniel Hirschkoff",
+        "Jean-Marie Madiot",
+        "Davide Sangiorgi"
+      ],
+      "electronic_url": "https://doi.org/10.1016/J.IC.2016.10.003",
+      "key": "journals/iandc/HirschkoffMS16",
+      "title": "Name-passing calculi: From fusions to preorders and types.",
+      "type": "article",
+      "venue": "Inf. Comput., pp. 335-360",
+      "year": 2016
+    },
+    "journals/iandc/LanesePSS11": {
+      "authors": [
+        "Ivan Lanese",
+        "Jorge A. Pérez 0001",
+        "Davide Sangiorgi",
+        "Alan Schmitt"
+      ],
+      "electronic_url": "https://doi.org/10.1016/J.IC.2010.10.001",
+      "key": "journals/iandc/LanesePSS11",
+      "title": "On the expressiveness and decidability of higher-order process calculi.",
+      "type": "article",
+      "venue": "Inf. Comput., pp. 198-226",
+      "year": 2011
+    },
+    "journals/iandc/ParrowS95": {
+      "authors": [
+        "Joachim Parrow",
+        "Davide Sangiorgi"
+      ],
+      "electronic_url": "https://doi.org/10.1006/INCO.1995.1108",
+      "key": "journals/iandc/ParrowS95",
+      "title": "Algebraic Theories for Name-Passing Calculi",
+      "type": "article",
+      "venue": "Inf. Comput., pp. 174-197",
+      "year": 1995
+    },
+    "journals/iandc/PistoreS01": {
+      "authors": [
+        "Marco Pistore",
+        "Davide Sangiorgi"
+      ],
+      "electronic_url": "https://doi.org/10.1006/INCO.2000.2895",
+      "key": "journals/iandc/PistoreS01",
+      "title": "A Partition Refinement Algorithm for the -Calculus.",
+      "type": "article",
+      "venue": "Inf. Comput., pp. 264-321",
+      "year": 2001
+    },
+    "journals/iandc/Sangiorgi94": {
+      "authors": [
+        "Davide Sangiorgi"
+      ],
+      "electronic_url": "https://doi.org/10.1006/INCO.1994.1042",
+      "key": "journals/iandc/Sangiorgi94",
+      "title": "The Lazy Lambda Calculus in a Concurrency Scenario",
+      "type": "article",
+      "venue": "Inf. Comput., pp. 120-153",
+      "year": 1994
+    },
+    "journals/iandc/Sangiorgi96": {
+      "authors": [
+        "Davide Sangiorgi"
+      ],
+      "electronic_url": "https://doi.org/10.1006/INCO.1996.0096",
+      "key": "journals/iandc/Sangiorgi96",
+      "title": "Bisimulation for Higher-Order Process Calculi.",
+      "type": "article",
+      "venue": "Inf. Comput., pp. 141-178",
+      "year": 1996
+    },
+    "journals/iandc/Sangiorgi98": {
+      "authors": [
+        "Davide Sangiorgi"
+      ],
+      "electronic_url": "https://doi.org/10.1006/INCO.1998.2711",
+      "key": "journals/iandc/Sangiorgi98",
+      "title": "An Interpretation of Typed Objects into Typed pi-Calculus.",
+      "type": "article",
+      "venue": "Inf. Comput., pp. 34-73",
+      "year": 1998
+    },
+    "journals/iandc/TianS20": {
+      "authors": [
+        "Chun Tian 0001",
+        "Davide Sangiorgi"
+      ],
+      "electronic_url": "https://doi.org/10.1016/J.IC.2020.104606",
+      "key": "journals/iandc/TianS20",
+      "title": "Unique solutions of contractions, CCS, and their HOL formalisation.",
+      "type": "article",
+      "venue": "Inf. Comput., pp. 104606",
+      "year": 2020
+    },
+    "journals/ijfcs/FachiniGMS90": {
+      "authors": [
+        "Emanuela Fachini",
+        "Jozef Gruska",
+        "Andrea Maggiolo-Schettini",
+        "Davide Sangiorgi"
+      ],
+      "electronic_url": "https://doi.org/10.1142/S0129054190000084",
+      "key": "journals/ijfcs/FachiniGMS90",
+      "title": "Simulation of Systolic Tree Automata on Trellis Automata.",
+      "type": "article",
+      "venue": "Int. J. Found. Comput. Sci., pp. 87-110",
+      "year": 1990
+    },
+    "journals/jacm/PierceS00": {
+      "authors": [
+        "Benjamin C. Pierce",
+        "Davide Sangiorgi"
+      ],
+      "electronic_url": "https://doi.org/10.1145/337244.337261",
+      "key": "journals/jacm/PierceS00",
+      "title": "Behavioral equivalence in the polymorphic pi-calculus.",
+      "type": "article",
+      "venue": "J. ACM, pp. 531-584",
+      "year": 2000
+    },
+    "journals/jlp/DemangeonHS10": {
+      "authors": [
+        "Romain Demangeon",
+        "Daniel Hirschkoff",
+        "Davide Sangiorgi"
+      ],
+      "electronic_url": "https://doi.org/10.1016/J.JLAP.2010.07.007",
+      "key": "journals/jlp/DemangeonHS10",
+      "title": "Termination in higher-order concurrent calculi.",
+      "type": "article",
+      "venue": "J. Log. Algebraic Methods Program., pp. 550-577",
+      "year": 2010
+    },
+    "journals/jlp/HirschkoffPS07": {
+      "authors": [
+        "Daniel Hirschkoff",
+        "Damien Pous",
+        "Davide Sangiorgi"
+      ],
+      "electronic_url": "https://doi.org/10.1016/J.JLAP.2007.02.003",
+      "key": "journals/jlp/HirschkoffPS07",
+      "title": "An efficient abstract machine for Safe Ambients.",
+      "type": "article",
+      "venue": "J. Log. Algebraic Methods Program., pp. 114-149",
+      "year": 2007
+    },
+    "journals/lmcs/DurierHS19": {
+      "authors": [
+        "Adrien Durier",
+        "Daniel Hirschkoff",
+        "Davide Sangiorgi"
+      ],
+      "electronic_url": "https://doi.org/10.23638/LMCS-15(3:12)2019",
+      "key": "journals/lmcs/DurierHS19",
+      "title": "Divergence and unique solution of equations.",
+      "type": "article",
+      "venue": "Log. Methods Comput. Sci.",
+      "year": 2019
+    },
+    "journals/lmcs/HirschkoffLS06": {
+      "authors": [
+        "Daniel Hirschkoff",
+        "Étienne Lozes",
+        "Davide Sangiorgi"
+      ],
+      "electronic_url": "https://doi.org/10.2168/LMCS-2(2:3)2006",
+      "key": "journals/lmcs/HirschkoffLS06",
+      "title": "On the Expressiveness of the Ambient Logic.",
+      "type": "article",
+      "venue": "Log. Methods Comput. Sci.",
+      "year": 2006
+    },
+    "journals/lmcs/LozesHS08": {
+      "authors": [
+        "Étienne Lozes",
+        "Daniel Hirschkoff",
+        "Davide Sangiorgi"
+      ],
+      "electronic_url": "https://doi.org/10.2168/LMCS-4(3:4)2008",
+      "key": "journals/lmcs/LozesHS08",
+      "title": "Separability in the Ambient Logic.",
+      "type": "article",
+      "venue": "Log. Methods Comput. Sci.",
+      "year": 2008
+    },
+    "journals/lmcs/MadiotPS21": {
+      "authors": [
+        "Jean-Marie Madiot",
+        "Damien Pous",
+        "Davide Sangiorgi"
+      ],
+      "electronic_url": "https://doi.org/10.46298/LMCS-17(3:25)2021",
+      "key": "journals/lmcs/MadiotPS21",
+      "title": "Modular coinduction up-to for higher-order languages via first-order transition systems.",
+      "type": "article",
+      "venue": "Log. Methods Comput. Sci.",
+      "year": 2021
+    },
+    "journals/lmcs/SakayoriS25": {
+      "authors": [
+        "Ken Sakayori",
+        "Davide Sangiorgi"
+      ],
+      "electronic_url": "https://doi.org/10.46298/LMCS-21(3:25)2025",
+      "key": "journals/lmcs/SakayoriS25",
+      "title": "Extensional and Non-extensional Functions as Processes.",
+      "type": "article",
+      "venue": "Log. Methods Comput. Sci.",
+      "year": 2025
+    },
+    "journals/lmcs/SangiorgiX18": {
+      "authors": [
+        "Davide Sangiorgi",
+        "Xian Xu 0001"
+      ],
+      "electronic_url": "https://doi.org/10.23638/LMCS-14(3:11)2018",
+      "key": "journals/lmcs/SangiorgiX18",
+      "title": "Trees from Functions as Processes.",
+      "type": "article",
+      "venue": "Log. Methods Comput. Sci.",
+      "year": 2018
+    },
+    "journals/mscs/LagoMS16": {
+      "authors": [
+        "Ugo Dal Lago",
+        "Simone Martini 0001",
+        "Davide Sangiorgi"
+      ],
+      "electronic_url": "https://doi.org/10.1017/S0960129514000310",
+      "key": "journals/mscs/LagoMS16",
+      "title": "Light logics and higher-order processes.",
+      "type": "article",
+      "venue": "Math. Struct. Comput. Sci., pp. 969-992",
+      "year": 2016
+    },
+    "journals/mscs/LaneseS15": {
+      "authors": [
+        "Ivan Lanese",
+        "Davide Sangiorgi"
+      ],
+      "electronic_url": "https://doi.org/10.1017/S0960129512000898",
+      "key": "journals/mscs/LaneseS15",
+      "title": "Preface: Special issue on objects and services.",
+      "type": "article",
+      "venue": "Math. Struct. Comput. Sci., pp. 480-481",
+      "year": 2015
+    },
+    "journals/mscs/MerroS04": {
+      "authors": [
+        "Massimo Merro",
+        "Davide Sangiorgi"
+      ],
+      "electronic_url": "https://doi.org/10.1017/S0960129504004323",
+      "key": "journals/mscs/MerroS04",
+      "title": "On asynchrony in name-passing calculi.",
+      "type": "article",
+      "venue": "Math. Struct. Comput. Sci., pp. 715-767",
+      "year": 2004
+    },
+    "journals/mscs/PierceS96": {
+      "authors": [
+        "Benjamin C. Pierce",
+        "Davide Sangiorgi"
+      ],
+      "electronic_url": "https://doi.org/10.1017/S096012950007002X",
+      "key": "journals/mscs/PierceS96",
+      "title": "Typing and Subtyping for Mobile Processes.",
+      "type": "article",
+      "venue": "Math. Struct. Comput. Sci., pp. 409-453",
+      "year": 1996
+    },
+    "journals/mscs/Sangiorgi06": {
+      "authors": [
+        "Davide Sangiorgi"
+      ],
+      "electronic_url": "https://doi.org/10.1017/S0960129505004810",
+      "key": "journals/mscs/Sangiorgi06",
+      "title": "Termination of processes.",
+      "type": "article",
+      "venue": "Math. Struct. Comput. Sci., pp. 1-39",
+      "year": 2006
+    },
+    "journals/mscs/Sangiorgi98": {
+      "authors": [
+        "Davide Sangiorgi"
+      ],
+      "electronic_url": "http://journals.cambridge.org/action/displayAbstract?aid=44769",
+      "key": "journals/mscs/Sangiorgi98",
+      "title": "On the Foundations of Final Coalgebra Semantics: Non-Well-Founded Sets, Partial Orders, Metric Spaces.",
+      "type": "article",
+      "venue": "Math. Struct. Comput. Sci., pp. 447-480",
+      "year": 1998
+    },
+    "journals/mscs/Sangiorgi99": {
+      "authors": [
+        "Davide Sangiorgi"
+      ],
+      "electronic_url": "http://journals.cambridge.org/action/displayAbstract?aid=44843",
+      "key": "journals/mscs/Sangiorgi99",
+      "title": "From lambda to pi; or, Rediscovering continuations.",
+      "type": "article",
+      "venue": "Math. Struct. Comput. Sci., pp. 367-401",
+      "year": 1999
+    },
+    "journals/pacmpl/Sangiorgi22": {
+      "authors": [
+        "Davide Sangiorgi"
+      ],
+      "electronic_url": "https://doi.org/10.1145/3498679",
+      "key": "journals/pacmpl/Sangiorgi22",
+      "title": "From enhanced coinduction towards enhanced induction.",
+      "type": "article",
+      "venue": "Proc. ACM Program. Lang., pp. 1-29",
+      "year": 2022
+    },
+    "journals/scp/GianniniSV06": {
+      "authors": [
+        "Paola Giannini",
+        "Davide Sangiorgi",
+        "Andrea Valente"
+      ],
+      "electronic_url": "https://doi.org/10.1016/J.SCICO.2005.05.002",
+      "key": "journals/scp/GianniniSV06",
+      "title": "Safe Ambients: Abstract machine and distributed implementation.",
+      "type": "article",
+      "venue": "Sci. Comput. Program., pp. 209-249",
+      "year": 2006
+    },
+    "journals/scp/KleistS02": {
+      "authors": [
+        "Josva Kleist",
+        "Davide Sangiorgi"
+      ],
+      "electronic_url": "https://doi.org/10.1016/S0167-6423(02)00034-5",
+      "key": "journals/scp/KleistS02",
+      "title": "Imperative objects as mobile processes.",
+      "type": "article",
+      "venue": "Sci. Comput. Program., pp. 293-342",
+      "year": 2002
+    },
+    "journals/scp/Sangiorgi00": {
+      "authors": [
+        "Davide Sangiorgi"
+      ],
+      "electronic_url": "https://doi.org/10.1016/S0167-6423(00)00008-3",
+      "key": "journals/scp/Sangiorgi00",
+      "title": "Review: Communicating and Mobile Systems: the -calculus, - Robin Milner, Cambridge University Press, Cambridge, 1999, 174 pages, ISBN 0-521-64320-1.",
+      "type": "article",
+      "venue": "Sci. Comput. Program., pp. 151-153",
+      "year": 2000
+    },
+    "journals/tapos/Sangiorgi99": {
+      "authors": [
+        "Davide Sangiorgi"
+      ],
+      "electronic_url": null,
+      "key": "journals/tapos/Sangiorgi99",
+      "title": "Typed pi-calculus at Work: A Correctness Proof of Jones's Parallelisation Transformation on Concurrent Objects.",
+      "type": "article",
+      "venue": "Theory Pract. Object Syst., pp. 25-33",
+      "year": 1999
+    },
+    "journals/tcs/AmadioCS98": {
+      "authors": [
+        "Roberto M. Amadio",
+        "Ilaria Castellani",
+        "Davide Sangiorgi"
+      ],
+      "electronic_url": "https://doi.org/10.1016/S0304-3975(97)00223-5",
+      "key": "journals/tcs/AmadioCS98",
+      "title": "On Bisimulations for the Asynchronous pi-Calculus.",
+      "type": "article",
+      "venue": "Theor. Comput. Sci., pp. 291-324",
+      "year": 1998
+    },
+    "journals/tcs/BorealeS98": {
+      "authors": [
+        "Michele Boreale",
+        "Davide Sangiorgi"
+      ],
+      "electronic_url": "https://doi.org/10.1016/S0304-3975(97)00125-4",
+      "key": "journals/tcs/BorealeS98",
+      "title": "Some Congruence Properties for Pi-Calculus Bisimilarities.",
+      "type": "article",
+      "venue": "Theor. Comput. Sci., pp. 159-176",
+      "year": 1998
+    },
+    "journals/tcs/CarayolHS05": {
+      "authors": [
+        "Arnaud Carayol",
+        "Daniel Hirschkoff",
+        "Davide Sangiorgi"
+      ],
+      "electronic_url": "https://doi.org/10.1016/J.TCS.2004.10.005",
+      "key": "journals/tcs/CarayolHS05",
+      "title": "On the representation of McCarthy's amb in the Pi-calculus.",
+      "type": "article",
+      "venue": "Theor. Comput. Sci., pp. 439-473",
+      "year": 2005
+    },
+    "journals/tcs/DengS06": {
+      "authors": [
+        "Yuxin Deng 0001",
+        "Davide Sangiorgi"
+      ],
+      "electronic_url": "https://doi.org/10.1016/J.TCS.2005.10.029",
+      "key": "journals/tcs/DengS06",
+      "title": "Towards an algebraic theory of typed mobile processes.",
+      "type": "article",
+      "venue": "Theor. Comput. Sci., pp. 188-212",
+      "year": 2006
+    },
+    "journals/tcs/DurierHS20": {
+      "authors": [
+        "Adrien Durier",
+        "Daniel Hirschkoff",
+        "Davide Sangiorgi"
+      ],
+      "electronic_url": "https://doi.org/10.1016/J.TCS.2019.09.036",
+      "key": "journals/tcs/DurierHS20",
+      "title": "Towards 'up to context' reasoning about higher-order processes.",
+      "type": "article",
+      "venue": "Theor. Comput. Sci., pp. 154-168",
+      "year": 2020
+    },
+    "journals/tcs/DurierHS22": {
+      "authors": [
+        "Adrien Durier",
+        "Daniel Hirschkoff",
+        "Davide Sangiorgi"
+      ],
+      "electronic_url": "https://doi.org/10.1016/J.TCS.2022.01.043",
+      "key": "journals/tcs/DurierHS22",
+      "title": "Eager functions as processes.",
+      "type": "article",
+      "venue": "Theor. Comput. Sci., pp. 8-42",
+      "year": 2022
+    },
+    "journals/tcs/FachiniMRS91": {
+      "authors": [
+        "Emanuela Fachini",
+        "Andrea Maggiolo-Schettini",
+        "Giovanni Resta",
+        "Davide Sangiorgi"
+      ],
+      "electronic_url": "https://doi.org/10.1016/0304-3975(91)90277-9",
+      "key": "journals/tcs/FachiniMRS91",
+      "title": "Nonacceptability Criteria and Closure Properties for the Class of Languages Accepted by Binary Systolic Tree Automata.",
+      "type": "article",
+      "venue": "Theor. Comput. Sci., pp. 249-260",
+      "year": 1991
+    },
+    "journals/tcs/LaneseS10": {
+      "authors": [
+        "Ivan Lanese",
+        "Davide Sangiorgi"
+      ],
+      "electronic_url": "https://doi.org/10.1016/J.TCS.2010.01.023",
+      "key": "journals/tcs/LaneseS10",
+      "title": "An operational semantics for a calculus for wireless systems.",
+      "type": "article",
+      "venue": "Theor. Comput. Sci., pp. 1928-1948",
+      "year": 2010
+    },
+    "journals/tcs/Sangiorgi01": {
+      "authors": [
+        "Davide Sangiorgi"
+      ],
+      "electronic_url": "https://doi.org/10.1016/S0304-3975(00)00097-9",
+      "key": "journals/tcs/Sangiorgi01",
+      "title": "Asynchronous process calculi: the first- and higher-order paradigms.",
+      "type": "article",
+      "venue": "Theor. Comput. Sci., pp. 311-350",
+      "year": 2001
+    },
+    "journals/tcs/Sangiorgi96": {
+      "authors": [
+        "Davide Sangiorgi"
+      ],
+      "electronic_url": "https://doi.org/10.1016/0304-3975(95)00020-8",
+      "key": "journals/tcs/Sangiorgi96",
+      "title": "Locality and Interleaving Semantics in Calculi for Mobile Processes.",
+      "type": "article",
+      "venue": "Theor. Comput. Sci., pp. 39-83",
+      "year": 1996
+    },
+    "journals/tcs/Sangiorgi96a": {
+      "authors": [
+        "Davide Sangiorgi"
+      ],
+      "electronic_url": "https://doi.org/10.1016/0304-3975(96)00075-8",
+      "key": "journals/tcs/Sangiorgi96a",
+      "title": "pi-Calculus, Internal Mobility, and Agent-Passing Calculi.",
+      "type": "article",
+      "venue": "Theor. Comput. Sci., pp. 235-274",
+      "year": 1996
+    },
+    "journals/tcs/Sangiorgi99": {
+      "authors": [
+        "Davide Sangiorgi"
+      ],
+      "electronic_url": "https://doi.org/10.1016/S0304-3975(99)00040-7",
+      "key": "journals/tcs/Sangiorgi99",
+      "title": "The Name Discipline of Uniform Receptiveness.",
+      "type": "article",
+      "venue": "Theor. Comput. Sci., pp. 457-493",
+      "year": 1999
+    },
+    "journals/tcs/SangiorgiS02": {
+      "authors": [
+        "Davide Sangiorgi",
+        "Robert de Simone"
+      ],
+      "electronic_url": "https://doi.org/10.1016/S0304-3975(00)00303-0",
+      "key": "journals/tcs/SangiorgiS02",
+      "title": "Ninth International Conference on Concurrency Theory 1998 - Editorial.",
+      "type": "article",
+      "venue": "Theor. Comput. Sci., pp. 1",
+      "year": 2002
+    },
+    "journals/tocl/Sangiorgi17": {
+      "authors": [
+        "Davide Sangiorgi"
+      ],
+      "electronic_url": "https://doi.org/10.1145/2971339",
+      "key": "journals/tocl/Sangiorgi17",
+      "title": "Equations, Contractions, and Unique Solutions.",
+      "type": "article",
+      "venue": "ACM Trans. Comput. Log., pp. 4:1-4:30",
+      "year": 2017
+    },
+    "journals/toplas/KobayashiS10": {
+      "authors": [
+        "Naoki Kobayashi 0001",
+        "Davide Sangiorgi"
+      ],
+      "electronic_url": "https://doi.org/10.1145/1745312.1745313",
+      "key": "journals/toplas/KobayashiS10",
+      "title": "A hybrid type system for lock-freedom of mobile processes.",
+      "type": "article",
+      "venue": "ACM Trans. Program. Lang. Syst., pp. 16:1-16:49",
+      "year": 2010
+    },
+    "journals/toplas/LeviS03": {
+      "authors": [
+        "Francesca Levi",
+        "Davide Sangiorgi"
+      ],
+      "electronic_url": "https://doi.org/10.1145/596980.596981",
+      "key": "journals/toplas/LeviS03",
+      "title": "Mobile safe ambients.",
+      "type": "article",
+      "venue": "ACM Trans. Program. Lang. Syst., pp. 1-69",
+      "year": 2003
+    },
+    "journals/toplas/Sangiorgi09": {
+      "authors": [
+        "Davide Sangiorgi"
+      ],
+      "electronic_url": "https://doi.org/10.1145/1516507.1516510",
+      "key": "journals/toplas/Sangiorgi09",
+      "title": "On the origins of bisimulation and coinduction.",
+      "type": "article",
+      "venue": "ACM Trans. Program. Lang. Syst., pp. 15:1-15:41",
+      "year": 2009
+    },
+    "journals/toplas/SangiorgiKS11": {
+      "authors": [
+        "Davide Sangiorgi",
+        "Naoki Kobayashi 0001",
+        "Eijiro Sumii"
+      ],
+      "electronic_url": "https://doi.org/10.1145/1889997.1890002",
+      "key": "journals/toplas/SangiorgiKS11",
+      "title": "Environmental bisimulations for higher-order languages.",
+      "type": "article",
+      "venue": "ACM Trans. Program. Lang. Syst., pp. 5:1-5:69",
+      "year": 2011
+    },
+    "journals/toplas/SangiorgiV19": {
+      "authors": [
+        "Davide Sangiorgi",
+        "Valeria Vignudelli"
+      ],
+      "electronic_url": "https://doi.org/10.1145/3350618",
+      "key": "journals/toplas/SangiorgiV19",
+      "title": "Environmental Bisimulations for Probabilistic Higher-order Languages.",
+      "type": "article",
+      "venue": "ACM Trans. Program. Lang. Syst., pp. 22:1-22:64",
+      "year": 2019
+    },
+    "phd/ethos/Sangiorgi93": {
+      "authors": [
+        "Davide Sangiorgi"
+      ],
+      "electronic_url": "https://ethos.bl.uk/OrderDetails.do?uin=uk.bl.ethos.566460",
+      "key": "phd/ethos/Sangiorgi93",
+      "title": "Expressing mobility in process algebras : first-order and higher-order paradigms.",
+      "type": "phdthesis",
+      "venue": "",
+      "year": 1993
+    },
+    "reference/parallel/SangiorgiS11": {
+      "authors": [
+        "Davide Sangiorgi"
+      ],
+      "electronic_url": "https://doi.org/10.1007/978-0-387-09766-4_202",
+      "key": "reference/parallel/SangiorgiS11",
+      "title": "Pi-Calculus.",
+      "type": "incollection",
+      "venue": "Encyclopedia of Parallel Computing, pp. 1554-1562",
+      "year": 2011
+    },
+    "series/hhl/BaetenS14": {
+      "authors": [
+        "Jos C. M. Baeten",
+        "Davide Sangiorgi"
+      ],
+      "electronic_url": "https://doi.org/10.1016/B978-0-444-51624-4.50009-5",
+      "key": "series/hhl/BaetenS14",
+      "title": "Concurrency Theory: A Historical Perspective on Coinduction and Process Calculi.",
+      "type": "incollection",
+      "venue": "Computational Logic, pp. 399-442",
+      "year": 2014
+    }
+  },
+  "schema_version": 1
 }
