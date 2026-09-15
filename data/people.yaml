@@ -34,6 +34,20 @@
 #       # Last day of the period; null denotes an ongoing period.
 #       departure: null
 
+- id: "avanzini"
+  first_name: "Martin"
+  last_name: "Avanzini"
+  affiliations: "Researcher [Inria OLAS](https://www.inria.fr/en/olas)"
+  email: "martin.avanzini@inria.fr"
+  webpage: "https://www-sop.inria.fr/members/Martin.Avanzini/"
+  dblp: "63/5617"
+  photo: null
+  interests: ["rewriting", "complexity analysis", "probabilistic computing", "quantum computing", "expectation transformers"]
+  periods:
+    - status: "permanent"
+      arrival: "2014-01-01"
+      departure: null
+
 - id: "cerda"
   first_name: "Rémy"
   last_name: "Cerda"
