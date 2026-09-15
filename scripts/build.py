@@ -711,10 +711,10 @@ def build(now_override: str | None = None) -> None:
     ]
     descriptions = {
         "/": site["description"],
-        "/people/": "Researchers, students, visitors, and collaborators in Bologna.",
-        "/seminar/": "Upcoming and past talks in the Bologna software theory seminar.",
-        "/publications/": "Publications associated with researchers' periods in Bologna.",
-        "/news/": "News from the Theory of Software Systems community in Bologna.",
+        "/people/": "People in the Theory of Software Systems group in Bologna.",
+        "/seminar/": "Upcoming and past talks in the Bologna Theory of Software Systems seminar.",
+        "/publications/": "Publications of the Theory of Software Systems group in Bologna.",
+        "/news/": "News from the Theory of Software Systems group in Bologna.",
         "/internal/": "Practical information for participants.",
         "/legal/": "Website licensing and privacy information.",
         "/404.html": "The requested page could not be found.",
