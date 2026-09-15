@@ -14,7 +14,7 @@
 
 <li class="publication">
   <div class="publication-title">
-    <a href="https://dblp.org/rec/{{ publication.key }}.html">
+    <a href="https://dblp.org/rec/{{ publication.key }}.html" target="_blank" rel="noopener noreferrer">
       {{ publication.title }}
     </a>
   </div>
@@ -29,7 +29,7 @@
     {% if publication.venue %}{{ publication.venue }} · {% endif %}
     {{ publication.year }}
     {% if publication.electronic_url %}
-    · <a href="{{ publication.electronic_url }}">Publication</a>
+    · <a href="{{ publication.electronic_url }}" target="_blank" rel="noopener noreferrer">Publication</a>
     {% endif %}
   </div>
 </li>

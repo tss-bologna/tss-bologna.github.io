@@ -41,12 +41,12 @@
             {% endif %}
 
             {% if person.webpage %}
-            <li><a href="{{ person.webpage }}">Webpage</a></li>
+            <li><a href="{{ person.webpage }}" target="_blank" rel="noopener noreferrer">Webpage</a></li>
             {% endif %}
 
             {% if person.dblp %}
             <li>
-              <a href="https://dblp.org/pid/{{ person.dblp }}.html">DBLP</a>
+              <a href="https://dblp.org/pid/{{ person.dblp }}.html" target="_blank" rel="noopener noreferrer">DBLP</a>
             </li>
             {% endif %}
           </ul>
@@ -80,7 +80,7 @@
     {% for person in former_people %}
     <li id="{{ person.id }}">
       {% if person.webpage %}
-      <a href="{{ person.webpage }}">
+      <a href="{{ person.webpage }}" target="_blank" rel="noopener noreferrer">
         {{ person.first_name }} {{ person.last_name }}
       </a>
       {% else %}

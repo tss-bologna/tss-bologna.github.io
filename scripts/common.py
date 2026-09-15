@@ -391,8 +391,12 @@ class MarkdownRenderer:
             # sites and project sites.
             if token.type == "link_open":
                 href = token.attrGet("href")
-                if href and href.startswith("/") and not href.startswith("//"):
-                    token.attrSet("href", self.local_url(href))
+                if href:
+                    if href.lower().startswith(("https://", "http://", "//")):
+                        token.attrSet("target", "_blank")
+                        token.attrSet("rel", "noopener noreferrer")
+                    elif href.startswith("/"):
+                        token.attrSet("href", self.local_url(href))
 
             if token.type == "image":
                 src = token.attrGet("src")

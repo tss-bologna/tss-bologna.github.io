@@ -31,7 +31,7 @@
     {% if talk.speaker %}
       <strong>
         {% if talk.speaker_url %}
-        <a href="{{ talk.speaker_url }}">{{ talk.speaker }}</a>
+        <a href="{{ talk.speaker_url }}" target="_blank" rel="noopener noreferrer">{{ talk.speaker }}</a>
         {% else %}
         {{ talk.speaker }}
         {% endif %}
@@ -45,13 +45,13 @@
       </strong>
 
       {% if talk.slides %}
-      (<a href="{{ talk.slides }}">slides</a>)
+      (<a href="{{ talk.slides }}" target="_blank" rel="noopener noreferrer">slides</a>)
       {% endif %}
       {% if talk.url %}
-      (<a href="{{ talk.url }}">url</a>)
+      (<a href="{{ talk.url }}" target="_blank" rel="noopener noreferrer">url</a>)
       {% endif %}
       {% if talk.video %}
-      (<a href="{{ talk.video }}">video</a>)
+      (<a href="{{ talk.video }}" target="_blank" rel="noopener noreferrer">video</a>)
       {% endif %}
     {% else %}
       TBA
@@ -64,7 +64,7 @@
 
   {% if talk.online_url and talk.is_upcoming and not talk.cancelled %}
   <p class="talk-online">
-    <a href="{{ talk.online_url }}">Attend online</a>
+    <a href="{{ talk.online_url }}" target="_blank" rel="noopener noreferrer">Attend online</a>
   </p>
   {% endif %}
 
