@@ -4,8 +4,14 @@ on:
   push:
     branches: [main]
 
-  # Run manually from the repository's Actions tab.
+  # Manual builds use the cache unless this checkbox is selected.
   workflow_dispatch:
+    inputs:
+      refresh_dblp:
+        description: "Refresh the DBLP cache before building"
+        type: boolean
+        required: false
+        default: false
 
   # Daily refresh, at 05:23 UTC.
   schedule:
@@ -60,8 +66,16 @@ jobs:
       - name: Run behavioural tests
         run: python -m unittest discover -s tests -v
 
+      # Never fetch on pushes. Refresh daily or when explicitly requested.
+      # Set the repository variable PAUSE_DBLP to true to suspend fetching.
       - name: Refresh DBLP cache
         id: dblp
+        if: >-
+          vars.PAUSE_DBLP != 'true' &&
+          (
+            github.event_name == 'schedule' ||
+            (github.event_name == 'workflow_dispatch' && inputs.refresh_dblp)
+          )
         continue-on-error: true
         run: python scripts/fetch_dblp.py
 
