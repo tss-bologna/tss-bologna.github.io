@@ -62,7 +62,7 @@ def load_site() -> dict:
         site,
         {
             "name", "url", "base_path", "timezone", "language",
-            "description", "demo", "home_news_limit",
+            "description", "demo", "show_photos", "home_news_limit",
             "publications_visible", "statuses", "seminar", "logos",
         },
         "site",
@@ -74,6 +74,8 @@ def load_site() -> dict:
     site.setdefault("base_path", "")
     site.setdefault("demo", False)
     require_bool(site["demo"], "site.demo")
+    site.setdefault("show_photos", True)
+    require_bool(site["show_photos"], "site.show_photos")
 
     for field in ("home_news_limit", "publications_visible"):
         require_int(site.get(field), f"site.{field}", minimum=1)

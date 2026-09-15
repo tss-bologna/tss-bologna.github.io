@@ -35,7 +35,8 @@
 
   # Optional portrait path relative to static/.
   # Example: "images/people/davide-sangiorgi.jpg".
-  # null means no portrait; no empty portrait space is reserved.
+  # Omitted or null uses the default SVG placeholder.
+  # All portraits are hidden when site.show_photos is false.
   photo: null
 
   # Optional list of plain-text research tags. Default: [].

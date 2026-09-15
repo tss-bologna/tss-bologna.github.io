@@ -12,11 +12,15 @@
     {% for person in group.people %}
     <li>
       <article class="person" id="{{ person.id }}">
-        {% if person.photo %}
-        <img class="portrait"
-             src="{{ local_url('/' ~ person.photo) }}"
-             alt="Portrait of {{ person.first_name }} {{ person.last_name }}"
-             loading="lazy">
+        {% if site.show_photos %}
+        <div class="portrait-slot">
+          <img class="portrait"
+              src="{{ local_url('/' ~ (
+                person.photo or 'images/person-placeholder.svg'
+              )) }}"
+              alt=""
+              loading="lazy">
+        </div>
         {% endif %}
 
         <div class="person-information">

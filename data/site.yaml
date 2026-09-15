@@ -66,6 +66,10 @@ statuses:
     label: "External collaborators"
     publications: false
 
+# Show portraits for current people, using a placeholder when none is supplied.
+# false hides all portraits.
+show_photos: true
+
 # Seminar settings and defaults.
 # Individual talks may override duration.
 seminar:
