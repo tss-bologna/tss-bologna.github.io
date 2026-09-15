@@ -393,6 +393,7 @@ def select_publications(site: dict, people: list, today):
         require_int(record.get("year"), f"{where}.year", minimum=1)
         require_text(record.get("venue"), f"{where}.venue", allow_empty=True)
         require_text(record.get("type"), f"{where}.type")
+        require_bool(record.get("informal", False), f"{where}.informal")
         for author in require_list(record.get("authors"), f"{where}.authors"):
             require_text(author, f"{where}.authors")
         optional_url(record.get("electronic_url"), f"{where}.electronic_url")
@@ -461,6 +462,15 @@ def select_publications(site: dict, people: list, today):
 
     selected.update(entry["key"] for entry in overrides["include"])
     selected.difference_update(entry["key"] for entry in overrides["exclude"])
+
+    # Exclude informal publications, including preprints.
+    # The CoRR key check also works with caches predating the informal field.
+    selected = {
+        key
+        for key in selected
+        if not records[key].get("informal", False)
+        and not key.startswith("journals/corr/")
+    }
 
     publications = sorted(
         (records[key] for key in selected),

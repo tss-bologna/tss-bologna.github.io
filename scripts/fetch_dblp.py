@@ -263,6 +263,7 @@ def fetch_records(client: Client, keys: list[str]) -> dict[str, dict]:
             SELECT DISTINCT ?publ ?pred ?value WHERE {
               VALUES ?publ { %s }
               VALUES ?pred {
+                rdf:type
                 dblp:title
                 dblp:yearOfPublication
                 dblp:bibtexType
@@ -385,6 +386,13 @@ def fetch_records(client: Client, keys: list[str]) -> dict[str, dict]:
                 "year": int(year_text),
                 "electronic_url": electronic_url,
                 "type": publication_type,
+                "informal": (
+                    SCHEMA_PREFIX + "Informal"
+                    in data.get(
+                        "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+                        [],
+                    )
+                ),
             }
 
     return records
