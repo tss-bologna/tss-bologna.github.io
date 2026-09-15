@@ -639,6 +639,11 @@ def build(now_override: str | None = None) -> None:
     publications, snapshot, snapshot_display = select_publications(
         site, people, today
     )
+    for publication in publications:
+        publication["title_html"] = markdown.render_title(
+            publication["title"],
+            f"publication {publication['key']}.title",
+        )
 
     content = {}
     for name in ("home", "seminar", "internal", "legal"):

@@ -19,6 +19,7 @@ from zoneinfo import ZoneInfo, ZoneInfoNotFoundError
 
 import yaml
 from markdown_it import MarkdownIt
+from markdown_it.token import Token
 from markupsafe import Markup
 from mdit_py_plugins.dollarmath import dollarmath_plugin
 
@@ -381,6 +382,39 @@ class MarkdownRenderer:
 
         environment = {}
         tokens = self.parser.parse(text, environment)
+        return self._render_tokens(tokens, environment, where)
+
+    def render_title(self, text: str, where: str) -> Markup:
+        """Render title formulas inline, without interpreting Markdown or HTML."""
+        require_text(text, where, allow_empty=True)
+        pattern = re.compile(
+            r"(?<!\\)\$\$(.+?)(?<!\\)\$\$"
+            r"|(?<![\\$])\$(?!\$)(.+?)(?<!\\)\$(?!\$)"
+            r"|\\\((.+?)\\\)"
+            r"|\\\[(.+?)\\\]",
+            re.DOTALL,
+        )
+        tokens = []
+        position = 0
+
+        for match in pattern.finditer(text):
+            plain = Token("text", "", 0)
+            plain.content = text[position:match.start()]
+            tokens.append(plain)
+
+            formula = Token("math_inline", "math", 0)
+            formula.content = next(
+                group for group in match.groups() if group is not None
+            ).strip()
+            tokens.append(formula)
+            position = match.end()
+
+        tail = Token("text", "", 0)
+        tail.content = text[position:]
+        tokens.append(tail)
+        return self._render_tokens(tokens, {}, where)
+
+    def _render_tokens(self, tokens, environment, where: str) -> Markup:
         math_tokens = []
 
         for token in self._walk(tokens):
