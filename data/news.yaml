@@ -10,8 +10,10 @@
 # If no items are active, Home hides both the news section and archive link.
 # The archive includes all published items, including expired ones.
 # Future-dated items appear neither on Home nor in the archive.
-#
-# These announcements are illustrative. Replace them before publication.
+
+# This is just to say that there are no news.
+# Remove it when adding the first item.
+[]
 
 # Stable identifier, used as an anchor in /news/#website-preview.
 # - id: ""
