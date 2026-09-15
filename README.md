@@ -1,256 +1,79 @@
-# Theory of Software Systems @ Bologna
+# Editing the website
 
-A small static research website built with Python, Jinja2, YAML, and
-Markdown. KaTeX renders mathematics during the build.
+Pull the latest changes before editing: GitHub Actions also commits DBLP
+cache updates. Commit and push to `main`; GitHub builds and publishes
+automatically. Check **Actions → Build website** for errors or warnings.
+No local installation is required.
 
-The published website contains HTML, CSS, fonts, images, and a calendar
-feed. It requires no browser-side JavaScript.
+## Files to edit
 
-## Enable GitHub Pages
+| Content | File |
+|---|---|
+| People | `data/people.yaml` |
+| Talks | `data/talks.yaml` |
+| News | `data/news.yaml` |
+| Publication additions/exclusions | `data/publication_overrides.yaml` |
+| Site settings and category labels | `data/site.yaml` |
+| Home, seminar information, internal and legal text | `content/*.md` |
+| Images and downloadable files | `static/` |
+| Layout | `templates/` |
+| Appearance | `static/css/style.css` |
 
-Only do this after reviewing the preview.
+Edit source files, not `_site/` or the generated DBLP cache.
 
-1. In the repository, open **Settings → Pages**.
-2. Under the publishing source, select **GitHub Actions**.
-3. Open **Settings → Secrets and variables → Actions → Variables**.
-4. Add a repository variable:
-   - Name: `PUBLISH_SITE`
-   - Value: `true`
-5. Run **Build website** again from the Actions tab.
+## YAML and text
 
-Both conditions must hold before the deployment job runs:
+Use spaces, not tabs. Copy the commented templates in the data files.
+Use quoted dates (`"2026-09-15"`) and unquoted `null` for absent values.
+Remove a standalone `[]` when adding the first entry to an empty list.
 
-- `PUBLISH_SITE` is exactly `true`;
-- `demo` in `data/site.yaml` is `false`.
+Prose supports Markdown: `[label](URL)`, `*italics*`, `$inline math$`,
+and `$$display math$$`. Follow each field's comments.
 
-The expected address is https://tss-bologna.github.io/.
+## People
 
-Once enabled, successful pushes, manual runs, and scheduled runs can update
-the live site. Tests and generated-site checks run before deployment.
+Keep IDs stable. Sort by last name. Record departures rather than deleting
+people; add periods for returns or status changes. Dates also determine
+publication eligibility.
 
-To pause future deployments, remove `PUBLISH_SITE` or change its value.
-This does not remove the already published site.
+Photos accept a path relative to `static/`, an HTTPS image URL, or `null`.
+Unavailable remote photos fall back to the SVG; build checks emit warnings.
+`show_photos: false` in `site.yaml` hides all portraits.
 
-## Routine editing
+## Talks
 
-1. Pull the latest repository changes, including automatic cache commits.
-2. Edit YAML, Markdown, templates, or CSS.
-3. Commit and push.
-4. Inspect the Actions result.
+Keep newest talks first. Supply the room explicitly.
+Times use Europe/Rome.
 
-To refresh without editing files, use **Actions → Build website →
-Run workflow**.
-
-The workflow also runs daily at 05:23 UTC. Scheduled execution may be delayed;
-the site does not update at an exact guaranteed instant.
-
-GitHub may disable scheduled workflows in inactive public repositories.
-Check the Actions tab if automatic refreshes stop.
+Keep `id` and `uid` unchanged when editing or rescheduling.
+Update `last_modified` and increment `sequence` for calendar updates.
+Use `cancelled: true` for cancellations.
 
 ## News
 
-Home displays the three most recent active announcements by default.
+`date` controls publication; `expires` is the last day shown on Home.
+Expired news remains in the archive. `expires: null` means no expiry.
 
-An announcement is active from its publication date through its expiry date,
-inclusive. An omitted or null expiry means no expiry.
+## Publications
 
-Future announcements are not displayed. Expired announcements remain in
-the archive.
+Selection uses eligible participation periods, by inclusive calendar year.
+Use DBLP record keys in `publication_overrides.yaml` for corrections.
+Informal publications, including CoRR preprints, are excluded even from
+manual additions.
 
-If there is no active news, Home hides the entire news section and the
-archive link. `/news/` remains accessible directly.
+Pushes use the committed cache. DBLP refreshes daily.
+After adding an uncached author or publication, run:
+**Actions → Build website → Run workflow → Refresh DBLP cache**.
 
-News Archive never appears in the main navigation.
+## Build controls
 
-## People and periods
+Repository variables are under:
+**Settings → Secrets and variables → Actions → Variables**.
 
-Current people are grouped by their active status and sorted by surname,
-then given name.
+- `PAUSE_DBLP=true`: suspend fetching; builds continue using the cache.
+  Delete it or set `false` to resume.
+- `PUBLISH_SITE=true` and `demo: false` in `site.yaml`: enable deployment.
+- `PUBLISH_SITE=false`: build previews without updating the live site.
 
-Arrival and departure dates are inclusive. Participation periods for one
-person must not overlap. For a status transition, finish the old period
-the day before the new one starts.
-
-People with past periods but no active period appear in the compact former
-section. Future-only records are not yet displayed.
-
-The affiliation text is Markdown and controls display only. Publication
-eligibility is controlled by participation periods and the status settings.
-
-## Seminar
-
-Upcoming talks are sorted earliest first; past talks are sorted latest first.
-
-A talk becomes past at its starting time. This is evaluated at build time,
-so a change becomes visible on the next successful build.
-
-Warnings are displayed only for upcoming talks.
-
-A missing speaker displays `TBA` for the speaker/title line. With a known
-speaker but no title, the title is `TBA`. Abstracts are optional and collapsed
-by default.
-
-Each talk has its own location. An omitted location displays nothing.
-General seminar information does not supply event locations.
-
-Duration defaults to 60 minutes unless changed in the site settings or
-overridden in a talk.
-
-Cancelled talks remain listed and remain in the calendar with status
-`CANCELLED`, but cannot become Home's next seminar.
-
-## Calendar updates
-
-The feed is `/seminar/calendar.ics`.
-
-Preserve each event's `uid`, including after rescheduling. When modifying a
-published event:
-
-- update `last_modified`;
-- increment `sequence`;
-- keep the same `uid`.
-
-To cancel an event, set `cancelled: true` and update its modification metadata.
-Do not simply delete a published event if subscribers need to receive its
-cancellation.
-
-Calendar times are exported in UTC; the website displays Europe/Rome time.
-Calendar applications normally display events in the subscriber's timezone.
-
-Subscribe by URL for updates. Importing a downloaded file may create only a
-snapshot. Subscription refresh frequency depends on the calendar application.
-
-The page-anchor `id` and calendar `uid` are separate stable identifiers.
-
-## Publications and DBLP
-
-The fetcher retrieves complete bibliographies for people with a DBLP ID.
-The build selects records associated with eligible participation periods.
-
-Because DBLP generally supplies years rather than precise publication dates,
-eligibility uses inclusive calendar years, capped at the current year.
-
-This is an approximation at arrival/departure boundaries. Correct those
-cases with `data/publication_overrides.yaml`.
-
-- Inclusions bypass automatic affiliation filtering.
-- Exclusions take precedence over inclusions.
-- Keys must resolve to actual DBLP records.
-- Duplicate publications are collapsed by DBLP record key.
-- Same-year records are sorted by title.
-- Twenty entries are initially visible; older entries are inside a native
-  HTML disclosure.
-
-A conference version and a journal version with different DBLP keys remain
-separate records.
-
-The cache is committed to support builds when DBLP is unavailable. The
-fetcher writes nothing unless all requests succeed.
-
-A failed refresh produces a workflow warning. The build can continue with
-the previous cache only if it contains the authors and override records
-required by the current source data.
-
-An empty initial cache cannot support a bibliography build: at least one
-successful fetch is required.
-
-Snapshot timestamps change when the stored author bibliography changes,
-not on every identical check. The displayed date is the oldest stored
-author snapshot among the listed DBLP authors.
-
-## Mathematics
-
-Use `$...$` for inline mathematics.
-
-Use `$$` on separate lines for display mathematics:
-
-```yaml
-abstract: |-
-  An inline judgement: $\Gamma \vdash t : A$.
-
-  $$
-  \frac{\Gamma, x:A \vdash t:B}
-       {\Gamma \vdash \lambda x.t : A \to B}
-  $$
-```
-
-KaTeX renders HTML and MathML during the build. Invalid or unsupported
-expressions fail the build with a diagnostic.
-
-The build copies KaTeX CSS, fonts, and licence notices into the website.
-No external font service or browser-side mathematics script is used.
-
-## Internal and legal pages
-
-`/internal/` is unlisted, omitted from the sitemap, and marked `noindex`.
-It is public and must contain no sensitive information.
-
-`/legal/` is linked from the footer only.
-
-Example mode marks all pages `noindex` and produces an empty sitemap.
-This discourages indexing; it is not access control.
-
-## Optional local development
-
-Local development is not required. GitHub Actions can perform all builds.
-
-If desired, install Python 3.11+ and Node.js 22+, then:
-
-```bash
-python3 -m venv .venv
-source .venv/bin/activate
-python -m pip install -r requirements.txt
-npm ci
-python scripts/fetch_dblp.py
-python -m unittest discover -s tests -v
-python scripts/build.py
-python scripts/check_site.py
-python -m http.server 8000 --directory _site
-```
-
-Use `npm install` instead of `npm ci` only when no `package-lock.json` exists.
-On Windows, virtual-environment activation differs from the shell command above.
-
-For a reproducible build time:
-
-```bash
-python scripts/build.py --now 2026-09-14T12:00:00+02:00
-```
-
-## Validation scope
-
-Behavioural tests cover key date boundaries, cancellation, publication
-overrides, YAML duplicates, Markdown escaping, and KaTeX rendering.
-
-The generated-site checker checks page structure, navigation, local links
-and anchors, HTML asset references, calendar structure, and sitemap exclusions.
-
-These are automated checks, not a complete accessibility or visual audit.
-External links are not checked over the network.
-
-## Dependencies
-
-`package-lock.json` locks Node dependencies and is committed automatically
-after the first successful workflow build.
-
-Python dependencies currently use bounded version ranges in
-`requirements.txt`; they are not fully locked. Review dependency changes
-when maintaining the site.
-
-## Generated files
-
-Do not commit `_site/` or `node_modules/`.
-
-Do commit:
-
-- source data and content;
-- templates and scripts;
-- `cache/dblp.json`;
-- `package-lock.json`.
-
-Only the generated `_site/` directory is deployed.
-
-## Licensing
-
-See `LICENSE` for the code licence and `CONTENT-LICENSE.md` for its scope,
-the editorial-content licence, and third-party exclusions.
+Each successful build provides a `website-preview` artifact in Actions.
+Disabling deployment leaves the existing live site online.
