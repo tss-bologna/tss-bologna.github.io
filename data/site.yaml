@@ -74,7 +74,7 @@ show_photos: true
 # Individual talks may override duration.
 seminar:
   # Seminar display name.
-  name: "Seminar on Theory of software systems"
+  name: "Seminar on the Theory of Software Systems"
 
   # Default talk duration in minutes.
   duration_minutes: 60
