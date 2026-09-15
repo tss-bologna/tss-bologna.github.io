@@ -238,7 +238,7 @@
   webpage: "https://www.unibo.it/sitoweb/gianluigi.zavattaro/en"
   dblp: "32/1979"
   photo: "https://www.unibo.it/uniboweb/utils/UserImage.aspx?IdAnagrafica=236943&IdFoto=e41678dc"
-  interests: []
+  interests: ["concurrency", "service-oriented computing"]
   periods:
     - status: "permanent"
       arrival: "1997-01-01"
