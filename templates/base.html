@@ -35,6 +35,7 @@
 
   <header class="site-header">
     <div class="container brand">
+      {#
       {% set logo = site.logos.header %}
       {% if logo.url %}
       <a class="logo-link" href="{{ logo.url }}">
@@ -52,6 +53,7 @@
       {% if logo.url %}
       </a>
       {% endif %}
+      #}
 
       <a class="site-title" href="{{ local_url('/') }}">
         {{ site.name }}
