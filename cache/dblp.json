@@ -1,7 +1,7 @@
 {
   "authors": {
     "146/2078": {
-      "fetched_at": "2026-09-15T20:04:33+00:00",
+      "fetched_at": "2026-09-21T10:54:31+00:00",
       "keys": [
         "books/sp/17/DragoniGLMMMS17",
         "books/sp/20/BravettiGMTZ20",
@@ -206,7 +206,7 @@
       "name": "Gabriele Vanoni"
     },
     "32/1979": {
-      "fetched_at": "2026-09-15T20:04:33+00:00",
+      "fetched_at": "2026-09-21T10:54:31+00:00",
       "keys": [
         "books/sp/20/BravettiGMTZ20",
         "books/sp/24/BacchianiBGMZ24",
@@ -10399,7 +10399,7 @@
         "R. Morelli",
         "A. Remus",
         "A. Santopaolo",
-        "F. Schiano",
+        "Fabrizio Schiano",
         "Gianluigi Zavattaro"
       ],
       "electronic_url": "https://doi.org/10.1109/WOWMOM69805.2026.00028",
