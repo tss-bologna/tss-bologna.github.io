@@ -205,7 +205,7 @@
 - id: "negrotto"
   first_name: "Josefina"
   last_name: "Negrotto"
-  affiliations: "[University of Buenos Aires](https://www.uba.ar/)"
+  affiliations: "Student [University of Buenos Aires](https://www.uba.ar/)"
   email: null
   webpage: null
   dblp: null
@@ -214,7 +214,7 @@
   periods:
     - status: "visitor"
       arrival: "2026-09-22"
-      departure: null
+      departure: "2027-01-10"
 
 - id: "pizzo"
   first_name: "Nicolò"
