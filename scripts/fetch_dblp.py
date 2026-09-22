@@ -511,21 +511,7 @@ def refresh() -> None:
         )
     
     for pid, snapshot in snapshots.items():
-        old_author = old_cache["authors"].get(pid)
-        unchanged = (
-            isinstance(old_author, dict)
-            and old_author.get("name") == snapshot["name"]
-            and old_author.get("keys") == snapshot["keys"]
-            and bool(old_author.get("fetched_at"))
-            and all(
-                old_cache["records"].get(key) == fetched_records[key]
-                for key in snapshot["keys"]
-            )
-        )
-
-        snapshot["fetched_at"] = (
-            old_author["fetched_at"] if unchanged else now
-        )
+        snapshot["fetched_at"] = now
         new_cache["authors"][pid] = snapshot
 
     new_cache["records"] = fetched_records
