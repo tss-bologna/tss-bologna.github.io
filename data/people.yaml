@@ -34,6 +34,20 @@
 #       # Last day of the period; null denotes an ongoing period.
 #       departure: null
 
+# - id: "first-last"
+#   first_name: "First"
+#   last_name: "Last"
+#   affiliations: "[Unibo](https://www.unibo.it/)"
+#   email: null
+#   webpage: null
+#   dblp: null
+#   photo: null
+#   interests: []
+#   periods:
+#     - status: "phd"
+#       arrival: "TODO"
+#       departure: null
+
 - id: "avanzini"
   first_name: "Martin"
   last_name: "Avanzini"
@@ -75,6 +89,20 @@
     - status: "permanent"
       arrival: "2015-01-01"
       departure: null
+
+- id: "fiorillo"
+  first_name: "Guido"
+  last_name: "Fiorillo"
+  affiliations: "[University Lyon-1](https://www.univ-lyon1.fr/)"
+  email: "guido.fiorillo@ens-lyon.fr"
+  webpage: null
+  dblp: "436/0458"
+  photo: null
+  interests: []
+  periods:
+    - status: "visitor"
+      arrival: "2026-09-22"
+      departure: "2026-11-20"
 
 - id: "gavazzo"
   first_name: "Francesco"
