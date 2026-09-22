@@ -93,7 +93,7 @@
 - id: "fiorillo"
   first_name: "Guido"
   last_name: "Fiorillo"
-  affiliations: "[University Lyon-1](https://www.univ-lyon1.fr/)"
+  affiliations: "PhD student [University Lyon&nbsp;1](https://www.univ-lyon1.fr/)"
   email: "guido.fiorillo@ens-lyon.fr"
   webpage: null
   dblp: "436/0458"
@@ -200,6 +200,20 @@
   periods:
     - status: "permanent"
       arrival: "2002-01-01"
+      departure: null
+
+- id: "negrotto"
+  first_name: "Josefina"
+  last_name: "Negrotto"
+  affiliations: "[University of Buenos Aires](https://www.uba.ar/)"
+  email: null
+  webpage: null
+  dblp: null
+  photo: null
+  interests: []
+  periods:
+    - status: "visitor"
+      arrival: "2026-09-22"
       departure: null
 
 - id: "pizzo"
