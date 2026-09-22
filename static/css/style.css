@@ -323,7 +323,7 @@ address {
 }
 
 .person-information p {
-  margin-bottom: 0.35rem;
+  margin: 0.4rem 0;
 }
 
 .person-affiliations p {

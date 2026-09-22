@@ -42,6 +42,7 @@ from common import (
     load_cache,
     load_yaml,
     make_url_helpers,
+    MONTHS,
     optional_text,
     optional_url,
     parse_date,
@@ -235,13 +236,24 @@ def load_people(site: dict, today, markdown: MarkdownRenderer):
 
         if active:
             if active["status"] == "visitor":
-                end = (
-                    display_date(active["end"])
-                    if active["end"] else "ongoing"
-                )
-                person["visit_dates"] = (
-                    f"{display_date(active['start'])} – {end}"
-                )
+                start = active["start"]
+                end = active["end"]
+                first = MONTHS[start.month - 1]
+
+                if end is None:
+                    dates = f"{first} {start.year} – ongoing"
+                elif (start.year, start.month) == (end.year, end.month):
+                    dates = f"{first} {start.year}"
+                elif start.year == end.year:
+                    dates = f"{first}–{MONTHS[end.month - 1]} {start.year}"
+                else:
+                    dates = (
+                        f"{first} {start.year} – "
+                        f"{MONTHS[end.month - 1]} {end.year}"
+                    )
+
+                person["visit_dates"] = dates
+                
             group_by_id[active["status"]]["people"].append(person)
 
         elif past:
