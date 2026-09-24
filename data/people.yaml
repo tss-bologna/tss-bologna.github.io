@@ -6,7 +6,7 @@
 # Use unquoted null for absent optional values. Dates must be quoted YYYY-MM-DD.
 #
 # # Unique, stable identifier; preserve it once used in links or other data.
-# - id: "first-last"
+# - id: "last"
 #   # Given name, preserving accents.
 #   first_name: "First"
 #   # Family name, including particles; entries are sorted by this field.
@@ -34,7 +34,7 @@
 #       # Last day of the period; null denotes an ongoing period.
 #       departure: null
 
-# - id: "first-last"
+# - id: "last"
 #   first_name: "First"
 #   last_name: "Last"
 #   affiliations: "[Unibo](https://www.unibo.it/)"
@@ -116,6 +116,20 @@
   periods:
     - status: "external"
       arrival: "2015-11-01"
+      departure: null
+
+- id: "genovese"
+  first_name: "Gabriele"
+  last_name: "Genovese"
+  affiliations: "[Université Côte d'Azur](https://univ-cotedazur.fr/); [Unibo](https://www.unibo.it/)"
+  email: "gabriele.genovese@univ-cotedazur.fr"
+  webpage: "https://gabrigeno.cappuccino.ovh/"
+  dblp: "409/6083"
+  photo: null
+  interests: ["process calculi", "choreographic programming", "petri nets", "session types"]
+  periods:
+    - status: "phd"
+      arrival: "2026-01-01"
       departure: null
 
 - id: "giallorenzo"
@@ -215,6 +229,20 @@
     - status: "visitor"
       arrival: "2026-09-22"
       departure: "2027-01-10"
+
+- id: "padovani"
+  first_name: "Luca"
+  last_name: "Padovani"
+  affiliations: "Prof. [Unibo](https://www.unibo.it/)"
+  email: "luca.padovani2@unibo.it"
+  webpage: "https://boystrange.github.io/"
+  dblp: "22/6590"
+  photo: null
+  interests: ["programming languages", "concurrency", "session types", "verification"]
+  periods:
+    - status: "permanent"
+      arrival: "2024-10-01"
+      departure: null
 
 - id: "pizzo"
   first_name: "Nicolò"
