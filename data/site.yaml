@@ -33,7 +33,7 @@ demo: false
 # An expires date is inclusive: the item remains active through that day.
 # With no active news, hide the news section and its archive link.
 # The archive remains available at /news/, outside the main navigation.
-home_news_limit: 3
+home_news_limit: 2
 
 # Current-person categories, in display order.
 # Former people appear in one final, compact section.
@@ -59,7 +59,7 @@ statuses:
     publications: false
 
   - id: external
-    label: "External collaborators"
+    label: "External participants"
     publications: false
 
 # Show portraits for current people, using a placeholder when none is supplied.
