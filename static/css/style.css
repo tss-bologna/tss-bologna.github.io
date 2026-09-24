@@ -297,6 +297,9 @@ address {
   align-items: stretch;
   gap: 1rem;
 }
+.person:has(.portrait-slot) {
+  min-height: 5rem;
+}
 
 .portrait-slot {
   position: relative;
