@@ -1,7 +1,7 @@
 {
   "authors": {
     "146/2078": {
-      "fetched_at": "2026-09-23T10:09:58+00:00",
+      "fetched_at": "2026-09-24T09:54:28+00:00",
       "keys": [
         "books/sp/17/DragoniGLMMMS17",
         "books/sp/20/BravettiGMTZ20",
@@ -122,7 +122,7 @@
       "name": "Saverio Giallorenzo"
     },
     "199/1997": {
-      "fetched_at": "2026-09-23T10:09:58+00:00",
+      "fetched_at": "2026-09-24T09:54:28+00:00",
       "keys": [
         "conf/csl/LagoGG23",
         "conf/esop/BartheCLG20",
@@ -167,8 +167,128 @@
       ],
       "name": "Francesco Gavazzo"
     },
+    "22/6590": {
+      "fetched_at": "2026-09-24T09:54:28+00:00",
+      "keys": [
+        "conf/birthday/LaneveP08",
+        "conf/birthday/LaneveP19",
+        "conf/cc/Padovani05",
+        "conf/concur/BravettiPZ25",
+        "conf/concur/CastagnaP09",
+        "conf/concur/CicconeP22",
+        "conf/concur/InversoMPTT20",
+        "conf/concur/LaneveP07",
+        "conf/concur/Padovani08",
+        "conf/coordination/CarboneCFGJMPSTVYZ24",
+        "conf/coordination/CoppoDPY13",
+        "conf/coordination/Padovani11",
+        "conf/coordination/PadovaniCT15",
+        "conf/coordination/PadovaniVV14",
+        "conf/coordination/SeveriPTD16",
+        "conf/csl/Padovani14",
+        "conf/ecoop/CicconeDP22",
+        "conf/ecoop/PadovaniZ25",
+        "conf/ecoop/deLiguoroP18",
+        "conf/esop/BonoMP11",
+        "conf/esop/Padovani17",
+        "conf/europar/2018",
+        "conf/extreme/AspertiPCS01",
+        "conf/extreme/CasariniP01",
+        "conf/fm/ColonnelliMMBPA24",
+        "conf/fmoods/BernardoP07",
+        "conf/fmoods/BusiP05",
+        "conf/forte/BonoPT13",
+        "conf/forte/CastagnaDP11",
+        "conf/forte/PadovaniN15",
+        "conf/fossacs/LaneveP06",
+        "conf/fossacs/Padovani14",
+        "conf/gpce/DamianiPS12",
+        "conf/gpce/PadovaniCZ04",
+        "conf/icalp/CicconeP21",
+        "conf/icalp/Padovani13",
+        "conf/icra/ManducaPSGDRS25",
+        "conf/ifm/LaneveP13",
+        "conf/jelia/PadovaniP04",
+        "conf/mallow/BaldoniBBBMMMPPRRS10",
+        "conf/mkm/Padovani03",
+        "conf/mkm/PadovaniS04",
+        "conf/mkm/PadovaniZ06",
+        "conf/oopsla/CrafaP15",
+        "conf/planX/CastagnaGP07",
+        "conf/popl/Castagna0XILP14",
+        "conf/popl/CastagnaGP08",
+        "conf/ppdp/CastagnaDGP09",
+        "conf/ppdp/CastagnaDGP19",
+        "conf/ppdp/CicconeP20",
+        "conf/ppdp/DagninoP24",
+        "conf/ppdp/JaksicP12",
+        "conf/ppdp/LagoP24",
+        "conf/sfm/2009",
+        "conf/sfm/CoppoDPY15",
+        "conf/sfm/Padovani09",
+        "conf/tex/Padovani04",
+        "conf/tphol/AspertiPCS01",
+        "conf/types/Padovani22",
+        "conf/woa/BaldoniBBBMMMPPRRS10",
+        "conf/wsfm/CarpinetiCLP06",
+        "data/11/ColonnelliMMBPA24",
+        "journals/acta/DamianiPSS18",
+        "journals/amai/AspertiPCGS03",
+        "journals/corr/CrafaP16",
+        "journals/corr/Dezani-CiancagliniPP14",
+        "journals/corr/Padovani13",
+        "journals/corr/Padovani15",
+        "journals/corr/PadovaniP15",
+        "journals/corr/SeveriPTD16",
+        "journals/corr/abs-0911-5449",
+        "journals/corr/abs-1101-4429",
+        "journals/corr/abs-1108-0466",
+        "journals/corr/abs-1202-2086",
+        "journals/corr/abs-1203-0780",
+        "journals/corr/abs-1801-04167",
+        "journals/corr/abs-1803-10670",
+        "journals/corr/abs-1904-01286",
+        "journals/corr/abs-2004-01062",
+        "journals/corr/abs-2007-11832",
+        "journals/corr/abs-2108-01503",
+        "journals/corr/abs-2205-08786",
+        "journals/corr/abs-2207-03749",
+        "journals/corr/abs-2212-05457",
+        "journals/corr/abs-2304-06398",
+        "journals/corr/abs-2309-07303",
+        "journals/corr/abs-2407-01838",
+        "journals/corr/abs-2411-10760",
+        "journals/corr/abs-2503-07273",
+        "journals/corr/abs-2506-06078",
+        "journals/csur/HuttelLVCCDMPRT16",
+        "journals/fac/LaneveP15",
+        "journals/fgcs/ColonnelliACPRS22",
+        "journals/ftpl/AnconaBB0CDGGGH16",
+        "journals/jfp/Padovani17",
+        "journals/jlap/BalzerP22",
+        "journals/jlap/CicconeDP24",
+        "journals/jlap/HorneP24",
+        "journals/jlp/Padovani18",
+        "journals/lmcs/CicconeP22",
+        "journals/lmcs/SeveriPTD17",
+        "journals/mscs/CoppoDYP16",
+        "journals/mscs/Padovani12",
+        "journals/mscs/Padovani16",
+        "journals/pacmpl/CicconeP22",
+        "journals/pacmpl/MelgrattiP17",
+        "journals/programming/Padovani18",
+        "journals/scp/CarpinetiLP09",
+        "journals/scp/JaksicP14",
+        "journals/tcs/Padovani10",
+        "journals/toplas/CastagnaGP09",
+        "journals/toplas/CrafaP17",
+        "journals/toplas/Padovani19",
+        "journals/toplas/PadovaniZ26"
+      ],
+      "name": "Luca Padovani"
+    },
     "220/3433": {
-      "fetched_at": "2026-09-23T10:09:58+00:00",
+      "fetched_at": "2026-09-24T09:54:28+00:00",
       "keys": [
         "conf/esop/GavazzoTV24",
         "conf/fossacs/LancelotMMV26",
@@ -207,7 +327,7 @@
       "name": "Gabriele Vanoni"
     },
     "32/1979": {
-      "fetched_at": "2026-09-23T10:09:58+00:00",
+      "fetched_at": "2026-09-24T09:54:28+00:00",
       "keys": [
         "books/sp/20/BravettiGMTZ20",
         "books/sp/24/BacchianiBGMZ24",
@@ -445,7 +565,7 @@
       "name": "Gianluigi Zavattaro"
     },
     "333/1354": {
-      "fetched_at": "2026-09-23T10:09:58+00:00",
+      "fetched_at": "2026-09-24T09:54:28+00:00",
       "keys": [
         "conf/fscd/CerdaMS25",
         "conf/mfcs/CerdaS26",
@@ -462,7 +582,7 @@
       "name": "Rémy Cerda"
     },
     "342/7235": {
-      "fetched_at": "2026-09-23T10:09:58+00:00",
+      "fetched_at": "2026-09-24T09:54:28+00:00",
       "keys": [
         "conf/fossacs/AccattoliL24",
         "conf/fossacs/LancelotMMV26",
@@ -481,7 +601,7 @@
       "name": "Adrienne Lancelot"
     },
     "40/646": {
-      "fetched_at": "2026-09-23T10:09:58+00:00",
+      "fetched_at": "2026-09-24T09:54:28+00:00",
       "keys": [
         "conf/aisc/AspertiC10",
         "conf/aplas/AccattoliCW25",
@@ -589,7 +709,7 @@
       "name": "Claudio Sacerdoti Coen"
     },
     "405/6547": {
-      "fetched_at": "2026-09-23T10:09:58+00:00",
+      "fetched_at": "2026-09-24T09:54:28+00:00",
       "keys": [
         "conf/concur/HirschkoffQS25",
         "conf/concur/QuemeraisJSS26",
@@ -599,8 +719,15 @@
       ],
       "name": "Iwan Quémerais"
     },
+    "409/6083": {
+      "fetched_at": "2026-09-24T09:54:28+00:00",
+      "keys": [
+        "conf/forte/GenoveseLGTV25"
+      ],
+      "name": "Gabriele Genovese"
+    },
     "436/0458": {
-      "fetched_at": "2026-09-23T10:09:58+00:00",
+      "fetched_at": "2026-09-24T09:54:28+00:00",
       "keys": [
         "conf/lics/LagoFP26",
         "journals/corr/abs-2604-27986"
@@ -608,7 +735,7 @@
       "name": "Guido Fiorillo"
     },
     "437/3327": {
-      "fetched_at": "2026-09-23T10:09:58+00:00",
+      "fetched_at": "2026-09-24T09:54:28+00:00",
       "keys": [
         "conf/rc/PizzoC26",
         "journals/corr/abs-2605-09179"
@@ -616,7 +743,7 @@
       "name": "Nicolò Pizzo"
     },
     "44/3105": {
-      "fetched_at": "2026-09-23T10:09:58+00:00",
+      "fetched_at": "2026-09-24T09:54:28+00:00",
       "keys": [
         "books/cu/20/Lago20",
         "conf/aaai/LagoPT02",
@@ -884,7 +1011,7 @@
       "name": "Ugo Dal Lago"
     },
     "56/3713": {
-      "fetched_at": "2026-09-23T10:09:58+00:00",
+      "fetched_at": "2026-09-24T09:54:28+00:00",
       "keys": [
         "books/sp/17/GuidiLMM17",
         "books/sp/sensoria2011/BartolettiCLMSVZ11",
@@ -1063,7 +1190,7 @@
       "name": "Ivan Lanese"
     },
     "63/5617": {
-      "fetched_at": "2026-09-23T10:09:58+00:00",
+      "fetched_at": "2026-09-24T09:54:28+00:00",
       "keys": [
         "conf/aplas/AvanziniEM12",
         "conf/cade/AvanziniMS08",
@@ -1125,7 +1252,7 @@
       "name": "Martin Avanzini"
     },
     "l/CosimoLaneve": {
-      "fetched_at": "2026-09-23T10:09:58+00:00",
+      "fetched_at": "2026-09-24T09:54:28+00:00",
       "keys": [
         "conf/acsd/CarpinetiLM05",
         "conf/alp/LaneveM92",
@@ -1253,7 +1380,7 @@
       "name": "Cosimo Laneve"
     },
     "m/SMartini": {
-      "fetched_at": "2026-09-23T10:09:58+00:00",
+      "fetched_at": "2026-09-24T09:54:28+00:00",
       "keys": [
         "conf/birthday/000120",
         "conf/cie/LagoM06",
@@ -1320,7 +1447,7 @@
       "name": "Simone Martini 0001"
     },
     "s/DavideSangiorgi": {
-      "fetched_at": "2026-09-23T10:09:58+00:00",
+      "fetched_at": "2026-09-24T09:54:28+00:00",
       "keys": [
         "books/cu/12/PousS12",
         "books/cu/12/SR2012",
@@ -2452,6 +2579,19 @@
       "venue": "CAV, pp. 38-49",
       "year": 1996
     },
+    "conf/cc/Padovani05": {
+      "authors": [
+        "Luca Padovani"
+      ],
+      "electronic_url": "https://doi.org/10.1007/978-3-540-31985-6_3",
+      "first_seen": "2026-09-24T09:54:28+00:00",
+      "informal": false,
+      "key": "conf/cc/Padovani05",
+      "title": "Compilation of Generic Regular Path Expressions Using C++ Class Templates.",
+      "type": "inproceedings",
+      "venue": "CC, pp. 27-42",
+      "year": 2005
+    },
     "conf/ccs/0001AR24": {
       "authors": [
         "Davide Davoli 0001",
@@ -2774,6 +2914,20 @@
       "venue": "CONCUR, pp. 321-337",
       "year": 2002
     },
+    "conf/concur/CastagnaP09": {
+      "authors": [
+        "Giuseppe Castagna",
+        "Luca Padovani"
+      ],
+      "electronic_url": "https://doi.org/10.1007/978-3-642-04081-8_15",
+      "first_seen": "2026-09-24T09:54:28+00:00",
+      "informal": false,
+      "key": "conf/concur/CastagnaP09",
+      "title": "Contracts for Mobile Processes.",
+      "type": "inproceedings",
+      "venue": "CONCUR, pp. 211-228",
+      "year": 2009
+    },
     "conf/concur/CastellaniGKRS22": {
       "authors": [
         "Ilaria Castellani",
@@ -2789,6 +2943,20 @@
       "title": "CONCUR Test-Of-Time Award 2022 (Invited Paper).",
       "type": "inproceedings",
       "venue": "CONCUR, pp. 1:1-1:3",
+      "year": 2022
+    },
+    "conf/concur/CicconeP22": {
+      "authors": [
+        "Luca Ciccone",
+        "Luca Padovani"
+      ],
+      "electronic_url": "https://doi.org/10.4230/LIPICS.CONCUR.2022.36",
+      "first_seen": "2026-09-24T09:54:28+00:00",
+      "informal": false,
+      "key": "conf/concur/CicconeP22",
+      "title": "An Infinitary Proof Theory of Linear Logic Ensuring Fair Termination in the Linear π-Calculus.",
+      "type": "inproceedings",
+      "venue": "CONCUR, pp. 36:1-36:18",
       "year": 2022
     },
     "conf/concur/CosmoLMZZZ15": {
@@ -2975,6 +3143,23 @@
       "venue": "CONCUR, pp. 23:1-23:21",
       "year": 2025
     },
+    "conf/concur/InversoMPTT20": {
+      "authors": [
+        "Omar Inverso",
+        "Hernán C. Melgratti",
+        "Luca Padovani",
+        "Catia Trubiani",
+        "Emilio Tuosto"
+      ],
+      "electronic_url": "https://doi.org/10.4230/LIPICS.CONCUR.2020.14",
+      "first_seen": "2026-09-24T09:54:28+00:00",
+      "informal": false,
+      "key": "conf/concur/InversoMPTT20",
+      "title": "Probabilistic Analysis of Binary Sessions.",
+      "type": "inproceedings",
+      "venue": "CONCUR, pp. 14:1-14:21",
+      "year": 2020
+    },
     "conf/concur/Lago023": {
       "authors": [
         "Ugo Dal Lago",
@@ -3107,6 +3292,19 @@
       "type": "inproceedings",
       "venue": "CONCUR, pp. 93-108",
       "year": 2014
+    },
+    "conf/concur/Padovani08": {
+      "authors": [
+        "Luca Padovani"
+      ],
+      "electronic_url": "https://doi.org/10.1007/978-3-540-85361-9_13",
+      "first_seen": "2026-09-24T09:54:28+00:00",
+      "informal": false,
+      "key": "conf/concur/Padovani08",
+      "title": "Contract-Directed Synthesis of Simple Orchestrators.",
+      "type": "inproceedings",
+      "venue": "CONCUR, pp. 131-146",
+      "year": 2008
     },
     "conf/concur/QuemeraisJSS26": {
       "authors": [
@@ -3479,6 +3677,46 @@
       "venue": "COORDINATION, pp. 105-118",
       "year": 2004
     },
+    "conf/coordination/CarboneCFGJMPSTVYZ24": {
+      "authors": [
+        "Marco Carbone",
+        "David Castro-Perez",
+        "Francisco Ferreira 0001",
+        "Lorenzo Gheri",
+        "Frederik Krogsdal Jacobsen",
+        "Alberto Momigliano",
+        "Luca Padovani",
+        "Alceste Scalas",
+        "Dawit Legesse Tirore",
+        "Martin Vassor",
+        "Nobuko Yoshida",
+        "Daniel Zackon"
+      ],
+      "electronic_url": "https://doi.org/10.1007/978-3-031-62697-5_9",
+      "first_seen": "2026-09-24T09:54:28+00:00",
+      "informal": false,
+      "key": "conf/coordination/CarboneCFGJMPSTVYZ24",
+      "title": "The Concurrent Calculi Formalisation Benchmark.",
+      "type": "inproceedings",
+      "venue": "COORDINATION, pp. 149-158",
+      "year": 2024
+    },
+    "conf/coordination/CoppoDPY13": {
+      "authors": [
+        "Mario Coppo",
+        "Mariangiola Dezani-Ciancaglini",
+        "Luca Padovani",
+        "Nobuko Yoshida"
+      ],
+      "electronic_url": "https://doi.org/10.1007/978-3-642-38493-6_4",
+      "first_seen": "2026-09-24T09:54:28+00:00",
+      "informal": false,
+      "key": "conf/coordination/CoppoDPY13",
+      "title": "Inference of Global Progress Properties for Dynamically Interleaved Multiparty Sessions.",
+      "type": "inproceedings",
+      "venue": "COORDINATION, pp. 45-59",
+      "year": 2013
+    },
     "conf/coordination/DelzannoLSZ25": {
       "authors": [
         "Giorgio Delzanno",
@@ -3650,6 +3888,49 @@
       "venue": "COORDINATION, pp. 253-270",
       "year": 2023
     },
+    "conf/coordination/Padovani11": {
+      "authors": [
+        "Luca Padovani"
+      ],
+      "electronic_url": "https://doi.org/10.1007/978-3-642-21464-6_9",
+      "first_seen": "2026-09-24T09:54:28+00:00",
+      "informal": false,
+      "key": "conf/coordination/Padovani11",
+      "title": "Fair Subtyping for Multi-party Session Types.",
+      "type": "inproceedings",
+      "venue": "COORDINATION, pp. 127-141",
+      "year": 2011
+    },
+    "conf/coordination/PadovaniCT15": {
+      "authors": [
+        "Luca Padovani",
+        "Tzu-Chun Chen",
+        "Andrea Tosatto"
+      ],
+      "electronic_url": "https://doi.org/10.1007/978-3-319-19282-6_6",
+      "first_seen": "2026-09-24T09:54:28+00:00",
+      "informal": false,
+      "key": "conf/coordination/PadovaniCT15",
+      "title": "Type Reconstruction Algorithms for Deadlock-Free and Lock-Free Linear π-Calculi.",
+      "type": "inproceedings",
+      "venue": "COORDINATION, pp. 83-98",
+      "year": 2015
+    },
+    "conf/coordination/PadovaniVV14": {
+      "authors": [
+        "Luca Padovani",
+        "Vasco Thudichum Vasconcelos",
+        "Hugo Torres Vieira"
+      ],
+      "electronic_url": "https://doi.org/10.1007/978-3-662-43376-8_10",
+      "first_seen": "2026-09-24T09:54:28+00:00",
+      "informal": false,
+      "key": "conf/coordination/PadovaniVV14",
+      "title": "Typing Liveness in Multiparty Communicating Systems.",
+      "type": "inproceedings",
+      "venue": "COORDINATION, pp. 147-162",
+      "year": 2014
+    },
     "conf/coordination/PalLC24": {
       "authors": [
         "Sourabh Pal",
@@ -3698,6 +3979,22 @@
       "type": "inproceedings",
       "venue": "COORDINATION, pp. 67-82",
       "year": 2015
+    },
+    "conf/coordination/SeveriPTD16": {
+      "authors": [
+        "Paula Severi",
+        "Luca Padovani",
+        "Emilio Tuosto",
+        "Mariangiola Dezani-Ciancaglini"
+      ],
+      "electronic_url": "https://doi.org/10.1007/978-3-319-39519-7_15",
+      "first_seen": "2026-09-24T09:54:28+00:00",
+      "informal": false,
+      "key": "conf/coordination/SeveriPTD16",
+      "title": "On Sessions and Infinite Data.",
+      "type": "inproceedings",
+      "venue": "COORDINATION, pp. 245-261",
+      "year": 2016
     },
     "conf/cpp/MulliganC12": {
       "authors": [
@@ -3878,6 +4175,19 @@
       "venue": "CSL, pp. 230-245",
       "year": 2008
     },
+    "conf/csl/Padovani14": {
+      "authors": [
+        "Luca Padovani"
+      ],
+      "electronic_url": "https://doi.org/10.1145/2603088.2603116",
+      "first_seen": "2026-09-24T09:54:28+00:00",
+      "informal": false,
+      "key": "conf/csl/Padovani14",
+      "title": "Deadlock and lock freedom in the linear π-calculus.",
+      "type": "inproceedings",
+      "venue": "CSL-LICS, pp. 72:1-72:10",
+      "year": 2014
+    },
     "conf/csl/Sangiorgi23": {
       "authors": [
         "Davide Sangiorgi"
@@ -3991,6 +4301,21 @@
       "venue": "DLT",
       "year": 2024
     },
+    "conf/ecoop/CicconeDP22": {
+      "authors": [
+        "Luca Ciccone",
+        "Francesco Dagnino",
+        "Luca Padovani"
+      ],
+      "electronic_url": "https://doi.org/10.4230/LIPICS.ECOOP.2022.26",
+      "first_seen": "2026-09-24T09:54:28+00:00",
+      "informal": false,
+      "key": "conf/ecoop/CicconeDP22",
+      "title": "Fair Termination of Multiparty Sessions.",
+      "type": "inproceedings",
+      "venue": "ECOOP, pp. 26:1-26:26",
+      "year": 2022
+    },
     "conf/ecoop/GaspariZ99": {
       "authors": [
         "Mauro Gaspari",
@@ -4053,6 +4378,20 @@
       "type": "inproceedings",
       "venue": "ECOOP, pp. 24:1-24:29",
       "year": 2025
+    },
+    "conf/ecoop/deLiguoroP18": {
+      "authors": [
+        "Ugo de'Liguoro",
+        "Luca Padovani"
+      ],
+      "electronic_url": "https://doi.org/10.4230/LIPICS.ECOOP.2018.15",
+      "first_seen": "2026-09-24T09:54:28+00:00",
+      "informal": false,
+      "key": "conf/ecoop/deLiguoroP18",
+      "title": "Mailbox Types for Unordered Interactions.",
+      "type": "inproceedings",
+      "venue": "ECOOP, pp. 15:1-15:28",
+      "year": 2018
     },
     "conf/ecows/2011": {
       "authors": [
@@ -4250,6 +4589,21 @@
       "venue": "ESOP, pp. 56-83",
       "year": 2020
     },
+    "conf/esop/BonoMP11": {
+      "authors": [
+        "Viviana Bono",
+        "Chiara Messa",
+        "Luca Padovani"
+      ],
+      "electronic_url": "https://doi.org/10.1007/978-3-642-19718-5_4",
+      "first_seen": "2026-09-24T09:54:28+00:00",
+      "informal": false,
+      "key": "conf/esop/BonoMP11",
+      "title": "Typing Copyless Message Passing.",
+      "type": "inproceedings",
+      "venue": "ESOP, pp. 57-76",
+      "year": 2011
+    },
     "conf/esop/BusiZ00": {
       "authors": [
         "Nadia Busi",
@@ -4437,6 +4791,19 @@
       "venue": "ESOP, pp. 366-386",
       "year": 2010
     },
+    "conf/esop/Padovani17": {
+      "authors": [
+        "Luca Padovani"
+      ],
+      "electronic_url": "https://doi.org/10.1007/978-3-662-54434-1_30",
+      "first_seen": "2026-09-24T09:54:28+00:00",
+      "informal": false,
+      "key": "conf/esop/Padovani17",
+      "title": "Context-Free Session Type Inference.",
+      "type": "inproceedings",
+      "venue": "ESOP, pp. 804-830",
+      "year": 2017
+    },
     "conf/esop/YoshimizuHFL14": {
       "authors": [
         "Akira Yoshimizu",
@@ -4479,6 +4846,21 @@
       "venue": "ESSLLI, pp. 89-109",
       "year": 2012
     },
+    "conf/europar/2018": {
+      "authors": [
+        "Marco Aldinucci (ed.)",
+        "Luca Padovani (ed.)",
+        "Massimo Torquati (ed.)"
+      ],
+      "electronic_url": "https://doi.org/10.1007/978-3-319-96983-1",
+      "first_seen": "2026-09-24T09:54:28+00:00",
+      "informal": false,
+      "key": "conf/europar/2018",
+      "title": "Euro-Par 2018: Parallel Processing - 24th International Conference on Parallel and Distributed Computing, Turin, Italy, August 27-31, 2018, Proceedings",
+      "type": "proceedings",
+      "venue": "Lecture Notes in Computer Science",
+      "year": 2018
+    },
     "conf/extreme/AspertiPCS01": {
       "authors": [
         "Andrea Asperti",
@@ -4491,6 +4873,20 @@
       "informal": false,
       "key": "conf/extreme/AspertiPCS01",
       "title": "XML, Stylesheets and the Re-mathematization of Formal Content.",
+      "type": "inproceedings",
+      "venue": "Extreme Markup Languages®",
+      "year": 2001
+    },
+    "conf/extreme/CasariniP01": {
+      "authors": [
+        "Paolo Casarini",
+        "Luca Padovani"
+      ],
+      "electronic_url": null,
+      "first_seen": "2026-09-24T09:54:28+00:00",
+      "informal": false,
+      "key": "conf/extreme/CasariniP01",
+      "title": "The Gnome DOM Engine.",
       "type": "inproceedings",
       "venue": "Extreme Markup Languages®",
       "year": 2001
@@ -4724,6 +5120,24 @@
       "venue": "FLOPS, pp. 247-263",
       "year": 2018
     },
+    "conf/fm/ColonnelliMMBPA24": {
+      "authors": [
+        "Iacopo Colonnelli",
+        "Doriana Medic",
+        "Alberto Mulone",
+        "Viviana Bono",
+        "Luca Padovani",
+        "Marco Aldinucci"
+      ],
+      "electronic_url": "https://doi.org/10.1007/978-3-031-71162-6_12",
+      "first_seen": "2026-09-24T09:54:28+00:00",
+      "informal": false,
+      "key": "conf/fm/ColonnelliMMBPA24",
+      "title": "Introducing SWIRL: An Intermediate Representation Language for Scientific Workflows.",
+      "type": "inproceedings",
+      "venue": "FM (1), pp. 226-244",
+      "year": 2025
+    },
     "conf/fm/Laneve18": {
       "authors": [
         "Cosimo Laneve"
@@ -4820,6 +5234,20 @@
       "venue": "Lecture Notes in Computer Science",
       "year": 2005
     },
+    "conf/fmoods/BernardoP07": {
+      "authors": [
+        "Marco Bernardo 0001",
+        "Luca Padovani"
+      ],
+      "electronic_url": "https://doi.org/10.1007/978-3-540-72952-5_17",
+      "first_seen": "2026-09-24T09:54:28+00:00",
+      "informal": false,
+      "key": "conf/fmoods/BernardoP07",
+      "title": "Performance-Oriented Comparison of Web Services Via Client-Specific Testing Preorders.",
+      "type": "inproceedings",
+      "venue": "FMOODS, pp. 269-284",
+      "year": 2007
+    },
     "conf/fmoods/BocchiLZ03": {
       "authors": [
         "Laura Bocchi",
@@ -4849,6 +5277,20 @@
       "type": "inproceedings",
       "venue": "FMOODS, pp. 3-19",
       "year": 2000
+    },
+    "conf/fmoods/BusiP05": {
+      "authors": [
+        "Nadia Busi",
+        "Luca Padovani"
+      ],
+      "electronic_url": "https://doi.org/10.1007/11494881_17",
+      "first_seen": "2026-09-24T09:54:28+00:00",
+      "informal": false,
+      "key": "conf/fmoods/BusiP05",
+      "title": "A Distributed Implementation of Mobile Nets as Mobile Agents.",
+      "type": "inproceedings",
+      "venue": "FMOODS, pp. 259-274",
+      "year": 2005
     },
     "conf/fmoods/Cruz-FilipeLMRV08": {
       "authors": [
@@ -5020,6 +5462,21 @@
       "venue": "FORTE, pp. 31-49",
       "year": 2022
     },
+    "conf/forte/BonoPT13": {
+      "authors": [
+        "Viviana Bono",
+        "Luca Padovani",
+        "Andrea Tosatto"
+      ],
+      "electronic_url": "https://doi.org/10.1007/978-3-642-38592-6_7",
+      "first_seen": "2026-09-24T09:54:28+00:00",
+      "informal": false,
+      "key": "conf/forte/BonoPT13",
+      "title": "Polymorphic Types for Leak Detection in a Session-Oriented Functional Language.",
+      "type": "inproceedings",
+      "venue": "FMOODS/FORTE, pp. 83-98",
+      "year": 2013
+    },
     "conf/forte/BravettiGPZ11": {
       "authors": [
         "Mario Bravetti",
@@ -5034,6 +5491,21 @@
       "title": "Adaptable Processes (Extended Abstract).",
       "type": "inproceedings",
       "venue": "FMOODS/FORTE, pp. 90-105",
+      "year": 2011
+    },
+    "conf/forte/CastagnaDP11": {
+      "authors": [
+        "Giuseppe Castagna",
+        "Mariangiola Dezani-Ciancaglini",
+        "Luca Padovani"
+      ],
+      "electronic_url": "https://doi.org/10.1007/978-3-642-21461-5_1",
+      "first_seen": "2026-09-24T09:54:28+00:00",
+      "informal": false,
+      "key": "conf/forte/CastagnaDP11",
+      "title": "On Global Types and Multi-party Sessions.",
+      "type": "inproceedings",
+      "venue": "FMOODS/FORTE, pp. 1-28",
       "year": 2011
     },
     "conf/forte/DelzannoSZ12": {
@@ -5159,6 +5631,20 @@
       "type": "inproceedings",
       "venue": "FMOODS/FORTE, pp. 1-17",
       "year": 2012
+    },
+    "conf/forte/PadovaniN15": {
+      "authors": [
+        "Luca Padovani",
+        "Luca Novara"
+      ],
+      "electronic_url": "https://doi.org/10.1007/978-3-319-19195-9_1",
+      "first_seen": "2026-09-24T09:54:28+00:00",
+      "informal": false,
+      "key": "conf/forte/PadovaniN15",
+      "title": "Types for Deadlock-Free Higher-Order Programs.",
+      "type": "inproceedings",
+      "venue": "FORTE, pp. 3-18",
+      "year": 2015
     },
     "conf/forte/PatrignaniCS11": {
       "authors": [
@@ -5367,6 +5853,19 @@
       "type": "inproceedings",
       "venue": "FoSSaCS, pp. 282-298",
       "year": 2005
+    },
+    "conf/fossacs/Padovani14": {
+      "authors": [
+        "Luca Padovani"
+      ],
+      "electronic_url": "https://doi.org/10.1007/978-3-642-54830-7_6",
+      "first_seen": "2026-09-24T09:54:28+00:00",
+      "informal": false,
+      "key": "conf/fossacs/Padovani14",
+      "title": "Type Reconstruction for the Linear π-Calculus with Composite and Equi-Recursive Types.",
+      "type": "inproceedings",
+      "venue": "FoSSaCS, pp. 88-102",
+      "year": 2014
     },
     "conf/fossacs/RocklS99": {
       "authors": [
@@ -5727,6 +6226,21 @@
       "venue": "GoodIT, pp. 242-247",
       "year": 2021
     },
+    "conf/gpce/DamianiPS12": {
+      "authors": [
+        "Ferruccio Damiani",
+        "Luca Padovani",
+        "Ina Schaefer"
+      ],
+      "electronic_url": "https://doi.org/10.1145/2371401.2371403",
+      "first_seen": "2026-09-24T09:54:28+00:00",
+      "informal": false,
+      "key": "conf/gpce/DamianiPS12",
+      "title": "A formal foundation for dynamic delta-oriented software product lines.",
+      "type": "inproceedings",
+      "venue": "GPCE, pp. 1-10",
+      "year": 2012
+    },
     "conf/gpce/PadovaniCZ04": {
       "authors": [
         "Luca Padovani",
@@ -5911,6 +6425,20 @@
       "venue": "ICALP, pp. 307-319",
       "year": 2004
     },
+    "conf/icalp/CicconeP21": {
+      "authors": [
+        "Luca Ciccone",
+        "Luca Padovani"
+      ],
+      "electronic_url": "https://doi.org/10.4230/LIPICS.ICALP.2021.125",
+      "first_seen": "2026-09-24T09:54:28+00:00",
+      "informal": false,
+      "key": "conf/icalp/CicconeP21",
+      "title": "Inference Systems with Corules for Fair Subtyping and Liveness Properties of Binary Session Types.",
+      "type": "inproceedings",
+      "venue": "ICALP, pp. 125:1-125:16",
+      "year": 2021
+    },
     "conf/icalp/CosmoMZZ13": {
       "authors": [
         "Roberto Di Cosmo",
@@ -6028,6 +6556,19 @@
       "venue": "ICALP, pp. 685-695",
       "year": 1992
     },
+    "conf/icalp/Padovani13": {
+      "authors": [
+        "Luca Padovani"
+      ],
+      "electronic_url": "https://doi.org/10.1007/978-3-642-39212-2_34",
+      "first_seen": "2026-09-24T09:54:28+00:00",
+      "informal": false,
+      "key": "conf/icalp/Padovani13",
+      "title": "Fair Subtyping for Open Session Types.",
+      "type": "inproceedings",
+      "venue": "ICALP (2), pp. 373-384",
+      "year": 2013
+    },
     "conf/icalp/Sangiorgi95": {
       "authors": [
         "Davide Sangiorgi"
@@ -6127,6 +6668,25 @@
       "type": "inproceedings",
       "venue": "ICLP, pp. 337-352",
       "year": 1989
+    },
+    "conf/icra/ManducaPSGDRS25": {
+      "authors": [
+        "Gianluca Manduca",
+        "Luca Padovani",
+        "Gaspare Santaera",
+        "Giorgio Graziani",
+        "Paolo Dario",
+        "Donato Romano",
+        "Cesare Stefanini"
+      ],
+      "electronic_url": "https://doi.org/10.1109/ICRA55743.2025.11127395",
+      "first_seen": "2026-09-24T09:54:28+00:00",
+      "informal": false,
+      "key": "conf/icra/ManducaPSGDRS25",
+      "title": "A Novel Underwater Robot with Carangiform Locomotion Achieved via Single Degree of Actuation and Magnetically Transmitted Traveling Wave.",
+      "type": "inproceedings",
+      "venue": "ICRA, pp. 14665-14670",
+      "year": 2025
     },
     "conf/icsa/BucchiaroneGLBS22": {
       "authors": [
@@ -7083,6 +7643,20 @@
       "venue": "ITSC, pp. 1-8",
       "year": 2017
     },
+    "conf/jelia/PadovaniP04": {
+      "authors": [
+        "Luca Padovani",
+        "Alessandro Provetti"
+      ],
+      "electronic_url": "https://doi.org/10.1007/978-3-540-30227-8_58",
+      "first_seen": "2026-09-24T09:54:28+00:00",
+      "informal": false,
+      "key": "conf/jelia/PadovaniP04",
+      "title": "Qsmodels: ASP Planning in Interactive Gaming Environment.",
+      "type": "inproceedings",
+      "venue": "JELIA, pp. 689-692",
+      "year": 2004
+    },
     "conf/jsai/LanevePS23": {
       "authors": [
         "Cosimo Laneve",
@@ -7804,6 +8378,30 @@
       "venue": "LPAR, pp. 258-273",
       "year": 2013
     },
+    "conf/mallow/BaldoniBBBMMMPPRRS10": {
+      "authors": [
+        "Matteo Baldoni",
+        "Cristina Baroglio",
+        "Federico Bergenti",
+        "Antonio Boccalatte",
+        "Elisa Marengo",
+        "Maurizio Martelli",
+        "Viviana Mascardi",
+        "Luca Padovani",
+        "Viviana Patti",
+        "Alessandro Ricci",
+        "Gianfranco Rossi",
+        "Andrea Santi"
+      ],
+      "electronic_url": "https://ceur-ws.org/Vol-627/coin_9.pdf",
+      "first_seen": "2026-09-24T09:54:28+00:00",
+      "informal": false,
+      "key": "conf/mallow/BaldoniBBBMMMPPRRS10",
+      "title": "MERCURIO: An Interaction-oriented Framework for Designing, Verifying and Programming Multi-Agent Systems.",
+      "type": "inproceedings",
+      "venue": "MALLOW",
+      "year": 2010
+    },
     "conf/mfcs/CatoziLV26": {
       "authors": [
         "Stefano Catozi",
@@ -8306,6 +8904,47 @@
       "venue": "CICM, pp. 296-315",
       "year": 2015
     },
+    "conf/mkm/Padovani03": {
+      "authors": [
+        "Luca Padovani"
+      ],
+      "electronic_url": "https://doi.org/10.1007/3-540-36469-2_6",
+      "first_seen": "2026-09-24T09:54:28+00:00",
+      "informal": false,
+      "key": "conf/mkm/Padovani03",
+      "title": "On the Roles of LATEX and MathML in Encoding and Processing Mathematical Expressions.",
+      "type": "inproceedings",
+      "venue": "MKM, pp. 66-79",
+      "year": 2003
+    },
+    "conf/mkm/PadovaniS04": {
+      "authors": [
+        "Luca Padovani",
+        "Riccardo Solmi"
+      ],
+      "electronic_url": "https://doi.org/10.1007/978-3-540-27818-4_22",
+      "first_seen": "2026-09-24T09:54:28+00:00",
+      "informal": false,
+      "key": "conf/mkm/PadovaniS04",
+      "title": "An Investigation on the Dynamics of Direct-Manipulation Editors for Mathematics.",
+      "type": "inproceedings",
+      "venue": "MKM, pp. 302-316",
+      "year": 2004
+    },
+    "conf/mkm/PadovaniZ06": {
+      "authors": [
+        "Luca Padovani",
+        "Stefano Zacchiroli"
+      ],
+      "electronic_url": "https://doi.org/10.1007/11812289_16",
+      "first_seen": "2026-09-24T09:54:28+00:00",
+      "informal": false,
+      "key": "conf/mkm/PadovaniZ06",
+      "title": "From Notation to Semantics: There and Back Again.",
+      "type": "inproceedings",
+      "venue": "MKM, pp. 194-207",
+      "year": 2006
+    },
     "conf/mkm/RabeKC11": {
       "authors": [
         "Florian Rabe 0001",
@@ -8354,6 +8993,20 @@
       "venue": "NordiCloud, pp. 59-63",
       "year": 2013
     },
+    "conf/oopsla/CrafaP15": {
+      "authors": [
+        "Silvia Crafa",
+        "Luca Padovani"
+      ],
+      "electronic_url": "https://doi.org/10.1145/2814270.2814287",
+      "first_seen": "2026-09-24T09:54:28+00:00",
+      "informal": false,
+      "key": "conf/oopsla/CrafaP15",
+      "title": "The chemical approach to typestate-oriented programming.",
+      "type": "inproceedings",
+      "venue": "OOPSLA, pp. 917-934",
+      "year": 2015
+    },
     "conf/otm/GiallorenzoLR18": {
       "authors": [
         "Saverio Giallorenzo",
@@ -8400,6 +9053,21 @@
       "venue": "PerCom Workshops, pp. 518-523",
       "year": 2024
     },
+    "conf/planX/CastagnaGP07": {
+      "authors": [
+        "Giuseppe Castagna",
+        "Nils Gesbert",
+        "Luca Padovani"
+      ],
+      "electronic_url": "http://www.plan-x-2007.org/plan-x-2007.pdf",
+      "first_seen": "2026-09-24T09:54:28+00:00",
+      "informal": false,
+      "key": "conf/planX/CastagnaGP07",
+      "title": "A Theory of Contracts for Web Services.",
+      "type": "inproceedings",
+      "venue": "PLAN-X, pp. 37-48",
+      "year": 2007
+    },
     "conf/popl/AspertiCM00": {
       "authors": [
         "Andrea Asperti",
@@ -8414,6 +9082,39 @@
       "type": "inproceedings",
       "venue": "POPL, pp. 96-107",
       "year": 2000
+    },
+    "conf/popl/Castagna0XILP14": {
+      "authors": [
+        "Giuseppe Castagna",
+        "Kim Nguyen 0001",
+        "Zhiwu Xu 0001",
+        "Hyeonseung Im",
+        "Sergueï Lenglet",
+        "Luca Padovani"
+      ],
+      "electronic_url": "https://doi.org/10.1145/2535838.2535840",
+      "first_seen": "2026-09-24T09:54:28+00:00",
+      "informal": false,
+      "key": "conf/popl/Castagna0XILP14",
+      "title": "Polymorphic functions with set-theoretic types: part 1: syntax, semantics, and evaluation.",
+      "type": "inproceedings",
+      "venue": "POPL, pp. 5-18",
+      "year": 2014
+    },
+    "conf/popl/CastagnaGP08": {
+      "authors": [
+        "Giuseppe Castagna",
+        "Nils Gesbert",
+        "Luca Padovani"
+      ],
+      "electronic_url": "https://doi.org/10.1145/1328438.1328471",
+      "first_seen": "2026-09-24T09:54:28+00:00",
+      "informal": false,
+      "key": "conf/popl/CastagnaGP08",
+      "title": "A theory of contracts for web services.",
+      "type": "inproceedings",
+      "venue": "POPL, pp. 261-272",
+      "year": 2008
     },
     "conf/popl/LagoFVY17": {
       "authors": [
@@ -8590,6 +9291,52 @@
       "venue": "PPDP, pp. 8:1-8:13",
       "year": 2018
     },
+    "conf/ppdp/CastagnaDGP09": {
+      "authors": [
+        "Giuseppe Castagna",
+        "Mariangiola Dezani-Ciancaglini",
+        "Elena Giachino",
+        "Luca Padovani"
+      ],
+      "electronic_url": "https://doi.org/10.1145/1599410.1599437",
+      "first_seen": "2026-09-24T09:54:28+00:00",
+      "informal": false,
+      "key": "conf/ppdp/CastagnaDGP09",
+      "title": "Foundations of session types.",
+      "type": "inproceedings",
+      "venue": "PPDP, pp. 219-230",
+      "year": 2009
+    },
+    "conf/ppdp/CastagnaDGP19": {
+      "authors": [
+        "Giuseppe Castagna",
+        "Mariangiola Dezani-Ciancaglini",
+        "Elena Giachino",
+        "Luca Padovani"
+      ],
+      "electronic_url": "https://doi.org/10.1145/3354166.3356340",
+      "first_seen": "2026-09-24T09:54:28+00:00",
+      "informal": false,
+      "key": "conf/ppdp/CastagnaDGP19",
+      "title": "Foundations of Session Types: 10 Years Later.",
+      "type": "inproceedings",
+      "venue": "PPDP, pp. 1:1-1:3",
+      "year": 2019
+    },
+    "conf/ppdp/CicconeP20": {
+      "authors": [
+        "Luca Ciccone",
+        "Luca Padovani"
+      ],
+      "electronic_url": "https://doi.org/10.1145/3414080.3414109",
+      "first_seen": "2026-09-24T09:54:28+00:00",
+      "informal": false,
+      "key": "conf/ppdp/CicconeP20",
+      "title": "A Dependently Typed Linear π-Calculus in Agda.",
+      "type": "inproceedings",
+      "venue": "PPDP, pp. 8:1-8:14",
+      "year": 2020
+    },
     "conf/ppdp/CondoluciAC19": {
       "authors": [
         "Andrea Condoluci",
@@ -8604,6 +9351,20 @@
       "type": "inproceedings",
       "venue": "PPDP, pp. 9:1-9:14",
       "year": 2019
+    },
+    "conf/ppdp/DagninoP24": {
+      "authors": [
+        "Francesco Dagnino",
+        "Luca Padovani"
+      ],
+      "electronic_url": "https://doi.org/10.1145/3678232.3678234",
+      "first_seen": "2026-09-24T09:54:28+00:00",
+      "informal": false,
+      "key": "conf/ppdp/DagninoP24",
+      "title": "sMALL CaPS: An Infinitary Linear Logic for a Calculus of Pure Sessions.",
+      "type": "inproceedings",
+      "venue": "PPDP, pp. 4:1-4:13",
+      "year": 2024
     },
     "conf/ppdp/DardhaGS12": {
       "authors": [
@@ -8665,6 +9426,20 @@
       "type": "inproceedings",
       "venue": "PPDP, pp. 118-131",
       "year": 2016
+    },
+    "conf/ppdp/JaksicP12": {
+      "authors": [
+        "Svetlana Jaksic",
+        "Luca Padovani"
+      ],
+      "electronic_url": "https://doi.org/10.1145/2370776.2370796",
+      "first_seen": "2026-09-24T09:54:28+00:00",
+      "informal": false,
+      "key": "conf/ppdp/JaksicP12",
+      "title": "Exception handling for copyless messaging.",
+      "type": "inproceedings",
+      "venue": "PPDP, pp. 151-162",
+      "year": 2012
     },
     "conf/ppdp/Lago25": {
       "authors": [
@@ -9565,6 +10340,22 @@
       "venue": "SFM, pp. 261-295",
       "year": 2009
     },
+    "conf/sfm/CoppoDPY15": {
+      "authors": [
+        "Mario Coppo",
+        "Mariangiola Dezani-Ciancaglini",
+        "Luca Padovani",
+        "Nobuko Yoshida"
+      ],
+      "electronic_url": "https://doi.org/10.1007/978-3-319-18941-3_4",
+      "first_seen": "2026-09-24T09:54:28+00:00",
+      "informal": false,
+      "key": "conf/sfm/CoppoDPY15",
+      "title": "A Gentle Introduction to Multiparty Asynchronous Session Types.",
+      "type": "inproceedings",
+      "venue": "SFM, pp. 146-178",
+      "year": 2015
+    },
     "conf/sfm/GiachinoL14": {
       "authors": [
         "Elena Giachino",
@@ -9578,6 +10369,19 @@
       "type": "inproceedings",
       "venue": "SFM, pp. 26-64",
       "year": 2014
+    },
+    "conf/sfm/Padovani09": {
+      "authors": [
+        "Luca Padovani"
+      ],
+      "electronic_url": "https://doi.org/10.1007/978-3-642-01918-0_6",
+      "first_seen": "2026-09-24T09:54:28+00:00",
+      "informal": false,
+      "key": "conf/sfm/Padovani09",
+      "title": "Contract-Based Discovery and Adaptation of Web Services.",
+      "type": "inproceedings",
+      "venue": "SFM, pp. 213-260",
+      "year": 2009
     },
     "conf/sfm/Zavattaro08": {
       "authors": [
@@ -9861,6 +10665,19 @@
       "type": "inproceedings",
       "venue": "TAPSOFT, pp. 172-186",
       "year": 1995
+    },
+    "conf/tex/Padovani04": {
+      "authors": [
+        "Luca Padovani"
+      ],
+      "electronic_url": "https://doi.org/10.1007/978-3-540-27773-6_9",
+      "first_seen": "2026-09-24T09:54:28+00:00",
+      "informal": false,
+      "key": "conf/tex/Padovani04",
+      "title": "Interactive Editing of MathML Markup Using TEX Syntax.",
+      "type": "inproceedings",
+      "venue": "TEX, XML, and Digital Typography, pp. 125-138",
+      "year": 2004
     },
     "conf/tgc/2005": {
       "authors": [
@@ -10295,6 +11112,19 @@
       "venue": "TYPES, pp. 4:1-4:18",
       "year": 2025
     },
+    "conf/types/Padovani22": {
+      "authors": [
+        "Luca Padovani"
+      ],
+      "electronic_url": "https://doi.org/10.4230/LIPICS.TYPES.2022.5",
+      "first_seen": "2026-09-24T09:54:28+00:00",
+      "informal": false,
+      "key": "conf/types/Padovani22",
+      "title": "On the Fair Termination of Client-Server Sessions.",
+      "type": "inproceedings",
+      "venue": "TYPES, pp. 5:1-5:21",
+      "year": 2023
+    },
     "conf/uitp/2010": {
       "authors": [
         "David Aspinall 0001 (ed.)",
@@ -10386,6 +11216,30 @@
       "type": "proceedings",
       "venue": "Lecture Notes in Computer Science",
       "year": 2021
+    },
+    "conf/woa/BaldoniBBBMMMPPRRS10": {
+      "authors": [
+        "Matteo Baldoni",
+        "Cristina Baroglio",
+        "Federico Bergenti",
+        "Antonio Boccalatte",
+        "Elisa Marengo",
+        "Maurizio Martelli",
+        "Viviana Mascardi",
+        "Luca Padovani",
+        "Viviana Patti",
+        "Alessandro Ricci",
+        "Gianfranco Rossi",
+        "Andrea Santi"
+      ],
+      "electronic_url": "https://ceur-ws.org/Vol-621/paper13.pdf",
+      "first_seen": "2026-09-24T09:54:28+00:00",
+      "informal": false,
+      "key": "conf/woa/BaldoniBBBMMMPPRRS10",
+      "title": "MERCURIO: An Interaction-oriented Framework for Designing, Verifying and Programming Multi-Agent Systems.",
+      "type": "inproceedings",
+      "venue": "WOA",
+      "year": 2010
     },
     "conf/wollic/AccattoliC14": {
       "authors": [
@@ -10590,6 +11444,24 @@
       "venue": "DROPS Artifacts",
       "year": 2024
     },
+    "data/11/ColonnelliMMBPA24": {
+      "authors": [
+        "Iacopo Colonnelli",
+        "Doriana Medic",
+        "Alberto Mulone",
+        "Viviana Bono",
+        "Luca Padovani",
+        "Marco Aldinucci"
+      ],
+      "electronic_url": "https://doi.org/10.5281/ZENODO.12523000",
+      "first_seen": "2026-09-24T09:54:28+00:00",
+      "informal": false,
+      "key": "data/11/ColonnelliMMBPA24",
+      "title": "Artifact for paper \"Introducing SWIRL: An Intermediate Representation Language for Scientific Workflows\".",
+      "type": "misc",
+      "venue": "Zenodo",
+      "year": 2024
+    },
     "data/11/LancelotAV25": {
       "authors": [
         "Adrienne Lancelot",
@@ -10716,6 +11588,22 @@
       "type": "article",
       "venue": "Acta Informatica, pp. 353-400",
       "year": 1998
+    },
+    "journals/acta/DamianiPSS18": {
+      "authors": [
+        "Ferruccio Damiani",
+        "Luca Padovani",
+        "Ina Schaefer",
+        "Christoph Seidl 0001"
+      ],
+      "electronic_url": "https://doi.org/10.1007/S00236-017-0293-6",
+      "first_seen": "2026-09-24T09:54:28+00:00",
+      "informal": false,
+      "key": "journals/acta/DamianiPSS18",
+      "title": "A core calculus for dynamic delta-oriented programming.",
+      "type": "article",
+      "venue": "Acta Informatica, pp. 269-307",
+      "year": 2018
     },
     "journals/acta/FachiniMS92": {
       "authors": [
@@ -11355,6 +12243,20 @@
       "venue": "EPTCS",
       "year": 2013
     },
+    "journals/corr/CrafaP16": {
+      "authors": [
+        "Silvia Crafa",
+        "Luca Padovani"
+      ],
+      "electronic_url": "http://arxiv.org/abs/1607.02927",
+      "first_seen": "2026-09-24T09:54:28+00:00",
+      "informal": true,
+      "key": "journals/corr/CrafaP16",
+      "title": "On the chemistry of typestate-oriented actors.",
+      "type": "article",
+      "venue": "CoRR",
+      "year": 2016
+    },
     "journals/corr/CrubilleL14": {
       "authors": [
         "Raphaëlle Crubillé",
@@ -11396,6 +12298,21 @@
       "type": "article",
       "venue": "CoRR",
       "year": 2017
+    },
+    "journals/corr/Dezani-CiancagliniPP14": {
+      "authors": [
+        "Mariangiola Dezani-Ciancaglini",
+        "Luca Padovani",
+        "Jovanka Pantovic"
+      ],
+      "electronic_url": "https://doi.org/10.4204/EPTCS.155.9",
+      "first_seen": "2026-09-24T09:54:28+00:00",
+      "informal": false,
+      "key": "journals/corr/Dezani-CiancagliniPP14",
+      "title": "Session Type Isomorphisms.",
+      "type": "inproceedings",
+      "venue": "PLACES, pp. 61-71",
+      "year": 2014
     },
     "journals/corr/DragoniGLMMMS16": {
       "authors": [
@@ -11849,6 +12766,46 @@
       "venue": "CoRR",
       "year": 2016
     },
+    "journals/corr/Padovani13": {
+      "authors": [
+        "Luca Padovani"
+      ],
+      "electronic_url": "https://doi.org/10.4204/EPTCS.137.2",
+      "first_seen": "2026-09-24T09:54:28+00:00",
+      "informal": false,
+      "key": "journals/corr/Padovani13",
+      "title": "From Lock Freedom to Progress Using Session Types.",
+      "type": "inproceedings",
+      "venue": "PLACES, pp. 3-19",
+      "year": 2013
+    },
+    "journals/corr/Padovani15": {
+      "authors": [
+        "Luca Padovani"
+      ],
+      "electronic_url": "https://doi.org/10.2168/LMCS-11(4:13)2015",
+      "first_seen": "2026-09-24T09:54:28+00:00",
+      "informal": false,
+      "key": "journals/corr/Padovani15",
+      "title": "Type Reconstruction for the Linear π-Calculus with Composite Regular Types.",
+      "type": "article",
+      "venue": "Log. Methods Comput. Sci.",
+      "year": 2015
+    },
+    "journals/corr/PadovaniP15": {
+      "authors": [
+        "Luca Padovani",
+        "Alessandro Provetti"
+      ],
+      "electronic_url": "http://arxiv.org/abs/1505.07263",
+      "first_seen": "2026-09-24T09:54:28+00:00",
+      "informal": true,
+      "key": "journals/corr/PadovaniP15",
+      "title": "Qsmodels: ASP Planning in Interactive Gaming Environment.",
+      "type": "article",
+      "venue": "CoRR",
+      "year": 2015
+    },
     "journals/corr/PredaGGLM14": {
       "authors": [
         "Mila Dalla Preda",
@@ -11899,6 +12856,22 @@
       "type": "article",
       "venue": "CoRR",
       "year": 2014
+    },
+    "journals/corr/SeveriPTD16": {
+      "authors": [
+        "Paula Severi",
+        "Luca Padovani",
+        "Emilio Tuosto",
+        "Mariangiola Dezani-Ciancaglini"
+      ],
+      "electronic_url": "http://arxiv.org/abs/1610.06362",
+      "first_seen": "2026-09-24T09:54:28+00:00",
+      "informal": true,
+      "key": "journals/corr/SeveriPTD16",
+      "title": "On Sessions and Infinite Data.",
+      "type": "article",
+      "venue": "CoRR",
+      "year": 2016
     },
     "journals/corr/abs-0704-2448": {
       "authors": [
@@ -12017,6 +12990,19 @@
       "venue": "CoRR",
       "year": 2009
     },
+    "journals/corr/abs-0911-5449": {
+      "authors": [
+        "Luca Padovani"
+      ],
+      "electronic_url": "https://doi.org/10.4204/EPTCS.12.5",
+      "first_seen": "2026-09-24T09:54:28+00:00",
+      "informal": false,
+      "key": "journals/corr/abs-0911-5449",
+      "title": "Session Types at the Mirror",
+      "type": "inproceedings",
+      "venue": "ICE, pp. 71-86",
+      "year": 2009
+    },
     "journals/corr/abs-1001-5404": {
       "authors": [
         "Martin Avanzini",
@@ -12118,6 +13104,19 @@
       "venue": "PAR, pp. 65-75",
       "year": 2010
     },
+    "journals/corr/abs-1101-4429": {
+      "authors": [
+        "Luca Padovani"
+      ],
+      "electronic_url": "https://doi.org/10.4204/EPTCS.45.6",
+      "first_seen": "2026-09-24T09:54:28+00:00",
+      "informal": false,
+      "key": "journals/corr/abs-1101-4429",
+      "title": "Session Types = Intersection Types + Union Types",
+      "type": "inproceedings",
+      "venue": "ITRS, pp. 71-89",
+      "year": 2010
+    },
     "journals/corr/abs-1103-3320": {
       "authors": [
         "Claudio Sacerdoti Coen",
@@ -12187,6 +13186,20 @@
       "title": "Soft Session Types (Long Version)",
       "type": "article",
       "venue": "CoRR",
+      "year": 2011
+    },
+    "journals/corr/abs-1108-0466": {
+      "authors": [
+        "Viviana Bono",
+        "Luca Padovani"
+      ],
+      "electronic_url": "https://doi.org/10.4204/EPTCS.59.5",
+      "first_seen": "2026-09-24T09:54:28+00:00",
+      "informal": false,
+      "key": "journals/corr/abs-1108-0466",
+      "title": "Polymorphic Endpoint Types for Copyless Message Passing",
+      "type": "inproceedings",
+      "venue": "ICE, pp. 52-67",
       "year": 2011
     },
     "journals/corr/abs-1108-1864": {
@@ -12261,6 +13274,20 @@
       "venue": "CoRR",
       "year": 2012
     },
+    "journals/corr/abs-1202-2086": {
+      "authors": [
+        "Viviana Bono",
+        "Luca Padovani"
+      ],
+      "electronic_url": "https://doi.org/10.2168/LMCS-8(1:17)2012",
+      "first_seen": "2026-09-24T09:54:28+00:00",
+      "informal": false,
+      "key": "journals/corr/abs-1202-2086",
+      "title": "Typing Copyless Message Passing",
+      "type": "article",
+      "venue": "Log. Methods Comput. Sci.",
+      "year": 2012
+    },
     "journals/corr/abs-1202-3317": {
       "authors": [
         "Ugo Dal Lago",
@@ -12305,6 +13332,21 @@
       "title": "The Cost of Parameterized Reachability in Mobile Ad Hoc Networks",
       "type": "article",
       "venue": "CoRR",
+      "year": 2012
+    },
+    "journals/corr/abs-1203-0780": {
+      "authors": [
+        "Giuseppe Castagna",
+        "Mariangiola Dezani-Ciancaglini",
+        "Luca Padovani"
+      ],
+      "electronic_url": "https://doi.org/10.2168/LMCS-8(1:24)2012",
+      "first_seen": "2026-09-24T09:54:28+00:00",
+      "informal": false,
+      "key": "journals/corr/abs-1203-0780",
+      "title": "On Global Types and Multi-Party Session",
+      "type": "article",
+      "venue": "Log. Methods Comput. Sci.",
       "year": 2012
     },
     "journals/corr/abs-1207-5592": {
@@ -12481,6 +13523,20 @@
       "venue": "CoRR",
       "year": 2017
     },
+    "journals/corr/abs-1801-04167": {
+      "authors": [
+        "Ugo de'Liguoro",
+        "Luca Padovani"
+      ],
+      "electronic_url": "http://arxiv.org/abs/1801.04167",
+      "first_seen": "2026-09-24T09:54:28+00:00",
+      "informal": true,
+      "key": "journals/corr/abs-1801-04167",
+      "title": "Mailbox Types for Unordered Interactions.",
+      "type": "article",
+      "venue": "CoRR",
+      "year": 2018
+    },
     "journals/corr/abs-1801-09072": {
       "authors": [
         "Francesco Gavazzo"
@@ -12505,6 +13561,19 @@
       "informal": true,
       "key": "journals/corr/abs-1802-09774",
       "title": "On Probabilistic Term Rewriting.",
+      "type": "article",
+      "venue": "CoRR",
+      "year": 2018
+    },
+    "journals/corr/abs-1803-10670": {
+      "authors": [
+        "Luca Padovani"
+      ],
+      "electronic_url": "http://arxiv.org/abs/1803.10670",
+      "first_seen": "2026-09-24T09:54:28+00:00",
+      "informal": true,
+      "key": "journals/corr/abs-1803-10670",
+      "title": "Deadlock-Free Typestate-Oriented Programming.",
       "type": "article",
       "venue": "CoRR",
       "year": 2018
@@ -12648,6 +13717,20 @@
       "title": "No more, no less - A formal model for serverless computing.",
       "type": "article",
       "venue": "CoRR",
+      "year": 2019
+    },
+    "journals/corr/abs-1904-01286": {
+      "authors": [
+        "Rosita Gerbo",
+        "Luca Padovani"
+      ],
+      "electronic_url": "https://doi.org/10.4204/EPTCS.291.3",
+      "first_seen": "2026-09-24T09:54:28+00:00",
+      "informal": false,
+      "key": "journals/corr/abs-1904-01286",
+      "title": "Concurrent Typestate-Oriented Programming in Java.",
+      "type": "inproceedings",
+      "venue": "PLACES@ETAPS, pp. 24-34",
       "year": 2019
     },
     "journals/corr/abs-1904-07425": {
@@ -12897,6 +13980,20 @@
       "venue": "CoRR",
       "year": 2020
     },
+    "journals/corr/abs-2004-01062": {
+      "authors": [
+        "Stephanie Balzer (ed.)",
+        "Luca Padovani (ed.)"
+      ],
+      "electronic_url": "https://doi.org/10.4204/EPTCS.314",
+      "first_seen": "2026-09-24T09:54:28+00:00",
+      "informal": false,
+      "key": "journals/corr/abs-2004-01062",
+      "title": "Proceedings of the 12th International Workshop on Programming Language Approaches to Concurrency- and Communication-cEntric Software, PLACES@ETAPS 2020, Dublin, Ireland, 26th April 2020.",
+      "type": "proceedings",
+      "venue": "EPTCS",
+      "year": 2020
+    },
     "journals/corr/abs-2005-09520": {
       "authors": [
         "Saverio Giallorenzo",
@@ -12908,6 +14005,23 @@
       "informal": true,
       "key": "journals/corr/abs-2005-09520",
       "title": "Choreographies as Objects.",
+      "type": "article",
+      "venue": "CoRR",
+      "year": 2020
+    },
+    "journals/corr/abs-2007-11832": {
+      "authors": [
+        "Omar Inverso",
+        "Hernán C. Melgratti",
+        "Luca Padovani",
+        "Catia Trubiani",
+        "Emilio Tuosto"
+      ],
+      "electronic_url": "https://arxiv.org/abs/2007.11832",
+      "first_seen": "2026-09-24T09:54:28+00:00",
+      "informal": true,
+      "key": "journals/corr/abs-2007-11832",
+      "title": "Probabilistic Analysis of Binary Sessions.",
       "type": "article",
       "venue": "CoRR",
       "year": 2020
@@ -13204,6 +14318,20 @@
       "venue": "CoRR",
       "year": 2021
     },
+    "journals/corr/abs-2108-01503": {
+      "authors": [
+        "Luca Ciccone",
+        "Luca Padovani"
+      ],
+      "electronic_url": "https://arxiv.org/abs/2108.01503",
+      "first_seen": "2026-09-24T09:54:28+00:00",
+      "informal": true,
+      "key": "journals/corr/abs-2108-01503",
+      "title": "Inference Systems with Corules for Combined Safety and Liveness Properties of Binary Session Types.",
+      "type": "article",
+      "venue": "CoRR",
+      "year": 2021
+    },
     "journals/corr/abs-2110-11069": {
       "authors": [
         "Silvia Crafa",
@@ -13403,6 +14531,21 @@
       "venue": "CoRR",
       "year": 2022
     },
+    "journals/corr/abs-2205-08786": {
+      "authors": [
+        "Luca Ciccone",
+        "Francesco Dagnino",
+        "Luca Padovani"
+      ],
+      "electronic_url": "https://doi.org/10.48550/ARXIV.2205.08786",
+      "first_seen": "2026-09-24T09:54:28+00:00",
+      "informal": true,
+      "key": "journals/corr/abs-2205-08786",
+      "title": "Fair Termination of Multiparty Sessions.",
+      "type": "article",
+      "venue": "CoRR",
+      "year": 2022
+    },
     "journals/corr/abs-2205-10176": {
       "authors": [
         "Giuseppe De Palma",
@@ -13444,6 +14587,20 @@
       "informal": true,
       "key": "journals/corr/abs-2207-03360",
       "title": "On Session Typing, Probabilistic Polynomial Time, and Cryptographic Experiments (Long Version).",
+      "type": "article",
+      "venue": "CoRR",
+      "year": 2022
+    },
+    "journals/corr/abs-2207-03749": {
+      "authors": [
+        "Luca Ciccone",
+        "Luca Padovani"
+      ],
+      "electronic_url": "https://doi.org/10.48550/ARXIV.2207.03749",
+      "first_seen": "2026-09-24T09:54:28+00:00",
+      "informal": true,
+      "key": "journals/corr/abs-2207-03749",
+      "title": "An Infinitary Proof Theory of Linear Logic Ensuring Fair Termination in the Linear π-Calculus.",
       "type": "article",
       "venue": "CoRR",
       "year": 2022
@@ -13554,6 +14711,19 @@
       "venue": "CoRR",
       "year": 2022
     },
+    "journals/corr/abs-2212-05457": {
+      "authors": [
+        "Luca Padovani"
+      ],
+      "electronic_url": "https://doi.org/10.48550/ARXIV.2212.05457",
+      "first_seen": "2026-09-24T09:54:28+00:00",
+      "informal": true,
+      "key": "journals/corr/abs-2212-05457",
+      "title": "On the Fair Termination of Client-Server Sessions.",
+      "type": "article",
+      "venue": "CoRR",
+      "year": 2022
+    },
     "journals/corr/abs-2301-12028": {
       "authors": [
         "Melissa Antonelli",
@@ -13643,6 +14813,20 @@
       "title": "Automated Expected Value Analysis of Recursive Programs.",
       "type": "article",
       "venue": "CoRR",
+      "year": 2023
+    },
+    "journals/corr/abs-2304-06398": {
+      "authors": [
+        "Ross Horne",
+        "Luca Padovani"
+      ],
+      "electronic_url": "https://doi.org/10.4204/EPTCS.378.3",
+      "first_seen": "2026-09-24T09:54:28+00:00",
+      "informal": false,
+      "key": "journals/corr/abs-2304-06398",
+      "title": "A Logical Account of Subtyping for Session Types.",
+      "type": "inproceedings",
+      "venue": "PLACES@ETAPS, pp. 26-37",
       "year": 2023
     },
     "journals/corr/abs-2305-01772": {
@@ -13999,6 +15183,24 @@
       "venue": "CoRR",
       "year": 2024
     },
+    "journals/corr/abs-2407-01838": {
+      "authors": [
+        "Iacopo Colonnelli",
+        "Doriana Medic",
+        "Alberto Mulone",
+        "Viviana Bono",
+        "Luca Padovani",
+        "Marco Aldinucci"
+      ],
+      "electronic_url": "https://doi.org/10.48550/ARXIV.2407.01838",
+      "first_seen": "2026-09-24T09:54:28+00:00",
+      "informal": true,
+      "key": "journals/corr/abs-2407-01838",
+      "title": "Introducing SWIRL: An Intermediate Representation Language for Scientific Workflows.",
+      "type": "article",
+      "venue": "CoRR",
+      "year": 2024
+    },
     "journals/corr/abs-2407-05822": {
       "authors": [
         "Florian Rabe 0001 (ed.)",
@@ -14134,6 +15336,24 @@
       "informal": true,
       "key": "journals/corr/abs-2409-18709",
       "title": "Interaction Equivalence.",
+      "type": "article",
+      "venue": "CoRR",
+      "year": 2024
+    },
+    "journals/corr/abs-2411-10760": {
+      "authors": [
+        "Luca Padovani",
+        "Gianluca Manduca",
+        "Damiano Paniccia",
+        "Giorgio Graziani",
+        "Renzo Piva",
+        "Claudio Lugni"
+      ],
+      "electronic_url": "https://doi.org/10.48550/ARXIV.2411.10760",
+      "first_seen": "2026-09-24T09:54:28+00:00",
+      "informal": true,
+      "key": "journals/corr/abs-2411-10760",
+      "title": "Experimental study of fish-like bodies with passive tail and tunable stiffness.",
       "type": "article",
       "venue": "CoRR",
       "year": 2024
@@ -15674,6 +16894,28 @@
       "venue": "Formal Aspects Comput., pp. 733-749",
       "year": 2019
     },
+    "journals/fgcs/ColonnelliACPRS22": {
+      "authors": [
+        "Iacopo Colonnelli",
+        "Marco Aldinucci",
+        "Barbara Cantalupo",
+        "Luca Padovani",
+        "Sergio Rabellino",
+        "Concetto Spampinato",
+        "Roberto Morelli",
+        "Rosario Di Carlo",
+        "Nicolò Magini",
+        "Carlo Cavazzoni"
+      ],
+      "electronic_url": "https://doi.org/10.1016/J.FUTURE.2021.10.007",
+      "first_seen": "2026-09-24T09:54:28+00:00",
+      "informal": false,
+      "key": "journals/fgcs/ColonnelliACPRS22",
+      "title": "Distributed workflows with Jupyter.",
+      "type": "article",
+      "venue": "Future Gener. Comput. Syst., pp. 282-298",
+      "year": 2022
+    },
     "journals/fgcs/PalmaGMTZ26": {
       "authors": [
         "Giuseppe De Palma",
@@ -15690,6 +16932,37 @@
       "type": "article",
       "venue": "Future Gener. Comput. Syst., pp. 108691",
       "year": 2026
+    },
+    "journals/ftpl/AnconaBB0CDGGGH16": {
+      "authors": [
+        "Davide Ancona",
+        "Viviana Bono",
+        "Mario Bravetti",
+        "Joana Campos 0002",
+        "Giuseppe Castagna",
+        "Pierre-Malo Deniélou",
+        "Simon J. Gay",
+        "Nils Gesbert",
+        "Elena Giachino",
+        "Raymond Hu",
+        "Einar Broch Johnsen",
+        "Francisco Martins",
+        "Viviana Mascardi",
+        "Fabrizio Montesi",
+        "Rumyana Neykova",
+        "Nicholas Ng",
+        "Luca Padovani",
+        "Vasco T. Vasconcelos",
+        "Nobuko Yoshida"
+      ],
+      "electronic_url": "https://doi.org/10.1561/2500000031",
+      "first_seen": "2026-09-24T09:54:28+00:00",
+      "informal": false,
+      "key": "journals/ftpl/AnconaBB0CDGGGH16",
+      "title": "Behavioral Types in Programming Languages.",
+      "type": "article",
+      "venue": "Found. Trends Program. Lang., pp. 95-230",
+      "year": 2016
     },
     "journals/fuin/BoerBLZ18": {
       "authors": [
@@ -16481,6 +17754,19 @@
       "venue": "J. Funct. Program.",
       "year": 2026
     },
+    "journals/jfp/Padovani17": {
+      "authors": [
+        "Luca Padovani"
+      ],
+      "electronic_url": "https://doi.org/10.1017/S0956796816000289",
+      "first_seen": "2026-09-24T09:54:28+00:00",
+      "informal": false,
+      "key": "journals/jfp/Padovani17",
+      "title": "A simple library implementation of binary sessions.",
+      "type": "article",
+      "venue": "J. Funct. Program., pp. e4",
+      "year": 2017
+    },
     "journals/jfrea/AspertiRC14": {
       "authors": [
         "Andrea Asperti",
@@ -16509,6 +17795,20 @@
       "type": "article",
       "venue": "J. Formaliz. Reason., pp. 51-89",
       "year": 2008
+    },
+    "journals/jlap/BalzerP22": {
+      "authors": [
+        "Stephanie Balzer",
+        "Luca Padovani"
+      ],
+      "electronic_url": "https://doi.org/10.1016/J.JLAMP.2022.100777",
+      "first_seen": "2026-09-24T09:54:28+00:00",
+      "informal": false,
+      "key": "journals/jlap/BalzerP22",
+      "title": "Preface to the special issue on the 12th Workshop on Programming Language Approaches to Concurrency and Communication-Centric Software (PLACES) 2020.",
+      "type": "article",
+      "venue": "J. Log. Algebraic Methods Program., pp. 100777",
+      "year": 2022
     },
     "journals/jlap/BarbaneraDLT21": {
       "authors": [
@@ -16555,6 +17855,21 @@
       "venue": "J. Log. Algebraic Methods Program., pp. 100527",
       "year": 2020
     },
+    "journals/jlap/CicconeDP24": {
+      "authors": [
+        "Luca Ciccone",
+        "Francesco Dagnino",
+        "Luca Padovani"
+      ],
+      "electronic_url": "https://doi.org/10.1016/J.JLAMP.2024.100964",
+      "first_seen": "2026-09-24T09:54:28+00:00",
+      "informal": false,
+      "key": "journals/jlap/CicconeDP24",
+      "title": "Fair termination of multiparty sessions.",
+      "type": "article",
+      "venue": "J. Log. Algebraic Methods Program., pp. 100964",
+      "year": 2024
+    },
     "journals/jlap/GouwMZ19": {
       "authors": [
         "Stijn de Gouw",
@@ -16569,6 +17884,20 @@
       "type": "article",
       "venue": "J. Log. Algebraic Methods Program., pp. 108-135",
       "year": 2019
+    },
+    "journals/jlap/HorneP24": {
+      "authors": [
+        "Ross Horne",
+        "Luca Padovani"
+      ],
+      "electronic_url": "https://doi.org/10.1016/J.JLAMP.2024.100986",
+      "first_seen": "2026-09-24T09:54:28+00:00",
+      "informal": false,
+      "key": "journals/jlap/HorneP24",
+      "title": "A logical account of subtyping for session types.",
+      "type": "article",
+      "venue": "J. Log. Algebraic Methods Program., pp. 100986",
+      "year": 2024
     },
     "journals/jlap/LamiLSCF24": {
       "authors": [
@@ -16783,6 +18112,19 @@
       "venue": "J. Log. Program., pp. 263-276",
       "year": 1988
     },
+    "journals/jlp/Padovani18": {
+      "authors": [
+        "Luca Padovani"
+      ],
+      "electronic_url": "https://doi.org/10.1016/J.JLAMP.2018.06.001",
+      "first_seen": "2026-09-24T09:54:28+00:00",
+      "informal": false,
+      "key": "journals/jlp/Padovani18",
+      "title": "A type checking algorithm for concurrent object protocols.",
+      "type": "article",
+      "venue": "J. Log. Algebraic Methods Program., pp. 16-35",
+      "year": 2018
+    },
     "journals/jss/BacchianiBGGZZ25": {
       "authors": [
         "Lorenzo Bacchiani",
@@ -16971,6 +18313,20 @@
       "venue": "Log. Methods Comput. Sci.",
       "year": 2023
     },
+    "journals/lmcs/CicconeP22": {
+      "authors": [
+        "Luca Ciccone",
+        "Luca Padovani"
+      ],
+      "electronic_url": "https://doi.org/10.46298/LMCS-18(3:27)2022",
+      "first_seen": "2026-09-24T09:54:28+00:00",
+      "informal": false,
+      "key": "journals/lmcs/CicconeP22",
+      "title": "Inference Systems with Corules for Combined Safety and Liveness Properties of Binary Session Types.",
+      "type": "article",
+      "venue": "Log. Methods Comput. Sci.",
+      "year": 2022
+    },
     "journals/lmcs/CoppolaLR08": {
       "authors": [
         "Paolo Coppola 0001",
@@ -17118,6 +18474,22 @@
       "venue": "Log. Methods Comput. Sci.",
       "year": 2018
     },
+    "journals/lmcs/SeveriPTD17": {
+      "authors": [
+        "Paula Severi",
+        "Luca Padovani",
+        "Emilio Tuosto",
+        "Mariangiola Dezani-Ciancaglini"
+      ],
+      "electronic_url": "https://doi.org/10.23638/LMCS-13(2:9)2017",
+      "first_seen": "2026-09-24T09:54:28+00:00",
+      "informal": false,
+      "key": "journals/lmcs/SeveriPTD17",
+      "title": "On Sessions and Infinite Data.",
+      "type": "article",
+      "venue": "Log. Methods Comput. Sci.",
+      "year": 2017
+    },
     "journals/mics/CoenZ08": {
       "authors": [
         "Claudio Sacerdoti Coen",
@@ -17259,6 +18631,22 @@
       "type": "article",
       "venue": "Math. Struct. Comput. Sci., pp. 763-793",
       "year": 2011
+    },
+    "journals/mscs/CoppoDYP16": {
+      "authors": [
+        "Mario Coppo",
+        "Mariangiola Dezani-Ciancaglini",
+        "Nobuko Yoshida",
+        "Luca Padovani"
+      ],
+      "electronic_url": "https://doi.org/10.1017/S0960129514000188",
+      "first_seen": "2026-09-24T09:54:28+00:00",
+      "informal": false,
+      "key": "journals/mscs/CoppoDYP16",
+      "title": "Global progress for dynamically interleaved multiparty sessions.",
+      "type": "article",
+      "venue": "Math. Struct. Comput. Sci., pp. 238-302",
+      "year": 2016
     },
     "journals/mscs/GuidiCT19": {
       "authors": [
@@ -17443,6 +18831,32 @@
       "type": "article",
       "venue": "Math. Struct. Comput. Sci., pp. 715-767",
       "year": 2004
+    },
+    "journals/mscs/Padovani12": {
+      "authors": [
+        "Luca Padovani"
+      ],
+      "electronic_url": "https://doi.org/10.1017/S0960129511000405",
+      "first_seen": "2026-09-24T09:54:28+00:00",
+      "informal": false,
+      "key": "journals/mscs/Padovani12",
+      "title": "On projecting processes into session types.",
+      "type": "article",
+      "venue": "Math. Struct. Comput. Sci., pp. 237-289",
+      "year": 2012
+    },
+    "journals/mscs/Padovani16": {
+      "authors": [
+        "Luca Padovani"
+      ],
+      "electronic_url": "https://doi.org/10.1017/S096012951400022X",
+      "first_seen": "2026-09-24T09:54:28+00:00",
+      "informal": false,
+      "key": "journals/mscs/Padovani16",
+      "title": "Fair subtyping for multi-party session types.",
+      "type": "article",
+      "venue": "Math. Struct. Comput. Sci., pp. 424-464",
+      "year": 2016
     },
     "journals/mscs/PierceS96": {
       "authors": [
@@ -17693,6 +19107,20 @@
       "venue": "Proc. ACM Program. Lang., pp. 1013-1041",
       "year": 2026
     },
+    "journals/pacmpl/CicconeP22": {
+      "authors": [
+        "Luca Ciccone",
+        "Luca Padovani"
+      ],
+      "electronic_url": "https://doi.org/10.1145/3498666",
+      "first_seen": "2026-09-24T09:54:28+00:00",
+      "informal": false,
+      "key": "journals/pacmpl/CicconeP22",
+      "title": "Fair termination of binary sessions.",
+      "type": "article",
+      "venue": "Proc. ACM Program. Lang., pp. 1-30",
+      "year": 2022
+    },
     "journals/pacmpl/ColledanL25": {
       "authors": [
         "Andrea Colledan",
@@ -17824,6 +19252,20 @@
       "venue": "Proc. ACM Program. Lang., pp. 7:1-7:29",
       "year": 2019
     },
+    "journals/pacmpl/MelgrattiP17": {
+      "authors": [
+        "Hernán C. Melgratti",
+        "Luca Padovani"
+      ],
+      "electronic_url": "https://doi.org/10.1145/3110279",
+      "first_seen": "2026-09-24T09:54:28+00:00",
+      "informal": false,
+      "key": "journals/pacmpl/MelgrattiP17",
+      "title": "Chaperone contracts for higher-order sessions.",
+      "type": "article",
+      "venue": "Proc. ACM Program. Lang., pp. 35:1-35:29",
+      "year": 2017
+    },
     "journals/pacmpl/SakayoriCL26": {
       "authors": [
         "Ken Sakayori",
@@ -17936,6 +19378,19 @@
       "type": "inproceedings",
       "venue": "FET, pp. 175-177",
       "year": 2011
+    },
+    "journals/programming/Padovani18": {
+      "authors": [
+        "Luca Padovani"
+      ],
+      "electronic_url": "https://doi.org/10.22152/PROGRAMMING-JOURNAL.ORG/2018/2/15",
+      "first_seen": "2026-09-24T09:54:28+00:00",
+      "informal": false,
+      "key": "journals/programming/Padovani18",
+      "title": "Deadlock-Free Typestate-Oriented Programming.",
+      "type": "article",
+      "venue": "Art Sci. Eng. Program., pp. 15",
+      "year": 2018
     },
     "journals/scp/AcciaiBZ13": {
       "authors": [
@@ -18151,6 +19606,20 @@
       "type": "article",
       "venue": "Sci. Comput. Program., pp. 209-249",
       "year": 2006
+    },
+    "journals/scp/JaksicP14": {
+      "authors": [
+        "Svetlana Jaksic",
+        "Luca Padovani"
+      ],
+      "electronic_url": "https://doi.org/10.1016/J.SCICO.2013.05.001",
+      "first_seen": "2026-09-24T09:54:28+00:00",
+      "informal": false,
+      "key": "journals/scp/JaksicP14",
+      "title": "Exception handling for copyless messaging.",
+      "type": "article",
+      "venue": "Sci. Comput. Program., pp. 22-51",
+      "year": 2014
     },
     "journals/scp/KleistS02": {
       "authors": [
@@ -19081,6 +20550,19 @@
       "venue": "Theor. Comput. Sci., pp. 159-173",
       "year": 1997
     },
+    "journals/tcs/Padovani10": {
+      "authors": [
+        "Luca Padovani"
+      ],
+      "electronic_url": "https://doi.org/10.1016/J.TCS.2010.05.002",
+      "first_seen": "2026-09-24T09:54:28+00:00",
+      "informal": false,
+      "key": "journals/tcs/Padovani10",
+      "title": "Contract-based discovery of Web services modulo simple orchestrators.",
+      "type": "article",
+      "venue": "Theor. Comput. Sci., pp. 3328-3347",
+      "year": 2010
+    },
     "journals/tcs/Sangiorgi01": {
       "authors": [
         "Davide Sangiorgi"
@@ -19313,6 +20795,21 @@
       "venue": "ACM Trans. Internet Techn., pp. 14:1-14:30",
       "year": 2026
     },
+    "journals/toplas/CastagnaGP09": {
+      "authors": [
+        "Giuseppe Castagna",
+        "Nils Gesbert",
+        "Luca Padovani"
+      ],
+      "electronic_url": "https://doi.org/10.1145/1538917.1538920",
+      "first_seen": "2026-09-24T09:54:28+00:00",
+      "informal": false,
+      "key": "journals/toplas/CastagnaGP09",
+      "title": "A theory of contracts for Web services.",
+      "type": "article",
+      "venue": "ACM Trans. Program. Lang. Syst., pp. 19:1-19:61",
+      "year": 2009
+    },
     "journals/toplas/ColledanLV25": {
       "authors": [
         "Andrea Colledan",
@@ -19327,6 +20824,20 @@
       "type": "article",
       "venue": "ACM Trans. Program. Lang. Syst., pp. 13:1-13:35",
       "year": 2025
+    },
+    "journals/toplas/CrafaP17": {
+      "authors": [
+        "Silvia Crafa",
+        "Luca Padovani"
+      ],
+      "electronic_url": "https://doi.org/10.1145/3064849",
+      "first_seen": "2026-09-24T09:54:28+00:00",
+      "informal": false,
+      "key": "journals/toplas/CrafaP17",
+      "title": "The Chemical Approach to Typestate-Oriented Programming.",
+      "type": "article",
+      "venue": "ACM Trans. Program. Lang. Syst., pp. 13:1-13:45",
+      "year": 2017
     },
     "journals/toplas/GalalGTV25": {
       "authors": [
@@ -19400,6 +20911,19 @@
       "type": "article",
       "venue": "ACM Trans. Program. Lang. Syst., pp. 1-69",
       "year": 2003
+    },
+    "journals/toplas/Padovani19": {
+      "authors": [
+        "Luca Padovani"
+      ],
+      "electronic_url": "https://doi.org/10.1145/3229062",
+      "first_seen": "2026-09-24T09:54:28+00:00",
+      "informal": false,
+      "key": "journals/toplas/Padovani19",
+      "title": "Context-Free Session Type Inference.",
+      "type": "article",
+      "venue": "ACM Trans. Program. Lang. Syst., pp. 9:1-9:37",
+      "year": 2019
     },
     "journals/toplas/PadovaniZ26": {
       "authors": [
