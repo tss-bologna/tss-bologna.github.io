@@ -58,7 +58,7 @@
   photo: null
   interests: ["rewriting", "complexity analysis", "probabilistic computing", "quantum computing", "expectation transformers"]
   periods:
-    - status: "permanent"
+    - status: "external"
       arrival: "2014-01-01"
       departure: null
 
@@ -93,7 +93,7 @@
 - id: "fiorillo"
   first_name: "Guido"
   last_name: "Fiorillo"
-  affiliations: "PhD student [University Lyon&nbsp;1](https://www.univ-lyon1.fr/)"
+  affiliations: "PhD student [Université Lyon&nbsp;1](https://www.univ-lyon1.fr/)"
   email: "guido.fiorillo@ens-lyon.fr"
   webpage: null
   dblp: "436/0458"
@@ -107,7 +107,7 @@
 - id: "gavazzo"
   first_name: "Francesco"
   last_name: "Gavazzo"
-  affiliations: "Asst. Prof. [University of Padua](https://www.unipd.it/en/)"
+  affiliations: "Asst. Prof. [Università di Padova](https://www.unipd.it/en/)"
   email: "francesco.gavazzo@unipd.it"
   webpage: "https://sites.google.com/view/francescogavazzo/"
   dblp: "199/1997"
@@ -149,14 +149,14 @@
 - id: "golpayegani"
   first_name: "Mehdi"
   last_name: "Golpayegani"
-  affiliations: "[Inria OLAS](https://www.inria.fr/en/olas)"
+  affiliations: "PhD student [Inria OLAS](https://www.inria.fr/en/olas)"
   email: "mehdi.golpayegani@inria.fr"
   webpage: null
   dblp: null
   photo: null
   interests: []
   periods:
-    - status: "phd"
+    - status: "external"
       arrival: "2025-11-01"
       departure: null
 
@@ -219,7 +219,7 @@
 - id: "negrotto"
   first_name: "Josefina"
   last_name: "Negrotto"
-  affiliations: "Student [University of Buenos Aires](https://www.uba.ar/)"
+  affiliations: "Student [Universidad de Buenos Aires](https://www.uba.ar/)"
   email: null
   webpage: null
   dblp: null
@@ -261,7 +261,7 @@
 - id: "quemerais"
   first_name: "Iwan"
   last_name: "Quémerais"
-  affiliations: "[ENS de Lyon](https://www.ens-lyon.fr/); [Unibo](https://www.unibo.it/)"
+  affiliations: "[ÉNS de Lyon](https://www.ens-lyon.fr/); [Unibo](https://www.unibo.it/)"
   email: "iwan.quemerais@ens-lyon.fr"
   webpage: "https://www.unibo.it/sitoweb/iwan.quemerais/en"
   dblp: "405/6547"
