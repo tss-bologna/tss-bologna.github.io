@@ -1,7 +1,7 @@
 {
   "authors": {
     "146/2078": {
-      "fetched_at": "2026-09-29T11:29:24+00:00",
+      "fetched_at": "2026-09-30T11:17:09+00:00",
       "keys": [
         "books/sp/17/DragoniGLMMMS17",
         "books/sp/20/BravettiGMTZ20",
@@ -35,6 +35,7 @@
         "conf/icsoc/GiallorenzoMMMPP24",
         "conf/icsoc/GiallorenzoMPRSW24",
         "conf/icsoc/PalmaGMZ20",
+        "conf/ictcs/BertoniGP26",
         "conf/icws/PalmaGMTZ22",
         "conf/icws/PalmaGMTZ24",
         "conf/ifm/PalmaGMTZ25",
@@ -122,7 +123,7 @@
       "name": "Saverio Giallorenzo"
     },
     "199/1997": {
-      "fetched_at": "2026-09-29T11:29:24+00:00",
+      "fetched_at": "2026-09-30T11:17:09+00:00",
       "keys": [
         "conf/csl/LagoGG23",
         "conf/esop/BartheCLG20",
@@ -168,7 +169,7 @@
       "name": "Francesco Gavazzo"
     },
     "22/6590": {
-      "fetched_at": "2026-09-29T11:29:24+00:00",
+      "fetched_at": "2026-09-30T11:17:09+00:00",
       "keys": [
         "conf/birthday/LaneveP08",
         "conf/birthday/LaneveP19",
@@ -264,6 +265,7 @@
         "journals/fac/LaneveP15",
         "journals/fgcs/ColonnelliACPRS22",
         "journals/ftpl/AnconaBB0CDGGGH16",
+        "journals/jar/PadovaniR26",
         "journals/jfp/Padovani17",
         "journals/jlap/BalzerP22",
         "journals/jlap/CicconeDP24",
@@ -288,10 +290,11 @@
       "name": "Luca Padovani"
     },
     "220/3433": {
-      "fetched_at": "2026-09-29T11:29:24+00:00",
+      "fetched_at": "2026-09-30T11:17:09+00:00",
       "keys": [
         "conf/esop/GavazzoTV24",
         "conf/fossacs/LancelotMMV26",
+        "conf/ictcs/CatoziLV26",
         "conf/ictcs/LagoV18",
         "conf/ictcs/LagoV23",
         "conf/lics/AccattoliLV21",
@@ -327,7 +330,7 @@
       "name": "Gabriele Vanoni"
     },
     "32/1979": {
-      "fetched_at": "2026-09-29T11:29:24+00:00",
+      "fetched_at": "2026-09-30T11:17:09+00:00",
       "keys": [
         "books/sp/20/BravettiGMTZ20",
         "books/sp/24/BacchianiBGMZ24",
@@ -565,7 +568,7 @@
       "name": "Gianluigi Zavattaro"
     },
     "333/1354": {
-      "fetched_at": "2026-09-29T11:29:24+00:00",
+      "fetched_at": "2026-09-30T11:17:09+00:00",
       "keys": [
         "conf/fscd/CerdaMS25",
         "conf/mfcs/CerdaS26",
@@ -582,7 +585,7 @@
       "name": "Rémy Cerda"
     },
     "342/7235": {
-      "fetched_at": "2026-09-29T11:29:24+00:00",
+      "fetched_at": "2026-09-30T11:17:09+00:00",
       "keys": [
         "conf/fossacs/AccattoliL24",
         "conf/fossacs/LancelotMMV26",
@@ -601,7 +604,7 @@
       "name": "Adrienne Lancelot"
     },
     "40/646": {
-      "fetched_at": "2026-09-29T11:29:24+00:00",
+      "fetched_at": "2026-09-30T11:17:09+00:00",
       "keys": [
         "conf/aisc/AspertiC10",
         "conf/aplas/AccattoliCW25",
@@ -709,7 +712,7 @@
       "name": "Claudio Sacerdoti Coen"
     },
     "405/6547": {
-      "fetched_at": "2026-09-29T11:29:24+00:00",
+      "fetched_at": "2026-09-30T11:17:09+00:00",
       "keys": [
         "conf/concur/HirschkoffQS25",
         "conf/concur/QuemeraisJSS26",
@@ -720,14 +723,14 @@
       "name": "Iwan Quémerais"
     },
     "409/6083": {
-      "fetched_at": "2026-09-29T11:29:24+00:00",
+      "fetched_at": "2026-09-30T11:17:09+00:00",
       "keys": [
         "conf/forte/GenoveseLGTV25"
       ],
       "name": "Gabriele Genovese"
     },
     "436/0458": {
-      "fetched_at": "2026-09-29T11:29:24+00:00",
+      "fetched_at": "2026-09-30T11:17:09+00:00",
       "keys": [
         "conf/lics/LagoFP26",
         "journals/corr/abs-2604-27986"
@@ -735,7 +738,7 @@
       "name": "Guido Fiorillo"
     },
     "437/3327": {
-      "fetched_at": "2026-09-29T11:29:24+00:00",
+      "fetched_at": "2026-09-30T11:17:09+00:00",
       "keys": [
         "conf/rc/PizzoC26",
         "journals/corr/abs-2605-09179"
@@ -743,7 +746,7 @@
       "name": "Nicolò Pizzo"
     },
     "44/3105": {
-      "fetched_at": "2026-09-29T11:29:24+00:00",
+      "fetched_at": "2026-09-30T11:17:09+00:00",
       "keys": [
         "books/cu/20/Lago20",
         "conf/aaai/LagoPT02",
@@ -799,6 +802,8 @@
         "conf/ictac/LagoZ14",
         "conf/ictcs/2022",
         "conf/ictcs/AntonelliLP21",
+        "conf/ictcs/CatoziLV26",
+        "conf/ictcs/ChardonnetLHP26",
         "conf/ictcs/Lago03",
         "conf/ictcs/LagoG20",
         "conf/ictcs/LagoGT17",
@@ -1011,7 +1016,7 @@
       "name": "Ugo Dal Lago"
     },
     "56/3713": {
-      "fetched_at": "2026-09-29T11:29:24+00:00",
+      "fetched_at": "2026-09-30T11:17:09+00:00",
       "keys": [
         "books/sp/17/GuidiLMM17",
         "books/sp/sensoria2011/BartolettiCLMSVZ11",
@@ -1190,7 +1195,7 @@
       "name": "Ivan Lanese"
     },
     "63/5617": {
-      "fetched_at": "2026-09-29T11:29:24+00:00",
+      "fetched_at": "2026-09-30T11:17:09+00:00",
       "keys": [
         "conf/aplas/AvanziniEM12",
         "conf/cade/AvanziniMS08",
@@ -1252,7 +1257,7 @@
       "name": "Martin Avanzini"
     },
     "l/CosimoLaneve": {
-      "fetched_at": "2026-09-29T11:29:24+00:00",
+      "fetched_at": "2026-09-30T11:17:09+00:00",
       "keys": [
         "conf/acsd/CarpinetiLM05",
         "conf/alp/LaneveM92",
@@ -1380,7 +1385,7 @@
       "name": "Cosimo Laneve"
     },
     "m/SMartini": {
-      "fetched_at": "2026-09-29T11:29:24+00:00",
+      "fetched_at": "2026-09-30T11:17:09+00:00",
       "keys": [
         "conf/birthday/000120",
         "conf/cie/LagoM06",
@@ -1447,7 +1452,7 @@
       "name": "Simone Martini 0001"
     },
     "s/DavideSangiorgi": {
-      "fetched_at": "2026-09-29T11:29:24+00:00",
+      "fetched_at": "2026-09-30T11:17:09+00:00",
       "keys": [
         "books/cu/12/PousS12",
         "books/cu/12/SR2012",
@@ -6992,6 +6997,21 @@
       "venue": "ICTCS, pp. 107-121",
       "year": 2022
     },
+    "conf/ictcs/BertoniGP26": {
+      "authors": [
+        "Marco Bertoni",
+        "Saverio Giallorenzo",
+        "Marco Peressotti"
+      ],
+      "electronic_url": "https://ceur-ws.org/Vol-4269/paper79.pdf",
+      "first_seen": "2026-09-30T11:17:09+00:00",
+      "informal": false,
+      "key": "conf/ictcs/BertoniGP26",
+      "title": "Type-Based Enforcement of Non-Interference for Choreographic Programming.",
+      "type": "inproceedings",
+      "venue": "ICTCS, pp. 140-154",
+      "year": 2026
+    },
     "conf/ictcs/BusiZ05": {
       "authors": [
         "Nadia Busi",
@@ -7005,6 +7025,37 @@
       "type": "inproceedings",
       "venue": "ICTCS, pp. 143-159",
       "year": 2005
+    },
+    "conf/ictcs/CatoziLV26": {
+      "authors": [
+        "Stefano Catozi",
+        "Ugo Dal Lago",
+        "Gabriele Vanoni"
+      ],
+      "electronic_url": "https://ceur-ws.org/Vol-4269/paper77.pdf",
+      "first_seen": "2026-09-30T11:17:09+00:00",
+      "informal": false,
+      "key": "conf/ictcs/CatoziLV26",
+      "title": "On Jumps, Interactions, and Intersection Types.",
+      "type": "inproceedings",
+      "venue": "ICTCS, pp. 36-40",
+      "year": 2026
+    },
+    "conf/ictcs/ChardonnetLHP26": {
+      "authors": [
+        "Kostia Chardonnet",
+        "Ugo Dal Lago",
+        "Naohiko Hoshino",
+        "Paolo Pistone"
+      ],
+      "electronic_url": "https://ceur-ws.org/Vol-4269/paper76.pdf",
+      "first_seen": "2026-09-30T11:17:09+00:00",
+      "informal": false,
+      "key": "conf/ictcs/ChardonnetLHP26",
+      "title": "Compiling Quantum Lambda-Terms into Circuits via the Geometry of Interaction.",
+      "type": "inproceedings",
+      "venue": "ICTCS, pp. 424-430",
+      "year": 2026
     },
     "conf/ictcs/Coen03": {
       "authors": [
@@ -17738,6 +17789,20 @@
       "type": "article",
       "venue": "J. Autom. Reason., pp. 25-52",
       "year": 2010
+    },
+    "journals/jar/PadovaniR26": {
+      "authors": [
+        "Luca Padovani",
+        "Claudia Raffaelli"
+      ],
+      "electronic_url": "https://doi.org/10.1007/S10817-026-09765-W",
+      "first_seen": "2026-09-30T11:17:09+00:00",
+      "informal": false,
+      "key": "journals/jar/PadovaniR26",
+      "title": "A Continuation-Based Solution of the Linearity Challenge.",
+      "type": "article",
+      "venue": "J. Autom. Reason., pp. 19",
+      "year": 2026
     },
     "journals/jfp/AccattoliLV26": {
       "authors": [
