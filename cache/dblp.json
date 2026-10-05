@@ -1,7 +1,7 @@
 {
   "authors": {
     "146/2078": {
-      "fetched_at": "2026-09-24T10:17:12+00:00",
+      "fetched_at": "2026-10-05T12:27:08+00:00",
       "keys": [
         "books/sp/17/DragoniGLMMMS17",
         "books/sp/20/BravettiGMTZ20",
@@ -35,6 +35,7 @@
         "conf/icsoc/GiallorenzoMMMPP24",
         "conf/icsoc/GiallorenzoMPRSW24",
         "conf/icsoc/PalmaGMZ20",
+        "conf/ictcs/BertoniGP26",
         "conf/icws/PalmaGMTZ22",
         "conf/icws/PalmaGMTZ24",
         "conf/ifm/PalmaGMTZ25",
@@ -122,7 +123,7 @@
       "name": "Saverio Giallorenzo"
     },
     "199/1997": {
-      "fetched_at": "2026-09-24T10:17:12+00:00",
+      "fetched_at": "2026-10-05T12:27:08+00:00",
       "keys": [
         "conf/csl/LagoGG23",
         "conf/esop/BartheCLG20",
@@ -168,7 +169,7 @@
       "name": "Francesco Gavazzo"
     },
     "22/6590": {
-      "fetched_at": "2026-09-24T10:17:12+00:00",
+      "fetched_at": "2026-10-05T12:27:08+00:00",
       "keys": [
         "conf/birthday/LaneveP08",
         "conf/birthday/LaneveP19",
@@ -264,6 +265,7 @@
         "journals/fac/LaneveP15",
         "journals/fgcs/ColonnelliACPRS22",
         "journals/ftpl/AnconaBB0CDGGGH16",
+        "journals/jar/PadovaniR26",
         "journals/jfp/Padovani17",
         "journals/jlap/BalzerP22",
         "journals/jlap/CicconeDP24",
@@ -288,10 +290,11 @@
       "name": "Luca Padovani"
     },
     "220/3433": {
-      "fetched_at": "2026-09-24T10:17:12+00:00",
+      "fetched_at": "2026-10-05T12:27:08+00:00",
       "keys": [
         "conf/esop/GavazzoTV24",
         "conf/fossacs/LancelotMMV26",
+        "conf/ictcs/CatoziLV26",
         "conf/ictcs/LagoV18",
         "conf/ictcs/LagoV23",
         "conf/lics/AccattoliLV21",
@@ -327,7 +330,7 @@
       "name": "Gabriele Vanoni"
     },
     "32/1979": {
-      "fetched_at": "2026-09-24T10:17:12+00:00",
+      "fetched_at": "2026-10-05T12:27:08+00:00",
       "keys": [
         "books/sp/20/BravettiGMTZ20",
         "books/sp/24/BacchianiBGMZ24",
@@ -565,7 +568,7 @@
       "name": "Gianluigi Zavattaro"
     },
     "333/1354": {
-      "fetched_at": "2026-09-24T10:17:12+00:00",
+      "fetched_at": "2026-10-05T12:27:08+00:00",
       "keys": [
         "conf/fscd/CerdaMS25",
         "conf/mfcs/CerdaS26",
@@ -582,7 +585,7 @@
       "name": "Rémy Cerda"
     },
     "342/7235": {
-      "fetched_at": "2026-09-24T10:17:12+00:00",
+      "fetched_at": "2026-10-05T12:27:08+00:00",
       "keys": [
         "conf/fossacs/AccattoliL24",
         "conf/fossacs/LancelotMMV26",
@@ -601,7 +604,7 @@
       "name": "Adrienne Lancelot"
     },
     "40/646": {
-      "fetched_at": "2026-09-24T10:17:12+00:00",
+      "fetched_at": "2026-10-05T12:27:08+00:00",
       "keys": [
         "conf/aisc/AspertiC10",
         "conf/aplas/AccattoliCW25",
@@ -709,7 +712,7 @@
       "name": "Claudio Sacerdoti Coen"
     },
     "405/6547": {
-      "fetched_at": "2026-09-24T10:17:12+00:00",
+      "fetched_at": "2026-10-05T12:27:08+00:00",
       "keys": [
         "conf/concur/HirschkoffQS25",
         "conf/concur/QuemeraisJSS26",
@@ -720,14 +723,14 @@
       "name": "Iwan Quémerais"
     },
     "409/6083": {
-      "fetched_at": "2026-09-24T10:17:12+00:00",
+      "fetched_at": "2026-10-05T12:27:08+00:00",
       "keys": [
         "conf/forte/GenoveseLGTV25"
       ],
       "name": "Gabriele Genovese"
     },
     "436/0458": {
-      "fetched_at": "2026-09-24T10:17:12+00:00",
+      "fetched_at": "2026-10-05T12:27:08+00:00",
       "keys": [
         "conf/lics/LagoFP26",
         "journals/corr/abs-2604-27986"
@@ -735,7 +738,7 @@
       "name": "Guido Fiorillo"
     },
     "437/3327": {
-      "fetched_at": "2026-09-24T10:17:12+00:00",
+      "fetched_at": "2026-10-05T12:27:08+00:00",
       "keys": [
         "conf/rc/PizzoC26",
         "journals/corr/abs-2605-09179"
@@ -743,7 +746,7 @@
       "name": "Nicolò Pizzo"
     },
     "44/3105": {
-      "fetched_at": "2026-09-24T10:17:12+00:00",
+      "fetched_at": "2026-10-05T12:27:08+00:00",
       "keys": [
         "books/cu/20/Lago20",
         "conf/aaai/LagoPT02",
@@ -799,6 +802,8 @@
         "conf/ictac/LagoZ14",
         "conf/ictcs/2022",
         "conf/ictcs/AntonelliLP21",
+        "conf/ictcs/CatoziLV26",
+        "conf/ictcs/ChardonnetLHP26",
         "conf/ictcs/Lago03",
         "conf/ictcs/LagoG20",
         "conf/ictcs/LagoGT17",
@@ -1011,7 +1016,7 @@
       "name": "Ugo Dal Lago"
     },
     "56/3713": {
-      "fetched_at": "2026-09-24T10:17:12+00:00",
+      "fetched_at": "2026-10-05T12:27:08+00:00",
       "keys": [
         "books/sp/17/GuidiLMM17",
         "books/sp/sensoria2011/BartolettiCLMSVZ11",
@@ -1190,7 +1195,7 @@
       "name": "Ivan Lanese"
     },
     "63/5617": {
-      "fetched_at": "2026-09-24T10:17:12+00:00",
+      "fetched_at": "2026-10-05T12:27:08+00:00",
       "keys": [
         "conf/aplas/AvanziniEM12",
         "conf/cade/AvanziniMS08",
@@ -1252,7 +1257,7 @@
       "name": "Martin Avanzini"
     },
     "l/CosimoLaneve": {
-      "fetched_at": "2026-09-24T10:17:12+00:00",
+      "fetched_at": "2026-10-05T12:27:08+00:00",
       "keys": [
         "conf/acsd/CarpinetiLM05",
         "conf/alp/LaneveM92",
@@ -1380,7 +1385,7 @@
       "name": "Cosimo Laneve"
     },
     "m/SMartini": {
-      "fetched_at": "2026-09-24T10:17:12+00:00",
+      "fetched_at": "2026-10-05T12:27:08+00:00",
       "keys": [
         "conf/birthday/000120",
         "conf/cie/LagoM06",
@@ -1447,7 +1452,7 @@
       "name": "Simone Martini 0001"
     },
     "s/DavideSangiorgi": {
-      "fetched_at": "2026-09-24T10:17:12+00:00",
+      "fetched_at": "2026-10-05T12:27:08+00:00",
       "keys": [
         "books/cu/12/PousS12",
         "books/cu/12/SR2012",
@@ -6992,6 +6997,21 @@
       "venue": "ICTCS, pp. 107-121",
       "year": 2022
     },
+    "conf/ictcs/BertoniGP26": {
+      "authors": [
+        "Marco Bertoni",
+        "Saverio Giallorenzo",
+        "Marco Peressotti"
+      ],
+      "electronic_url": "https://ceur-ws.org/Vol-4269/paper79.pdf",
+      "first_seen": "2026-09-30T11:17:09+00:00",
+      "informal": false,
+      "key": "conf/ictcs/BertoniGP26",
+      "title": "Type-Based Enforcement of Non-Interference for Choreographic Programming.",
+      "type": "inproceedings",
+      "venue": "ICTCS, pp. 140-154",
+      "year": 2026
+    },
     "conf/ictcs/BusiZ05": {
       "authors": [
         "Nadia Busi",
@@ -7005,6 +7025,37 @@
       "type": "inproceedings",
       "venue": "ICTCS, pp. 143-159",
       "year": 2005
+    },
+    "conf/ictcs/CatoziLV26": {
+      "authors": [
+        "Stefano Catozi",
+        "Ugo Dal Lago",
+        "Gabriele Vanoni"
+      ],
+      "electronic_url": "https://ceur-ws.org/Vol-4269/paper77.pdf",
+      "first_seen": "2026-09-30T11:17:09+00:00",
+      "informal": false,
+      "key": "conf/ictcs/CatoziLV26",
+      "title": "On Jumps, Interactions, and Intersection Types.",
+      "type": "inproceedings",
+      "venue": "ICTCS, pp. 36-40",
+      "year": 2026
+    },
+    "conf/ictcs/ChardonnetLHP26": {
+      "authors": [
+        "Kostia Chardonnet",
+        "Ugo Dal Lago",
+        "Naohiko Hoshino",
+        "Paolo Pistone"
+      ],
+      "electronic_url": "https://ceur-ws.org/Vol-4269/paper76.pdf",
+      "first_seen": "2026-09-30T11:17:09+00:00",
+      "informal": false,
+      "key": "conf/ictcs/ChardonnetLHP26",
+      "title": "Compiling Quantum Lambda-Terms into Circuits via the Geometry of Interaction.",
+      "type": "inproceedings",
+      "venue": "ICTCS, pp. 424-430",
+      "year": 2026
     },
     "conf/ictcs/Coen03": {
       "authors": [
@@ -11940,7 +11991,7 @@
         "Beniamino Accattoli",
         "Claudio Sacerdoti Coen"
       ],
-      "electronic_url": "http://arxiv.org/abs/1505.03791",
+      "electronic_url": "https://doi.org/10.48550/ARXIV.1505.03791",
       "first_seen": null,
       "informal": true,
       "key": "journals/corr/AccattoliC15",
@@ -11954,7 +12005,7 @@
         "Beniamino Accattoli",
         "Ugo Dal Lago"
       ],
-      "electronic_url": "http://arxiv.org/abs/1405.3311",
+      "electronic_url": "https://doi.org/10.48550/ARXIV.1405.3311",
       "first_seen": null,
       "informal": true,
       "key": "journals/corr/AccattoliL14",
@@ -11982,7 +12033,7 @@
         "Martin Avanzini",
         "Naohi Eguchi"
       ],
-      "electronic_url": "http://arxiv.org/abs/1312.7284",
+      "electronic_url": "https://doi.org/10.48550/ARXIV.1312.7284",
       "first_seen": "2026-09-15T20:04:33+00:00",
       "informal": true,
       "key": "journals/corr/AvanziniE13",
@@ -11996,7 +12047,7 @@
         "Martin Avanzini",
         "Ugo Dal Lago"
       ],
-      "electronic_url": "http://arxiv.org/abs/1501.00894",
+      "electronic_url": "https://doi.org/10.48550/ARXIV.1501.00894",
       "first_seen": null,
       "informal": true,
       "key": "journals/corr/AvanziniL15",
@@ -12024,7 +12075,7 @@
         "Martin Avanzini",
         "Ugo Dal Lago"
       ],
-      "electronic_url": "http://arxiv.org/abs/1706.09169",
+      "electronic_url": "https://doi.org/10.48550/ARXIV.1706.09169",
       "first_seen": null,
       "informal": true,
       "key": "journals/corr/AvanziniL17a",
@@ -12039,7 +12090,7 @@
         "Ugo Dal Lago",
         "Georg Moser"
       ],
-      "electronic_url": "http://arxiv.org/abs/1506.05043",
+      "electronic_url": "https://doi.org/10.48550/ARXIV.1506.05043",
       "first_seen": null,
       "informal": true,
       "key": "journals/corr/AvanziniLM15",
@@ -12129,7 +12180,7 @@
         "Andrew D. Gordon 0001",
         "Marcin Szymczak 0002"
       ],
-      "electronic_url": "http://arxiv.org/abs/1512.08990",
+      "electronic_url": "https://doi.org/10.48550/ARXIV.1512.08990",
       "first_seen": null,
       "informal": true,
       "key": "journals/corr/BorgstromLGS15",
@@ -12144,7 +12195,7 @@
         "Marco Carbone",
         "Gianluigi Zavattaro"
       ],
-      "electronic_url": "http://arxiv.org/abs/1611.05026",
+      "electronic_url": "https://doi.org/10.48550/ARXIV.1611.05026",
       "first_seen": null,
       "informal": true,
       "key": "journals/corr/BravettiCZ16",
@@ -12159,7 +12210,7 @@
         "Marco Carbone",
         "Gianluigi Zavattaro"
       ],
-      "electronic_url": "http://arxiv.org/abs/1703.00659",
+      "electronic_url": "https://doi.org/10.48550/ARXIV.1703.00659",
       "first_seen": null,
       "informal": true,
       "key": "journals/corr/BravettiCZ17",
@@ -12188,7 +12239,7 @@
         "Ugo Dal Lago",
         "Agathe Herrou"
       ],
-      "electronic_url": "http://arxiv.org/abs/1701.04786",
+      "electronic_url": "https://doi.org/10.48550/ARXIV.1701.04786",
       "first_seen": null,
       "informal": true,
       "key": "journals/corr/BreuvartLH17",
@@ -12204,7 +12255,7 @@
         "Andrea Melis 0001",
         "Marco Prandini"
       ],
-      "electronic_url": "http://arxiv.org/abs/1609.06447",
+      "electronic_url": "https://doi.org/10.48550/ARXIV.1609.06447",
       "first_seen": null,
       "informal": true,
       "key": "journals/corr/CallegatiGMP16",
@@ -12218,7 +12269,7 @@
         "Alberto Cappai",
         "Ugo Dal Lago"
       ],
-      "electronic_url": "http://arxiv.org/abs/1506.03710",
+      "electronic_url": "https://doi.org/10.48550/ARXIV.1506.03710",
       "first_seen": null,
       "informal": true,
       "key": "journals/corr/CappaiL15",
@@ -12248,7 +12299,7 @@
         "Silvia Crafa",
         "Luca Padovani"
       ],
-      "electronic_url": "http://arxiv.org/abs/1607.02927",
+      "electronic_url": "https://doi.org/10.48550/ARXIV.1607.02927",
       "first_seen": "2026-09-24T09:54:28+00:00",
       "informal": true,
       "key": "journals/corr/CrafaP16",
@@ -12262,7 +12313,7 @@
         "Raphaëlle Crubillé",
         "Ugo Dal Lago"
       ],
-      "electronic_url": "http://arxiv.org/abs/1401.3766",
+      "electronic_url": "https://doi.org/10.48550/ARXIV.1401.3766",
       "first_seen": null,
       "informal": true,
       "key": "journals/corr/CrubilleL14",
@@ -12276,7 +12327,7 @@
         "Raphaëlle Crubillé",
         "Ugo Dal Lago"
       ],
-      "electronic_url": "http://arxiv.org/abs/1505.03638",
+      "electronic_url": "https://doi.org/10.48550/ARXIV.1505.03638",
       "first_seen": null,
       "informal": true,
       "key": "journals/corr/CrubilleL15",
@@ -12290,7 +12341,7 @@
         "Raphaëlle Crubillé",
         "Ugo Dal Lago"
       ],
-      "electronic_url": "http://arxiv.org/abs/1701.05521",
+      "electronic_url": "https://doi.org/10.48550/ARXIV.1701.05521",
       "first_seen": null,
       "informal": true,
       "key": "journals/corr/CrubilleL17",
@@ -12324,7 +12375,7 @@
         "Ruslan Mustafin",
         "Larisa Safina"
       ],
-      "electronic_url": "http://arxiv.org/abs/1606.04036",
+      "electronic_url": "https://doi.org/10.48550/ARXIV.1606.04036",
       "first_seen": null,
       "informal": true,
       "key": "journals/corr/DragoniGLMMMS16",
@@ -12342,7 +12393,7 @@
         "Ruslan Mustafin",
         "Larisa Safina"
       ],
-      "electronic_url": "http://arxiv.org/abs/1702.07149",
+      "electronic_url": "https://doi.org/10.48550/ARXIV.1702.07149",
       "first_seen": null,
       "informal": true,
       "key": "journals/corr/DragoniLLMMS17",
@@ -12357,7 +12408,7 @@
         "Martin Avanzini",
         "Christian Sternagel"
       ],
-      "electronic_url": "http://arxiv.org/abs/1307.2328",
+      "electronic_url": "https://doi.org/10.48550/ARXIV.1307.2328",
       "first_seen": "2026-09-15T20:04:33+00:00",
       "informal": true,
       "key": "journals/corr/FelgenhauerAS13",
@@ -12372,7 +12423,7 @@
         "Saverio Giallorenzo",
         "Fabrizio Montesi"
       ],
-      "electronic_url": "http://arxiv.org/abs/1510.03637",
+      "electronic_url": "https://doi.org/10.48550/ARXIV.1510.03637",
       "first_seen": null,
       "informal": true,
       "key": "journals/corr/GabbrielliGM15",
@@ -12388,7 +12439,7 @@
         "Cosimo Laneve",
         "Ka I Pun"
       ],
-      "electronic_url": "http://arxiv.org/abs/1511.05104",
+      "electronic_url": "https://doi.org/10.48550/ARXIV.1511.05104",
       "first_seen": null,
       "informal": true,
       "key": "journals/corr/GiachinoJLP15",
@@ -12402,7 +12453,7 @@
         "Elena Giachino",
         "Cosimo Laneve"
       ],
-      "electronic_url": "http://arxiv.org/abs/1310.7449",
+      "electronic_url": "https://doi.org/10.48550/ARXIV.1310.7449",
       "first_seen": null,
       "informal": true,
       "key": "journals/corr/GiachinoL13",
@@ -12417,7 +12468,7 @@
         "Cosimo Laneve",
         "Michael Lienhardt"
       ],
-      "electronic_url": "http://arxiv.org/abs/1511.04926",
+      "electronic_url": "https://doi.org/10.48550/ARXIV.1511.04926",
       "first_seen": null,
       "informal": true,
       "key": "journals/corr/GiachinoLL15",
@@ -12432,7 +12483,7 @@
         "Simone Martini 0001",
         "Andrea Masini"
       ],
-      "electronic_url": "http://arxiv.org/abs/1703.07748",
+      "electronic_url": "https://doi.org/10.48550/ARXIV.1703.07748",
       "first_seen": null,
       "informal": true,
       "key": "journals/corr/Guerrini0M17",
@@ -12447,7 +12498,7 @@
         "Simone Martini 0001",
         "Andrea Masini"
       ],
-      "electronic_url": "http://arxiv.org/abs/1504.02817",
+      "electronic_url": "https://doi.org/10.48550/ARXIV.1504.02817",
       "first_seen": null,
       "informal": true,
       "key": "journals/corr/GuerriniMM15",
@@ -12461,7 +12512,7 @@
         "Ferruccio Guidi",
         "Claudio Sacerdoti Coen"
       ],
-      "electronic_url": "http://arxiv.org/abs/1505.06646",
+      "electronic_url": "https://doi.org/10.48550/ARXIV.1505.06646",
       "first_seen": null,
       "informal": true,
       "key": "journals/corr/GuidiC15",
@@ -12477,7 +12528,7 @@
         "Manuel Mazzara",
         "Fabrizio Montesi"
       ],
-      "electronic_url": "http://arxiv.org/abs/1704.08073",
+      "electronic_url": "https://doi.org/10.48550/ARXIV.1704.08073",
       "first_seen": null,
       "informal": true,
       "key": "journals/corr/GuidiLMM17",
@@ -12506,7 +12557,7 @@
       "authors": [
         "Ugo Dal Lago"
       ],
-      "electronic_url": "http://arxiv.org/abs/1604.08248",
+      "electronic_url": "https://doi.org/10.48550/ARXIV.1604.08248",
       "first_seen": null,
       "informal": true,
       "key": "journals/corr/Lago16",
@@ -12522,7 +12573,7 @@
         "Ichiro Hasuo",
         "Akira Yoshimizu"
       ],
-      "electronic_url": "http://arxiv.org/abs/1405.3427",
+      "electronic_url": "https://doi.org/10.48550/ARXIV.1405.3427",
       "first_seen": null,
       "informal": true,
       "key": "journals/corr/LagoFHY14",
@@ -12538,7 +12589,7 @@
         "Benoît Valiron",
         "Akira Yoshimizu"
       ],
-      "electronic_url": "http://arxiv.org/abs/1505.03635",
+      "electronic_url": "https://doi.org/10.48550/ARXIV.1505.03635",
       "first_seen": null,
       "informal": true,
       "key": "journals/corr/LagoFVY15",
@@ -12554,7 +12605,7 @@
         "Benoît Valiron",
         "Akira Yoshimizu"
       ],
-      "electronic_url": "http://arxiv.org/abs/1610.09629",
+      "electronic_url": "https://doi.org/10.48550/ARXIV.1610.09629",
       "first_seen": null,
       "informal": true,
       "key": "journals/corr/LagoFVY16",
@@ -12568,7 +12619,7 @@
         "Ugo Dal Lago",
         "Charles Grellois"
       ],
-      "electronic_url": "http://arxiv.org/abs/1701.04089",
+      "electronic_url": "https://doi.org/10.48550/ARXIV.1701.04089",
       "first_seen": null,
       "informal": true,
       "key": "journals/corr/LagoG17",
@@ -12583,7 +12634,7 @@
         "Francesco Gavazzo",
         "Paul Blain Levy"
       ],
-      "electronic_url": "http://arxiv.org/abs/1704.04647",
+      "electronic_url": "https://doi.org/10.48550/ARXIV.1704.04647",
       "first_seen": null,
       "informal": true,
       "key": "journals/corr/LagoGL17",
@@ -12611,7 +12662,7 @@
         "Ugo Dal Lago",
         "Giulio Pellitta"
       ],
-      "electronic_url": "http://arxiv.org/abs/1310.1763",
+      "electronic_url": "https://doi.org/10.48550/ARXIV.1310.1763",
       "first_seen": null,
       "informal": true,
       "key": "journals/corr/LagoP13",
@@ -12625,7 +12676,7 @@
         "Ugo Dal Lago",
         "Alessandro Rioli"
       ],
-      "electronic_url": "http://arxiv.org/abs/1506.06661",
+      "electronic_url": "https://doi.org/10.48550/ARXIV.1506.06661",
       "first_seen": null,
       "informal": true,
       "key": "journals/corr/LagoR15",
@@ -12640,7 +12691,7 @@
         "Davide Sangiorgi",
         "Michele Alberti"
       ],
-      "electronic_url": "http://arxiv.org/abs/1311.1722",
+      "electronic_url": "https://doi.org/10.48550/ARXIV.1311.1722",
       "first_seen": null,
       "informal": true,
       "key": "journals/corr/LagoSA13",
@@ -12655,7 +12706,7 @@
         "Ryo Tanaka",
         "Akira Yoshimizu"
       ],
-      "electronic_url": "http://arxiv.org/abs/1704.04620",
+      "electronic_url": "https://doi.org/10.48550/ARXIV.1704.04620",
       "first_seen": null,
       "informal": true,
       "key": "journals/corr/LagoTY17",
@@ -12669,7 +12720,7 @@
         "Ugo Dal Lago",
         "Margherita Zorzi"
       ],
-      "electronic_url": "http://arxiv.org/abs/1307.0550",
+      "electronic_url": "https://doi.org/10.48550/ARXIV.1307.0550",
       "first_seen": null,
       "informal": true,
       "key": "journals/corr/LagoZ13",
@@ -12683,7 +12734,7 @@
         "Ugo Dal Lago",
         "Sara Zuppiroli"
       ],
-      "electronic_url": "http://arxiv.org/abs/1406.3378",
+      "electronic_url": "https://doi.org/10.48550/ARXIV.1406.3378",
       "first_seen": null,
       "informal": true,
       "key": "journals/corr/LagoZ14",
@@ -12741,7 +12792,7 @@
       "authors": [
         "Simone Martini 0001"
       ],
-      "electronic_url": "http://arxiv.org/abs/1510.03726",
+      "electronic_url": "https://doi.org/10.48550/ARXIV.1510.03726",
       "first_seen": null,
       "informal": true,
       "key": "journals/corr/Martini15",
@@ -12757,7 +12808,7 @@
         "Larisa Safina",
         "Ivan Lanese"
       ],
-      "electronic_url": "http://arxiv.org/abs/1610.01778",
+      "electronic_url": "https://doi.org/10.48550/ARXIV.1610.01778",
       "first_seen": null,
       "informal": true,
       "key": "journals/corr/MazzaraMSL16",
@@ -12797,7 +12848,7 @@
         "Luca Padovani",
         "Alessandro Provetti"
       ],
-      "electronic_url": "http://arxiv.org/abs/1505.07263",
+      "electronic_url": "https://doi.org/10.48550/ARXIV.1505.07263",
       "first_seen": "2026-09-24T09:54:28+00:00",
       "informal": true,
       "key": "journals/corr/PadovaniP15",
@@ -12814,7 +12865,7 @@
         "Ivan Lanese",
         "Jacopo Mauro"
       ],
-      "electronic_url": "http://arxiv.org/abs/1407.0970",
+      "electronic_url": "https://doi.org/10.48550/ARXIV.1407.0970",
       "first_seen": null,
       "informal": true,
       "key": "journals/corr/PredaGGLM14",
@@ -12848,7 +12899,7 @@
         "Jacopo Mauro",
         "Maurizio Gabbrielli"
       ],
-      "electronic_url": "http://arxiv.org/abs/1407.0975",
+      "electronic_url": "https://doi.org/10.48550/ARXIV.1407.0975",
       "first_seen": null,
       "informal": true,
       "key": "journals/corr/PredaGLMG14",
@@ -12864,7 +12915,7 @@
         "Emilio Tuosto",
         "Mariangiola Dezani-Ciancaglini"
       ],
-      "electronic_url": "http://arxiv.org/abs/1610.06362",
+      "electronic_url": "https://doi.org/10.48550/ARXIV.1610.06362",
       "first_seen": "2026-09-24T09:54:28+00:00",
       "informal": true,
       "key": "journals/corr/SeveriPTD16",
@@ -12879,7 +12930,7 @@
         "Paolo Coppola 0001",
         "Ugo Dal Lago"
       ],
-      "electronic_url": "http://arxiv.org/abs/0704.2448",
+      "electronic_url": "https://doi.org/10.48550/ARXIV.0704.2448",
       "first_seen": null,
       "informal": true,
       "key": "journals/corr/abs-0704-2448",
@@ -12894,7 +12945,7 @@
         "Étienne Lozes",
         "Davide Sangiorgi"
       ],
-      "electronic_url": "http://arxiv.org/abs/0806.3849",
+      "electronic_url": "https://doi.org/10.48550/ARXIV.0806.3849",
       "first_seen": null,
       "informal": true,
       "key": "journals/corr/abs-0806-3849",
@@ -12909,7 +12960,7 @@
         "Ugo Dal Lago",
         "Simona Ronchi Della Rocca"
       ],
-      "electronic_url": "http://arxiv.org/abs/0809.0195",
+      "electronic_url": "https://doi.org/10.48550/ARXIV.0809.0195",
       "first_seen": null,
       "informal": true,
       "key": "journals/corr/abs-0809-0195",
@@ -12924,7 +12975,7 @@
         "Luca Roversi",
         "Luca Vercelli"
       ],
-      "electronic_url": "http://arxiv.org/abs/0810.2891",
+      "electronic_url": "https://doi.org/10.48550/ARXIV.0810.2891",
       "first_seen": null,
       "informal": true,
       "key": "journals/corr/abs-0810-2891",
@@ -12938,7 +12989,7 @@
         "Martin Avanzini",
         "Georg Moser"
       ],
-      "electronic_url": "http://arxiv.org/abs/0904.0981",
+      "electronic_url": "https://doi.org/10.48550/ARXIV.0904.0981",
       "first_seen": "2026-09-15T20:04:33+00:00",
       "informal": true,
       "key": "journals/corr/abs-0904-0981",
@@ -12966,7 +13017,7 @@
         "Ugo Dal Lago",
         "Simone Martini 0001"
       ],
-      "electronic_url": "http://arxiv.org/abs/0904.4120",
+      "electronic_url": "https://doi.org/10.48550/ARXIV.0904.4120",
       "first_seen": null,
       "informal": true,
       "key": "journals/corr/abs-0904-4120",
@@ -12981,7 +13032,7 @@
         "Andrea Masini",
         "Margherita Zorzi"
       ],
-      "electronic_url": "http://arxiv.org/abs/0905.4567",
+      "electronic_url": "https://doi.org/10.48550/ARXIV.0905.4567",
       "first_seen": null,
       "informal": true,
       "key": "journals/corr/abs-0905-4567",
@@ -13008,7 +13059,7 @@
         "Martin Avanzini",
         "Georg Moser"
       ],
-      "electronic_url": "http://arxiv.org/abs/1001.5404",
+      "electronic_url": "https://doi.org/10.48550/ARXIV.1001.5404",
       "first_seen": "2026-09-15T20:04:33+00:00",
       "informal": true,
       "key": "journals/corr/abs-1001-5404",
@@ -13038,7 +13089,7 @@
         "Naohi Eguchi",
         "Georg Moser"
       ],
-      "electronic_url": "http://arxiv.org/abs/1010.1128",
+      "electronic_url": "https://doi.org/10.48550/ARXIV.1010.1128",
       "first_seen": "2026-09-15T20:04:33+00:00",
       "informal": true,
       "key": "journals/corr/abs-1010-1128",
@@ -13053,7 +13104,7 @@
         "Claudio Sacerdoti Coen",
         "Enrico Tassi"
       ],
-      "electronic_url": "http://arxiv.org/abs/1010.2604",
+      "electronic_url": "https://doi.org/10.48550/ARXIV.1010.2604",
       "first_seen": null,
       "informal": true,
       "key": "journals/corr/abs-1010-2604",
@@ -13150,7 +13201,7 @@
         "Ugo Dal Lago",
         "Margherita Zorzi"
       ],
-      "electronic_url": "http://arxiv.org/abs/1104.0195",
+      "electronic_url": "https://doi.org/10.48550/ARXIV.1104.0195",
       "first_seen": null,
       "informal": true,
       "key": "journals/corr/abs-1104-0195",
@@ -13165,7 +13216,7 @@
         "Michael Kohlhase",
         "Claudio Sacerdoti Coen"
       ],
-      "electronic_url": "http://arxiv.org/abs/1105.2725",
+      "electronic_url": "https://doi.org/10.48550/ARXIV.1105.2725",
       "first_seen": null,
       "informal": true,
       "key": "journals/corr/abs-1105-2725",
@@ -13179,7 +13230,7 @@
         "Ugo Dal Lago",
         "Paolo Di Giamberardino"
       ],
-      "electronic_url": "http://arxiv.org/abs/1107.4478",
+      "electronic_url": "https://doi.org/10.48550/ARXIV.1107.4478",
       "first_seen": null,
       "informal": true,
       "key": "journals/corr/abs-1107-4478",
@@ -13222,7 +13273,7 @@
         "Luca Cardelli",
         "Cosimo Laneve"
       ],
-      "electronic_url": "http://arxiv.org/abs/1108.3419",
+      "electronic_url": "https://doi.org/10.48550/ARXIV.1108.3419",
       "first_seen": null,
       "informal": true,
       "key": "journals/corr/abs-1108-3419",
@@ -13251,7 +13302,7 @@
         "Naohi Eguchi",
         "Georg Moser"
       ],
-      "electronic_url": "http://arxiv.org/abs/1201.2553",
+      "electronic_url": "https://doi.org/10.48550/ARXIV.1201.2553",
       "first_seen": "2026-09-15T20:04:33+00:00",
       "informal": true,
       "key": "journals/corr/abs-1201-2553",
@@ -13265,7 +13316,7 @@
         "Beniamino Accattoli",
         "Ugo Dal Lago"
       ],
-      "electronic_url": "http://arxiv.org/abs/1202.1641",
+      "electronic_url": "https://doi.org/10.48550/ARXIV.1202.1641",
       "first_seen": null,
       "informal": true,
       "key": "journals/corr/abs-1202-1641",
@@ -13293,7 +13344,7 @@
         "Ugo Dal Lago",
         "Paolo Parisen Toldin"
       ],
-      "electronic_url": "http://arxiv.org/abs/1202.3317",
+      "electronic_url": "https://doi.org/10.48550/ARXIV.1202.3317",
       "first_seen": null,
       "informal": true,
       "key": "journals/corr/abs-1202-3317",
@@ -13325,7 +13376,7 @@
         "Riccardo Traverso",
         "Gianluigi Zavattaro"
       ],
-      "electronic_url": "http://arxiv.org/abs/1202.5850",
+      "electronic_url": "https://doi.org/10.48550/ARXIV.1202.5850",
       "first_seen": null,
       "informal": true,
       "key": "journals/corr/abs-1202-5850",
@@ -13354,7 +13405,7 @@
         "Ugo Dal Lago",
         "Barbara Petit"
       ],
-      "electronic_url": "http://arxiv.org/abs/1207.5592",
+      "electronic_url": "https://doi.org/10.48550/ARXIV.1207.5592",
       "first_seen": null,
       "informal": true,
       "key": "journals/corr/abs-1207-5592",
@@ -13384,7 +13435,7 @@
         "Damiano Mazza",
         "Daniele Varacca"
       ],
-      "electronic_url": "http://arxiv.org/abs/1209.0663",
+      "electronic_url": "https://doi.org/10.48550/ARXIV.1209.0663",
       "first_seen": null,
       "informal": true,
       "key": "journals/corr/abs-1209-0663",
@@ -13398,7 +13449,7 @@
         "Martin Avanzini",
         "Georg Moser"
       ],
-      "electronic_url": "http://arxiv.org/abs/1209.3793",
+      "electronic_url": "https://doi.org/10.48550/ARXIV.1209.3793",
       "first_seen": "2026-09-15T20:04:33+00:00",
       "informal": true,
       "key": "journals/corr/abs-1209-3793",
@@ -13412,7 +13463,7 @@
         "Jaap Boender",
         "Claudio Sacerdoti Coen"
       ],
-      "electronic_url": "http://arxiv.org/abs/1209.5920",
+      "electronic_url": "https://doi.org/10.48550/ARXIV.1209.5920",
       "first_seen": null,
       "informal": true,
       "key": "journals/corr/abs-1209-5920",
@@ -13456,7 +13507,7 @@
         "Ugo Dal Lago",
         "Barbara Petit"
       ],
-      "electronic_url": "http://arxiv.org/abs/1210.6857",
+      "electronic_url": "https://doi.org/10.48550/ARXIV.1210.6857",
       "first_seen": null,
       "informal": true,
       "key": "journals/corr/abs-1210-6857",
@@ -13486,7 +13537,7 @@
         "Martin Avanzini",
         "Georg Moser"
       ],
-      "electronic_url": "http://arxiv.org/abs/1302.0973",
+      "electronic_url": "https://doi.org/10.48550/ARXIV.1302.0973",
       "first_seen": "2026-09-15T20:04:33+00:00",
       "informal": true,
       "key": "journals/corr/abs-1302-0973",
@@ -13500,7 +13551,7 @@
         "Abel Garcia",
         "Cosimo Laneve"
       ],
-      "electronic_url": "http://arxiv.org/abs/1709.04152",
+      "electronic_url": "https://doi.org/10.48550/ARXIV.1709.04152",
       "first_seen": null,
       "informal": true,
       "key": "journals/corr/abs-1709-04152",
@@ -13514,7 +13565,7 @@
         "Ugo Dal Lago",
         "Beniamino Accattoli"
       ],
-      "electronic_url": "http://arxiv.org/abs/1711.10078",
+      "electronic_url": "https://doi.org/10.48550/ARXIV.1711.10078",
       "first_seen": null,
       "informal": true,
       "key": "journals/corr/abs-1711-10078",
@@ -13528,7 +13579,7 @@
         "Ugo de'Liguoro",
         "Luca Padovani"
       ],
-      "electronic_url": "http://arxiv.org/abs/1801.04167",
+      "electronic_url": "https://doi.org/10.48550/ARXIV.1801.04167",
       "first_seen": "2026-09-24T09:54:28+00:00",
       "informal": true,
       "key": "journals/corr/abs-1801-04167",
@@ -13541,7 +13592,7 @@
       "authors": [
         "Francesco Gavazzo"
       ],
-      "electronic_url": "http://arxiv.org/abs/1801.09072",
+      "electronic_url": "https://doi.org/10.48550/ARXIV.1801.09072",
       "first_seen": null,
       "informal": true,
       "key": "journals/corr/abs-1801-09072",
@@ -13556,7 +13607,7 @@
         "Ugo Dal Lago",
         "Akihisa Yamada 0002"
       ],
-      "electronic_url": "http://arxiv.org/abs/1802.09774",
+      "electronic_url": "https://doi.org/10.48550/ARXIV.1802.09774",
       "first_seen": null,
       "informal": true,
       "key": "journals/corr/abs-1802-09774",
@@ -13569,7 +13620,7 @@
       "authors": [
         "Luca Padovani"
       ],
-      "electronic_url": "http://arxiv.org/abs/1803.10670",
+      "electronic_url": "https://doi.org/10.48550/ARXIV.1803.10670",
       "first_seen": "2026-09-24T09:54:28+00:00",
       "informal": true,
       "key": "journals/corr/abs-1803-10670",
@@ -13583,7 +13634,7 @@
         "Davide Sangiorgi",
         "Xian Xu 0001"
       ],
-      "electronic_url": "http://arxiv.org/abs/1804.05797",
+      "electronic_url": "https://doi.org/10.48550/ARXIV.1804.05797",
       "first_seen": null,
       "informal": true,
       "key": "journals/corr/abs-1804-05797",
@@ -13597,7 +13648,7 @@
         "Ugo Dal Lago",
         "Gabriele Vanoni"
       ],
-      "electronic_url": "http://arxiv.org/abs/1805.03934",
+      "electronic_url": "https://doi.org/10.48550/ARXIV.1805.03934",
       "first_seen": null,
       "informal": true,
       "key": "journals/corr/abs-1805-03934",
@@ -13613,7 +13664,7 @@
         "Adrián Palacios",
         "Germán Vidal"
       ],
-      "electronic_url": "http://arxiv.org/abs/1806.07100",
+      "electronic_url": "https://doi.org/10.48550/ARXIV.1806.07100",
       "first_seen": null,
       "informal": true,
       "key": "journals/corr/abs-1806-07100",
@@ -13628,7 +13679,7 @@
         "Daniel Hirschkoff",
         "Davide Sangiorgi"
       ],
-      "electronic_url": "http://arxiv.org/abs/1806.11354",
+      "electronic_url": "https://doi.org/10.48550/ARXIV.1806.11354",
       "first_seen": null,
       "informal": true,
       "key": "journals/corr/abs-1806-11354",
@@ -13657,7 +13708,7 @@
         "Ugo Dal Lago",
         "Charles Grellois"
       ],
-      "electronic_url": "http://arxiv.org/abs/1811.02133",
+      "electronic_url": "https://doi.org/10.48550/ARXIV.1811.02133",
       "first_seen": null,
       "informal": true,
       "key": "journals/corr/abs-1811-02133",
@@ -13675,7 +13726,7 @@
         "Maurizio Gabbrielli",
         "Saverio Giallorenzo"
       ],
-      "electronic_url": "http://arxiv.org/abs/1812.05534",
+      "electronic_url": "https://doi.org/10.48550/ARXIV.1812.05534",
       "first_seen": null,
       "informal": true,
       "key": "journals/corr/abs-1812-05534",
@@ -13692,7 +13743,7 @@
         "Iacopo Talevi",
         "Gianluigi Zavattaro"
       ],
-      "electronic_url": "http://arxiv.org/abs/1901.09782",
+      "electronic_url": "https://doi.org/10.48550/ARXIV.1901.09782",
       "first_seen": null,
       "informal": true,
       "key": "journals/corr/abs-1901-09782",
@@ -13710,7 +13761,7 @@
         "Marco Peressotti",
         "Stefano Pio Zingaro"
       ],
-      "electronic_url": "http://arxiv.org/abs/1903.07962",
+      "electronic_url": "https://doi.org/10.48550/ARXIV.1903.07962",
       "first_seen": null,
       "informal": true,
       "key": "journals/corr/abs-1903-07962",
@@ -13738,7 +13789,7 @@
         "Ugo Dal Lago",
         "Naohiko Hoshino"
       ],
-      "electronic_url": "http://arxiv.org/abs/1904.07425",
+      "electronic_url": "https://doi.org/10.48550/ARXIV.1904.07425",
       "first_seen": null,
       "informal": true,
       "key": "journals/corr/abs-1904-07425",
@@ -13752,7 +13803,7 @@
         "Ugo Dal Lago",
         "Thomas Leventis"
       ],
-      "electronic_url": "http://arxiv.org/abs/1904.09650",
+      "electronic_url": "https://doi.org/10.48550/ARXIV.1904.09650",
       "first_seen": null,
       "informal": true,
       "key": "journals/corr/abs-1904-09650",
@@ -13768,7 +13819,7 @@
         "Larisa Safina",
         "Stefano Pio Zingaro"
       ],
-      "electronic_url": "http://arxiv.org/abs/1904.11327",
+      "electronic_url": "https://doi.org/10.48550/ARXIV.1904.11327",
       "first_seen": null,
       "informal": true,
       "key": "journals/corr/abs-1904-11327",
@@ -13783,7 +13834,7 @@
         "Francesco Gavazzo",
         "Akira Yoshimizu"
       ],
-      "electronic_url": "http://arxiv.org/abs/1904.12137",
+      "electronic_url": "https://doi.org/10.48550/ARXIV.1904.12137",
       "first_seen": null,
       "informal": true,
       "key": "journals/corr/abs-1904-12137",
@@ -13800,7 +13851,7 @@
         "Nobuko Yoshida",
         "Gianluigi Zavattaro"
       ],
-      "electronic_url": "http://arxiv.org/abs/1907.00421",
+      "electronic_url": "https://doi.org/10.48550/ARXIV.1907.00421",
       "first_seen": null,
       "informal": true,
       "key": "journals/corr/abs-1907-00421",
@@ -13816,7 +13867,7 @@
         "Giulio Guerrieri",
         "Claudio Sacerdoti Coen"
       ],
-      "electronic_url": "http://arxiv.org/abs/1907.06057",
+      "electronic_url": "https://doi.org/10.48550/ARXIV.1907.06057",
       "first_seen": null,
       "informal": true,
       "key": "journals/corr/abs-1907-06057",
@@ -13831,7 +13882,7 @@
         "Beniamino Accattoli",
         "Claudio Sacerdoti Coen"
       ],
-      "electronic_url": "http://arxiv.org/abs/1907.06101",
+      "electronic_url": "https://doi.org/10.48550/ARXIV.1907.06101",
       "first_seen": null,
       "informal": true,
       "key": "journals/corr/abs-1907-06101",
@@ -13866,7 +13917,7 @@
         "Michael Schaper",
         "Georg Moser"
       ],
-      "electronic_url": "http://arxiv.org/abs/1908.11343",
+      "electronic_url": "https://doi.org/10.48550/ARXIV.1908.11343",
       "first_seen": "2026-09-15T20:04:33+00:00",
       "informal": true,
       "key": "journals/corr/abs-1908-11343",
@@ -13880,7 +13931,7 @@
         "Ugo Dal Lago",
         "Francesco Gavazzo"
       ],
-      "electronic_url": "http://arxiv.org/abs/2001.01337",
+      "electronic_url": "https://doi.org/10.48550/ARXIV.2001.01337",
       "first_seen": null,
       "informal": true,
       "key": "journals/corr/abs-2001-01337",
@@ -13895,7 +13946,7 @@
         "Andrea Masini",
         "Margherita Zorzi"
       ],
-      "electronic_url": "http://arxiv.org/abs/2001.02029",
+      "electronic_url": "https://doi.org/10.48550/ARXIV.2001.02029",
       "first_seen": null,
       "informal": true,
       "key": "journals/corr/abs-2001-02029",
@@ -13910,7 +13961,7 @@
         "Damien Pous",
         "Davide Sangiorgi"
       ],
-      "electronic_url": "https://arxiv.org/abs/2001.07063",
+      "electronic_url": "https://doi.org/10.48550/ARXIV.2001.07063",
       "first_seen": null,
       "informal": true,
       "key": "journals/corr/abs-2001-07063",
@@ -13925,7 +13976,7 @@
         "Beniamino Accattoli",
         "Gabriele Vanoni"
       ],
-      "electronic_url": "https://arxiv.org/abs/2002.05649",
+      "electronic_url": "https://doi.org/10.48550/ARXIV.2002.05649",
       "first_seen": null,
       "informal": true,
       "key": "journals/corr/abs-2002-05649",
@@ -13940,7 +13991,7 @@
         "Raphaëlle Crubillé",
         "Ugo Dal Lago"
       ],
-      "electronic_url": "https://arxiv.org/abs/2002.07218",
+      "electronic_url": "https://doi.org/10.48550/ARXIV.2002.07218",
       "first_seen": null,
       "informal": true,
       "key": "journals/corr/abs-2002-07218",
@@ -13955,7 +14006,7 @@
         "Giulio Guerrieri",
         "Willem Heijltjes"
       ],
-      "electronic_url": "https://arxiv.org/abs/2002.08392",
+      "electronic_url": "https://doi.org/10.48550/ARXIV.2002.08392",
       "first_seen": null,
       "informal": true,
       "key": "journals/corr/abs-2002-08392",
@@ -13971,7 +14022,7 @@
         "Ugo Dal Lago",
         "Francesco Gavazzo"
       ],
-      "electronic_url": "https://arxiv.org/abs/2002.08489",
+      "electronic_url": "https://doi.org/10.48550/ARXIV.2002.08489",
       "first_seen": null,
       "informal": true,
       "key": "journals/corr/abs-2002-08489",
@@ -14000,7 +14051,7 @@
         "Fabrizio Montesi",
         "Marco Peressotti"
       ],
-      "electronic_url": "https://arxiv.org/abs/2005.09520",
+      "electronic_url": "https://doi.org/10.48550/ARXIV.2005.09520",
       "first_seen": null,
       "informal": true,
       "key": "journals/corr/abs-2005-09520",
@@ -14017,7 +14068,7 @@
         "Catia Trubiani",
         "Emilio Tuosto"
       ],
-      "electronic_url": "https://arxiv.org/abs/2007.11832",
+      "electronic_url": "https://doi.org/10.48550/ARXIV.2007.11832",
       "first_seen": "2026-09-24T09:54:28+00:00",
       "informal": true,
       "key": "journals/corr/abs-2007-11832",
@@ -14032,7 +14083,7 @@
         "Andrea Masini",
         "Margherita Zorzi"
       ],
-      "electronic_url": "https://arxiv.org/abs/2007.11875",
+      "electronic_url": "https://doi.org/10.48550/ARXIV.2007.11875",
       "first_seen": null,
       "informal": true,
       "key": "journals/corr/abs-2007-11875",
@@ -14050,7 +14101,7 @@
         "Iacopo Talevi",
         "Gianluigi Zavattaro"
       ],
-      "electronic_url": "https://arxiv.org/abs/2008.01638",
+      "electronic_url": "https://doi.org/10.48550/ARXIV.2008.01638",
       "first_seen": null,
       "informal": true,
       "key": "journals/corr/abs-2008-01638",
@@ -14064,7 +14115,7 @@
         "Michael Hanus",
         "Claudio Sacerdoti Coen"
       ],
-      "electronic_url": "https://arxiv.org/abs/2009.01001",
+      "electronic_url": "https://doi.org/10.48550/ARXIV.2009.01001",
       "first_seen": null,
       "informal": true,
       "key": "journals/corr/abs-2009-01001",
@@ -14079,7 +14130,7 @@
         "Claudia Faggian",
         "Simona Ronchi Della Rocca"
       ],
-      "electronic_url": "https://arxiv.org/abs/2010.12689",
+      "electronic_url": "https://doi.org/10.48550/ARXIV.2010.12689",
       "first_seen": null,
       "informal": true,
       "key": "journals/corr/abs-2010-12689",
@@ -14094,7 +14145,7 @@
         "Ugo Dal Lago",
         "Gabriele Vanoni"
       ],
-      "electronic_url": "https://arxiv.org/abs/2010.12988",
+      "electronic_url": "https://doi.org/10.48550/ARXIV.2010.12988",
       "first_seen": null,
       "informal": true,
       "key": "journals/corr/abs-2010-12988",
@@ -14123,7 +14174,7 @@
         "Julien Lange",
         "Gianluigi Zavattaro"
       ],
-      "electronic_url": "https://arxiv.org/abs/2101.08181",
+      "electronic_url": "https://doi.org/10.48550/ARXIV.2101.08181",
       "first_seen": null,
       "informal": true,
       "key": "journals/corr/abs-2101-08181",
@@ -14138,7 +14189,7 @@
         "Andrea Condoluci",
         "Claudio Sacerdoti Coen"
       ],
-      "electronic_url": "https://arxiv.org/abs/2102.06928",
+      "electronic_url": "https://doi.org/10.48550/ARXIV.2102.06928",
       "first_seen": null,
       "informal": true,
       "key": "journals/corr/abs-2102-06928",
@@ -14152,7 +14203,7 @@
         "Ugo Dal Lago",
         "Francesco Gavazzo"
       ],
-      "electronic_url": "https://arxiv.org/abs/2103.03871",
+      "electronic_url": "https://doi.org/10.48550/ARXIV.2103.03871",
       "first_seen": null,
       "informal": true,
       "key": "journals/corr/abs-2103-03871",
@@ -14167,7 +14218,7 @@
         "Ugo Dal Lago",
         "Paolo Pistone"
       ],
-      "electronic_url": "https://arxiv.org/abs/2103.12862",
+      "electronic_url": "https://doi.org/10.48550/ARXIV.2103.12862",
       "first_seen": null,
       "informal": true,
       "key": "journals/corr/abs-2103-12862",
@@ -14184,7 +14235,7 @@
         "Florian Rademacher",
         "Sabine Sachweh"
       ],
-      "electronic_url": "https://arxiv.org/abs/2104.02458",
+      "electronic_url": "https://doi.org/10.48550/ARXIV.2104.02458",
       "first_seen": null,
       "informal": true,
       "key": "journals/corr/abs-2104-02458",
@@ -14201,7 +14252,7 @@
         "Jacopo Mauro",
         "Elda Paja"
       ],
-      "electronic_url": "https://arxiv.org/abs/2104.04030",
+      "electronic_url": "https://doi.org/10.48550/ARXIV.2104.04030",
       "first_seen": null,
       "informal": true,
       "key": "journals/corr/abs-2104-04030",
@@ -14216,7 +14267,7 @@
         "Enguerrand Prebet",
         "Davide Sangiorgi"
       ],
-      "electronic_url": "https://arxiv.org/abs/2104.10942",
+      "electronic_url": "https://doi.org/10.48550/ARXIV.2104.10942",
       "first_seen": null,
       "informal": true,
       "key": "journals/corr/abs-2104-10942",
@@ -14231,7 +14282,7 @@
         "Ugo Dal Lago",
         "Paolo Pistone"
       ],
-      "electronic_url": "https://arxiv.org/abs/2104.12124",
+      "electronic_url": "https://doi.org/10.48550/ARXIV.2104.12124",
       "first_seen": null,
       "informal": true,
       "key": "journals/corr/abs-2104-12124",
@@ -14247,7 +14298,7 @@
         "Julien Lange",
         "Gianluigi Zavattaro"
       ],
-      "electronic_url": "https://arxiv.org/abs/2104.12455",
+      "electronic_url": "https://doi.org/10.48550/ARXIV.2104.12455",
       "first_seen": null,
       "informal": true,
       "key": "journals/corr/abs-2104-12455",
@@ -14265,7 +14316,7 @@
         "Iacopo Talevi",
         "Gianluigi Zavattaro"
       ],
-      "electronic_url": "https://arxiv.org/abs/2104.12466",
+      "electronic_url": "https://doi.org/10.48550/ARXIV.2104.12466",
       "first_seen": null,
       "informal": true,
       "key": "journals/corr/abs-2104-12466",
@@ -14280,7 +14331,7 @@
         "Ugo Dal Lago",
         "Gabriele Vanoni"
       ],
-      "electronic_url": "https://arxiv.org/abs/2104.13795",
+      "electronic_url": "https://doi.org/10.48550/ARXIV.2104.13795",
       "first_seen": null,
       "informal": true,
       "key": "journals/corr/abs-2104-13795",
@@ -14294,7 +14345,7 @@
         "Ugo Dal Lago",
         "Francesco Gavazzo"
       ],
-      "electronic_url": "https://arxiv.org/abs/2106.12849",
+      "electronic_url": "https://doi.org/10.48550/ARXIV.2106.12849",
       "first_seen": null,
       "informal": true,
       "key": "journals/corr/abs-2106-12849",
@@ -14309,7 +14360,7 @@
         "Ivan Lanese",
         "Emilio Tuosto"
       ],
-      "electronic_url": "https://arxiv.org/abs/2107.06727",
+      "electronic_url": "https://doi.org/10.48550/ARXIV.2107.06727",
       "first_seen": null,
       "informal": true,
       "key": "journals/corr/abs-2107-06727",
@@ -14323,7 +14374,7 @@
         "Luca Ciccone",
         "Luca Padovani"
       ],
-      "electronic_url": "https://arxiv.org/abs/2108.01503",
+      "electronic_url": "https://doi.org/10.48550/ARXIV.2108.01503",
       "first_seen": "2026-09-24T09:54:28+00:00",
       "informal": true,
       "key": "journals/corr/abs-2108-01503",
@@ -14338,7 +14389,7 @@
         "Cosimo Laneve",
         "Giovanni Sartor"
       ],
-      "electronic_url": "https://arxiv.org/abs/2110.11069",
+      "electronic_url": "https://doi.org/10.48550/ARXIV.2110.11069",
       "first_seen": null,
       "informal": true,
       "key": "journals/corr/abs-2110-11069",
@@ -14353,7 +14404,7 @@
         "Daniel Hirschkoff",
         "Davide Sangiorgi"
       ],
-      "electronic_url": "https://arxiv.org/abs/2112.02863",
+      "electronic_url": "https://doi.org/10.48550/ARXIV.2112.02863",
       "first_seen": null,
       "informal": true,
       "key": "journals/corr/abs-2112-02863",
@@ -14368,7 +14419,7 @@
         "Marco Sbaraglia",
         "Simone Martini 0001"
       ],
-      "electronic_url": "https://arxiv.org/abs/2112.10437",
+      "electronic_url": "https://doi.org/10.48550/ARXIV.2112.10437",
       "first_seen": null,
       "informal": true,
       "key": "journals/corr/abs-2112-10437",
@@ -14399,7 +14450,7 @@
         "Simon Perdrix",
         "Vladimir Zamdzhiev"
       ],
-      "electronic_url": "https://arxiv.org/abs/2201.09361",
+      "electronic_url": "https://doi.org/10.48550/ARXIV.2201.09361",
       "first_seen": "2026-09-15T20:04:33+00:00",
       "informal": true,
       "key": "journals/corr/abs-2201-09361",
@@ -14414,7 +14465,7 @@
         "Daniel Hirschkoff",
         "Davide Sangiorgi"
       ],
-      "electronic_url": "https://arxiv.org/abs/2202.03187",
+      "electronic_url": "https://doi.org/10.48550/ARXIV.2202.03187",
       "first_seen": null,
       "informal": true,
       "key": "journals/corr/abs-2202-03187",
@@ -14428,7 +14479,7 @@
         "Andrea Colledan",
         "Ugo Dal Lago"
       ],
-      "electronic_url": "https://arxiv.org/abs/2202.07636",
+      "electronic_url": "https://doi.org/10.48550/ARXIV.2202.07636",
       "first_seen": null,
       "informal": true,
       "key": "journals/corr/abs-2202-07636",
@@ -14444,7 +14495,7 @@
         "Marco Peressotti",
         "Florian Rademacher"
       ],
-      "electronic_url": "https://arxiv.org/abs/2202.11397",
+      "electronic_url": "https://doi.org/10.48550/ARXIV.2202.11397",
       "first_seen": null,
       "informal": true,
       "key": "journals/corr/abs-2202-11397",
@@ -16037,7 +16088,7 @@
         "Ivan Lanese",
         "Ugo Montanari"
       ],
-      "electronic_url": "http://arxiv.org/abs/cs/0504050",
+      "electronic_url": "https://doi.org/10.48550/ARXIV.CS/0504050",
       "first_seen": null,
       "informal": true,
       "key": "journals/corr/abs-cs-0504050",
@@ -16051,7 +16102,7 @@
         "Ugo Dal Lago",
         "Martin Hofmann 0001"
       ],
-      "electronic_url": "http://arxiv.org/abs/cs/0506079",
+      "electronic_url": "https://doi.org/10.48550/ARXIV.CS/0506079",
       "first_seen": null,
       "informal": true,
       "key": "journals/corr/abs-cs-0506079",
@@ -16064,7 +16115,7 @@
       "authors": [
         "Ugo Dal Lago"
       ],
-      "electronic_url": "http://arxiv.org/abs/cs/0506080",
+      "electronic_url": "https://doi.org/10.48550/ARXIV.CS/0506080",
       "first_seen": null,
       "informal": true,
       "key": "journals/corr/abs-cs-0506080",
@@ -16079,7 +16130,7 @@
         "Étienne Lozes",
         "Davide Sangiorgi"
       ],
-      "electronic_url": "http://arxiv.org/abs/cs/0510010",
+      "electronic_url": "https://doi.org/10.48550/ARXIV.CS/0510010",
       "first_seen": null,
       "informal": true,
       "key": "journals/corr/abs-cs-0510010",
@@ -16092,7 +16143,7 @@
       "authors": [
         "Ugo Dal Lago"
       ],
-      "electronic_url": "http://arxiv.org/abs/cs/0510092",
+      "electronic_url": "https://doi.org/10.48550/ARXIV.CS/0510092",
       "first_seen": null,
       "informal": true,
       "key": "journals/corr/abs-cs-0510092",
@@ -16106,7 +16157,7 @@
         "Ugo Dal Lago",
         "Simone Martini 0001"
       ],
-      "electronic_url": "http://arxiv.org/abs/cs/0511045",
+      "electronic_url": "https://doi.org/10.48550/ARXIV.CS/0511045",
       "first_seen": null,
       "informal": true,
       "key": "journals/corr/abs-cs-0511045",
@@ -16121,7 +16172,7 @@
         "Ugo Dal Lago",
         "Jean-Yves Moyen"
       ],
-      "electronic_url": "http://arxiv.org/abs/cs/0608030",
+      "electronic_url": "https://doi.org/10.48550/ARXIV.CS/0608030",
       "first_seen": null,
       "informal": true,
       "key": "journals/corr/abs-cs-0608030",
@@ -16136,7 +16187,7 @@
         "Andrea Masini",
         "Margherita Zorzi"
       ],
-      "electronic_url": "http://arxiv.org/abs/cs/0703152",
+      "electronic_url": "https://doi.org/10.48550/ARXIV.CS/0703152",
       "first_seen": null,
       "informal": true,
       "key": "journals/corr/abs-cs-0703152",
@@ -16150,7 +16201,7 @@
         "Paolo Coppola 0001",
         "Simone Martini 0001"
       ],
-      "electronic_url": "http://arxiv.org/abs/cs/0305011",
+      "electronic_url": "https://doi.org/10.48550/ARXIV.CS/0305011",
       "first_seen": null,
       "informal": true,
       "key": "journals/corr/cs-LO-0305011",
@@ -17738,6 +17789,20 @@
       "type": "article",
       "venue": "J. Autom. Reason., pp. 25-52",
       "year": 2010
+    },
+    "journals/jar/PadovaniR26": {
+      "authors": [
+        "Luca Padovani",
+        "Claudia Raffaelli"
+      ],
+      "electronic_url": "https://doi.org/10.1007/S10817-026-09765-W",
+      "first_seen": "2026-09-30T11:17:09+00:00",
+      "informal": false,
+      "key": "journals/jar/PadovaniR26",
+      "title": "A Continuation-Based Solution of the Linearity Challenge.",
+      "type": "article",
+      "venue": "J. Autom. Reason., pp. 19",
+      "year": 2026
     },
     "journals/jfp/AccattoliLV26": {
       "authors": [
