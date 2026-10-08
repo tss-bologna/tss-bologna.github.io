@@ -1,7 +1,7 @@
 {
   "authors": {
     "146/2078": {
-      "fetched_at": "2026-10-07T11:55:01+00:00",
+      "fetched_at": "2026-10-08T12:10:00+00:00",
       "keys": [
         "books/sp/17/DragoniGLMMMS17",
         "books/sp/20/BravettiGMTZ20",
@@ -123,7 +123,7 @@
       "name": "Saverio Giallorenzo"
     },
     "199/1997": {
-      "fetched_at": "2026-10-07T11:55:01+00:00",
+      "fetched_at": "2026-10-08T12:10:00+00:00",
       "keys": [
         "conf/csl/LagoGG23",
         "conf/esop/BartheCLG20",
@@ -169,7 +169,7 @@
       "name": "Francesco Gavazzo"
     },
     "22/6590": {
-      "fetched_at": "2026-10-07T11:55:01+00:00",
+      "fetched_at": "2026-10-08T12:10:00+00:00",
       "keys": [
         "conf/birthday/LaneveP08",
         "conf/birthday/LaneveP19",
@@ -290,7 +290,7 @@
       "name": "Luca Padovani"
     },
     "220/3433": {
-      "fetched_at": "2026-10-07T11:55:01+00:00",
+      "fetched_at": "2026-10-08T12:10:00+00:00",
       "keys": [
         "conf/esop/GavazzoTV24",
         "conf/fossacs/LancelotMMV26",
@@ -330,7 +330,7 @@
       "name": "Gabriele Vanoni"
     },
     "32/1979": {
-      "fetched_at": "2026-10-07T11:55:01+00:00",
+      "fetched_at": "2026-10-08T12:10:00+00:00",
       "keys": [
         "books/sp/20/BravettiGMTZ20",
         "books/sp/24/BacchianiBGMZ24",
@@ -568,7 +568,7 @@
       "name": "Gianluigi Zavattaro"
     },
     "333/1354": {
-      "fetched_at": "2026-10-07T11:55:01+00:00",
+      "fetched_at": "2026-10-08T12:10:00+00:00",
       "keys": [
         "conf/fscd/CerdaMS25",
         "conf/mfcs/CerdaS26",
@@ -585,7 +585,7 @@
       "name": "Rémy Cerda"
     },
     "342/7235": {
-      "fetched_at": "2026-10-07T11:55:01+00:00",
+      "fetched_at": "2026-10-08T12:10:00+00:00",
       "keys": [
         "conf/fossacs/AccattoliL24",
         "conf/fossacs/LancelotMMV26",
@@ -604,7 +604,7 @@
       "name": "Adrienne Lancelot"
     },
     "40/646": {
-      "fetched_at": "2026-10-07T11:55:01+00:00",
+      "fetched_at": "2026-10-08T12:10:00+00:00",
       "keys": [
         "conf/aisc/AspertiC10",
         "conf/aplas/AccattoliCW25",
@@ -712,7 +712,7 @@
       "name": "Claudio Sacerdoti Coen"
     },
     "405/6547": {
-      "fetched_at": "2026-10-07T11:55:01+00:00",
+      "fetched_at": "2026-10-08T12:10:00+00:00",
       "keys": [
         "conf/concur/HirschkoffQS25",
         "conf/concur/QuemeraisJSS26",
@@ -723,14 +723,14 @@
       "name": "Iwan Quémerais"
     },
     "409/6083": {
-      "fetched_at": "2026-10-07T11:55:01+00:00",
+      "fetched_at": "2026-10-08T12:10:00+00:00",
       "keys": [
         "conf/forte/GenoveseLGTV25"
       ],
       "name": "Gabriele Genovese"
     },
     "436/0458": {
-      "fetched_at": "2026-10-07T11:55:01+00:00",
+      "fetched_at": "2026-10-08T12:10:00+00:00",
       "keys": [
         "conf/lics/LagoFP26",
         "journals/corr/abs-2604-27986"
@@ -738,7 +738,7 @@
       "name": "Guido Fiorillo"
     },
     "437/3327": {
-      "fetched_at": "2026-10-07T11:55:01+00:00",
+      "fetched_at": "2026-10-08T12:10:00+00:00",
       "keys": [
         "conf/rc/PizzoC26",
         "journals/corr/abs-2605-09179"
@@ -746,7 +746,7 @@
       "name": "Nicolò Pizzo"
     },
     "44/3105": {
-      "fetched_at": "2026-10-07T11:55:01+00:00",
+      "fetched_at": "2026-10-08T12:10:00+00:00",
       "keys": [
         "books/cu/20/Lago20",
         "conf/aaai/LagoPT02",
@@ -1016,7 +1016,7 @@
       "name": "Ugo Dal Lago"
     },
     "56/3713": {
-      "fetched_at": "2026-10-07T11:55:01+00:00",
+      "fetched_at": "2026-10-08T12:10:00+00:00",
       "keys": [
         "books/sp/17/GuidiLMM17",
         "books/sp/sensoria2011/BartolettiCLMSVZ11",
@@ -1195,7 +1195,7 @@
       "name": "Ivan Lanese"
     },
     "63/5617": {
-      "fetched_at": "2026-10-07T11:55:01+00:00",
+      "fetched_at": "2026-10-08T12:10:00+00:00",
       "keys": [
         "conf/aplas/AvanziniEM12",
         "conf/cade/AvanziniMS08",
@@ -1257,7 +1257,7 @@
       "name": "Martin Avanzini"
     },
     "l/CosimoLaneve": {
-      "fetched_at": "2026-10-07T11:55:01+00:00",
+      "fetched_at": "2026-10-08T12:10:00+00:00",
       "keys": [
         "conf/acsd/CarpinetiLM05",
         "conf/alp/LaneveM92",
@@ -1386,7 +1386,7 @@
       "name": "Cosimo Laneve"
     },
     "m/SMartini": {
-      "fetched_at": "2026-10-07T11:55:01+00:00",
+      "fetched_at": "2026-10-08T12:10:00+00:00",
       "keys": [
         "conf/birthday/000120",
         "conf/cie/LagoM06",
@@ -1453,7 +1453,7 @@
       "name": "Simone Martini 0001"
     },
     "s/DavideSangiorgi": {
-      "fetched_at": "2026-10-07T11:55:01+00:00",
+      "fetched_at": "2026-10-08T12:10:00+00:00",
       "keys": [
         "books/cu/12/PousS12",
         "books/cu/12/SR2012",
@@ -2889,7 +2889,7 @@
     "conf/concur/BravettiCLYZ19": {
       "authors": [
         "Mario Bravetti",
-        "Marco Carbone",
+        "Marco Carbone 0001",
         "Julien Lange",
         "Nobuko Yoshida",
         "Gianluigi Zavattaro"
@@ -3698,7 +3698,7 @@
     },
     "conf/coordination/CarboneCFGJMPSTVYZ24": {
       "authors": [
-        "Marco Carbone",
+        "Marco Carbone 0001",
         "David Castro-Perez",
         "Francisco Ferreira 0001",
         "Lorenzo Gheri",
@@ -10242,7 +10242,7 @@
     "conf/sefm/BravettiCHLMPZ13": {
       "authors": [
         "Mario Bravetti",
-        "Marco Carbone",
+        "Marco Carbone 0001",
         "Thomas T. Hildebrandt",
         "Ivan Lanese",
         "Jacopo Mauro",
@@ -12206,7 +12206,7 @@
     "journals/corr/BravettiCZ16": {
       "authors": [
         "Mario Bravetti",
-        "Marco Carbone",
+        "Marco Carbone 0001",
         "Gianluigi Zavattaro"
       ],
       "electronic_url": "https://doi.org/10.48550/ARXIV.1611.05026",
@@ -12221,7 +12221,7 @@
     "journals/corr/BravettiCZ17": {
       "authors": [
         "Mario Bravetti",
-        "Marco Carbone",
+        "Marco Carbone 0001",
         "Gianluigi Zavattaro"
       ],
       "electronic_url": "https://doi.org/10.48550/ARXIV.1703.00659",
@@ -12294,7 +12294,7 @@
     },
     "journals/corr/CarboneLLS13": {
       "authors": [
-        "Marco Carbone (ed.)",
+        "Marco Carbone 0001 (ed.)",
         "Ivan Lanese (ed.)",
         "Alberto Lluch-Lafuente (ed.)",
         "Ana Sokolova (ed.)"
@@ -13532,7 +13532,7 @@
     },
     "journals/corr/abs-1212-3458": {
       "authors": [
-        "Marco Carbone (ed.)",
+        "Marco Carbone 0001 (ed.)",
         "Ivan Lanese (ed.)",
         "Alexandra Silva 0001 (ed.)",
         "Ana Sokolova (ed.)"
@@ -13860,7 +13860,7 @@
     "journals/corr/abs-1907-00421": {
       "authors": [
         "Mario Bravetti",
-        "Marco Carbone",
+        "Marco Carbone 0001",
         "Julien Lange",
         "Nobuko Yoshida",
         "Gianluigi Zavattaro"
@@ -16230,7 +16230,7 @@
         "Ivan Lanese",
         "Vasco T. Vasconcelos",
         "Luís Caires",
-        "Marco Carbone",
+        "Marco Carbone 0001",
         "Pierre-Malo Deniélou",
         "Dimitris Mostrous",
         "Luca Padovani",
@@ -17249,7 +17249,7 @@
     "journals/iandc/BravettiCZ17": {
       "authors": [
         "Mario Bravetti",
-        "Marco Carbone",
+        "Marco Carbone 0001",
         "Gianluigi Zavattaro"
       ],
       "electronic_url": "https://doi.org/10.1016/J.IC.2017.07.010",
@@ -18334,7 +18334,7 @@
     "journals/lmcs/BravettiCLYZ21": {
       "authors": [
         "Mario Bravetti",
-        "Marco Carbone",
+        "Marco Carbone 0001",
         "Julien Lange",
         "Nobuko Yoshida",
         "Gianluigi Zavattaro"
@@ -19533,7 +19533,7 @@
     },
     "journals/scp/CarboneL0S15": {
       "authors": [
-        "Marco Carbone",
+        "Marco Carbone 0001",
         "Ivan Lanese",
         "Alexandra Silva 0001",
         "Ana Sokolova"
@@ -19549,7 +19549,7 @@
     },
     "journals/scp/CarboneLLS15": {
       "authors": [
-        "Marco Carbone",
+        "Marco Carbone 0001",
         "Ivan Lanese",
         "Alberto Lluch-Lafuente",
         "Ana Sokolova"
@@ -20108,7 +20108,7 @@
     "journals/tcs/BravettiCZ18": {
       "authors": [
         "Mario Bravetti",
-        "Marco Carbone",
+        "Marco Carbone 0001",
         "Gianluigi Zavattaro"
       ],
       "electronic_url": "https://doi.org/10.1016/J.TCS.2018.02.010",
