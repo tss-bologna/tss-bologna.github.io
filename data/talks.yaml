@@ -37,6 +37,86 @@
 #   # Optional additional HTTP(S) link, such as a paper or project page.
 #   url: null
 
+# - id: "2627-example"
+#   uid: "2627-example@seminar.cs.unibo.it"
+#   last_modified: "2026-MM-DD HH:MM"
+#   sequence: 0
+#   datetime: "2026-MM-DD 14:00"
+#   duration_minutes: 60
+#   location: "ROOM TO FILL"
+#   warning: null
+#   speaker: null
+#   speaker_url: null
+#   affiliation: ""
+#   title: null
+#   abstract: null
+#   slides: null
+#   url: null
+
+- id: "2627-genovese"
+  uid: "2627-grenovese@seminar.cs.unibo.it"
+  last_modified: "2026-10-10 17:00"
+  sequence: 0
+  datetime: "2026-12-03 14:30"
+  duration_minutes: 60
+  location: "aula Seminari 2"
+  warning: null
+  speaker: "Gabriele Genovese"
+  speaker_url: "https://gabrigeno.cappuccino.ovh/"
+  affiliation: "Université Côte d'Azur, Unibo"
+  title: null
+  abstract: null
+  slides: null
+  url: null
+
+- id: "2627-cerda"
+  uid: "2627-cerda@seminar.cs.unibo.it"
+  last_modified: "2026-10-10 17:00"
+  sequence: 0
+  datetime: "2026-11-26 14:30"
+  duration_minutes: 60
+  location: "aula Seminari 2"
+  warning: null
+  speaker: "Rémy Cerda"
+  speaker_url: "https://www.i2m.univ-amu.fr/perso/remy.cerda/"
+  affiliation: "Unibo"
+  title: "Staying productive under the palm trees: Tropical graded types for infinite computations"
+  abstract: null
+  slides: null
+  url: null
+
+- id: "2627-fiorillo"
+  uid: "2627-fiorillo@seminar.cs.unibo.it"
+  last_modified: "2026-10-10 17:00"
+  sequence: 0
+  datetime: "2026-11-12 14:30"
+  duration_minutes: 60
+  location: "aula Seminari 2"
+  warning: null
+  speaker: "Guido Fiorillo"
+  speaker_url: null
+  affiliation: "Université Lyon 1"
+  title: null
+  abstract: null
+  slides: null
+  url: null
+
+- id: "2627-pizzo"
+  uid: "2627-pizzo@seminar.cs.unibo.it"
+  last_modified: "2026-10-10 14:30"
+  sequence: 0
+  datetime: "2026-10-29 14:30"
+  duration_minutes: 60
+  location: "aula Seminari 2"
+  warning: null
+  speaker: "Nicolò Pizzo"
+  speaker_url: "https://www.unibo.it/sitoweb/nicolo.pizzo2/en"
+  affiliation: "Unibo"
+  title: null
+  abstract: null
+  slides: null
+  url: null
+
 - id: "2526-leblanc1"
   uid: "2526-leblanc1@seminar.cs.unibo.it"
   last_modified: "2026-08-01 00:00"
