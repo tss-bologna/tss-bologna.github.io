@@ -55,8 +55,8 @@
 
 - id: "2627-genovese"
   uid: "2627-grenovese@seminar.cs.unibo.it"
-  last_modified: "2026-10-10 17:00"
-  sequence: 0
+  last_modified: "2026-10-12 17:00"
+  sequence: 1
   datetime: "2026-12-03 14:30"
   duration_minutes: 60
   location: "aula Seminari 2"
@@ -64,8 +64,9 @@
   speaker: "Gabriele Genovese"
   speaker_url: "https://gabrigeno.cappuccino.ovh/"
   affiliation: "Université Côte d'Azur, Unibo"
-  title: null
-  abstract: null
+  title: "A Petri Net Semantics for Acyclic Safe BPMN Choreographies"
+  abstract: |-
+    The specification of BPMN 2.0, a widely used notation for documenting and executing business processes, is written in natural language, hence it may be ambiguous. We formalise the semantics of acyclic and safe BPMN choreographies via Petri nets. We focus on the OR-join gateway, whose activation condition depends on how many paths have been chosen at the corresponding OR-split gateway, that is, by nature, a condition that cannot be observed locally. As in other works, we exploit the distinction between dead and alive paths to reduce this global condition to a local one, a technique called Dead Path Elimination. We prove that our semantics is equivalent to an existing ad-hoc approach from the literature. A key advantage of our approach is that it enables the use of well-established techniques and tools for the analysis of Petri nets.
   slides: null
   url: null
 
