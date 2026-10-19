@@ -1,7 +1,7 @@
 {
   "authors": {
     "146/2078": {
-      "fetched_at": "2026-10-18T09:47:03+00:00",
+      "fetched_at": "2026-10-19T11:01:03+00:00",
       "keys": [
         "books/sp/17/DragoniGLMMMS17",
         "books/sp/20/BravettiGMTZ20",
@@ -123,7 +123,7 @@
       "name": "Saverio Giallorenzo"
     },
     "199/1997": {
-      "fetched_at": "2026-10-18T09:47:03+00:00",
+      "fetched_at": "2026-10-19T11:01:03+00:00",
       "keys": [
         "conf/csl/LagoGG23",
         "conf/esop/BartheCLG20",
@@ -169,7 +169,7 @@
       "name": "Francesco Gavazzo"
     },
     "22/6590": {
-      "fetched_at": "2026-10-18T09:47:03+00:00",
+      "fetched_at": "2026-10-19T11:01:03+00:00",
       "keys": [
         "conf/birthday/LaneveP08",
         "conf/birthday/LaneveP19",
@@ -290,7 +290,7 @@
       "name": "Luca Padovani"
     },
     "220/3433": {
-      "fetched_at": "2026-10-18T09:47:03+00:00",
+      "fetched_at": "2026-10-19T11:01:03+00:00",
       "keys": [
         "conf/esop/GavazzoTV24",
         "conf/fossacs/LancelotMMV26",
@@ -330,7 +330,7 @@
       "name": "Gabriele Vanoni"
     },
     "32/1979": {
-      "fetched_at": "2026-10-18T09:47:03+00:00",
+      "fetched_at": "2026-10-19T11:01:03+00:00",
       "keys": [
         "books/sp/20/BravettiGMTZ20",
         "books/sp/24/BacchianiBGMZ24",
@@ -568,7 +568,7 @@
       "name": "Gianluigi Zavattaro"
     },
     "333/1354": {
-      "fetched_at": "2026-10-18T09:47:03+00:00",
+      "fetched_at": "2026-10-19T11:01:03+00:00",
       "keys": [
         "conf/fscd/CerdaMS25",
         "conf/mfcs/CerdaS26",
@@ -585,7 +585,7 @@
       "name": "Rémy Cerda"
     },
     "342/7235": {
-      "fetched_at": "2026-10-18T09:47:03+00:00",
+      "fetched_at": "2026-10-19T11:01:03+00:00",
       "keys": [
         "conf/fossacs/AccattoliL24",
         "conf/fossacs/LancelotMMV26",
@@ -604,7 +604,7 @@
       "name": "Adrienne Lancelot"
     },
     "40/646": {
-      "fetched_at": "2026-10-18T09:47:03+00:00",
+      "fetched_at": "2026-10-19T11:01:03+00:00",
       "keys": [
         "conf/aisc/AspertiC10",
         "conf/aplas/AccattoliCW25",
@@ -646,6 +646,7 @@
         "conf/mkm/CondoluciK0RCW19",
         "conf/mkm/FioriC18",
         "conf/mkm/GuidiC15",
+        "conf/mkm/PizzoC26",
         "conf/mkm/RabeKC11",
         "conf/ppdp/AccattoliCGC19",
         "conf/ppdp/AccattoliLGGC25",
@@ -712,7 +713,7 @@
       "name": "Claudio Sacerdoti Coen"
     },
     "405/6547": {
-      "fetched_at": "2026-10-18T09:47:03+00:00",
+      "fetched_at": "2026-10-19T11:01:03+00:00",
       "keys": [
         "conf/concur/HirschkoffQS25",
         "conf/concur/QuemeraisJSS26",
@@ -723,14 +724,14 @@
       "name": "Iwan Quémerais"
     },
     "409/6083": {
-      "fetched_at": "2026-10-18T09:47:03+00:00",
+      "fetched_at": "2026-10-19T11:01:03+00:00",
       "keys": [
         "conf/forte/GenoveseLGTV25"
       ],
       "name": "Gabriele Genovese"
     },
     "436/0458": {
-      "fetched_at": "2026-10-18T09:47:03+00:00",
+      "fetched_at": "2026-10-19T11:01:03+00:00",
       "keys": [
         "conf/lics/LagoFP26",
         "journals/corr/abs-2604-27986"
@@ -738,15 +739,16 @@
       "name": "Guido Fiorillo"
     },
     "437/3327": {
-      "fetched_at": "2026-10-18T09:47:03+00:00",
+      "fetched_at": "2026-10-19T11:01:03+00:00",
       "keys": [
+        "conf/mkm/PizzoC26",
         "conf/rc/PizzoC26",
         "journals/corr/abs-2605-09179"
       ],
       "name": "Nicolò Pizzo"
     },
     "44/3105": {
-      "fetched_at": "2026-10-18T09:47:03+00:00",
+      "fetched_at": "2026-10-19T11:01:03+00:00",
       "keys": [
         "books/cu/20/Lago20",
         "conf/aaai/LagoPT02",
@@ -1017,7 +1019,7 @@
       "name": "Ugo Dal Lago"
     },
     "56/3713": {
-      "fetched_at": "2026-10-18T09:47:03+00:00",
+      "fetched_at": "2026-10-19T11:01:03+00:00",
       "keys": [
         "books/sp/17/GuidiLMM17",
         "books/sp/sensoria2011/BartolettiCLMSVZ11",
@@ -1196,7 +1198,7 @@
       "name": "Ivan Lanese"
     },
     "63/5617": {
-      "fetched_at": "2026-10-18T09:47:03+00:00",
+      "fetched_at": "2026-10-19T11:01:03+00:00",
       "keys": [
         "conf/aplas/AvanziniEM12",
         "conf/cade/AvanziniMS08",
@@ -1258,7 +1260,7 @@
       "name": "Martin Avanzini"
     },
     "l/CosimoLaneve": {
-      "fetched_at": "2026-10-18T09:47:03+00:00",
+      "fetched_at": "2026-10-19T11:01:03+00:00",
       "keys": [
         "conf/acsd/CarpinetiLM05",
         "conf/alp/LaneveM92",
@@ -1387,7 +1389,7 @@
       "name": "Cosimo Laneve"
     },
     "m/SMartini": {
-      "fetched_at": "2026-10-18T09:47:03+00:00",
+      "fetched_at": "2026-10-19T11:01:03+00:00",
       "keys": [
         "conf/birthday/000120",
         "conf/cie/LagoM06",
@@ -1454,7 +1456,7 @@
       "name": "Simone Martini 0001"
     },
     "s/DavideSangiorgi": {
-      "fetched_at": "2026-10-18T09:47:03+00:00",
+      "fetched_at": "2026-10-19T11:01:03+00:00",
       "keys": [
         "books/cu/12/PousS12",
         "books/cu/12/SR2012",
@@ -9010,6 +9012,20 @@
       "type": "inproceedings",
       "venue": "MKM, pp. 194-207",
       "year": 2006
+    },
+    "conf/mkm/PizzoC26": {
+      "authors": [
+        "Nicolò Pizzo",
+        "Claudio Sacerdoti Coen"
+      ],
+      "electronic_url": "https://doi.org/10.1007/978-3-032-38214-6_17",
+      "first_seen": "2026-10-19T11:01:03+00:00",
+      "informal": false,
+      "key": "conf/mkm/PizzoC26",
+      "title": "A Toolbox for Undefined Terms in Type Theory.",
+      "type": "inproceedings",
+      "venue": "CICM, pp. 283-299",
+      "year": 2027
     },
     "conf/mkm/RabeKC11": {
       "authors": [
