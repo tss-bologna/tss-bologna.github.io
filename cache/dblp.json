@@ -1,7 +1,7 @@
 {
   "authors": {
     "146/2078": {
-      "fetched_at": "2026-10-19T11:01:03+00:00",
+      "fetched_at": "2026-10-21T10:22:45+00:00",
       "keys": [
         "books/sp/17/DragoniGLMMMS17",
         "books/sp/20/BravettiGMTZ20",
@@ -117,13 +117,12 @@
         "journals/tnse/GiallorenzoSTVZ26",
         "journals/toit/GazzaABDFGPPSVZ26",
         "journals/toplas/GiallorenzoMP24",
-        "phd/hal/Giallorenzo16",
         "series/utcs/GabbrielliMG23"
       ],
       "name": "Saverio Giallorenzo"
     },
     "199/1997": {
-      "fetched_at": "2026-10-19T11:01:03+00:00",
+      "fetched_at": "2026-10-21T10:22:45+00:00",
       "keys": [
         "conf/csl/LagoGG23",
         "conf/esop/BartheCLG20",
@@ -169,7 +168,7 @@
       "name": "Francesco Gavazzo"
     },
     "22/6590": {
-      "fetched_at": "2026-10-19T11:01:03+00:00",
+      "fetched_at": "2026-10-21T10:22:45+00:00",
       "keys": [
         "conf/birthday/LaneveP08",
         "conf/birthday/LaneveP19",
@@ -290,7 +289,7 @@
       "name": "Luca Padovani"
     },
     "220/3433": {
-      "fetched_at": "2026-10-19T11:01:03+00:00",
+      "fetched_at": "2026-10-21T10:22:45+00:00",
       "keys": [
         "conf/esop/GavazzoTV24",
         "conf/fossacs/LancelotMMV26",
@@ -324,13 +323,12 @@
         "journals/pacmpl/FaggianPV24",
         "journals/tcs/LagoV20",
         "journals/tcs/LagoV26",
-        "journals/toplas/GalalGTV25",
-        "phd/hal/Vanoni22"
+        "journals/toplas/GalalGTV25"
       ],
       "name": "Gabriele Vanoni"
     },
     "32/1979": {
-      "fetched_at": "2026-10-19T11:01:03+00:00",
+      "fetched_at": "2026-10-21T10:22:45+00:00",
       "keys": [
         "books/sp/20/BravettiGMTZ20",
         "books/sp/24/BacchianiBGMZ24",
@@ -568,7 +566,7 @@
       "name": "Gianluigi Zavattaro"
     },
     "333/1354": {
-      "fetched_at": "2026-10-19T11:01:03+00:00",
+      "fetched_at": "2026-10-21T10:22:45+00:00",
       "keys": [
         "conf/fscd/CerdaMS25",
         "conf/mfcs/CerdaS26",
@@ -579,13 +577,12 @@
         "journals/corr/abs-2510-08420",
         "journals/corr/abs-2511-02595",
         "journals/corr/abs-2608-02596",
-        "journals/lmcs/CerdaA23",
-        "phd/hal/Cerda24"
+        "journals/lmcs/CerdaA23"
       ],
       "name": "Rémy Cerda"
     },
     "342/7235": {
-      "fetched_at": "2026-10-19T11:01:03+00:00",
+      "fetched_at": "2026-10-21T10:22:45+00:00",
       "keys": [
         "conf/fossacs/AccattoliL24",
         "conf/fossacs/LancelotMMV26",
@@ -598,13 +595,12 @@
         "journals/corr/abs-2409-18709",
         "journals/corr/abs-2601-01638",
         "journals/lmcs/AccattoliL26",
-        "journals/pacmpl/AccattoliLMV25",
-        "phd/hal/Lancelot25"
+        "journals/pacmpl/AccattoliLMV25"
       ],
       "name": "Adrienne Lancelot"
     },
     "40/646": {
-      "fetched_at": "2026-10-19T11:01:03+00:00",
+      "fetched_at": "2026-10-21T10:22:45+00:00",
       "keys": [
         "conf/aisc/AspertiC10",
         "conf/aplas/AccattoliCW25",
@@ -713,7 +709,7 @@
       "name": "Claudio Sacerdoti Coen"
     },
     "405/6547": {
-      "fetched_at": "2026-10-19T11:01:03+00:00",
+      "fetched_at": "2026-10-21T10:22:45+00:00",
       "keys": [
         "conf/concur/HirschkoffQS25",
         "conf/concur/QuemeraisJSS26",
@@ -724,14 +720,14 @@
       "name": "Iwan Quémerais"
     },
     "409/6083": {
-      "fetched_at": "2026-10-19T11:01:03+00:00",
+      "fetched_at": "2026-10-21T10:22:45+00:00",
       "keys": [
         "conf/forte/GenoveseLGTV25"
       ],
       "name": "Gabriele Genovese"
     },
     "436/0458": {
-      "fetched_at": "2026-10-19T11:01:03+00:00",
+      "fetched_at": "2026-10-21T10:22:45+00:00",
       "keys": [
         "conf/lics/LagoFP26",
         "journals/corr/abs-2604-27986"
@@ -739,7 +735,7 @@
       "name": "Guido Fiorillo"
     },
     "437/3327": {
-      "fetched_at": "2026-10-19T11:01:03+00:00",
+      "fetched_at": "2026-10-21T10:22:45+00:00",
       "keys": [
         "conf/mkm/PizzoC26",
         "conf/rc/PizzoC26",
@@ -748,7 +744,7 @@
       "name": "Nicolò Pizzo"
     },
     "44/3105": {
-      "fetched_at": "2026-10-19T11:01:03+00:00",
+      "fetched_at": "2026-10-21T10:22:45+00:00",
       "keys": [
         "books/cu/20/Lago20",
         "conf/aaai/LagoPT02",
@@ -1019,7 +1015,7 @@
       "name": "Ugo Dal Lago"
     },
     "56/3713": {
-      "fetched_at": "2026-10-19T11:01:03+00:00",
+      "fetched_at": "2026-10-21T10:22:45+00:00",
       "keys": [
         "books/sp/17/GuidiLMM17",
         "books/sp/sensoria2011/BartolettiCLMSVZ11",
@@ -1198,7 +1194,7 @@
       "name": "Ivan Lanese"
     },
     "63/5617": {
-      "fetched_at": "2026-10-19T11:01:03+00:00",
+      "fetched_at": "2026-10-21T10:22:45+00:00",
       "keys": [
         "conf/aplas/AvanziniEM12",
         "conf/cade/AvanziniMS08",
@@ -1260,7 +1256,7 @@
       "name": "Martin Avanzini"
     },
     "l/CosimoLaneve": {
-      "fetched_at": "2026-10-19T11:01:03+00:00",
+      "fetched_at": "2026-10-21T10:22:45+00:00",
       "keys": [
         "conf/acsd/CarpinetiLM05",
         "conf/alp/LaneveM92",
@@ -1389,7 +1385,7 @@
       "name": "Cosimo Laneve"
     },
     "m/SMartini": {
-      "fetched_at": "2026-10-19T11:01:03+00:00",
+      "fetched_at": "2026-10-21T10:22:45+00:00",
       "keys": [
         "conf/birthday/000120",
         "conf/cie/LagoM06",
@@ -1456,7 +1452,7 @@
       "name": "Simone Martini 0001"
     },
     "s/DavideSangiorgi": {
-      "fetched_at": "2026-10-19T11:01:03+00:00",
+      "fetched_at": "2026-10-21T10:22:45+00:00",
       "keys": [
         "books/cu/12/PousS12",
         "books/cu/12/SR2012",
@@ -21130,58 +21126,6 @@
       "type": "phdthesis",
       "venue": "",
       "year": 1993
-    },
-    "phd/hal/Cerda24": {
-      "authors": [
-        "Rémy Cerda"
-      ],
-      "electronic_url": "https://tel.archives-ouvertes.fr/tel-04664728",
-      "first_seen": null,
-      "informal": false,
-      "key": "phd/hal/Cerda24",
-      "title": "Taylor Approximation and Infinitary λ-Calculi. (Développement de Taylor et λ-calcul infinitaire).",
-      "type": "phdthesis",
-      "venue": "",
-      "year": 2024
-    },
-    "phd/hal/Giallorenzo16": {
-      "authors": [
-        "Saverio Giallorenzo"
-      ],
-      "electronic_url": "https://amsdottorato.unibo.it/id/eprint/7512/",
-      "first_seen": null,
-      "informal": false,
-      "key": "phd/hal/Giallorenzo16",
-      "title": "Real-World Choreographies. (Chorégraphies dans le Monde Réel).",
-      "type": "phdthesis",
-      "venue": "",
-      "year": 2016
-    },
-    "phd/hal/Lancelot25": {
-      "authors": [
-        "Adrienne Lancelot"
-      ],
-      "electronic_url": "https://tel.archives-ouvertes.fr/tel-05407883",
-      "first_seen": null,
-      "informal": false,
-      "key": "phd/hal/Lancelot25",
-      "title": "Comparing functional programs, or how to put λ-termsback in order: A theory of program equivalences and preorders through meaning, evaluation orders and costs. (Comparer des programmes fonctionnels, ou comment remettre les λ-termes en ordre / Comparer des programmes fonctionnels, ou comment remettre les λ-termes en ordre: Une théorie des équivalences et préordres de programmes, à travers les notions de sémantique, ordre d'évaluation et coût).",
-      "type": "phdthesis",
-      "venue": "",
-      "year": 2025
-    },
-    "phd/hal/Vanoni22": {
-      "authors": [
-        "Gabriele Vanoni"
-      ],
-      "electronic_url": "https://tel.archives-ouvertes.fr/tel-03923206",
-      "first_seen": null,
-      "informal": false,
-      "key": "phd/hal/Vanoni22",
-      "title": "On Reasonable Space and Time Cost Models for the λ-Calculus. (Sur les modèles de coût raisonnable en espace et en temps pour le λ-calcul).",
-      "type": "phdthesis",
-      "venue": "",
-      "year": 2022
     },
     "phd/it/Coen04": {
       "authors": [
