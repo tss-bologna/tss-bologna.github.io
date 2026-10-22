@@ -104,8 +104,8 @@
 
 - id: "2627-pizzo"
   uid: "2627-pizzo@seminar.cs.unibo.it"
-  last_modified: "2026-10-10 14:30"
-  sequence: 0
+  last_modified: "2026-10-22 14:30"
+  sequence: 1
   datetime: "2026-10-29 14:30"
   duration_minutes: 60
   location: "aula Seminari 2"
@@ -113,10 +113,15 @@
   speaker: "Nicolò Pizzo"
   speaker_url: "https://www.unibo.it/sitoweb/nicolo.pizzo2/en"
   affiliation: "Unibo"
-  title: null
-  abstract: null
+  title: "A Toolbox for Undefined Terms in Type Theory"
+  abstract: |-
+    Mathematical expressions may contain undefined terms, and mathematicians employ a lot of ingenuity to handle them: for example, manipulating limits before they are shown to exist – without introducing inconsistencies – or yet avoiding redundant existence condition checks in clever ways.
+    
+    Teaching how to do so is an important topic in undergraduate math, as students should quickly become familiar with these methodologies, and capturing them formally is complex. Whereas ad-hoc logics have been developed for this task, interactive provers and mathematical tools that we would also like to employ in education are based on a total logic, where undefined terms can only be encoded in a non-totally satisfactory way.
+    
+    During this seminar, we will show the toolbox we implemented in Lean to encode partial terms, strict functions and predicates, partially automating the reasoning about definedness. Moreover, we capture some of the ingenuity of mathematicians in postponing and minimizing the need to check terms to be defined.
   slides: null
-  url: null
+  url: "https://link.springer.com/chapter/10.1007/978-3-032-38214-6_17"
 
 - id: "2526-leblanc1"
   uid: "2526-leblanc1@seminar.cs.unibo.it"
