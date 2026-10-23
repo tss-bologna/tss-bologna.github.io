@@ -202,6 +202,20 @@
       arrival: "2002-01-01"
       departure: null
 
+- id: "leblanc"
+  first_name: "Travis"
+  last_name: "Leblanc"
+  affiliations: "[Unibo](https://www.unibo.it/)"
+  email: null
+  webpage: null
+  dblp: null
+  photo: null
+  interests: []
+  periods:
+    - status: "phd"
+      arrival: "2026-11-01"
+      departure: "2029-10-31"
+
 - id: "martini"
   first_name: "Simone"
   last_name: "Martini"
@@ -256,7 +270,7 @@
   periods:
     - status: "phd"
       arrival: "2025-11-01"
-      departure: null
+      departure: "2028-10-31"
 
 - id: "quemerais"
   first_name: "Iwan"
