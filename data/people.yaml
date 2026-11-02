@@ -206,8 +206,8 @@
   first_name: "Travis"
   last_name: "Leblanc"
   affiliations: "[Unibo](https://www.unibo.it/)"
-  email: null
-  webpage: null
+  email: "travis.leblanc2@unibo.it"
+  webpage: "https://www.unibo.it/sitoweb/travis.leblanc2"
   dblp: null
   photo: null
   interests: []
@@ -313,6 +313,20 @@
     - status: "permanent"
       arrival: "2002-01-01"
       departure: null
+
+- id: "tonolo"
+  first_name: "Giulia"
+  last_name: "Tonolo"
+  affiliations: "[Unibo](https://www.unibo.it/)"
+  email: "giulia.tonolo2@unibo.it"
+  webpage: "https://www.unibo.it/sitoweb/giulia.tonolo2"
+  dblp: null
+  photo: null
+  interests: []
+  periods:
+    - status: "phd"
+      arrival: "2026-11-01"
+      departure: "2029-10-31"
 
 - id: "vanoni"
   first_name: "Gabriele"
