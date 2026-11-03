@@ -88,8 +88,8 @@
 
 - id: "2627-fiorillo"
   uid: "2627-fiorillo@seminar.cs.unibo.it"
-  last_modified: "2026-10-10 17:00"
-  sequence: 0
+  last_modified: "2026-11-03 17:00"
+  sequence: 1
   datetime: "2026-11-12 14:30"
   duration_minutes: 60
   location: "aula Seminari 2"
@@ -97,8 +97,11 @@
   speaker: "Guido Fiorillo"
   speaker_url: null
   affiliation: "Université Lyon 1"
-  title: null
-  abstract: null
+  title: "On Higher-Order Probabilistic Verification via the Weighted Relational Model of Linear Logic"
+  abstract: |-
+    The problem of determining whether a probabilistic program terminates almost surely (i.e. with probability one) is undecidable, and actually Π02-complete. For this reason, a growing literature has explored classes of programs for which this and related problems can be shown (semi-)decidable.
+
+    In this seminar, we present the results of joint work with Ugo dal Lago and Paolo Pistone in which we consider the termination problem for the language of Probabilistic Higher-Order Recursion Schemes (PHORS). Using the weighted relational semantics of linear logic, we translate this problem into the computation of suitable generating functions associated with the program interpreted. This way, we establish the decidability of almost sure termination for a class of programs that extends Li et al.’s affine PHORS via a type discipline with bounded exponentials. To achieve this, we show that the generating functions for such programs are always algebraic, that is, solutions of polynomial equations, yielding an effective method to answer the termination problem. 
   slides: null
   url: null
 
