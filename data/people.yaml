@@ -314,6 +314,20 @@
       arrival: "2002-01-01"
       departure: null
 
+- id: "sevald-krause"
+  first_name: "Cornelius"
+  last_name: "Sevald Krause"
+  affiliations: "[Unibo](https://www.unibo.it/)"
+  email: "corneli.sevaldkraus2@unibo.it"
+  webpage: "https://www.unibo.it/sitoweb/corneli.sevaldkraus2"
+  dblp: null
+  photo: null
+  interests: []
+  periods:
+    - status: "phd"
+      arrival: "2026-11-01"
+      departure: null
+
 - id: "tonolo"
   first_name: "Giulia"
   last_name: "Tonolo"
