@@ -68,7 +68,7 @@
   </p>
   {% endif %}
 
-  {% if talk.abstract_html and not summary_view %}
+  {% if talk.abstract_html %}
   <details class="abstract">
     <summary>Abstract.</summary>
     <div class="prose abstract-body">{{ talk.abstract_html }}</div>
