@@ -82,9 +82,14 @@
   speaker_url: "https://www.i2m.univ-amu.fr/perso/remy.cerda/"
   affiliation: "Unibo"
   title: "Staying productive under the palm trees: Tropical graded types for infinite computations"
-  abstract: null
+  abstract: |-
+    In this talk, I will present a temporal reading of graded coeffects: *tropical grades carry guards on infinite computation*. To illustrate it, I'll first define \(\mathsf{G}_{\mathbf{T}}\), a polymorphic calculus with guarded recursive types that guarantees productive infinite computation, in the form of hereditary head normalisation. The calculus supports stream computing via the Scott encoding, and embeds Nakano’s later modality.
+    
+    Then I'll introduce \(\mathsf{I}_{\mathbf{T}}\), a graded intersection type system with guarded infinitary types for the pure λ-calculus, whose typability allows for an exact characterisation of hereditary head normalisation. We prove that the characterising typability predicate is \(\Pi_2^0\), matching the recursion-theoretic complexity of the characterised property. If time permits, I'll also present the general notion of *graded intersection types* of which this work can be seen as an instance.
+
+    This is joint work with Ugo Dal Lago.
   slides: null
-  url: null
+  url: "https://arxiv.org/abs/2608.02596"
 
 - id: "2627-fiorillo"
   uid: "2627-fiorillo@seminar.cs.unibo.it"
