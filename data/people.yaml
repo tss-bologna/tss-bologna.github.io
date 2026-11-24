@@ -125,8 +125,8 @@
   email: "gabriele.genovese@univ-cotedazur.fr"
   webpage: "https://gabrigeno.cappuccino.ovh/"
   dblp: "409/6083"
-  photo: null
-  interests: ["process calculi", "choreographic programming", "petri nets", "session types"]
+  photo: "https://gabrigeno.cappuccino.ovh/images/propic.jpg"
+  interests: ["choreographic programming", "bpmn", "petri nets"]
   periods:
     - status: "phd"
       arrival: "2026-01-01"
