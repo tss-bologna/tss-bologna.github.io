@@ -4,6 +4,7 @@ Practical information for local people.
 
 - The [manual](https://www.delonghi.com/it-it/s/ECAM21.110.B-second) of the coffee machine.
 - The IP address of the printer is: `130.136.2.35`.
+- The Unibo [guidelines](https://intranet.unibo.it/risorseumane/ProcedureLineeGuida/LineeGuidaMissioniMobilitaIntraAteneoTrasferte.pdf) for missions.
 
 ## Updating the website
 
