@@ -72,8 +72,8 @@
 
 - id: "2627-cerda"
   uid: "2627-cerda@seminar.cs.unibo.it"
-  last_modified: "2026-10-10 17:00"
-  sequence: 0
+  last_modified: "2026-11-24 17:00"
+  sequence: 1
   datetime: "2026-11-26 14:30"
   duration_minutes: 60
   location: "aula Seminari 2"
@@ -83,12 +83,12 @@
   affiliation: "Unibo"
   title: "Staying productive under the palm trees: Tropical graded types for infinite computations"
   abstract: |-
-    In this talk, I will present a temporal reading of graded coeffects: *tropical grades carry guards on infinite computation*. To illustrate it, I'll first define \(\mathsf{G}_{\mathbf{T}}\), a polymorphic calculus with guarded recursive types that guarantees productive infinite computation, in the form of hereditary head normalisation. The calculus supports stream computing via the Scott encoding, and embeds Nakano’s later modality.
+    In this talk, I will present a temporal reading of graded coeffects: *tropical grades carry guards on infinite computation*. To illustrate it, I'll first define G_T, a polymorphic calculus with guarded recursive types that guarantees productive infinite computation, in the form of hereditary head normalisation. The calculus supports stream computing via the Scott encoding, and embeds Nakano’s later modality.
     
-    Then I'll introduce \(\mathsf{I}_{\mathbf{T}}\), a graded intersection type system with guarded infinitary types for the pure λ-calculus, whose typability allows for an exact characterisation of hereditary head normalisation. We prove that the characterising typability predicate is \(\Pi_2^0\), matching the recursion-theoretic complexity of the characterised property. If time permits, I'll also present the general notion of *graded intersection types* of which this work can be seen as an instance.
+    Then I'll introduce I_T, a graded intersection type system with guarded infinitary types for the pure λ-calculus, whose typability allows for an exact characterisation of hereditary head normalisation. We prove that the characterising typability predicate is Pi^0_2, matching the recursion-theoretic complexity of the characterised property. If time permits, I'll also present the general notion of *graded intersection types* of which this work can be seen as an instance.
 
     This is joint work with Ugo Dal Lago.
-  slides: null
+  slides: "https://rcerda.pages.math.cnrs.fr/fichiers/exposes/2026-11-26-productivity-tss-bologna.pdf"
   url: "https://arxiv.org/abs/2608.02596"
 
 - id: "2627-fiorillo"
